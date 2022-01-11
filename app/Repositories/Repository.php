@@ -2,9 +2,7 @@
 
 namespace App\Repositories;
 
-use App\Repositories\RepositoryInterface;
-
-abstract class BaseRepository implements RepositoryInterface
+abstract class Repository implements RepositoryInterface
 {
     // Model tương tác
     /**
@@ -13,7 +11,7 @@ abstract class BaseRepository implements RepositoryInterface
     protected $model;
 
     /**
-     * BaseRepository constructor.
+     * Repository constructor.
      */
     public function __construct()
     {

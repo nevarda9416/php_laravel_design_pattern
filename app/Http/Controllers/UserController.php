@@ -2,24 +2,23 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\UserService;
 use Illuminate\Http\Request;
-use App\Repositories\User\UserRepositoryInterface;
 
 class UserController extends Controller
 {
     /**
-     * @var
+     * @var int
      */
-    protected $userRepository;
     protected $limit = 10;
 
     /**
      * UserController constructor.
-     * @param UserRepositoryInterface $userRepository
+     * @param UserService $userService
      */
-    public function __construct(UserRepositoryInterface $userRepository)
+    public function __construct(UserService $userService)
     {
-        $this->userRepository = $userRepository;
+        return $this->userService = $userService;
     }
 
     /**
@@ -27,9 +26,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        $top_users = $this->userRepository->getTopUsers($this->limit);
-        $users = $this->userRepository->all();
-        return view('user.index', ['top_users' => $top_users, 'users' => $users]);
+        return $this->userService->index($this->limit);
     }
 
     /**
@@ -38,8 +35,7 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        $user = $this->userRepository->find($id);
-        return view('user.show', ['user' => $user]);
+        return $this->userService->show($id);
     }
 
     /**
@@ -48,11 +44,7 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        $data = $request->all();
-        $this->userRepository->create($data);
-        $top_users = $this->userRepository->getTopUsers($this->limit);
-        $users = $this->userRepository->all();
-        return view('user.index', ['top_users' => $top_users, 'users' => $users]);
+        return $this->userService->store($request);
     }
 
     /**
@@ -62,11 +54,7 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $data = $request->all();
-        $this->userRepository->update($id, $data);
-        $top_users = $this->userRepository->getTopUsers($this->limit);
-        $users = $this->userRepository->all();
-        return view('user.index', ['top_users' => $top_users, 'users' => $users]);
+        return $this->userService->update($request, $id);
     }
 
     /**
@@ -75,9 +63,6 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        $this->userRepository->delete($id);
-        $top_users = $this->userRepository->getTopUsers($this->limit);
-        $users = $this->userRepository->all();
-        return view('user.index', ['top_users' => $top_users, 'users' => $users]);
+        return $this->userService->destroy($id);
     }
 }
