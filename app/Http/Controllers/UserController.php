@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SendEmail;
 use App\Services\UserService;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -26,6 +28,12 @@ class UserController extends Controller
      */
     public function index()
     {
+        $details = array(
+            'name' => 'DAO TIEN TU',
+            'email' => 'daotientu@gmail.com'
+        );
+        $job = (new SendEmail($details));//->delay(Carbon::now()->addMinutes(60));
+        dispatch($job);
         return $this->userService->index($this->limit);
     }
 
