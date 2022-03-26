@@ -30,7 +30,7 @@ class SendEmail implements ShouldQueue
      */
     public function handle()
     {
-        sleep(60);
+        sleep(10);
         echo 'Start send email!<br/>';
         Mail::to($this->details['email'])->send(new \App\Mail\SendEmail($this->details['name'])); // send email template
         echo 'End send email!';

@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Facades\Process;
 use App\Jobs\SendEmail;
 use App\Services\UserService;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -28,6 +28,9 @@ class UserController extends Controller
      */
     public function index()
     {
+        // Facade
+        Process::process();
+        // Dispatch job
         $details = array(
             'name' => 'DAO TIEN TU',
             'email' => 'daotientu@gmail.com'
