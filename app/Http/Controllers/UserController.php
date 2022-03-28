@@ -28,6 +28,10 @@ class UserController extends Controller
      */
     public function index()
     {
+        $fullname = $this->userService->getName('Peter đại đế');
+        echo $fullname . '<br/>';
+        $othername = $this->userService->getOtherName();
+        echo $othername . '<br/>';
         // Facade
         Process::process();
         // Dispatch job

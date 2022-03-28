@@ -74,4 +74,21 @@ class UserService
         $users = $this->userRepository->all();
         return view('user.index', ['top_users' => $top_users, 'users' => $users]);
     }
+
+    /**
+     * @param $name
+     * @return |null
+     */
+    public function getName($name)
+    {
+        return $this->userRepository->getName($name);
+    }
+
+    /**
+     * @return |null
+     */
+    public function getOtherName()
+    {
+        return $this->userRepository->getOtherName();
+    }
 }

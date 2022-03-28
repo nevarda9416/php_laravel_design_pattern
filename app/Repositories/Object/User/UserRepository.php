@@ -30,4 +30,24 @@ class UserRepository extends Repository implements UserRepositoryInterface
     {
         return $this->model->select('name')->take($limit)->orderBy('id', 'DESC')->get();
     }
+
+    /**
+     * @param $name
+     * @return |null
+     */
+    public function getName($name)
+    {
+        $mysql = new UserMysql($name);
+        return $mysql->name;
+    }
+
+    /**
+     * @return |null
+     */
+    public function getOtherName()
+    {
+        $mysql = new UserMysql();
+        $mysql->setName('David Copperfield');
+        return $mysql->name;
+    }
 }
