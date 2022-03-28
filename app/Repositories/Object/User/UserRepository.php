@@ -38,7 +38,7 @@ class UserRepository extends Repository implements UserRepositoryInterface
     public function getName($name)
     {
         $mysql = new UserMysql($name);
-        return $mysql->name;
+        return $mysql->getName();
     }
 
     /**
@@ -48,6 +48,6 @@ class UserRepository extends Repository implements UserRepositoryInterface
     {
         $mysql = new UserMysql();
         $mysql->setName('David Copperfield');
-        return $mysql->name;
+        return $mysql->getName();
     }
 }
