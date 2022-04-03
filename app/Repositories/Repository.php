@@ -2,6 +2,9 @@
 
 namespace App\Repositories;
 
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Exception;
+
 abstract class Repository implements RepositoryInterface
 {
     // Model tương tác
@@ -60,7 +63,13 @@ abstract class Repository implements RepositoryInterface
      */
     public function create($data = [])
     {
-        return $this->model->create($data);
+        try {
+            return $this->model->create($data);
+        } catch (ModelNotFoundException $exception) {
+            abort(422, 'Invalid input data');
+        } catch (Exception $exception) {
+            abort(500, 'Could not create user');
+        }
     }
 
     /**
