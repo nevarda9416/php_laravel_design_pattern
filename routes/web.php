@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\BatchJobController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('user/index', [UserController::class, 'index']);
-Route::get('batch-job', [\App\Http\Controllers\BatchJobController::class, 'run']);
+Route::get('batch-job', [BatchJobController::class, 'run']);
