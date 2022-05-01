@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('user/index', [UserController::class, 'index']);
+Route::get('batch-job', [\App\Http\Controllers\BatchJobController::class, 'run']);
