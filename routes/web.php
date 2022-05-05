@@ -14,8 +14,13 @@ use App\Http\Controllers\BatchJobController;
 |
 */
 
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods:  POST, GET, OPTIONS, PUT, DELETE');
+header('Access-Control-Allow-Headers:  Content-Type, X-Auth-Token, Origin, Authorization');
+
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('user/index', [UserController::class, 'index']);
+Route::get('users/index', [UserController::class, 'index']);
+Route::get('users/count', [UserController::class, 'count']);
 Route::get('batch-job', [BatchJobController::class, 'run']);
