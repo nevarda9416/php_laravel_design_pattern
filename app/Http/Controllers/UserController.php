@@ -45,6 +45,14 @@ class UserController extends Controller
     }
 
     /**
+     * @return mixed
+     */
+    public function count()
+    {
+        return $this->userService->count();
+    }
+
+    /**
      * @param $id
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */

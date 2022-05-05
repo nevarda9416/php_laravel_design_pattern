@@ -57,6 +57,15 @@ abstract class Repository implements RepositoryInterface
     }
 
     /**
+     * Count all
+     * @return mixed
+     */
+    public function count()
+    {
+        return $this->model->count();
+    }
+
+    /**
      * Create
      * @param array $data
      * @return mixed

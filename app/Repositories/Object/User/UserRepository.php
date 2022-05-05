@@ -50,4 +50,12 @@ class UserRepository extends Repository implements UserRepositoryInterface
         $mysql->setName('David Copperfield');
         return $mysql->getName();
     }
+
+    /**
+     * @return mixed
+     */
+    public function count()
+    {
+        return $this->model->count();
+    }
 }
