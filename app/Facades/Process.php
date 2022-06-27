@@ -15,7 +15,7 @@ class Process extends Facade {
     /**
      *
      */
-    public function process()
+    public static function process()
     {
         echo 'Processing the custom facades in Laravel<br/>';
     }

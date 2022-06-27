@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Facades\Process;
 use App\Jobs\SendEmail;
+use App\Jobs\SendEmailUsingRedisQueue;
 use App\Services\UserService;
 use Illuminate\Http\Request;
 
@@ -39,8 +40,8 @@ class UserController extends Controller
             'name' => 'DAO TIEN TU',
             'email' => 'daotientu@gmail.com'
         );
-        $job = (new SendEmail($details));//->delay(Carbon::now()->addMinutes(60));
-        dispatch($job);
+        $job = (new SendEmailUsingRedisQueue($details));//->delay(Carbon::now()->addMinutes(60));
+        dispatch($job)->onQueue('email');
         return $this->userService->index($this->limit);
     }
 
