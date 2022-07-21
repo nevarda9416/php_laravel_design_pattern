@@ -3,6 +3,7 @@
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\SyslogUdpHandler;
+use Elastic\Elasticsearch\ClientBuilder;
 
 return [
 
@@ -48,6 +49,20 @@ return [
     */
 
     'channels' => [
+        'elasticsearch' => [
+            'driver' => 'monolog',
+            'level' => 'debug',
+            'handler' => \Monolog\Handler\ElasticsearchHandler::class,
+            'formatter' => \Monolog\Formatter\ElasticsearchFormatter::class,
+            'formatter_with' => [
+                'index' => env('ELASTICSEARCH_LOGS_INDEX'),
+                'type' => '_doc'
+            ],
+            'handler_with' => [
+                'client' => ClientBuilder::create()->setHosts([env('ELASTICSEARCH_HOST')])->build()
+            ]
+        ],
+
         'stack' => [
             'driver' => 'stack',
             'channels' => ['single'],
