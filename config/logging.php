@@ -3,7 +3,7 @@
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\SyslogUdpHandler;
-use Elastic\Elasticsearch\ClientBuilder;
+use Elasticsearch\ClientBuilder;
 
 return [
 
