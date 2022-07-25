@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\ServerCreated;
 use App\Facades\Process;
 use App\Jobs\SendEmail;
 use App\Jobs\SendEmailUsingRedisQueue;
@@ -29,6 +30,8 @@ class UserController extends Controller
      */
     public function index()
     {
+        $event = new ServerCreated(array('id' => '1'), 'Init broadcasting');
+        print_r($event);
         $fullname = $this->userService->getName('Peter đại đế');
         echo $fullname . '<br/>';
         $othername = $this->userService->getOtherName();
