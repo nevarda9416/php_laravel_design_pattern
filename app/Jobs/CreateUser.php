@@ -31,6 +31,7 @@ class CreateUser implements ShouldQueue
      */
     public function handle()
     {
+        User::query()->truncate();
         User::factory(10)->create();
     }
 }

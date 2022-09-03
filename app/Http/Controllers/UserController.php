@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Events\ServerCreated;
 use App\Facades\Process;
-use App\Jobs\SendEmail;
+use App\Jobs\CreateUser;
 use App\Jobs\SendEmailUsingRedisQueue;
 use App\Models\Posts;
 use App\Services\UserService;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -31,6 +32,9 @@ class UserController extends Controller
      */
     public function index()
     {
+        // Chỉ áp dụng cho single connection
+        $job = (new CreateUser())->onQueue('create_user')->delay(Carbon::now()->addMinutes(1));
+        $this->dispatch($job);
         echo '<pre/>';
         /**
          * Traditional: $posts = Posts::all();
