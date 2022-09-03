@@ -6,6 +6,7 @@ use App\Events\ServerCreated;
 use App\Facades\Process;
 use App\Jobs\SendEmail;
 use App\Jobs\SendEmailUsingRedisQueue;
+use App\Models\Posts;
 use App\Services\UserService;
 use Illuminate\Http\Request;
 
@@ -30,6 +31,29 @@ class UserController extends Controller
      */
     public function index()
     {
+        echo '<pre/>';
+        /**
+         * Traditional: $posts = Posts::all();
+         * Each loop we execute another select query and getting all comments
+         * So when ever are displaying 50 records then it's fire 50 query behind
+         */
+        /**
+         * Eager loading: $posts = Posts::with('comments')->get();
+         * We can prevent and instead of this more queries we can fire only one query and save database memory
+         */
+        // With where condition
+        $posts = Posts::with(['comments' => function ($query) {
+            $query->where([
+                ['id', '<', 10]
+            ]);
+        }])->get();
+        foreach ($posts as $post) {
+            echo $post->title . '<br/>';
+            $comments = $post->comments;
+            foreach ($comments as $comment) {
+                echo $comment->posts_id . '<br/>';
+            }
+        }
         $event = new ServerCreated(array('id' => '1'), 'Init broadcasting');
         print_r($event);
         $fullname = $this->userService->getName('Peter đại đế');
