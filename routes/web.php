@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BatchJobController;
+use App\Http\Controllers\DateTimeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,3 +25,4 @@ Route::get('/', function () {
 Route::get('users/index', [UserController::class, 'index']);
 Route::get('users/count', [UserController::class, 'count']);
 Route::get('batch-job', [BatchJobController::class, 'run']);
+Route::get('date-time', [DateTimeController::class, 'index']);
