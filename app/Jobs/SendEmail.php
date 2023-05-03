@@ -35,4 +35,12 @@ class SendEmail implements ShouldQueue
         Mail::to($this->details['email'])->send(new \App\Mail\SendEmail($this->details['name'])); // send email template
         echo 'End send email!';
     }
+
+    /**
+     * Hàm xử lý thất bại trong job
+     */
+    public function failed()
+    {
+        // Called when the job is failing...
+    }
 }
