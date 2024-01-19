@@ -2,12 +2,30 @@
 
 namespace App\Providers;
 
+use App\Services\Contracts\LeaveStatus\LeaveStatusService;
+use App\Services\Contracts\LeaveStatus\LeaveStatusServiceInterface;
+use App\Services\Contracts\RequestingLeaveStatus\RequestingLeaveStatusService;
+use App\Services\Contracts\RequestingLeaveStatus\RequestingLeaveStatusServiceInterface;
+use App\Services\Contracts\RequestingReopenStatus\RequestingReopenStatusService;
+use App\Services\Contracts\RequestingReopenStatus\RequestingReopenStatusServiceInterface;
+use App\Services\Contracts\RunningStatus\RunningStatusService;
+use App\Services\Contracts\RunningStatus\RunningStatusServiceInterface;
+use App\Services\Contracts\StoppingStatus\StoppingStatusService;
+use App\Services\Contracts\StoppingStatus\StoppingStatusServiceInterface;
 use Queue;
 use Illuminate\Queue\Events\JobFailed;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
+    public array $bindings = [
+        RunningStatusServiceInterface::class => RunningStatusService::class,
+        StoppingStatusServiceInterface::class => StoppingStatusService::class,
+        RequestingReopenStatusServiceInterface::class => RequestingReopenStatusService::class,
+        RequestingLeaveStatusServiceInterface::class => RequestingLeaveStatusService::class,
+        LeaveStatusServiceInterface::class => LeaveStatusService::class,
+    ];
+
     /**
      * Register any application services.
      *

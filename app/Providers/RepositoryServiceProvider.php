@@ -1,10 +1,19 @@
 <?php
 namespace App\Providers;
 
+use App\Repositories\Contract\StatusRepository;
+use App\Repositories\Contract\StatusRepositoryInterface;
+use App\Repositories\Object\User\UserRepository;
+use App\Repositories\Object\User\UserRepositoryInterface;
 use Illuminate\Support\ServiceProvider;
 
 class RepositoryServiceProvider extends ServiceProvider
 {
+    public array $bindings = [
+        UserRepositoryInterface::class => UserRepository::class,
+        StatusRepositoryInterface::class => StatusRepository::class
+    ];
+
     /**
      * Register any repository services.
      *
@@ -12,10 +21,7 @@ class RepositoryServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(
-            App\Repositories\User\UserRepositoryInterface::class,
-            App\Repositories\User\UserRepository::class
-        );
+        //
     }
 
     /**
