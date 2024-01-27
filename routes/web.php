@@ -20,7 +20,10 @@ header('Access-Control-Allow-Methods:  POST, GET, OPTIONS, PUT, DELETE');
 header('Access-Control-Allow-Headers:  Content-Type, X-Auth-Token, Origin, Authorization');
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage/index');
+});
+Route::get('/san-pham/{slug}.html', function () {
+   return view('product/detail');
 });
 Route::get('users/index', [UserController::class, 'index']);
 Route::get('users/count', [UserController::class, 'count']);

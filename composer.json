@@ -60,6 +60,9 @@
         "platform": {
             "ext-pcntl": "7.1",
             "ext-posix": "7.1"
+        },
+        "allow-plugins": {
+            "php-http/discovery": true
         }
     },
     "minimum-stability": "dev",
