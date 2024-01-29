@@ -37,9 +37,9 @@
 </div><!--top-->
 <header id="header">
     <div class="container">
-        <a href="/" id="logo"><img src="http://localhost:8082/public/images/log_636686424391527334.png" alt="Phucanh.vn - Máy tính, Điện thoại, Thiết bị văn phòng - Giải pháp Công nghệ" height="50"/></a>
+        <a href="/" id="logo"><img src="{{asset('/images/log_636686424391527334.png')}}" alt="Phucanh.vn - Máy tính, Điện thoại, Thiết bị văn phòng - Giải pháp Công nghệ" height="50"/></a>
         <div id="search">
-            <form method="get" action="/tim" enctype="multipart/form-data">
+            <form method="get" action="/tim-kiem" enctype="multipart/form-data">
                 <input type="text" class="text" id="text_search" value="" name="q" placeholder="Nhập từ khóa tìm kiếm..." autocomplete="off"/>
                 <input type="submit" id="submit_search" class="icons" value="Tìm kiếm" />
                 <select id="search-type">
@@ -50,7 +50,7 @@
             <div class="autocomplete-suggestions"></div>
         </div><!--search-->
         <div id="hotline-header">Gọi mua hàng: <b>1900 2164</b></div>
-        <a id="cart-header" href="/cart" rel="nofollow">
+        <a id="cart-header" href="/gio-hang" rel="nofollow">
             <i class="icons icon-cart"></i><span>Giỏ hàng</span><b id="count_shopping_cart_store">0</b>
         </a><!--cart-header-->
     </div><!--container-->

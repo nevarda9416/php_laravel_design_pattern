@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\DateTimeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,8 +23,40 @@ header('Access-Control-Allow-Headers:  Content-Type, X-Auth-Token, Origin, Autho
 Route::get('/', function () {
     return view('homepage/index');
 });
-Route::get('/san-pham/{slug}.html', function () {
-   return view('product/detail');
+Route::prefix('dang-ky')->group(function () {
+    Route::get('/', function () {
+        return view('customer/register');
+    });
+});
+Route::prefix('dang-nhap')->group(function () {
+    Route::get('/', function () {
+        return view('customer/login');
+    });
+});
+Route::prefix('danh-muc')->group(function () {
+    Route::get('/{slug}.html', function () {
+        return view('category/index');
+    });
+});
+Route::prefix('san-pham')->group(function () {
+    Route::get('/{slug}.html', function () {
+        return view('product/detail');
+    });
+});
+Route::prefix('gio-hang')->group(function () {
+    Route::get('/', function () {
+        return view('cart/index');
+    });
+});
+Route::prefix('mua-hang')->group(function () {
+    Route::get('/', function () {
+        return view('cart/buy');
+    });
+});
+Route::prefix('tim-kiem')->group(function () {
+    Route::get('/', function () {
+        return view('search/index');
+    });
 });
 Route::get('users/index', [UserController::class, 'index']);
 Route::get('users/count', [UserController::class, 'count']);

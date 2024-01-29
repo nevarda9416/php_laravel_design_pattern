@@ -369,7 +369,7 @@
 
                 <!-- ./. sale E-->
                 <div id="uudai">
-                    <h4 class="title h-title">Phúc Anh cam kết</h4>
+                    <h4 class="title h-title">NIIT-ICT Hà Nội cam kết</h4>
                     <ul class="ul">
                         <li><i class="icon-star-list"></i> <span>100% sản phẩm chính hãng</span></li>
                         <li><i class="icon-star-list"></i> <span>100% giá cạnh tranh so với thị trường</span></li>
@@ -562,7 +562,7 @@
                     <h2 class="h-title">Video</h2>
                     <div style="text-align:center;">
 
-                        <a href="https://www.youtube.com/watch?v=41RidUeotRo&t=2s" title="Phúc Anh" rel="nofollow"
+                        <a href="https://www.youtube.com/watch?v=41RidUeotRo&t=2s" title="NIIT-ICT Hà Nội" rel="nofollow"
                            target="_blank">
                             <img width="560" height="315" src="https://www.phucanh.vn/media/banner/sddefault.jpg"
                                  alt="Videos"/>
