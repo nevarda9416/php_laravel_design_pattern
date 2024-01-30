@@ -27,12 +27,12 @@
 
 
         <div id="bannerorder">
-            Kính chào quý khách <b style="font-weight: 700;padding:"></b>, <br><br>
-            &nbsp;&nbsp; &nbsp;&nbsp; Công ty TNHH Kỹ nghệ Phúc Anh vừa nhận được đơn đặt hàng
+            Kính chào quý khách <b style="font-weight: 700;"></b>, <br><br>
+            &nbsp;&nbsp; &nbsp;&nbsp; Công ty TNHH Kỹ nghệ NIIT-ICT Hà Nội vừa nhận được đơn đặt hàng
             <!--     số <b><br />
 <b>Notice</b>:  Undefined index: id in <b>/var/www/html/phucanh.vn/public_html/cache/template/shopping_cart_send_new.adc1c1f80f6669a339602f8ab4b68737.php</b> on line <b>45</b><br />
 </b> -->
-            của quý khách trên website <a href="phucanh.vn">www.phucanh.vn.</a> <br>
+            của quý khách trên website <a href="phucanh.vn">www.niitict.hn.</a> <br>
             &nbsp;&nbsp; &nbsp;&nbsp;Đơn hàng này đang được xử lý. Trong vòng 30 phút (giờ làm việc), bộ phận bán hàng trực tuyến sẽ liên hệ lại Quý khách để xác nhận thời gian và địa điểm giao hàng. <br>
             &nbsp;&nbsp; &nbsp;&nbsp;Chúng tôi xác nhận lại thông tin đơn đặt hàng của Quý khách như sau:<br><br>
         </div>
@@ -42,11 +42,11 @@
 
             <table>
                 <tbody><tr>
-                    <td>Tên khách hàng</td><td>fsfs sfd sdfs</td>
+                    <td>Tên khách hàng</td><td>Đào Tiến Tú</td>
                 </tr>
 
                 <tr>
-                    <td>Địa chỉ email</td><td>dada@gmail.com</td>
+                    <td>Địa chỉ email</td><td>daotu@gmail.com</td>
                 </tr>
 
                 <tr>
@@ -55,16 +55,16 @@
 
 
                 <tr>
-                    <td>Địa chỉ</td><td>dsfs sdfs</td>
+                    <td>Địa chỉ</td><td>Hai Bà Trưng, Hà Nội</td>
                 </tr>
 
 
                 <tr>
                     <td>Thông tin hóa đơn</td>
                     <td>
-                        - Công ty: dada <br>
-                        - Địa chỉ: dfada <br>
-                        - Mã số thuế: 3425
+                        - Công ty: TNHH Niit-Ict Hà Nội <br>
+                        - Địa chỉ: Trung Kính, Cầu Giấy, Hà Nội <br>
+                        - Mã số thuế: 34251031
                     </td>
                 </tr>
 
@@ -157,13 +157,13 @@
                 </tbody></table>
 
             <br>
-            <p>Khách hàng ghi chú: fsdf gff</p>
+            <p>Khách hàng ghi chú: Giao hàng cuối tuần</p>
         </div>
 
         <div id="footerorder">
-            <br> Một lần nữa, cám ơn quý khách đã mua sắm tại phucanh.vn. Hi vọng chúng tôi đã mang lại cho quý khách những trải nghiệm mua sắm thật tuyệt vời.<br><br>
+            <br> Một lần nữa, cám ơn quý khách đã mua sắm tại niitict.hn. Hi vọng chúng tôi đã mang lại cho quý khách những trải nghiệm mua sắm thật tuyệt vời.<br><br>
             Trân trọng,cảm ơn<br>
-            <b style="font-weight: 700;">Đội ngũ bán hàng trực tuyến phucanh.vn </b><br><br>
+            <b style="font-weight: 700;">Đội ngũ bán hàng trực tuyến niitict.hn. </b><br><br>
             <img src="{{asset('/images/log_636686424391527334.png')}}">
         </div>
 

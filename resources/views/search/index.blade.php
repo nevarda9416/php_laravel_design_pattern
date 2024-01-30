@@ -1817,7 +1817,7 @@
                                 </tr>
                                 <tr>
                                     <td><b>Bảo hành:</b></td>
-                                    <td> 24 tháng tại Phúc Anh</td>
+                                    <td> 24 tháng tại NIIT-ICT Hà Nội</td>
                                 </tr>
                                 <tr>
                                     <td><b>Kho hàng:</b></td>
@@ -2096,7 +2096,7 @@
                                 <br> ✦ Giảm ngay 50.000 VND cho máy in, scan từ 5 triệu đến dưới 10 triệu
                                 <br> ✦ Giảm ngay 100.000 VND cho máy in, scan từ 10 triệu đến 20 triệu
                                 <br> ✦ Giảm ngay 200.000 VNĐ cho máy in, scan từ 20 triệu trở lên
-                                <br> ✦ Giảm 2% cho mực in khi mua mực chính hãng tại Phúc Anh
+                                <br> ✦ Giảm 2% cho mực in khi mua mực chính hãng tại NIIT-ICT Hà Nội
 
                                 <br> ✦ Tặng 01 tập giấy in A4  (Không quy đổi thành tiền)
 
@@ -2721,7 +2721,7 @@
                                 <br> ✦ Giảm ngay 50.000 VND cho máy in, scan từ 5 triệu đến dưới 10 triệu
                                 <br> ✦ Giảm ngay 100.000 VND cho máy in, scan từ 10 triệu đến 20 triệu
                                 <br> ✦ Giảm ngay 200.000 VNĐ cho máy in, scan từ 20 triệu trở lên
-                                <br> ✦ Giảm 2% cho mực in khi mua mực chính hãng tại Phúc Anh
+                                <br> ✦ Giảm 2% cho mực in khi mua mực chính hãng tại NIIT-ICT Hà Nội
 
                                 <br> ✦ Lựa chọn thêm máy hủy tài liệu phù hợp với giá cực tốt <a href="https://www.phucanh.vn/may-huy-tai-lieu.html" target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
                                 <br>
@@ -3076,7 +3076,7 @@
                                 </tr>
                                 <tr>
                                     <td><b>Bảo hành:</b></td>
-                                    <td> 24 tháng tại Phúc Anh</td>
+                                    <td> 24 tháng tại NIIT-ICT Hà Nội</td>
                                 </tr>
                                 <tr>
                                     <td><b>Kho hàng:</b></td>
@@ -3236,7 +3236,7 @@
                                 <br> ✦ Giảm ngay 50.000 VND cho máy in, scan từ 5 triệu đến dưới 10 triệu
                                 <br> ✦ Giảm ngay 100.000 VND cho máy in, scan từ 10 triệu đến 20 triệu
                                 <br> ✦ Giảm ngay 200.000 VNĐ cho máy in, scan từ 20 triệu trở lên
-                                <br> ✦ Giảm 2% cho mực in khi mua mực chính hãng tại Phúc Anh
+                                <br> ✦ Giảm 2% cho mực in khi mua mực chính hãng tại NIIT-ICT Hà Nội
 
                                 <br> ✦ Tặng 01 tập giấy in A4  (Không quy đổi thành tiền)
 
@@ -3336,7 +3336,7 @@
                                 </tr>
                                 <tr>
                                     <td><b>Bảo hành:</b></td>
-                                    <td> 24 tháng tại Phúc Anh</td>
+                                    <td> 24 tháng tại NIIT-ICT Hà Nội</td>
                                 </tr>
                                 <tr>
                                     <td><b>Kho hàng:</b></td>
@@ -4211,7 +4211,7 @@
                                 <br> ✦ Giảm ngay 50.000 VND cho máy in, scan từ 5 triệu đến dưới 10 triệu
                                 <br> ✦ Giảm ngay 100.000 VND cho máy in, scan từ 10 triệu đến 20 triệu
                                 <br> ✦ Giảm ngay 200.000 VNĐ cho máy in, scan từ 20 triệu trở lên
-                                <br> ✦ Giảm 2% cho mực in khi mua mực chính hãng tại Phúc Anh
+                                <br> ✦ Giảm 2% cho mực in khi mua mực chính hãng tại NIIT-ICT Hà Nội
 
                                 <br> ✦ Tặng 01 tập giấy in A4  (Không quy đổi thành tiền)
 

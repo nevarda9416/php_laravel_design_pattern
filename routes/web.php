@@ -58,6 +58,27 @@ Route::prefix('tim-kiem')->group(function () {
         return view('search/index');
     });
 });
+Route::prefix('khuyen-mai')->group(function () {
+    Route::get('/', function () {
+        return view('promotion/index');
+    });
+});
+Route::prefix('tin-tuc')->group(function () {
+    Route::get('/', function () {
+        return view('news/index');
+    });
+    Route::get('/{slug}.html', function () {
+        return view('news/detail');
+    });
+});
+Route::prefix('page')->group(function () {
+    Route::get('/gioi-thieu', function () {
+        return view('page/about');
+    });
+    Route::get('/chinh-sach-kinh-doanh', function () {
+        return view('page/policy');
+    });
+});
 Route::get('users/index', [UserController::class, 'index']);
 Route::get('users/count', [UserController::class, 'count']);
 Route::get('batch-job', [BatchJobController::class, 'run']);

@@ -190,8 +190,8 @@
         <a href="/" id="home-fixed"><i class="icons icon-home"></i></a>
         <a href="tel:19002164" id="hotline-fixed"><i class="icons icon-hotlinefixed"></i> 1900 2164</a>
         <ul class="ul list-nav-right">
-            <li><span><i class="icons icon-ck1"></i><a href="https://www.phucanh.vn/page/chinh-sach-kinh-doanh"> 100% chính hãng</a></span></li>
-            <li><span><i class="icons icon-ck2"></i><a href="https://www.phucanh.vn/page/chinh-sach-kinh-doanh"> Giá ưu đãi nhất</a></span></li>
+            <li><span><i class="icons icon-ck1"></i><a href="{{url('/page/chinh-sach-kinh-doanh')}}"> 100% chính hãng</a></span></li>
+            <li><span><i class="icons icon-ck2"></i><a href="{{url('/page/chinh-sach-kinh-doanh')}}"> Giá ưu đãi nhất</a></span></li>
             <li><span><i class="icons icon-ck3"></i><a href="https://www.phucanh.vn/page/van-chuyen-giao-nhan-hang-hoa"> Miễn phí vận chuyển</a></span></li>
             <li><span><i class="icons icon-ck4"></i><a href="https://www.phucanh.vn/page/chinh-sach-bao-hanh"> Bảo hành nơi sử dụng</a></span></li>
             <li class="sale-menu"><span><i class="icons icon-ck5"></i><a href="https://www.phucanh.vn/hang-trung-bay-gia-re.html"> Hàng trưng bày giảm giá</a></span></li>

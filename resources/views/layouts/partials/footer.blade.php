@@ -219,7 +219,7 @@
                     <td>
                         <div class="list_info">
                             <b class="font16 title">Thông tin công ty</b>
-                            <a href="/gioi-thieu" rel="nofollow">Giới thiệu công ty</a>
+                            <a href="/page/gioi-thieu" rel="nofollow">Giới thiệu công ty</a>
                             <a href="/thong-tin-lien-he-moi.html" rel="nofollow">Thông tin liên hệ</a>
                             <a href="/tuyen-dung-phuc-anh.html" rel="nofollow">Thông tin tuyển dụng</a>
                             <a href="/dieu-khoan-giao-dich.html" rel="nofollow">Điều khoản giao dịch</a>
@@ -229,7 +229,7 @@
                     <td>
                         <div class="list_info">
                             <b class="font16 title">Quy định & chính sách</b>
-                            <a href="/page/chinh-sach-kinh-doanh" rel="nofollow">Chính sách kinh doanh</a>
+                            <a href="{{url('/page/chinh-sach-kinh-doanh')}}" rel="nofollow">Chính sách kinh doanh</a>
                             <a href="/chinh-sach-cho-khach-hang-doanh-nghiep-2020.html" rel="nofollow">Ưu đãi cho khách hàng doanh nghiệp</a>
                             <a href="/page/chinh-sach-game-net" rel="nofollow">Ưu đãi cho khách hàng Game-Net</a>
                             <a href="/page/van-chuyen-giao-nhan-hang-hoa" rel="nofollow">Chính sách vận chuyển và giao nhận</a>
@@ -579,7 +579,7 @@
 <div id="adv-popup">
     <div class="banner">
         <a class="close" href="javascript:void(0)"><i class="fa fa-times-circle"></i></a>
-        <a href="https://www.phucanh.vn/chuong-trinh-khuyen-mai-thang-1.html" target="_blank"><img src="https://www.phucanh.vn/media/banner/popup_800x700-Pop-Up-1.png" alt="banner popup"/></a>
+        <a href="{{url('/khuyen-mai')}}" target="_blank"><img src="https://www.phucanh.vn/media/banner/popup_800x700-Pop-Up-1.png" alt="banner popup"/></a>
     </div>
     <div class="background"></div>
 </div>

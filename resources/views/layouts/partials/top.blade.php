@@ -20,7 +20,7 @@
             </li>
             <!--<li><a href="/page/ban-hang-du-an-doanh-nghiep">Bán hàng dự án & doanh nghiệp</a></li>
             <li><a href="/page/chinh-sach-mua-tra-gop"><i class="icons icon-tragop"></i>Bán hàng trả góp</a></li> -->
-            <li><a href="https://www.phucanh.vn/upload/km/index.php?option=list_km"><i class="icons icon-km"></i>Khuyến mãi</a></li>
+            <li><a href="{{url('/khuyen-mai')}}"><i class="icons icon-km"></i>Khuyến mãi</a></li>
             <li><a href="/page/chinh-sach-mua-tra-gop">Mua trả góp</a></li>
             <li><a href="/buildpc" style="font-weight: bold;"><i class="icons icon-xd"></i>Xây dựng cấu hình</a></li>
             <!--<li><a href="/index.php?option=tannhiet&view=v2" style="font-weight: bold;"><i class="icons icon-xd"></i>Xây dựng tản nhiệt nước</a></li>-->
