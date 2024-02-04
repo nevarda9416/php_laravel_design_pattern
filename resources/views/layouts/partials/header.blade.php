@@ -2,30 +2,15 @@
 <html lang="vi-VN">
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-
     <title>Niithanoi - Máy tính, Điện thoại, Thiết bị văn phòng - Giải pháp Công nghệ</title>
-
-
     <meta name="description" content="Công ty TNHH Kỹ nghệ Niithanoi là doanh nghiệp hàng đầu chuyên cung cấp giải pháp công nghệ trong lĩnh vực máy tính, điện thoại, thiết bị văn phòng, thiết bị số, thiết bị giải trí."/>
-
     <meta name="keywords" content="Niithanoi Computer, PhucAnh, laptop, máy in, Máy tính, điện thoại, máy tính bảng, máy chủ, tivi"/>
     <link rel="shortcut icon" href="/template/2019/images/icon_phucanh.ico" type="image/x-icon" />
-    <!--<meta name="viewport" content="width=device-width" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-
-
     <meta name="robots" content="index,follow" />
-
-
-
     <link rel="canonical" href="https://www.phucanh.vn"/>
-
-
-
     <meta property="og:title" content="Phucanh.vn - Máy tính, Điện thoại, Thiết bị văn phòng - Giải pháp Công nghệ" />
-
     <meta property="og:image" content="https://phucanhcdn.com/media/banner/logo_logo_logo (1).png" />
-
     <meta name="google-site-verification" content="TmlpHNQ7IQVCpunjxcKTOwv0p7WRGkLoKuoqjda87x4" />
     <meta name="copyright" content="Công ty TNHH Kỹ Nghệ Niithanoi" />
     <meta name="author" content="Công ty TNHH Kỹ Nghệ Niithanoi" />
@@ -37,32 +22,9 @@
     <meta http-equiv="content-language" content="vi-vn" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="x-dns-prefetch-control" content="on">
-
     <link rel="stylesheet" id="js-cdn-font-awesome" href="" />
     <link href="https://www.phucanh.vn/template/2019/script/style.css?v=21.12.2022.3" rel="stylesheet" />
     <link href="https://www.phucanh.vn/template/2019/script/style_new.css?v=18.1.2023.2" rel="stylesheet" />
-
-
-    <!-- MePuzz start -->
-    <!--<script>
-      (function (i, s, o, g, r, a, m) {
-      i['VitexxAnalyticsObject'] = r; i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments);
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g;
-      m.parentNode.insertBefore(a, m);
-      })(window, document, 'script', 'https://static.mepuzz.com/sdk/v2/MePuzzSDK.min.js', 'mePuzz');
-      mePuzz('setAppId', 'k9gvvE6na1');
-      mePuzz('track', 'pageview');
-    </script> -->
-    <!-- MePuzz end -->
-    <!-- 3rd_party_code Array
-(
-    [name] => home
-    [view] => home
-    [view_id] => 0
-)
-1-->
     <!-- Google Tag Manager -->
     <script>
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
