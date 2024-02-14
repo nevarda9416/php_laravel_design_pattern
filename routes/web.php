@@ -40,7 +40,12 @@ Route::prefix('dang-ky')->group(function () {
 });
 Route::prefix('dang-nhap')->group(function () {
     Route::get('/', function () {
-        return view('customer/login');
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('customer/mobile/login');
+        } else {
+            return view('customer/login');
+        }
     });
 });
 Route::prefix('danh-muc')->group(function () {
