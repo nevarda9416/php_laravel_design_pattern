@@ -128,7 +128,12 @@ Route::prefix('tin-tuc')->group(function () {
 });
 Route::prefix('page')->group(function () {
     Route::get('/gioi-thieu', function () {
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('page/mobile/about');
+        } else {
         return view('page/about');
+        }
     });
     Route::get('/chinh-sach-kinh-doanh', function () {
         return view('page/policy');
