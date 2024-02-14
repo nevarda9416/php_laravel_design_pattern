@@ -90,12 +90,22 @@ Route::prefix('mua-hang')->group(function () {
 });
 Route::prefix('tim-kiem')->group(function () {
     Route::get('/', function () {
-        return view('search/index');
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('search/mobile/index');
+        } else {
+            return view('search/index');
+        }
     });
 });
 Route::prefix('khuyen-mai')->group(function () {
     Route::get('/', function () {
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('promotion/mobile/index');
+        } else {
         return view('promotion/index');
+        }
     });
 });
 Route::prefix('tin-tuc')->group(function () {
