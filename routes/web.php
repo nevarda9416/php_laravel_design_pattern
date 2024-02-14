@@ -50,7 +50,12 @@ Route::prefix('dang-nhap')->group(function () {
 });
 Route::prefix('danh-muc')->group(function () {
     Route::get('/{slug}.html', function () {
-        return view('category/index');
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('category/mobile/index');
+        } else {
+            return view('category/index');
+        }
     });
 });
 Route::prefix('san-pham')->group(function () {
