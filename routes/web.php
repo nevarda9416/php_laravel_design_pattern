@@ -60,7 +60,12 @@ Route::prefix('danh-muc')->group(function () {
 });
 Route::prefix('san-pham')->group(function () {
     Route::get('/{slug}.html', function () {
-        return view('product/detail');
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('product/mobile/detail');
+        } else {
+            return view('product/detail');
+        }
     });
 });
 Route::prefix('gio-hang')->group(function () {
