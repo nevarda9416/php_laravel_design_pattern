@@ -118,7 +118,12 @@ Route::prefix('tin-tuc')->group(function () {
         }
     });
     Route::get('/{slug}.html', function () {
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('news/mobile/detail');
+        } else {
         return view('news/detail');
+        }
     });
 });
 Route::prefix('page')->group(function () {
