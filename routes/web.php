@@ -104,13 +104,18 @@ Route::prefix('khuyen-mai')->group(function () {
         if ($agent->isMobile()) {
             return view('promotion/mobile/index');
         } else {
-        return view('promotion/index');
+            return view('promotion/index');
         }
     });
 });
 Route::prefix('tin-tuc')->group(function () {
     Route::get('/', function () {
-        return view('news/index');
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('news/mobile/index');
+        } else {
+            return view('news/index');
+        }
     });
     Route::get('/{slug}.html', function () {
         return view('news/detail');
