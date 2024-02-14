@@ -122,7 +122,7 @@ Route::prefix('tin-tuc')->group(function () {
         if ($agent->isMobile()) {
             return view('news/mobile/detail');
         } else {
-        return view('news/detail');
+            return view('news/detail');
         }
     });
 });
@@ -132,11 +132,16 @@ Route::prefix('page')->group(function () {
         if ($agent->isMobile()) {
             return view('page/mobile/about');
         } else {
-        return view('page/about');
+            return view('page/about');
         }
     });
     Route::get('/chinh-sach-kinh-doanh', function () {
-        return view('page/policy');
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('page/mobile/policy');
+        } else {
+            return view('page/policy');
+        }
     });
 });
 Route::get('users/index', [UserController::class, 'index']);
