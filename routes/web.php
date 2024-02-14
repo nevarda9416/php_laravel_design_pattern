@@ -70,7 +70,12 @@ Route::prefix('san-pham')->group(function () {
 });
 Route::prefix('gio-hang')->group(function () {
     Route::get('/', function () {
-        return view('cart/index');
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('cart/mobile/index');
+        } else {
+            return view('cart/index');
+        }
     });
 });
 Route::prefix('mua-hang')->group(function () {
