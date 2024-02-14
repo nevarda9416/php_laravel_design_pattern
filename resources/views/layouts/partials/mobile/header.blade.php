@@ -668,7 +668,8 @@ and show (for example fade in) when PhotoSwipe is opened
         }
     </style><style>.pswp--zindex {
             --pswp-root-z-index: 1000000000;
-        }</style></head>
+        }</style>
+    <script src="https://www.phucanh.vn/template/2019/script/jquery.js?"></script></head>
 <body style="position: static;">
 @include('layouts.partials.mobile.navigation')
 <!-- Google Tag Manager (noscript) -->

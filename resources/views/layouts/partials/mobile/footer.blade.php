@@ -199,7 +199,6 @@
 </div><!--popup-->
 </div>
 </div>
-<script src="https://www.phucanh.vn/template/2019/script/jquery.js?"></script>
 <script src="https://www.phucanh.vn/template/2019/script/mobile_global.js?v=4.3"></script>
 <script src="https://www.phucanh.vn/includes/js/common.js"></script>
 <script src="https://www.phucanh.vn/javascript/dist/hurastore.js?v=5"></script>

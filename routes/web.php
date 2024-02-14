@@ -5,6 +5,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\DateTimeController;
 use Jenssegers\Agent\Agent;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,7 +30,12 @@ Route::get('/', function () {
 });
 Route::prefix('dang-ky')->group(function () {
     Route::get('/', function () {
-        return view('customer/register');
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('customer/mobile/register');
+        } else {
+            return view('customer/register');
+        }
     });
 });
 Route::prefix('dang-nhap')->group(function () {
