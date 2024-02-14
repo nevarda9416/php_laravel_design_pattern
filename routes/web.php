@@ -80,7 +80,12 @@ Route::prefix('gio-hang')->group(function () {
 });
 Route::prefix('mua-hang')->group(function () {
     Route::get('/', function () {
-        return view('cart/buy');
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('cart/mobile/buy');
+        } else {
+            return view('cart/buy');
+        }
     });
 });
 Route::prefix('tim-kiem')->group(function () {
