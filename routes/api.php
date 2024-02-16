@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\API\UserController;
 use App\Http\Controllers\ContractController;
+use App\Http\Controllers\ViewPublicUserProfileController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -32,7 +33,8 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
             ->name('contracts.status.update');
     });
 });
-
+Route::get('/profiles/{user:public_profile_slug}', ViewPublicUserProfileController::class)//Giải nghĩa cách viết???
+    ->name('users.profile.view.public');
 Route::fallback(function () {
     return response()->json([
         'message' => 'Page Not Found. If error persists, contact info@website.com'
