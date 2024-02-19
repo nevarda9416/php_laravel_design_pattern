@@ -12,6 +12,9 @@ class ViewPublicUserProfileController extends Controller
 {
     public function __invoke(Request $request, User $user): View
     {
+        dump(today());
+        info($user);
+        abort_if(auth()->user()->role != 1, 403);
         abort_unless($user->has_enabled_public_profile, Response::HTTP_NOT_FOUND);
         $officeHours = $this->formatHours($user->office_hours);
         $workingHours = $this->formatHours($user->working_hours);
