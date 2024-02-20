@@ -987,7 +987,7 @@
 
             <div class="shopping_cart">
                 <i class="icon_shopping"></i>
-                <a href="/cart">Vào giỏ hàng của bạn</a>
+                <a href="/gio-hang">Vào giỏ hàng của bạn</a>
             </div>
             <div class="clear_fix">
             </div>
