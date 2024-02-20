@@ -7,12 +7,25 @@ use Illuminate\Http\Request;
 class DateTimeController extends Controller
 {
     /**
+     * @param $a
+     * @param $b
+     * @param $c
+     * @return mixed
+     */
+    private function add($a, $b, $c)
+    {
+        return $a - $b + $c;
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
+        $operators = [2, 3];
+        echo $this->add(1, ...$operators) . '<br/>';
         // Format starting time
         $startTime = date('Y-m-d H:i:s');
         // Display the starting time
