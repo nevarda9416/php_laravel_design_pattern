@@ -219,7 +219,7 @@
                     <td>
                         <div class="list_info">
                             <b class="font16 title">Thông tin công ty</b>
-                            <a href="/page/gioi-thieu" rel="nofollow">Giới thiệu công ty</a>
+                            <a href="/trang/gioi-thieu" rel="nofollow">Giới thiệu công ty</a>
                             <a href="/thong-tin-lien-he-moi.html" rel="nofollow">Thông tin liên hệ</a>
                             <a href="/tuyen-dung-phuc-anh.html" rel="nofollow">Thông tin tuyển dụng</a>
                             <a href="/dieu-khoan-giao-dich.html" rel="nofollow">Điều khoản giao dịch</a>
@@ -229,23 +229,23 @@
                     <td>
                         <div class="list_info">
                             <b class="font16 title">Quy định & chính sách</b>
-                            <a href="{{url('/page/chinh-sach-kinh-doanh')}}" rel="nofollow">Chính sách kinh doanh</a>
+                            <a href="{{url('/trang/chinh-sach-kinh-doanh')}}" rel="nofollow">Chính sách kinh doanh</a>
                             <a href="/chinh-sach-cho-khach-hang-doanh-nghiep-2020.html" rel="nofollow">Ưu đãi cho khách hàng doanh nghiệp</a>
-                            <a href="/page/chinh-sach-game-net" rel="nofollow">Ưu đãi cho khách hàng Game-Net</a>
-                            <a href="/page/van-chuyen-giao-nhan-hang-hoa" rel="nofollow">Chính sách vận chuyển và giao nhận</a>
-                            <a href="/page/chinh-sach-bao-hanh" rel="nofollow">Chính sách bảo hành</a>
-                            <a href="/page/chinh-sach-doi-tra-san-pham" rel="nofollow">Chính sách đổi trả sản phẩm</a>
+                            <a href="/trang/chinh-sach-game-net" rel="nofollow">Ưu đãi cho khách hàng Game-Net</a>
+                            <a href="/trang/van-chuyen-giao-nhan-hang-hoa" rel="nofollow">Chính sách vận chuyển và giao nhận</a>
+                            <a href="/trang/chinh-sach-bao-hanh" rel="nofollow">Chính sách bảo hành</a>
+                            <a href="/trang/chinh-sach-doi-tra-san-pham" rel="nofollow">Chính sách đổi trả sản phẩm</a>
                             <a href="https://www.phucanh.vn/chinh-sach-kiem-hang.html" rel="nofollow">Chính sách kiểm hàng</a>
 
-                            <!--  <a href="/page/bao-mat-thong-tin" rel="nofollow">Chính sách bảo mật thông tin</a>-->
+                            <!--  <a href="/trang/bao-mat-thong-tin" rel="nofollow">Chính sách bảo mật thông tin</a>-->
                         </div>
                     </td>
                     <td>
                         <div class="list_info">
                             <b class="font16 title">Hỗ trợ khách hàng</b>
-                            <a href="/page/huong-dan-mua-hang-online" rel="nofollow">Hướng dẫn mua hàng online</a>
+                            <a href="/trang/huong-dan-mua-hang-online" rel="nofollow">Hướng dẫn mua hàng online</a>
                             <a href="/chinh-sach-mua-tra-gop.html">Hướng dẫn mua hàng trả góp</a>
-                            <a href="/page/phuong-thuc-thanh-toan" rel="nofollow">Phương thức thanh toán</a>
+                            <a href="/trang/phuong-thuc-thanh-toan" rel="nofollow">Phương thức thanh toán</a>
 
                             <div class="new-sub-cat">
                                 <div class="position-relative d-inline-block">
@@ -274,7 +274,7 @@
                               </div>
                               </div>-->
                             <!--<a href="/upload/km/index.php?option=yeu-cau-bao-hanh" target="_blank">Liên hệ kỹ thuật</a>
-                              <!--<a href="/page/tu-van-ky-thuat" rel="nofollow">Hỗ trợ kỹ thuật</a>-->
+                              <!--<a href="/trang/tu-van-ky-thuat" rel="nofollow">Hỗ trợ kỹ thuật</a>-->
                             <a href="/yeu-cau-bao-hanh.html" target="_blank">Liên hệ kỹ thuật</a>
                             <a href="/y-kien-khach-hang.html" rel="follow">Gửi góp ý, khiếu nại</a>
 
@@ -576,7 +576,7 @@
 
 
 
-<div id="adv-popup">
+<div id="adv-popup" style="display:none;">
     <div class="banner">
         <a class="close" href="javascript:void(0)"><i class="fa fa-times-circle"></i></a>
         <a href="{{url('/khuyen-mai')}}" target="_blank"><img src="https://www.phucanh.vn/media/banner/popup_800x700-Pop-Up-1.png" alt="banner popup"/></a>
@@ -661,7 +661,7 @@
         //Load showroom
         $(".loadShowroom").click(function(){
             if($(".list-showroom-top").text().trim()=='')
-                $(".list-showroom-top").load("/page/he-thong-showroom?type=ajax");
+                $(".list-showroom-top").load("/trang/he-thong-showroom?type=ajax");
 
             $(".list-showroom-top").toggle();
             $(this).toggleClass("active");

@@ -836,31 +836,31 @@
                 <b class="font16 title">Thông tin công ty</b>
                 <div class="content">
                     <a href="/gioi-thieu" rel="nofollow">Giới thiệu công ty</a>
-                    <a href="/page/dieu-khoan-giao-dich" rel="nofollow">Điều khoản giao dịch</a>
-                    <a href="/page/quy-dinh-truy-cap-website" rel="nofollow">Quy định truy cập website</a>
-                    <a href="/page/thong-tin-lien-he" rel="nofollow">Thông tin liên hệ</a>
+                    <a href="/trang/dieu-khoan-giao-dich" rel="nofollow">Điều khoản giao dịch</a>
+                    <a href="/trang/quy-dinh-truy-cap-website" rel="nofollow">Quy định truy cập website</a>
+                    <a href="/trang/thong-tin-lien-he" rel="nofollow">Thông tin liên hệ</a>
                 </div>
             </div>
 
             <div class="list_info">
                 <b class="font16 title">Quy định &amp; chính sách</b>
                 <div class="content">
-                    <a href="/page/chinh-sach-kinh-doanh" rel="nofollow">Chính sách kinh doanh</a>
+                    <a href="/trang/chinh-sach-kinh-doanh" rel="nofollow">Chính sách kinh doanh</a>
                     <a href="/chinh-sach-cho-khach-hang-doanh-nghiep.html" rel="dofollow">Ưu đãi cho khách hàng doanh nghiệp</a>
-                    <a href="/page/chinh-sach-bao-hanh" rel="nofollow">Chính sách bảo hành</a>
-                    <a href="/page/chinh-sach-doi-tra-san-pham" rel="nofollow">Chính sách đổi trả sản phẩm</a>
-                    <a href="/page/van-chuyen-giao-nhan-hang-hoa" rel="nofollow">Vận chuyển, giao nhận</a>
-                    <a href="/page/phuong-thuc-thanh-toan" rel="nofollow">Phương thức thanh toán</a>
-                    <a href="/page/chinh-sach-game-net" rel="nofollow">Chính sách Game-Net</a>
+                    <a href="/trang/chinh-sach-bao-hanh" rel="nofollow">Chính sách bảo hành</a>
+                    <a href="/trang/chinh-sach-doi-tra-san-pham" rel="nofollow">Chính sách đổi trả sản phẩm</a>
+                    <a href="/trang/van-chuyen-giao-nhan-hang-hoa" rel="nofollow">Vận chuyển, giao nhận</a>
+                    <a href="/trang/phuong-thuc-thanh-toan" rel="nofollow">Phương thức thanh toán</a>
+                    <a href="/trang/chinh-sach-game-net" rel="nofollow">Chính sách Game-Net</a>
                     <a href="https://www.phucanh.vn/chinh-sach-kiem-hang.html" rel="nofollow">Chính sách kiểm hàng</a>
                 </div>
             </div>
             <div class="list_info">
                 <b class="font16 title">Hỗ trợ khách hàng</b>
                 <div class="content">
-                    <a href="/page/huong-dan-mua-hang-online" rel="nofollow">Hướng dẫn mua hàng online</a>
+                    <a href="/trang/huong-dan-mua-hang-online" rel="nofollow">Hướng dẫn mua hàng online</a>
                     <a href="https://www.phucanh.vn/tra-cuu-thong-tin-bao-hanh.html">Tra cứu thông tin bảo hành</a>
-                    <!--<a href="/page/tu-van-ky-thuat" rel="nofollow">Tư vấn kỹ thuật</a>-->
+                    <!--<a href="/trang/tu-van-ky-thuat" rel="nofollow">Tư vấn kỹ thuật</a>-->
                     <a href="/y-kien-khach-hang.html" rel="follow">Gửi góp ý, khiếu nại</a>
                     <!-- <a href="http://m.phucanh.vn" rel="nofollow" target="_blank">Phiên bản Mobile</a>-->
                 </div>

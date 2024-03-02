@@ -398,7 +398,11 @@
             #main-menu ul li a.root {font-size: 13px;line-height: 18px;}
         }
     </style>
-
+    <style>
+        #main-menu ul{
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->

@@ -3,197 +3,193 @@
         <div id="main-menu">
             <div class="title"><b class="icon-menu"><i></i><i></i><i></i></b><span>Danh mục sản phẩm</span></div>
             <ul class="ul">
-
-                <li id="pa-228" class="js-hover-menu" data-id="228" data-tpl="html/menu_cat_228" data-display-node="sub_nav_228">
-                    <a href="/may-tinh-xach-tay-laptop.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-228"></i></span>
-                        <span class="name">Laptop & Linh phụ kiện</span></a>
-
-                    <div class="sub-menu" id="sub_nav_228" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-751" class="js-hover-menu" data-id="751" data-tpl="html/menu_cat_751" data-display-node="sub_nav_751">
-                    <a href="/mobile-tablet-phu-kien.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-751"></i></span>
-                        <span class="name">Điện thoại, Tablet & Phụ kiện</span></a>
-
-                    <div class="sub-menu" id="sub_nav_751" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-1144" class="js-hover-menu" data-id="1144" data-tpl="html/menu_cat_1144" data-display-node="sub_nav_1144">
-                    <a href="/san-pham-apple.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-1144"></i></span>
-                        <span class="name">Sản phẩm Apple</span></a>
-
-                    <div class="sub-menu" id="sub_nav_1144" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-752" class="js-hover-menu" data-id="752" data-tpl="html/menu_cat_752" data-display-node="sub_nav_752">
-                    <a href="/may-tinh-dong-bo.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-752"></i></span>
-                        <span class="name">Máy tính đồng bộ</span></a>
-
-                    <div class="sub-menu" id="sub_nav_752" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-753" class="js-hover-menu" data-id="753" data-tpl="html/menu_cat_753" data-display-node="sub_nav_753">
-                    <a href="/server-workstation.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-753"></i></span>
-                        <span class="name">Server & Workstation</span></a>
-
-                    <div class="sub-menu" id="sub_nav_753" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-1112" class="js-hover-menu" data-id="1112" data-tpl="html/menu_cat_1112" data-display-node="sub_nav_1112">
-                    <a href="/may-tinh-choi-game-gaming-gear.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-1112"></i></span>
-                        <span class="name">Gaming PC</span></a>
-
-                    <div class="sub-menu" id="sub_nav_1112" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-242" class="js-hover-menu" data-id="242" data-tpl="html/menu_cat_242" data-display-node="sub_nav_242">
-                    <a href="/gaming-gear.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-242"></i></span>
-                        <span class="name">Gaming Gear</span></a>
-
-                    <div class="sub-menu" id="sub_nav_242" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-6" class="js-hover-menu" data-id="6" data-tpl="html/menu_cat_6" data-display-node="sub_nav_6">
-                    <a href="/linh-kien-pc-lap-rap.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-6"></i></span>
-                        <span class="name">Linh kiện máy tính</span></a>
-
-                    <div class="sub-menu" id="sub_nav_6" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-188" class="js-hover-menu" data-id="188" data-tpl="html/menu_cat_188" data-display-node="sub_nav_188">
-                    <a href="/gian-hang-phu-kien.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-188"></i></span>
-                        <span class="name">Phụ kiện máy tính & nghe nhìn</span></a>
-
-                    <div class="sub-menu" id="sub_nav_188" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-26" class="js-hover-menu" data-id="26" data-tpl="html/menu_cat_26" data-display-node="sub_nav_26">
-                    <a href="/man-hinh-may-tinh.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-26"></i></span>
-                        <span class="name">Màn hình máy tính</span></a>
-
-                    <div class="sub-menu" id="sub_nav_26" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-145" class="js-hover-menu" data-id="145" data-tpl="html/menu_cat_145" data-display-node="sub_nav_145">
-                    <a href="/thiet-bi-van-phong.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-145"></i></span>
-                        <span class="name">Thiết bị văn phòng & Phần mềm</span></a>
-
-                    <div class="sub-menu" id="sub_nav_145" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
-                <li id="pa-16" class="js-hover-menu" data-id="16" data-tpl="html/menu_cat_16" data-display-node="sub_nav_16">
-                    <a href="/tb-luu-tru-ky-thuat-so.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-16"></i></span>
-                        <span class="name">Thiết bị lưu trữ & Kỹ thuật số</span></a>
-
-                    <div class="sub-menu" id="sub_nav_16" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
-                </li>
-
                 <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
-                    <a href="/thiet-bi-mang.html" class="root">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
                         <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
                         <span class="name">Thiết bị mạng</span></a>
-
                     <div class="sub-menu" id="sub_nav_17" style="display: none;">
                         <!--//load content here-->
                     </div>
-
-
                 </li>
-
                 <li id="pa-35" class="js-hover-menu" data-id="35" data-tpl="html/menu_cat_35" data-display-node="sub_nav_35">
-                    <a href="/camera-giam-sat.html" class="root">
+                    <a href="/danh-muc/camera-giam-sat.html" class="root">
                         <span class="img"><i class="icons icon-cat-main icon-cat-35"></i></span>
                         <span class="name">Camera & SmartHome</span></a>
-
                     <div class="sub-menu" id="sub_nav_35" style="display: none;">
                         <!--//load content here-->
                     </div>
-
-
                 </li>
+                <li id="pa-753" class="js-hover-menu" data-id="753" data-tpl="html/menu_cat_753" data-display-node="sub_nav_753">
+                    <a href="/danh-muc/server-workstation.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-753"></i></span>
+                        <span class="name">Server &amp; Workstation</span></a>
 
-                <li id="pa-333" class="js-hover-menu" data-id="333" data-tpl="html/menu_cat_333" data-display-node="sub_nav_333">
-                    <a href="/thiet-bi-sieu-thi-may-cham-cong.html" class="root">
-                        <span class="img"><i class="icons icon-cat-main icon-cat-333"></i></span>
-                        <span class="name">Thiết bị siêu thị & PM bán hàng</span></a>
-
-                    <div class="sub-menu" id="sub_nav_333" style="display: none;">
-                        <!--//load content here-->
-                    </div>
-
-
+                    <div class="sub-menu" id="sub_nav_753" style="display: none;"><div class="box-cat">
+                            <a href="/danh-muc/may-chu-server.html" class="cat1">Máy chủ - Server</a>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-chu-server.html" class="cat2 d-inline-block">Thương hiệu&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-sever-dell.html" class="cat3">Dell</a>
+                                        <a href="/danh-muc/may-sever-hpe.html" class="cat3">HPE</a>
+                                        <a href="/danh-muc/may-chu-asus.html" class="cat3">Asus</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-chu-server.html" class="cat2 d-inline-block">Bộ vi xử lý&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-chu-server.html?bo-vxl=intel-xeon-e" class="cat3">Intel Xeon E ell</a>
+                                        <a href="/danh-muc/may-chu-server.html?bo-vxl=xeon-lilver" class="cat3">Intel Xeon Silver </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc//may-chu-server.html" class="cat2 d-inline-block">Số lượng bộ VXL tối đa&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-chu-server.html?so-luong-bo-vxl-toi-=1-cpu" class="cat3">1 CPU</a>
+                                        <a href="/danh-muc/may-chu-server.html?so-luong-bo-vxl-toi-=2-cpu" class="cat3">2 CPU</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-chu-server.html" class="cat2 d-inline-block">Bộ nhớ RAM&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-chu-server.html?bo-nho-ram=8gb" class="cat3">8GB</a>
+                                        <a href="/danh-muc/may-chu-server.html?bo-nho-ram=16gb" class="cat3">16GB</a>
+                                        <a href="/danh-muc/may-chu-server.html?bo-nho-ram=16gb-2x8gb" class="cat3">16GB (2x8GB)</a>
+                                        <a href="/danh-muc/may-chu-server.html?bo-nho-ram=32gb-2x16gb" class="cat3">32GB (2x16GB)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-chu-server.html" class="cat2 d-inline-block">Dung lượng ổ cứng&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-chu-server.html?dung-luong-o-cung=1tb" class="cat3">1TB</a>
+                                        <a href="/danh-muc/may-chu-server.html?dung-luong-o-cung=12tb" class="cat3">1.2TB</a>
+                                        <a href="/danh-muc/may-chu-server.html?dung-luong-o-cung=2tb" class="cat3">2TB</a>
+                                        <a href="/danh-muc/may-chu-server.html?dung-luong-o-cung=2x1tb" class="cat3">2x1TB</a>
+                                        <a href="/danh-muc/may-chu-server.html?dung-luong-o-cung=2x2tb" class="cat3">2x2TB</a>
+                                        <a href="/danh-muc/may-chu-server.html?dung-luong-o-cung=4tb" class="cat3">4TB</a>
+                                        <a href="/danh-muc/may-chu-server.html?dung-luong-o-cung=2x4tb" class="cat3">2x4TB</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-chu-server.html" class="cat2 d-inline-block">Kiểu dáng&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-chu-server.html?kieu-dang=mini-tower" class="cat3">Mini tower</a>
+                                        <a href="/danh-muc/may-chu-server.html?kieu-dang=rack-1u" class="cat3">Rack 1U</a>
+                                        <a href="/danh-muc/may-chu-server.html?kieu-dang=rack-2u" class="cat3">Rack 2U</a>
+                                        <a href="/danh-muc/may-chu-server.html?kieu-dang=tower-4u" class="cat3">Tower 4U</a>
+                                        <a href="/danh-muc/may-chu-server.html?kieu-dang=tower-5u" class="cat3">Tower 5U</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--<a href="/may-sever-dell.html" class="cat2">Máy Sever Dell</a>
+                            <a href="/may-sever-hpe.html" class="cat2">Máy Sever HPE</a>-->
+                        </div>
+                        <div class="box-cat">
+                            <a href="/danh-muc/may-tram-workstation.html" class="cat1">Máy Trạm Workstation Đồng Bộ</a>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-tram-workstation.html" class="cat2 d-inline-block">Thương hiệu&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-tram-workstation-dell.html" class="cat3">Dell</a>
+                                        <a href="/danh-muc/may-tram-workstation-asus.html" class="cat3">Asus</a>
+                                        <a href="/danh-muc/may-tram-workstation-lenovo.html" class="cat3">Lenovo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-tram-workstation.html" class="cat2 d-inline-block">Bộ vi xử lý&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-tram-workstation.html?bo-vxl=core-i7" class="cat3">Core i7</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?bo-vxl=core-i9" class="cat3">Core i9</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?bo-vxl=xeon" class="cat3">Xeon</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-tram-workstation.html" class="cat2 d-inline-block">Bộ nhớ RAM&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-tram-workstation.html?bo-nho-ram=8gb" class="cat3">8GB</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?bo-nho-ram=16gb" class="cat3">16GB</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?bo-nho-ram=32gb" class="cat3">32GB</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/may-tram-workstation.html" class="cat2 d-inline-block">Dung lượng ổ cứng&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-tram-workstation.html?o-cung=256gb" class="cat3">256GB</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?o-cung=512gb" class="cat3">512GB</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?o-cung=1tb" class="cat3">1TB</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?o-cung=256ssd-1tbhdd" class="cat3">256GB SSD + 1TB HDD</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-tram-workstation.html" class="cat2 d-inline-block">Card đồ họa&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-tram-workstation.html?card-do-hoa=nvidia-t" class="cat3">Nvidia T</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?card-do-hoa=rtx" class="cat3">RTX</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?card-do-hoa=vga-onboard" class="cat3">VGA onboard </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new-sub-cat">
+                                <div class="position-relative d-inline-block">
+                                    <a href="/danh-muc/may-tram-workstation.html" class="cat2 d-inline-block">Hệ điều hành&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <div class="list-sub-hover">
+                                        <a href="/danh-muc/may-tram-workstation.html?he-dieu-hanh=windows-10" class="cat3">Windows 10</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?he-dieu-hanh=windows-11" class="cat3">Windows 11</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?he-dieu-hanh=ubuntu" class="cat3">Ubuntu</a>
+                                        <a href="/danh-muc/may-tram-workstation.html?he-dieu-hanh=none-operating-system" class="cat3">None Operating System </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-cat">
+                            <a href="/danh-muc/pc-lap-rap-pa.html" class="cat1">Máy trạm Workstation - PC lắp ráp</a>
+                            <a href="/danh-muc/pc-thiet-ke-do-hoa.html" class="cat2">PC Thiết kế đồ họa</a>
+                            <a href="/danh-muc/pc-dung-phim-editor.html" class="cat2">PC Dựng phim, editor</a>
+                            <a href="/danh-muc/danh-mucpc-ve-dung-cad-kien-truc.html" class="cat2">PC Vẽ dựng CAD, Kiến trúc</a>
+                            <a href="/danh-muc/pc-thiet-ke-lumion.html" class="cat2">PC Thiết kế Lumion</a>
+                            <a href="/danh-muc/pc-render-3d.html" class="cat2">PC Render 3D</a>
+                            <a href="/danh-muc/pc-machine-learningai-tri-tue-nhan-tao.html" class="cat2">PC Machine Learning / AI Trí tuệ nhân tạo</a>
+                            <a href="/danh-muc/sever-ao-hoa-gia-lap.html" class="cat2">Sever ảo hóa, giả lập</a>
+                            <a href="/danh-muc/pc-trading.html" class="cat2">PC Trading</a>
+                            <a href="/danh-muc/pc-youtuber-streamer.html" class="cat2">PC Youtuber, Streamer</a>
+                            <a href="/danh-muc/pc-cho-thuc-te-aovirtual-reality.html" class="cat2">PC cho thực tế ảo(Virtual Reality)</a>
+                            <a href="/danh-muc/may-tram-workstation-mini.html" class="cat2">Máy trạm Workstation Mini</a>
+                        </div>
+                        <div class="box-cat">
+                            <a href="/danh-muc/linh-kien-may-chu.html" class="cat1">Linh kiện máy chủ</a>
+                            <a href="/danh-muc/bo-mach-may-chu.html" class="cat2">Bo mạch máy chủ</a>
+                            <a href="/danh-muc/bo-nho-trong-ram.html" class="cat2">Ram máy chủ</a>
+                            <a href="/danh-muc/o-cung-hdd-may-chu.html" class="cat2">HDD máy chủ</a>
+                        </div></div>
                 </li>
-
             </ul>
         </div><!--main-menu-->
 
         <a href="/" id="home-fixed"><i class="icons icon-home"></i></a>
         <a href="tel:19002164" id="hotline-fixed"><i class="icons icon-hotlinefixed"></i> 1900 2164</a>
         <ul class="ul list-nav-right">
-            <li><span><i class="icons icon-ck1"></i><a href="{{url('/page/chinh-sach-kinh-doanh')}}"> 100% chính hãng</a></span></li>
-            <li><span><i class="icons icon-ck2"></i><a href="{{url('/page/chinh-sach-kinh-doanh')}}"> Giá ưu đãi nhất</a></span></li>
-            <li><span><i class="icons icon-ck3"></i><a href="https://www.phucanh.vn/page/van-chuyen-giao-nhan-hang-hoa"> Miễn phí vận chuyển</a></span></li>
-            <li><span><i class="icons icon-ck4"></i><a href="https://www.phucanh.vn/page/chinh-sach-bao-hanh"> Bảo hành nơi sử dụng</a></span></li>
+            <li><span><i class="icons icon-ck1"></i><a href="{{url('/trang/chinh-sach-kinh-doanh')}}"> 100% chính hãng</a></span></li>
+            <li><span><i class="icons icon-ck2"></i><a href="{{url('/trang/chinh-sach-kinh-doanh')}}"> Giá ưu đãi nhất</a></span></li>
+            <li><span><i class="icons icon-ck3"></i><a href="https://www.phucanh.vn/trang/van-chuyen-giao-nhan-hang-hoa"> Miễn phí vận chuyển</a></span></li>
+            <li><span><i class="icons icon-ck4"></i><a href="https://www.phucanh.vn/trang/chinh-sach-bao-hanh"> Bảo hành nơi sử dụng</a></span></li>
             <li class="sale-menu"><span><i class="icons icon-ck5"></i><a href="https://www.phucanh.vn/hang-trung-bay-gia-re.html"> Hàng trưng bày giảm giá</a></span></li>
         </ul>
         <a href="/deal" id="nav-deal">Deal Giờ Vàng (<span id="count-total-deal"></span>)</a>

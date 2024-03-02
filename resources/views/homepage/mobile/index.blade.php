@@ -84,7 +84,7 @@
                 </div>
                 <div class="other">
                     <a href="javascript:void(0)" onclick="showPopup('popup-address');"><i class="icon icon-showroom"></i>Showroom</a>
-                    <a href="/page/chinh-sach-mua-tra-gop"><i class="icon icon-tragop"></i>Trả góp</a>
+                    <a href="/trang/chinh-sach-mua-tra-gop"><i class="icon icon-tragop"></i>Trả góp</a>
                     <a href="/landing-page.html"><i class="icon icon-gift"></i>Khuyến mãi</a>
                     <a href="https://www.youtube.com/phucanhsmartworld"><i class="icon icon-ytb"></i>NIIT-ICT Hà Nội</a>
                 </div>

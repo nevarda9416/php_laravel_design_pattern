@@ -1,7 +1,7 @@
 <nav id="menu" class="mm-menu mm-effect-slide-menu mm-pageshadow mm-offcanvas mm-hasnavbar-top-1"><div class="mm-navbar mm-navbar-top mm-navbar-top-1 mm-navbar-size-1 mm-hasbtns"><a class="mm-prev mm-btn mm-hidden"></a><a class="mm-title">Menu</a><a class="mm-close mm-btn" href="#mm-0"></a></div><div class="mm-panels"><div class="mm-panel mm-opened mm-current" id="mm-1"><div class="mm-navbar mm-hidden"><a class="mm-title">Menu</a></div><ul class="mm-listview">
 
                 <li><em class="mm-counter">10</em>
-                    <a class="mm-next" href="#mm-2" data-target="#mm-2"></a><a href="/may-tinh-xach-tay-laptop.html">
+                    <a class="mm-next" href="#mm-2" data-target="#mm-2"></a><a href="/danh-muc/may-tinh-xach-tay-laptop.html">
                         Laptop &amp; Linh phụ kiện
                     </a>
 

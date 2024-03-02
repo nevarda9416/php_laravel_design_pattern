@@ -379,7 +379,7 @@
                     <h4 class="title h-title">Chính sách bán hàng và bảo hành</h4>
                     <ul class="ul">
                         <li><i class="icon-star-list"></i> <span><a>Mua hàng trả góp lãi suất 0% <a style="color:blue" ;
-                                                                                                    href="https://www.phucanh.vn/page/chinh-sach-mua-tra-gop"><i>Chi tiết</i></a></a></span>
+                                                                                                    href="https://www.phucanh.vn/trang/chinh-sach-mua-tra-gop"><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Giao hàng nhanh 2h và miễn phí giao hàng từ 500.000đ <a
                                             style="color:blue" ;
@@ -391,10 +391,10 @@
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Đổi mới sản phẩm đến 30 ngày &nbsp; &nbsp; &nbsp; &nbsp;    <a
                                             style="color:blue" ;
-                                            href="https://www.phucanh.vn/page/chinh-sach-doi-tra-san-pham"><i>Chi tiết</i></a></a></span>
+                                            href="https://www.phucanh.vn/trang/chinh-sach-doi-tra-san-pham"><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Dịch vụ bảo hành chuyên nghiệp, uy tín <a
-                                            style="color:blue" ; href="https://www.phucanh.vn/page/chinh-sach-bao-hanh"><i>Chi tiết</i></a></a></span>
+                                            style="color:blue" ; href="https://www.phucanh.vn/trang/chinh-sach-bao-hanh"><i>Chi tiết</i></a></a></span>
                         </li>
                     </ul>
                 </div><!--uudai btn-buy btn-buy-yellow -->

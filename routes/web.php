@@ -108,7 +108,7 @@ Route::prefix('khuyen-mai')->group(function () {
         }
     });
 });
-Route::prefix('tin-tuc')->group(function () {
+Route::prefix('tin-khuyen-mai')->group(function () {
     Route::get('/', function () {
         $agent = new Agent();
         if ($agent->isMobile()) {
@@ -126,22 +126,56 @@ Route::prefix('tin-tuc')->group(function () {
         }
     });
 });
-Route::prefix('page')->group(function () {
-    Route::get('/gioi-thieu', function () {
+Route::prefix('tin-cong-nghe')->group(function () {
+    Route::get('/', function () {
         $agent = new Agent();
         if ($agent->isMobile()) {
-            return view('page/mobile/about');
+            return view('news/mobile/index');
         } else {
-            return view('page/about');
+            return view('news/index');
         }
+    });
+    Route::get('/{slug}.html', function () {
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('news/mobile/detail');
+        } else {
+            return view('news/detail');
+        }
+    });
+});
+Route::prefix('trang')->group(function () {
+    Route::get('/gioi-thieu', function () {
+        $agent = new Agent();
+        return $agent->isMobile() ? view('page/mobile/about') : view('page/about');
+    });
+    Route::get('/chinh-sach-cho-khach-hang-doanh-nghiep', function () {
+        $agent = new Agent();
+        return $agent->isMobile() ? view('page/mobile/business') : view('page/business');
+    });
+    Route::get('/chinh-sach-game-net', function () {
+        $agent = new Agent();
+        return $agent->isMobile() ? view('page/mobile/game') : view('page/game');
+    });
+    Route::get('/vận-chuyển-giao-nhận-hàng-hóa', function () {
+        $agent = new Agent();
+        return $agent->isMobile() ? view('page/mobile/shipping') : view('page/shipping');
+    });
+    Route::get('/vận-chuyển-giao-nhận-hàng-hóa', function () {
+        $agent = new Agent();
+        return $agent->isMobile() ? view('page/mobile/shipping') : view('page/shipping');
     });
     Route::get('/chinh-sach-kinh-doanh', function () {
         $agent = new Agent();
-        if ($agent->isMobile()) {
-            return view('page/mobile/policy');
-        } else {
-            return view('page/policy');
-        }
+        return $agent->isMobile() ? view('page/mobile/policy') : view('page/policy');
+    });
+    Route::get('/chinh-sach-bao-hanh', function () {
+        $agent = new Agent();
+        return $agent->isMobile() ? view('page/mobile/warranty') : view('page/warranty');
+    });
+    Route::get('/chinh-sach-doi-tra-san-pham', function () {
+        $agent = new Agent();
+        return $agent->isMobile() ? view('page/mobile/reform') : view('page/reform');
     });
 });
 Route::get('users/index', [UserController::class, 'index']);

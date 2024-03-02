@@ -298,7 +298,7 @@
                         Để tiếp tục đặt hàng, quý khách xin vui lòng <a style="color: #185ede;" href="/dang-nhap?return_url=https://www.phucanh.vn/cart"><b>đăng nhập</b></a> hoặc nhập thông tin bên dưới.
                     </p>
                     <p>
-                        Bằng cách đặt hàng, bạn đồng ý với <a style="color: #185ede;" href="https://www.phucanh.vn/page/dieu-khoan-giao-dich" target="_blank"><b>Điều khoản giao dịch</b></a> của NIIT-ICT Hà Nội.
+                        Bằng cách đặt hàng, bạn đồng ý với <a style="color: #185ede;" href="https://www.phucanh.vn/trang/dieu-khoan-giao-dich" target="_blank"><b>Điều khoản giao dịch</b></a> của NIIT-ICT Hà Nội.
                     </p>
                     <p>
                         <label>Họ và tên*</label>
