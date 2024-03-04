@@ -220,10 +220,9 @@
                         <div class="list_info">
                             <b class="font16 title">Thông tin công ty</b>
                             <a href="/trang/gioi-thieu" rel="nofollow">Giới thiệu công ty</a>
-                            <a href="/thong-tin-lien-he-moi.html" rel="nofollow">Thông tin liên hệ</a>
-                            <a href="/tuyen-dung-phuc-anh.html" rel="nofollow">Thông tin tuyển dụng</a>
-                            <a href="/dieu-khoan-giao-dich.html" rel="nofollow">Điều khoản giao dịch</a>
-                            <a href="/chinh-sach-bao-mat-thong-tin-khach-hang.html" rel="nofollow">Chính sách bảo mật thông tin</a>
+                            <a href="/trang/thong-tin-lien-he" rel="nofollow">Thông tin liên hệ</a>
+                            <a href="/trang/dieu-khoan-giao-dich" rel="nofollow">Điều khoản giao dịch</a>
+                            <a href="/trang/chinh-sach-bao-mat-thong-tin-khach-hang" rel="nofollow">Chính sách bảo mật thông tin</a>
                         </div>
                     </td>
                     <td>
@@ -244,7 +243,6 @@
                         <div class="list_info">
                             <b class="font16 title">Hỗ trợ khách hàng</b>
                             <a href="/trang/huong-dan-mua-hang-online" rel="nofollow">Hướng dẫn mua hàng online</a>
-                            <a href="/chinh-sach-mua-tra-gop.html">Hướng dẫn mua hàng trả góp</a>
                             <a href="/trang/phuong-thuc-thanh-toan" rel="nofollow">Phương thức thanh toán</a>
 
                             <div class="new-sub-cat">
@@ -252,57 +250,23 @@
                                     <a href="javascript:void(0)" class="cat2 d-inline-block">Yêu cầu báo giá&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 
                                     <div class="list-sub-hover">
-                                        <a href="/yeu-cau-bao-gia-ca-nhan.html" class="cat3" target="blank">Báo giá cá nhân</a>
-                                        <a href="/yeu-cau-bao-gia-doanh-nghiep.html" class="cat3" target="blank">Báo giá doanh nghiệp</a>
-                                        <a href="/tu-van-tra-gop.html" class="cat3" target="blank">Tư vấn trả góp</a>
-                                        <a href="/tu-van-san-pham.html" class="cat3" target="blank">Tư vấn sản phẩm</a>
+                                        <a href="/trang/yeu-cau-bao-gia-ca-nhan" class="cat3" target="blank">Báo giá cá nhân</a>
+                                        <a href="/trang/yeu-cau-bao-gia-doanh-nghiep" class="cat3" target="blank">Báo giá doanh nghiệp</a>
+                                        <a href="/trang/tu-van-san-pham" class="cat3" target="blank">Tư vấn sản phẩm</a>
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="new-sub-cat">
-                              <div class="position-relative d-inline-block">
-                                <a href="javascript:void(0)" class="cat2 d-inline-block">Liên hệ kỹ thuật&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                                <div class="list-sub-hover">
-                                  <a href="/yeu-cau-bao-hanh.html" target="_blank">Trung tâm bảo hành</a>
-                                  <a href="/yeu-cau-ky-thuat-15-xa-dan.html" class="cat3" target="blank">Showroom 15 Xã Đàn</a>
-                                  <a href="#" class="cat3" target="blank">Showroom 89 Lê Duẩn</a>
-                                  <a href="#" class="cat3" target="blank">Showroom 152 Trần Duy Hưng</a>
-                                  <a href="#" class="cat3" target="blank">Showroom 134 Thái Hà</a>
-                                  <a href="#" class="cat3" target="blank">Showroom 63 Nguyễn Hoàng</a>
-                                  <a href="#" class="cat3" target="blank">Showroom 141 Phạm Văn Đồng</a>
-                                </div>
-                              </div>
-                              </div>-->
-                            <!--<a href="/upload/km/index.php?option=yeu-cau-bao-hanh" target="_blank">Liên hệ kỹ thuật</a>
-                              <!--<a href="/trang/tu-van-ky-thuat" rel="nofollow">Hỗ trợ kỹ thuật</a>-->
-                            <a href="/yeu-cau-bao-hanh.html" target="_blank">Liên hệ kỹ thuật</a>
-                            <a href="/y-kien-khach-hang.html" rel="follow">Gửi góp ý, khiếu nại</a>
-
-                            <!--<a href="?show_version=mobile" rel="nofollow">Phiên bản Mobile</a>-->
+                            <a href="/trang/yeu-cau-bao-hanh" target="_blank">Liên hệ kỹ thuật</a>
+                            <a href="/trang/y-kien-khach-hang" rel="follow">Gửi góp ý, khiếu nại</a>
                         </div>
                     </td>
-                    <!-- <td id="list-payment-footer">
-          <b class="font16 title red" style="margin-bottom:15px; display:block;">Hình thức thanh toán</b>
-          <a href="" class="icons icon-pay-tienmat"></a>
-          <a href="" class="icons icon-pay-visa"></a>
-          <div class="clear"></div>
-          <a href="" class="icons icon-pay-chuyenkhoan"></a>
-          <a href="" class="icons icon-pay-master"></a>
-          <div class="clear"></div>
-          <a href="" class="icons icon-pay-banking"></a>
-          <a href="" class="">
-            <img src="https://www.phucanh.vn/template/2017/images/QR-code.png" alt="Mã QR"></a>
-        <a href="//www.dmca.com/Protection/Status.aspx?ID=65741f99-8b9a-41b7-b926-496921dc667e" title="DMCA.com Protection Status" class="dmca-badge" target="_blank"> <img src="//images.dmca.com/Badges/dmca_protected_sml_120r.png?ID=65741f99-8b9a-41b7-b926-496921dc667e" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-
-        </td>-->
                     <td>
                         <div class="center bocongthuong" style="margin-top: -30px; margin-bottom: 20px; padding-top: 25px;">
                             <a rel="nofollow" href="http://online.gov.vn/Home/WebDetails/3453?AspxAutoDetectCookieSupport=1" target="_blank" title="Đã đăng ký bộ công thương"><img src="https://www.phucanh.vn/template/2017/images/dathongbao.png" width="160" height="60" alt="Đã đăng ký bộ công thương"/></a>
                             <a rel="nofollow" target="_blank" href="https://www.dmca.com/Protection/Status.aspx?id=d2e94503-0a12-4acf-ab19-8fb8c9e8ef07&refurl=https%3a%2f%2fwww.phucanh.vn%2f&rlo=true" title="DMCA.com Protection Status" class="dmca-badge"><img  src="https://www.phucanh.vn/template/2017/images/dmca-phucanh.png" width="160" height="60" alt="dmca"/></a>
-                            <!--<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script> -->
                             <div class="space10"></div>
                             <div id="news_letter">
-                                <p><span class="btn btn-blue">Đăng ký</span> nhận tin KHUYẾN MÃI</p>
+                                <p><span class="btn-blue">Đăng ký</span> nhận tin KHUYẾN MÃI</p>
                                 <input type="text" name="" id="email_newsletter" placeholder="Nhập địa chỉ email của bạn" />
                                 <a href="javascript:subscribe_newsletter()" class="btn button">GỬI NGAY</a>
                             </div>
@@ -348,17 +312,8 @@
                     Địa chỉ: Tầng 5, 134 Thái Hà, Đống Đa, Hà Nội.<br />
                     Điện thoại: 097 322 7711 <br />
                     Email: <a href="mailto:kdpp@phucanh.com.vn" class="blue">kdpp@phucanh.com.vn</a><br />
-
                     <a href="https://www.google.com/maps/search/ph%C3%BAc+anh+134+th%C3%A1i+h%C3%A0/@21.0214574,105.7865094,14z/data=!3m1!4b1?hl=vi-VN" target="_blank" class="yellow" rel="nofollow"><b>[Bản đồ đường đi]</b></a>
                 </td>
-                <!-- <td class="nopad-r" style="width:25%;">
-                     <b class="font18 uppercase" style="font-size:16px;">showroom Niithanoi 63 NGUYỄN HOÀNG</b>
-                     Địa chỉ: 63 Nguyễn Hoàng, Nam Từ Liêm, Hà Nội.<br />
-                     Điện thoại:(024) 3968 9966 (ext 4)<br />
-                     Email: <a href="mailto:phucanh.nguyenhoang@phucanh.com.vn" class="blue">phucanh.nguyenhoang@phucanh.com.vn</a><br />
-                     Giờ mở cửa từ 08h00 đến 21h00<br />
-                     <a href="https://goo.gl/5ptYEk" target="_blank" class="yellow" rel="nofollow"><b>[Bản đồ đường đi]</b></a>
-                 </td>-->
             </tr>
             <tr>
                 <td class="nopad-r">
@@ -367,7 +322,6 @@
                     Điện thoại: 1900 2164 (ext 2)<br />
                     Hoặc 038 658 6699 <br />
                     Email: <a href="mailto:kdda@phucanh.com.vn" class="blue">kdda@phucanh.com.vn</a><br />
-
                     <a href="https://www.google.com/maps/search/ph%C3%BAc+anh+134+th%C3%A1i+h%C3%A0/@21.0214574,105.7865094,14z/data=!3m1!4b1?hl=vi-VN" target="_blank" class="yellow" rel="nofollow"><b>[Bản đồ đường đi]</b></a>
                 </td>
                 <td class="nopad-r">
@@ -394,26 +348,7 @@
                     Giờ mở cửa từ 08h00 đến 21h00<br />
                     <a href="https://bit.ly/2YHcrqH" target="_blank" class="yellow" rel="nofollow"><b>[Bản đồ đường đi]</b></a>
                 </td>
-                <!--<td class="nopad-r">
-        <b class="font18 red uppercase">showroom Niithanoi 150 Nguyễn Văn Cừ</b>
-        Địa chỉ: 150 Nguyễn Văn Cừ, Long Biên, Hà Nội.<br/>
-        Điện thoại:  (024) 39689966<br/>
-        Email: <a href="mailto:phucanh.nguyenvancu@phucanh.com.vn" class="blue">phucanh.nguyenvancu@phucanh.com.vn</a><br/>
-        Giờ mở cửa từ 08h15 đến 21h00<br/>
-        <a href="https://goo.gl/6ye3e4" target="_blank" class="yellow" rel="nofollow"><b>[Bản đồ đường đi]</b></a>
-      </td>-->
             </tr>
-            <!-- <tr>
-               <td class="nopad-r">
-                    <b class="font18 uppercase" style="font-size:16px;">PHÒNG KINH DOANH PHÂN PHỐI</b>
-                       Địa chỉ: Tầng 5, 134 Thái Hà, Đống Đa, Hà Nội.<br />
-                       Điện thoại: 097 322 7711 <br />
-                       Email: <a href="mailto:kdpp@phucanh.com.vn" class="blue">kdpp@phucanh.com.vn</a><br />
-
-                       <a href="https://www.google.com/maps/search/ph%C3%BAc+anh+134+th%C3%A1i+h%C3%A0/@21.0214574,105.7865094,14z/data=!3m1!4b1?hl=vi-VN" target="_blank" class="yellow" rel="nofollow"><b>[Bản đồ đường đi]</b></a>
-               </td>
-             </tr>-->
-
         </table>
     </div>
 </div>
@@ -432,8 +367,6 @@
     #mery_christmas_right {position: fixed;top: 0;z-index: 9999;right: 0px!important;width:120px}
     #mery_christmas_left1{left:0px;position: fixed;bottom: 0;z-index: 9999; width:120px}
     #mery_christmas_right1 {position: fixed;bottom: 0;z-index: 9999;right: 0px!important;width:120px}
-    /*.ft-ld{ background: url('https://www.phucanh.vn/upload/style_snow/imgs/ft.png') center top transparent!important;}
-    .ft-ld .ft-ld-tag a{ color:#121212; font-weight:bold!important;}*/
     .ft-ld .ft-ld-tag a {margin-left: 20px;}
 </style>
 
@@ -441,15 +374,12 @@
 <img id="mery_christmas_right" class="mery_christmas" src="https://www.phucanh.vn/upload/phao-hoa/header-phai-tgdd-248x78.png" alt="Icon Top Right">
 
 <div id="social-right-fixed">
-    <!--<a href="javascript:void(0)" onclick="showPopup('popup-facebook');"><i class="icons icon-sright-fb"></i></a>
-    <a href="javascript:void(0)" onclick="showPopup('popup-youtube');"><i class="icons icon-sright-yo"></i></a>-->
     <a href="https://zalo.me/2915476565064825313" target="_blank" class="zalo_chat" rel="nofollow"><img src="https://www.phucanh.vn/template/2019/images/zalo1.png" alt="Zalo" /><span id="mxh_zalo">Chat Zalo</span></a>
     <a href="https://www.facebook.com/PhucAnhSmartWorld/" target="_blank"><i class="icons icon-sright-fb"></i><span id="mxh_fb">Kênh mạng xã hội: Facebook</span></a>
     <a href="https://www.youtube.com/channel/UCs78-o0g93nYfHKVy0AJkWA" target="_blank"><i class="icons icon-sright-yo"></i><span id="mxh_ytb">Kênh Youtube</span></a>
     <a href="javascript:void(0)" onclick="showPopup('popup-lien-he');"><i class="icons icon-sright-mail"></i><span id="mxh_lh">Gửi thư liên hệ</span></a>
     <a href="javascript:void(0)" onclick="showPopup('popup-address');"><i class="icons icon-sright-tel"></i><span id="mxh_dt">Gọi điện liên hệ</span></a>
     <a href="https://www.phucanh.vn/buildpc"><i class="icons icon-xaydungpc"></i><span id="mxh_xdpc">Xây dựng cấu hình máy tính</span></a>
-    <!--<a href="https://www.phucanh.vn/index.php?option=tannhiet&view=v2"><i class="icons icon-tannhiet"></i><span id="mxh_xdtn">Xây dựng tản nhiệt nước</span></a>-->
     <a href="?show_version=mobile" rel="nofollow" alt="Phiên bản Mobile"><img src="https://www.phucanh.vn/template/2017/images/mobile-512-right2.png" style="width: 31px;height: 31px; border-radius:3px;" alt="Phiên bản mobile"><span id="mxh_mobile">Chuyển giao diện Mobile</span></a>
     <a href="http://m.me/phucanhsmartworld" target="_blank" class="facebook_chat" rel="nofollow"><img src="https://www.phucanh.vn/template/2019/images/facebook-chat.png" alt="chat facebook" /><span id="mxh_xdtn">Chat trên Messages</span></a>
     <a href="javascript:void(0)" id="gotoTop" title="Lên đầu trang" style="display:none;"><!--<i class="icons icon-sright-up"></i>--></a>

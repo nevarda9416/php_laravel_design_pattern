@@ -190,8 +190,6 @@
             <li><span><i class="icons icon-ck2"></i><a href="{{url('/trang/chinh-sach-kinh-doanh')}}"> Giá ưu đãi nhất</a></span></li>
             <li><span><i class="icons icon-ck3"></i><a href="https://www.phucanh.vn/trang/van-chuyen-giao-nhan-hang-hoa"> Miễn phí vận chuyển</a></span></li>
             <li><span><i class="icons icon-ck4"></i><a href="https://www.phucanh.vn/trang/chinh-sach-bao-hanh"> Bảo hành nơi sử dụng</a></span></li>
-            <li class="sale-menu"><span><i class="icons icon-ck5"></i><a href="https://www.phucanh.vn/hang-trung-bay-gia-re.html"> Hàng trưng bày giảm giá</a></span></li>
         </ul>
-        <a href="/deal" id="nav-deal">Deal Giờ Vàng (<span id="count-total-deal"></span>)</a>
     </div><!--container-->
 </nav>

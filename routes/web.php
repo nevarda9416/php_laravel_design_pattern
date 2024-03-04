@@ -157,11 +157,7 @@ Route::prefix('trang')->group(function () {
         $agent = new Agent();
         return $agent->isMobile() ? view('page/mobile/game') : view('page/game');
     });
-    Route::get('/vận-chuyển-giao-nhận-hàng-hóa', function () {
-        $agent = new Agent();
-        return $agent->isMobile() ? view('page/mobile/shipping') : view('page/shipping');
-    });
-    Route::get('/vận-chuyển-giao-nhận-hàng-hóa', function () {
+    Route::get('/van-chuyen-giao-nhan-hang-hoa', function () {
         $agent = new Agent();
         return $agent->isMobile() ? view('page/mobile/shipping') : view('page/shipping');
     });
@@ -174,6 +170,10 @@ Route::prefix('trang')->group(function () {
         return $agent->isMobile() ? view('page/mobile/warranty') : view('page/warranty');
     });
     Route::get('/chinh-sach-doi-tra-san-pham', function () {
+        $agent = new Agent();
+        return $agent->isMobile() ? view('page/mobile/reform') : view('page/reform');
+    });
+    Route::get('/dieu-khoan-giao-dich', function () {
         $agent = new Agent();
         return $agent->isMobile() ? view('page/mobile/reform') : view('page/reform');
     });

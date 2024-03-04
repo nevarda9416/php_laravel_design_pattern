@@ -256,17 +256,15 @@
                             <li onclick="location.href='/laptop-asus-vivobook-15-oled-a1505va-l1114w.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/laptop-asus-vivobook-15-oled-a1505va-l1114w.html" class="p-img">
+                                    <a href="/san-pham/may-tram-workstation-dell-precision-3660-tower-71010148-core-i7-12700-16gb-2-x8gb-256gb-ssd-1tb-hdd-nvidia-t1000-4gb-windows-11-pro.html" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
-                                             data-src="https://phucanhcdn.com/media/product/250_50732_asus_vivobook_15_oled_a1505va_l1114w__caa_2.jpg"
-                                             alt="Laptop Asus Vivobook 15 OLED A1505VA-L1114W (Core i5 13500H/ 16GB/ 512GB SSD/ Intel Iris Xe Graphics/ 15.6inch FHD OLED/ Windows 11 Home/ Black)"/>
+                                             data-src="https://phucanhcdn.com/media/product/250_51271_48591_49914_dell_precision_3660_tower__a4.jpg"
+                                             alt="Máy trạm Workstation Dell Precision 3660 Tower 71010148 (Core i7 12700/ 16GB (2 x8GB)/ 256GB SSD + 1TB HDD/ NVIDIA T1000 4GB/ Windows 11 Pro)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/laptop-asus-vivobook-15-oled-a1505va-l1114w.html"
-                                       title="Laptop Asus Vivobook 15 OLED A1505VA-L1114W (Core i5 13500H/ 16GB/ 512GB SSD/ Intel Iris Xe Graphics/ 15.6inch FHD OLED/ Windows 11 Home/ Black)">
-                                        <h3 class="p-name">Laptop Asus Vivobook 15 OLED A1505VA-L1114W (Core i5 13500H/
-                                            16GB/ 512GB SSD/ Intel Iris Xe Graphics/ 15.6inch FHD OLED/ Windows 11 Home/
-                                            Black)</h3></a>
+                                    <a href="/san-pham/may-tram-workstation-dell-precision-3660-tower-71010148-core-i7-12700-16gb-2-x8gb-256gb-ssd-1tb-hdd-nvidia-t1000-4gb-windows-11-pro.html"
+                                       title="Máy trạm Workstation Dell Precision 3660 Tower 71010148 (Core i7 12700/ 16GB (2 x8GB)/ 256GB SSD + 1TB HDD/ NVIDIA T1000 4GB/ Windows 11 Pro)">
+                                        <h3 class="p-name">Máy trạm Workstation Dell Precision 3660 Tower 71010148 (Core i7 12700/ 16GB (2 x8GB)/ 256GB SSD + 1TB HDD/ NVIDIA T1000 4GB/ Windows 11 Pro)</h3></a>
                                     <span class="p-oldprice2" style="width: 100%; display: none;">
             <i>Giá Khuyến mãi: </i>16.990.000 ₫
             </span>
@@ -584,16 +582,16 @@
                             </li>
 
                             <!-- aaaaa -->
-                            <li onclick="location.href='/may-tinh-de-ban-pcpa-g16.html'" class="p-item-group ">
+                            <li onclick="location.href='/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060.html'" class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/may-tinh-de-ban-pcpa-g16.html" class="p-img">
+                                    <a href="/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060.html" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
-                                             data-src="https://phucanhcdn.com/media/product/250_53089_may_tinh_de_ban_pcpa_g16.jpeg"
-                                             alt="Máy tính để bàn PCPA G16 (Core i5 12400F/ Intel B760/ 8GB/ 256Gb SSD/ GTX 1660 Super)"/>
+                                             data-src="https://phucanhcdn.com/media/product/250_53583_paws_designer_34_20112023.jpg"
+                                             alt="Máy trạm Workstation PAWS DESIGNER 34-I7/32GB/RTX3060"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/may-tinh-de-ban-pcpa-g16.html"
-                                       title="Máy tính để bàn PCPA G16 (Core i5 12400F/ Intel B760/ 8GB/ 256Gb SSD/ GTX 1660 Super)">
+                                    <a href="/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060.html"
+                                       title="Máy trạm Workstation PAWS DESIGNER 34-I7/32GB/RTX3060">
                                         <h3 class="p-name">Máy tính để bàn PCPA G16 (Core i5 12400F/ Intel B760/ 8GB/
                                             256Gb SSD/ GTX 1660 Super)</h3></a>
 
@@ -638,8 +636,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/may-tinh-de-ban-pcpa-g16.html" class="hover-name">Máy tính để bàn PCPA G16
-                                        (Core i5 12400F/ Intel B760/ 8GB/ 256Gb SSD/ GTX 1660 Super)</a>
+                                    <a href="/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060.html" class="hover-name">Máy trạm Workstation PAWS DESIGNER 34-I7/32GB/RTX3060</a>
 
                                     <a href="" class="hover-brand"><img
                                                 src="https://phucanhcdn.com/media/brand/pcpa.png" alt=""/></a>
@@ -1738,12 +1735,12 @@
                             </li>
 
                             <!-- aaaaa -->
-                            <li onclick="location.href='/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
+                            <li onclick="location.href='/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
                                     <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                        class="p-img">
-                                        <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
+                                        <img class="lazy" src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_50372_bo_phat_wifi_tp_link_deco_s7_3_pack_3.jpg"
                                              alt="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"/>
                                         <i class="icon-apple"></i>
@@ -2299,15 +2296,15 @@
                             </div>
                         </div>
                     </li>
-                    <li onclick="location.href='/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
+                    <li onclick="location.href='/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                    href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_50372_bo_phat_wifi_tp_link_deco_s7_3_pack_3.jpg"
                                         alt="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                    href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                     class="p-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten
                                 ngầm/ Wifi Mesh/ Dưới 100 User)</a><span class="discount">-31%</span><span
                                     class="p-oldprice2"><i>Giá niêm yết: </i>4.290.000 ₫</span><span
@@ -2316,7 +2313,7 @@
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                    href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                     class="hover-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3
                                 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link" class="hover-brand"><img
                                         src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -2999,15 +2996,15 @@
                             </div>
                         </div>
                     </li>
-                    <li onclick="location.href='/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
+                    <li onclick="location.href='/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                    href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_50372_bo_phat_wifi_tp_link_deco_s7_3_pack_3.jpg"
                                         alt="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                    href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                     class="p-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten
                                 ngầm/ Wifi Mesh/ Dưới 100 User)</a><span class="discount">-31%</span><span
                                     class="p-oldprice2"><i>Giá niêm yết: </i>4.290.000 ₫</span><span
@@ -3016,7 +3013,7 @@
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                    href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                     class="hover-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3
                                 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link" class="hover-brand"><img
                                         src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -3676,12 +3673,12 @@
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                    href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_50372_bo_phat_wifi_tp_link_deco_s7_3_pack_3.jpg"
                                         alt="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                    href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                     class="p-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten
                                 ngầm/ Wifi Mesh/ Dưới 100 User)</a><span class="discount">-31%</span><span
                                     class="p-oldprice2"><i>Giá niêm yết: </i>4.290.000 ₫</span><span
@@ -3690,7 +3687,7 @@
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                    href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                     class="hover-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3
                                 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link" class="hover-brand"><img
                                         src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
