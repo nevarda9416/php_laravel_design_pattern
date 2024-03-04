@@ -180,6 +180,103 @@
                             <a href="/danh-muc/o-cung-hdd-may-chu.html" class="cat2">HDD máy chủ</a>
                         </div></div>
                 </li>
+
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
+                <li id="pa-17" class="js-hover-menu" data-id="17" data-tpl="html/menu_cat_17" data-display-node="sub_nav_17">
+                    <a href="/danh-muc/thiet-bi-mang.html" class="root">
+                        <span class="img"><i class="icons icon-cat-main icon-cat-17"></i></span>
+                        <span class="name">Thiết bị mạng</span></a>
+                    <div class="sub-menu" id="sub_nav_17" style="display: none;">
+                        <!--//load content here-->
+                    </div>
+                </li>
             </ul>
         </div><!--main-menu-->
 
@@ -190,6 +287,7 @@
             <li><span><i class="icons icon-ck2"></i><a href="{{url('/trang/chinh-sach-kinh-doanh')}}"> Giá ưu đãi nhất</a></span></li>
             <li><span><i class="icons icon-ck3"></i><a href="https://www.phucanh.vn/trang/van-chuyen-giao-nhan-hang-hoa"> Miễn phí vận chuyển</a></span></li>
             <li><span><i class="icons icon-ck4"></i><a href="https://www.phucanh.vn/trang/chinh-sach-bao-hanh"> Bảo hành nơi sử dụng</a></span></li>
+            <li class="sale-menu"><span><i class="icons icon-ck5"></i><a href="https://www.phucanh.vn/hang-trung-bay-gia-re.html"> Sản phẩm khuyến mãi</a></span></li>
         </ul>
     </div><!--container-->
 </nav>
