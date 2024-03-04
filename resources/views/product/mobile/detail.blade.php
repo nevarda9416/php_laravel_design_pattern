@@ -505,7 +505,7 @@
 
 
                     <div class="pro_item">
-                        <a href="/bo-phat-wifi-gaming-asus-rt-ac59u-v2-ac1500mbps-aimesh-mu-mimo.html" title="Bộ phát wifi Asus RT-AC59U V2 (Chuẩn AC/ AC1500Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 25 User)" class="image">
+                        <a href="/san-pham/bo-phat-wifi-gaming-asus-rt-ac59u-v2-ac1500mbps-aimesh-mu-mimo.html" title="Bộ phát wifi Asus RT-AC59U V2 (Chuẩn AC/ AC1500Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 25 User)" class="image">
                             <img src="https://phucanhcdn.com/media/product/250_40456_rt_ac59u_v2.jpg" title="Bộ phát wifi Asus RT-AC59U V2 (Chuẩn AC/ AC1500Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 25 User)">
                             <!---->
 
@@ -514,7 +514,7 @@
 
                         </a>
                         <div class="pro_info">
-                            <a href="/bo-phat-wifi-gaming-asus-rt-ac59u-v2-ac1500mbps-aimesh-mu-mimo.html" class="pro_name"> Bộ phát wifi Asus RT-AC59U V2 (Chuẩn AC/ AC1500Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 25 User) </a>
+                            <a href="/san-pham/bo-phat-wifi-gaming-asus-rt-ac59u-v2-ac1500mbps-aimesh-mu-mimo.html" class="pro_name"> Bộ phát wifi Asus RT-AC59U V2 (Chuẩn AC/ AC1500Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 25 User) </a>
                             <span class="pro_price">850.000đ</span>
 
                         </div>
@@ -523,7 +523,7 @@
 
 
                     <div class="pro_item">
-                        <a href="/bo-phat-wifi-6-tp-link-archer-ax23-ax1800mbps.html" title="Bộ phát wifi 6 TP-Link Archer AX23 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" class="image">
+                        <a href="/san-pham/bo-phat-wifi-6-tp-link-archer-ax23-ax1800mbps.html" title="Bộ phát wifi 6 TP-Link Archer AX23 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" class="image">
                             <img src="https://phucanhcdn.com/media/product/250_46747_ax23.jpg" title="Bộ phát wifi 6 TP-Link Archer AX23 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)">
                             <!---->
 
@@ -532,7 +532,7 @@
 
                         </a>
                         <div class="pro_info">
-                            <a href="/bo-phat-wifi-6-tp-link-archer-ax23-ax1800mbps.html" class="pro_name"> Bộ phát wifi 6 TP-Link Archer AX23 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User) </a>
+                            <a href="/san-pham/bo-phat-wifi-6-tp-link-archer-ax23-ax1800mbps.html" class="pro_name"> Bộ phát wifi 6 TP-Link Archer AX23 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User) </a>
                             <span class="pro_price">995.000đ</span>
 
                         </div>
@@ -541,7 +541,7 @@
 
 
                     <div class="pro_item">
-                        <a href="/bo-phat-wifi-tp-link-tl-mr100-300mbps-khe-sim-3g/4g.html" title="Bộ phát wifi 4G TP-Link TL-MR100 (300Mbps/ Chuẩn N/ 2 Ăng-ten ngoài/ Sim 4G/ 25 User)" class="image">
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-mr100-300mbps-khe-sim-3g/4g.html" title="Bộ phát wifi 4G TP-Link TL-MR100 (300Mbps/ Chuẩn N/ 2 Ăng-ten ngoài/ Sim 4G/ 25 User)" class="image">
                             <img src="https://phucanhcdn.com/media/product/250_40951_tl_mr100_ha1.jpg" title="Bộ phát wifi 4G TP-Link TL-MR100 (300Mbps/ Chuẩn N/ 2 Ăng-ten ngoài/ Sim 4G/ 25 User)">
                             <!---->
 
@@ -550,7 +550,7 @@
 
                         </a>
                         <div class="pro_info">
-                            <a href="/bo-phat-wifi-tp-link-tl-mr100-300mbps-khe-sim-3g/4g.html" class="pro_name"> Bộ phát wifi 4G TP-Link TL-MR100 (300Mbps/ Chuẩn N/ 2 Ăng-ten ngoài/ Sim 4G/ 25 User) </a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-mr100-300mbps-khe-sim-3g/4g.html" class="pro_name"> Bộ phát wifi 4G TP-Link TL-MR100 (300Mbps/ Chuẩn N/ 2 Ăng-ten ngoài/ Sim 4G/ 25 User) </a>
                             <span class="pro_price">990.000đ</span>
 
                         </div>
@@ -617,13 +617,13 @@
 
 
                     <div class="pro_item">
-                        <a href="/bo-thu-phat-6-asus-xd4-2-pack-ax1800-mau-den.html" title="Bộ phát wifi 6 Asus ZenWiFi XD4S 2-Pack Đen (Chuẩn AX/ AX1800Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User)" class="image">
+                        <a href="/san-pham/bo-thu-phat-6-asus-xd4-2-pack-ax1800-mau-den.html" title="Bộ phát wifi 6 Asus ZenWiFi XD4S 2-Pack Đen (Chuẩn AX/ AX1800Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User)" class="image">
                             <img src="https://phucanhcdn.com/media/product/250_42665_xd4_black_01_2pk_ha1.jpg" title="Bộ phát wifi 6 Asus ZenWiFi XD4S 2-Pack Đen (Chuẩn AX/ AX1800Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User)">
                             <!---->
 
                         </a>
                         <div class="pro_info">
-                            <a href="/bo-thu-phat-6-asus-xd4-2-pack-ax1800-mau-den.html" class="pro_name"> Bộ phát wifi 6 Asus ZenWiFi XD4S 2-Pack Đen (Chuẩn AX/ AX1800Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User) </a>
+                            <a href="/san-pham/bo-thu-phat-6-asus-xd4-2-pack-ax1800-mau-den.html" class="pro_name"> Bộ phát wifi 6 Asus ZenWiFi XD4S 2-Pack Đen (Chuẩn AX/ AX1800Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User) </a>
                             <span class="pro_price">3.450.000đ</span>
 
                         </div>
@@ -632,7 +632,7 @@
 
 
                     <div class="pro_item">
-                        <a href="/bo-tiep-song-asus-rtn12-.html" title="Bộ phát wifi Asus RT-N12+ (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 25 User)" class="image">
+                        <a href="/san-pham/bo-tiep-song-asus-rtn12-.html" title="Bộ phát wifi Asus RT-N12+ (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 25 User)" class="image">
                             <img src="https://phucanhcdn.com/media/product/250_21076_rtn12_h1s.jpg" title="Bộ phát wifi Asus RT-N12+ (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 25 User)">
                             <!---->
 
@@ -641,7 +641,7 @@
 
                         </a>
                         <div class="pro_info">
-                            <a href="/bo-tiep-song-asus-rtn12-.html" class="pro_name"> Bộ phát wifi Asus RT-N12+ (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 25 User) </a>
+                            <a href="/san-pham/bo-tiep-song-asus-rtn12-.html" class="pro_name"> Bộ phát wifi Asus RT-N12+ (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 25 User) </a>
                             <span class="pro_price">279.000đ</span>
 
                         </div>
@@ -650,7 +650,7 @@
 
 
                     <div class="pro_item">
-                        <a href="/bo-phat-wifi-tp-link-mesh-deco-e4-3-pack-ac1200.html" title="Bộ phát wifi TP-Link Deco E4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)" class="image">
+                        <a href="/san-pham/bo-phat-wifi-tp-link-mesh-deco-e4-3-pack-ac1200.html" title="Bộ phát wifi TP-Link Deco E4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)" class="image">
                             <img src="https://phucanhcdn.com/media/product/250_36006_e4_3.jpg" title="Bộ phát wifi TP-Link Deco E4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)">
                             <!---->
 
@@ -659,7 +659,7 @@
 
                         </a>
                         <div class="pro_info">
-                            <a href="/bo-phat-wifi-tp-link-mesh-deco-e4-3-pack-ac1200.html" class="pro_name"> Bộ phát wifi TP-Link Deco E4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User) </a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-mesh-deco-e4-3-pack-ac1200.html" class="pro_name"> Bộ phát wifi TP-Link Deco E4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User) </a>
                             <span class="pro_price">1.790.000đ</span>
 
                         </div>
@@ -668,7 +668,7 @@
 
 
                     <div class="pro_item">
-                        <a href="/bo-phat-wifi-6-linksys-velop-mesh-mx12600-ah-3-pack-tri-band-mu-mimo.html" title="Bộ phát wifi 6 Linksys Velop MX12600-AH 3-Pack Tri-Band (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)" class="image">
+                        <a href="/san-pham/bo-phat-wifi-6-linksys-velop-mesh-mx12600-ah-3-pack-tri-band-mu-mimo.html" title="Bộ phát wifi 6 Linksys Velop MX12600-AH 3-Pack Tri-Band (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)" class="image">
                             <img src="https://phucanhcdn.com/media/product/250_42876_mx12600_ah_ha1.jpg" title="Bộ phát wifi 6 Linksys Velop MX12600-AH 3-Pack Tri-Band (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)">
                             <!---->
 
@@ -677,7 +677,7 @@
 
                         </a>
                         <div class="pro_info">
-                            <a href="/bo-phat-wifi-6-linksys-velop-mesh-mx12600-ah-3-pack-tri-band-mu-mimo.html" class="pro_name"> Bộ phát wifi 6 Linksys Velop MX12600-AH 3-Pack Tri-Band (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User) </a>
+                            <a href="/san-pham/bo-phat-wifi-6-linksys-velop-mesh-mx12600-ah-3-pack-tri-band-mu-mimo.html" class="pro_name"> Bộ phát wifi 6 Linksys Velop MX12600-AH 3-Pack Tri-Band (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User) </a>
                             <span class="pro_price">13.990.000đ</span>
 
                         </div>
@@ -686,13 +686,13 @@
 
 
                     <div class="pro_item">
-                        <a href="/bo-phat-wifi-6-linksys-velop-mesh-mx4200-ah-1-pack-tri-band-mu-mimo.html" title="Bộ phát wifi 6 Linksys Velop MX4200-AH 1-Pack TRI-BAND (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User)" class="image">
+                        <a href="/san-pham/bo-phat-wifi-6-linksys-velop-mesh-mx4200-ah-1-pack-tri-band-mu-mimo.html" title="Bộ phát wifi 6 Linksys Velop MX4200-AH 1-Pack TRI-BAND (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User)" class="image">
                             <img src="https://phucanhcdn.com/media/product/250_42877_mx4200_ah_ha4.jpg" title="Bộ phát wifi 6 Linksys Velop MX4200-AH 1-Pack TRI-BAND (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User)">
                             <!---->
 
                         </a>
                         <div class="pro_info">
-                            <a href="/bo-phat-wifi-6-linksys-velop-mesh-mx4200-ah-1-pack-tri-band-mu-mimo.html" class="pro_name"> Bộ phát wifi 6 Linksys Velop MX4200-AH 1-Pack TRI-BAND (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User) </a>
+                            <a href="/san-pham/bo-phat-wifi-6-linksys-velop-mesh-mx4200-ah-1-pack-tri-band-mu-mimo.html" class="pro_name"> Bộ phát wifi 6 Linksys Velop MX4200-AH 1-Pack TRI-BAND (Chuẩn AX/ AX4200Mbps/ Ăng-ten ngầm/ Wifi Mesh/ 45User) </a>
                             <span class="pro_price">5.179.000đ</span>
 
                         </div>

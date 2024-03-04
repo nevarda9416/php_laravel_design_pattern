@@ -1618,11 +1618,11 @@
                     <!-- aaaaa -->
                     <li onclick="location.href='/bo-phat-wifi-tp-link-archer-c6-v2.html'" class="p-item-group ">
                         <div class="p-container">
-                            <a href="/bo-phat-wifi-tp-link-archer-c6-v2.html" class="p-img">
+                            <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2.html" class="p-img">
                                 <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_53937_bo_phat_wifi_tp_link_archer_c6_v2_4.jpg" data-src="https://phucanhcdn.com/media/product/250_53937_bo_phat_wifi_tp_link_archer_c6_v2_4.jpg" alt="Bộ phát wifi TP-Link Archer C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 35 User)" data-was-processed="true">
                                 <i class="icon-apple"></i>
                             </a>
-                            <a href="/bo-phat-wifi-tp-link-archer-c6-v2.html" title="Bộ phát wifi TP-Link Archer C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 35 User)"><h3 class="p-name">Bộ phát wifi TP-Link Archer C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 35 User)</h3></a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2.html" title="Bộ phát wifi TP-Link Archer C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 35 User)"><h3 class="p-name">Bộ phát wifi TP-Link Archer C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 35 User)</h3></a>
 
 
 
@@ -1685,7 +1685,7 @@
                         </div>
 
                         <div class="hover-content-pro">
-                            <a href="/bo-phat-wifi-tp-link-archer-c6-v2.html" class="hover-name">Bộ phát wifi TP-Link Archer C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 35 User)</a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2.html" class="hover-name">Bộ phát wifi TP-Link Archer C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 35 User)</a>
 
                             <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
 
@@ -2111,11 +2111,11 @@
                     <!-- aaaaa -->
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html'" class="p-item-group ">
                         <div class="p-container">
-                            <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="p-img">
+                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="p-img">
                                 <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg" data-src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-was-processed="true">
                                 <i class="icon-apple"></i>
                             </a>
-                            <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" title="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"><h3 class="p-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</h3></a>
+                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" title="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"><h3 class="p-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</h3></a>
 
 
 
@@ -2179,7 +2179,7 @@
                         </div>
 
                         <div class="hover-content-pro">
-                            <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="hover-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a>
+                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="hover-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a>
 
                             <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/asus.png" alt=""></a>
 
@@ -3383,11 +3383,11 @@
                     <!-- aaaaa -->
                     <li onclick="location.href='/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html'" class="p-item-group ">
                         <div class="p-container">
-                            <a href="/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" class="p-img">
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" class="p-img">
                                 <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_2411_12847_aa655b5272614e9a0d3b1817506f8230.jpg" data-src="https://phucanhcdn.com/media/product/250_2411_12847_aa655b5272614e9a0d3b1817506f8230.jpg" alt="Bộ phát wifi TP-Link TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)" data-was-processed="true">
                                 <i class="icon-apple"></i>
                             </a>
-                            <a href="/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" title="Bộ phát wifi TP-Link TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)"><h3 class="p-name">Bộ phát wifi TP-Link TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</h3></a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" title="Bộ phát wifi TP-Link TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)"><h3 class="p-name">Bộ phát wifi TP-Link TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</h3></a>
 
 
 
@@ -3451,7 +3451,7 @@
                         </div>
 
                         <div class="hover-content-pro">
-                            <a href="/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" class="hover-name">Bộ phát wifi TP-Link TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" class="hover-name">Bộ phát wifi TP-Link TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</a>
 
                             <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
 
@@ -3498,11 +3498,11 @@
                     <!-- aaaaa -->
                     <li onclick="location.href='/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html'" class="p-item-group ">
                         <div class="p-container">
-                            <a href="/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" class="p-img">
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" class="p-img">
                                 <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_14405_b____ph__t_wifi_tp_link_tl_wr840n_wifi_300mbps_1.jpg" data-src="https://phucanhcdn.com/media/product/250_14405_b____ph__t_wifi_tp_link_tl_wr840n_wifi_300mbps_1.jpg" alt="Bộ phát wifi TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)" data-was-processed="true">
                                 <i class="icon-apple"></i>
                             </a>
-                            <a href="/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" title="Bộ phát wifi TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)"><h3 class="p-name">Bộ phát wifi TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</h3></a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" title="Bộ phát wifi TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)"><h3 class="p-name">Bộ phát wifi TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</h3></a>
 
 
 
@@ -3566,7 +3566,7 @@
                         </div>
 
                         <div class="hover-content-pro">
-                            <a href="/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" class="hover-name">Bộ phát wifi TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" class="hover-name">Bộ phát wifi TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</a>
 
                             <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
 
@@ -3613,11 +3613,11 @@
                     <!-- aaaaa -->
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html'" class="p-item-group ">
                         <div class="p-container">
-                            <a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="p-img">
+                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="p-img">
                                 <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_46807_rt_ax1800hp_4.jpg" data-src="https://phucanhcdn.com/media/product/250_46807_rt_ax1800hp_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-was-processed="true">
                                 <i class="icon-apple"></i>
                             </a>
-                            <a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" title="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"><h3 class="p-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</h3></a>
+                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" title="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"><h3 class="p-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</h3></a>
 
 
 
@@ -3681,7 +3681,7 @@
                         </div>
 
                         <div class="hover-content-pro">
-                            <a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="hover-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a>
+                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="hover-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a>
 
                             <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/asus.png" alt=""></a>
 
@@ -3728,11 +3728,11 @@
                     <!-- aaaaa -->
                     <li onclick="location.href='/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html'" class="p-item-group ">
                         <div class="p-container">
-                            <a href="/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" class="p-img">
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" class="p-img">
                                 <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_35101_tl_wr820n_ha1.jpg" data-src="https://phucanhcdn.com/media/product/250_35101_tl_wr820n_ha1.jpg" alt="Bộ phát wifi TP-Link TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)" data-was-processed="true">
                                 <i class="icon-apple"></i>
                             </a>
-                            <a href="/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" title="Bộ phát wifi TP-Link TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)"><h3 class="p-name">Bộ phát wifi TP-Link TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</h3></a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" title="Bộ phát wifi TP-Link TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)"><h3 class="p-name">Bộ phát wifi TP-Link TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</h3></a>
 
 
 
@@ -3795,7 +3795,7 @@
                         </div>
 
                         <div class="hover-content-pro">
-                            <a href="/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" class="hover-name">Bộ phát wifi TP-Link TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</a>
+                            <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" class="hover-name">Bộ phát wifi TP-Link TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</a>
 
                             <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
 

@@ -78,7 +78,7 @@
                                 <table>
                                     <tbody><tr>
                                         <td><img src="https://phucanhcdn.com/media/product/120_44679_rt_ax53u_4.jpg"></td>
-                                        <td> <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"><b>Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</b></a>
+                                        <td> <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"><b>Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</b></a>
                                             <input type="hidden" class="bulk_price_config" value="[]">
                                             <input type="hidden" class="buy-price" value="1139000">
                                             <p><span class="js-show-buy-price">1.139.000</span>VNĐ</p>

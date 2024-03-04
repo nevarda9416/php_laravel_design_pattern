@@ -46,11 +46,11 @@
                         <!-- 1350000-->
                         <tbody><tr class="itemCart js-item-row" data-variant_id="0" data-item_id="46807" data-item_type="product" data-sku="ROW.ASU.RT-AX1800HP" data-name="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-id="46807">
                             <td style="width: 100px;">
-                                <a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="itemCart-img"><img src="https://phucanhcdn.com/media/product/120_46807_rt_ax1800hp_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
+                                <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="itemCart-img"><img src="https://phucanhcdn.com/media/product/120_46807_rt_ax1800hp_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
                             </td>
 
                             <td style="border-right: solid 1px #eee; padding-right: 15px;">
-                                <a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="itemCart-name">
+                                <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="itemCart-name">
 
                                     Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)
                                 </a>
@@ -99,11 +99,11 @@
                         <!-- 2449000-->
                         <tr class="itemCart js-item-row" data-variant_id="0" data-item_id="44679" data-item_type="product" data-sku="ROW.ASU.RT-AX53U" data-name="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-id="44679">
                             <td style="width: 100px;">
-                                <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="itemCart-img"><img src="https://phucanhcdn.com/media/product/120_44679_rt_ax53u_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
+                                <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="itemCart-img"><img src="https://phucanhcdn.com/media/product/120_44679_rt_ax53u_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
                             </td>
 
                             <td style="border-right: solid 1px #eee; padding-right: 15px;">
-                                <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="itemCart-name">
+                                <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="itemCart-name">
 
                                     Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)
                                 </a>

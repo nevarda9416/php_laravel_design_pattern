@@ -89,7 +89,7 @@
                 <tr>
                     <td>1</td>
                     <td>
-                        <a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"><b> Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</b></a>
+                        <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"><b> Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</b></a>
 
 
                     </td>
@@ -119,7 +119,7 @@
                 <tr>
                     <td>2</td>
                     <td>
-                        <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"><b> Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</b></a>
+                        <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"><b> Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</b></a>
 
 
                     </td>

@@ -1741,14 +1741,14 @@
                             <li onclick="location.href='/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                        class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_50372_bo_phat_wifi_tp_link_deco_s7_3_pack_3.jpg"
                                              alt="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                        title="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)">
                                         <h3 class="p-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3
                                             Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</h3></a>
@@ -1809,7 +1809,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
                                        class="hover-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3
                                         Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a>
 
@@ -2144,11 +2144,11 @@
                     style="min-height:200px;display: flex;flex-wrap: wrap;">
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg"
                                         alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                                                          class="p-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/
                                 AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><span
                                     class="discount">-21%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>1.390.000 ₫</span><span
@@ -2156,7 +2156,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/
                                 AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><a href="/brand/asus"
                                                                                        class="hover-brand"><img
@@ -2197,11 +2197,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_46807_rt_ax1800hp_4.jpg"
                                         alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                                                          class="p-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn
                                 AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><span
                                     class="discount">-16%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>1.599.000 ₫</span><span
@@ -2209,7 +2209,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO
                                 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><a href="/brand/asus"
                                                                                                   class="hover-brand"><img
@@ -2250,18 +2250,18 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-totolink-a720r-ac1200mbps.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_40282_totolink_a720r_ha1.jpg"
                                         alt="Bộ phát wifi Totolink A720R (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
                                                          class="p-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><span class="discount">-31%</span><span
                                     class="p-oldprice2"><i>Giá niêm yết: </i>499.000 ₫</span><span class="p-price2"><i>Giá bán: </i>349.000 ₫</span><span
                                     class="p-bottom"><span style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
                                                           class="hover-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><a href="/brand/totolink"
                                                                             class="hover-brand"><img
@@ -2356,11 +2356,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_35862_m4_2.jpg"
                                         alt="Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
                                                          class="p-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><span
                                     class="discount">-25%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>2.499.000 ₫</span><span
@@ -2368,7 +2368,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
                                                           class="hover-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><a href="/brand/tp-link"
                                                                                           class="hover-brand"><img
@@ -2463,11 +2463,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_35863_m4_3.jpg"
                                         alt="Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
                                                          class="p-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                     class="discount">-29%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>3.499.000 ₫</span><span
@@ -2475,7 +2475,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
                                                           class="hover-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -2516,11 +2516,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_32718_m5_3.jpg"
                                         alt="Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
                                                          class="p-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/
                                 AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                     class="discount">-32%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>4.499.000 ₫</span><span
@@ -2528,7 +2528,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
                                                           class="hover-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn
                                 AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -2569,11 +2569,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_40950_x60_3.jpg"
                                         alt="Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
                                                          class="p-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn
                                 AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                     class="discount">-29%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>8.290.000 ₫</span><span
@@ -2581,7 +2581,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
                                                           class="hover-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack
                                 (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a
                                     href="/brand/tp-link" class="hover-brand"><img
@@ -2622,7 +2622,7 @@
                     </li>
                     <li onclick="location.href='/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
+                        <div class="p-container"><a href="/san-pham/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_25873_b_____thu_pha__t_ubiquiti_unifi_uap_ac_lr_1200mbps__100_user_1.gif"
                                         alt="Bộ phát wifi Ubiquiti UniFi AP AC LR (Chuẩn AC/ AC1317Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User/ Gắn trần/tường)"></a>
@@ -2677,10 +2677,10 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax86u-pro.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-img"><img
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_52898_bo_phat_wifi_6_asus_rt_ax86u_pro_7.jpg"
                                         alt="Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-name">Bộ
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-name">Bộ
                                 phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80
                                 User)</a><span class="discount">-23%</span><span
                                     class="p-oldprice2"><i>Giá niêm yết: </i>6.990.000 ₫</span><span
@@ -2688,7 +2688,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/
                                 AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)</a><a href="/brand/asus"
                                                                                             class="hover-brand"><img
@@ -2806,13 +2806,13 @@
 
                         <a href="/thiet-bi-mang-khuyen-mai.html">Thiết bị mạng khuyến mại</a>
 
-                        <a href="/bo-phat-wifi.html">Bộ phát wifi</a>
+                        <a href="/san-pham/bo-phat-wifi.html">Bộ phát wifi</a>
 
-                        <a href="/bo-phat-wifi-di-dong-3g4g.html">Bộ phát Wi-Fi 4G</a>
+                        <a href="/san-pham/bo-phat-wifi-di-dong-3g4g.html">Bộ phát Wi-Fi 4G</a>
 
-                        <a href="/bo-phat-wi-fi-cong-nghe-mesh.html">Wi-Fi công nghệ Mesh</a>
+                        <a href="/san-pham/bo-phat-wi-fi-cong-nghe-mesh.html">Wi-Fi công nghệ Mesh</a>
 
-                        <a href="/bo-mo-rong-song.html">Bộ mở rộng sóng</a>
+                        <a href="/san-pham/bo-mo-rong-song.html">Bộ mở rộng sóng</a>
 
                         <a href="/card-mang.html">Card mạng</a>
 
@@ -2824,7 +2824,7 @@
 
                         <a href="/phu-kien-thiet-bi-mang.html">Phụ kiện thiết bị mạng</a>
 
-                        <a href="/bo-chuyen-doi-quang-dien.html">Bộ chuyển đổi quang điện</a>
+                        <a href="/san-pham/bo-chuyen-doi-quang-dien.html">Bộ chuyển đổi quang điện</a>
 
                         <a href="/thiet-bi-tuong-lua.html">Thiết bị tường lửa (Firewall)</a>
 
@@ -2844,11 +2844,11 @@
                     style="min-height:200px;display: flex;flex-wrap: wrap;">
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg"
                                         alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                                                          class="p-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/
                                 AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><span
                                     class="discount">-21%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>1.390.000 ₫</span><span
@@ -2856,7 +2856,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/
                                 AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><a href="/brand/asus"
                                                                                        class="hover-brand"><img
@@ -2897,11 +2897,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_46807_rt_ax1800hp_4.jpg"
                                         alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                                                          class="p-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn
                                 AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><span
                                     class="discount">-16%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>1.599.000 ₫</span><span
@@ -2909,7 +2909,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO
                                 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><a href="/brand/asus"
                                                                                                   class="hover-brand"><img
@@ -2950,18 +2950,18 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-totolink-a720r-ac1200mbps.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_40282_totolink_a720r_ha1.jpg"
                                         alt="Bộ phát wifi Totolink A720R (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
                                                          class="p-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><span class="discount">-31%</span><span
                                     class="p-oldprice2"><i>Giá niêm yết: </i>499.000 ₫</span><span class="p-price2"><i>Giá bán: </i>349.000 ₫</span><span
                                     class="p-bottom"><span style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
                                                           class="hover-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><a href="/brand/totolink"
                                                                             class="hover-brand"><img
@@ -3056,11 +3056,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_35862_m4_2.jpg"
                                         alt="Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
                                                          class="p-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><span
                                     class="discount">-25%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>2.499.000 ₫</span><span
@@ -3068,7 +3068,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
                                                           class="hover-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><a href="/brand/tp-link"
                                                                                           class="hover-brand"><img
@@ -3163,11 +3163,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_35863_m4_3.jpg"
                                         alt="Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
                                                          class="p-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                     class="discount">-29%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>3.499.000 ₫</span><span
@@ -3175,7 +3175,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
                                                           class="hover-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -3216,11 +3216,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_32718_m5_3.jpg"
                                         alt="Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
                                                          class="p-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/
                                 AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                     class="discount">-32%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>4.499.000 ₫</span><span
@@ -3228,7 +3228,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
                                                           class="hover-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn
                                 AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -3269,11 +3269,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_40950_x60_3.jpg"
                                         alt="Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
                                                          class="p-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn
                                 AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                     class="discount">-29%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>8.290.000 ₫</span><span
@@ -3281,7 +3281,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
                                                           class="hover-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack
                                 (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a
                                     href="/brand/tp-link" class="hover-brand"><img
@@ -3322,7 +3322,7 @@
                     </li>
                     <li onclick="location.href='/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
+                        <div class="p-container"><a href="/san-pham/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_25873_b_____thu_pha__t_ubiquiti_unifi_uap_ac_lr_1200mbps__100_user_1.gif"
                                         alt="Bộ phát wifi Ubiquiti UniFi AP AC LR (Chuẩn AC/ AC1317Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User/ Gắn trần/tường)"></a>
@@ -3377,10 +3377,10 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax86u-pro.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-img"><img
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_52898_bo_phat_wifi_6_asus_rt_ax86u_pro_7.jpg"
                                         alt="Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-name">Bộ
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-name">Bộ
                                 phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80
                                 User)</a><span class="discount">-23%</span><span
                                     class="p-oldprice2"><i>Giá niêm yết: </i>6.990.000 ₫</span><span
@@ -3388,7 +3388,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/
                                 AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)</a><a href="/brand/asus"
                                                                                             class="hover-brand"><img
@@ -3518,11 +3518,11 @@
                     style="min-height:200px;display: flex;flex-wrap: wrap;">
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg"
                                         alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                                                          class="p-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/
                                 AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><span
                                     class="discount">-21%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>1.390.000 ₫</span><span
@@ -3530,7 +3530,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/
                                 AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><a href="/brand/asus"
                                                                                        class="hover-brand"><img
@@ -3571,11 +3571,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_46807_rt_ax1800hp_4.jpg"
                                         alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                                                          class="p-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn
                                 AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><span
                                     class="discount">-16%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>1.599.000 ₫</span><span
@@ -3583,7 +3583,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO
                                 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><a href="/brand/asus"
                                                                                                   class="hover-brand"><img
@@ -3624,18 +3624,18 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-totolink-a720r-ac1200mbps.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_40282_totolink_a720r_ha1.jpg"
                                         alt="Bộ phát wifi Totolink A720R (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
                                                          class="p-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><span class="discount">-31%</span><span
                                     class="p-oldprice2"><i>Giá niêm yết: </i>499.000 ₫</span><span class="p-price2"><i>Giá bán: </i>349.000 ₫</span><span
                                     class="p-bottom"><span style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
                                                           class="hover-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><a href="/brand/totolink"
                                                                             class="hover-brand"><img
@@ -3730,11 +3730,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_35862_m4_2.jpg"
                                         alt="Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
                                                          class="p-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><span
                                     class="discount">-25%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>2.499.000 ₫</span><span
@@ -3742,7 +3742,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
                                                           class="hover-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><a href="/brand/tp-link"
                                                                                           class="hover-brand"><img
@@ -3837,11 +3837,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_35863_m4_3.jpg"
                                         alt="Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
                                                          class="p-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                     class="discount">-29%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>3.499.000 ₫</span><span
@@ -3849,7 +3849,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
                                                           class="hover-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -3890,11 +3890,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_32718_m5_3.jpg"
                                         alt="Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
                                                          class="p-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/
                                 AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                     class="discount">-32%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>4.499.000 ₫</span><span
@@ -3902,7 +3902,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
                                                           class="hover-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn
                                 AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -3943,11 +3943,11 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_40950_x60_3.jpg"
                                         alt="Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
                                                          class="p-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn
                                 AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                     class="discount">-29%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>8.290.000 ₫</span><span
@@ -3955,7 +3955,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
                                                           class="hover-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack
                                 (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a
                                     href="/brand/tp-link" class="hover-brand"><img
@@ -3996,7 +3996,7 @@
                     </li>
                     <li onclick="location.href='/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
+                        <div class="p-container"><a href="/san-pham/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
                                                     class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_25873_b_____thu_pha__t_ubiquiti_unifi_uap_ac_lr_1200mbps__100_user_1.gif"
                                         alt="Bộ phát wifi Ubiquiti UniFi AP AC LR (Chuẩn AC/ AC1317Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User/ Gắn trần/tường)"></a>
@@ -4051,10 +4051,10 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax86u-pro.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-img"><img
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-img"><img
                                         src="https://phucanhcdn.com/media/product/250_52898_bo_phat_wifi_6_asus_rt_ax86u_pro_7.jpg"
                                         alt="Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)"></a>
-                            <i class="icon-apple"></i><a href="/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-name">Bộ
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html" class="p-name">Bộ
                                 phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80
                                 User)</a><span class="discount">-23%</span><span
                                     class="p-oldprice2"><i>Giá niêm yết: </i>6.990.000 ₫</span><span
@@ -4062,7 +4062,7 @@
                                         style="color: #12bd1b;">✔ Có hàng</span><a
                                         href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/
                                 AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)</a><a href="/brand/asus"
                                                                                             class="hover-brand"><img

@@ -790,7 +790,7 @@
                 <!-- aaaaa -->
                 <li onclick="location.href='/bo-phat-wifi-tp-link-archer-c6-v2.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/bo-phat-wifi-tp-link-archer-c6-v2.html" class="p-img">
+                        <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2.html" class="p-img">
                             <img class="lazy loaded"
                                  src="https://phucanhcdn.com/media/product/250_53937_bo_phat_wifi_tp_link_archer_c6_v2_4.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_53937_bo_phat_wifi_tp_link_archer_c6_v2_4.jpg"
@@ -798,7 +798,7 @@
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/bo-phat-wifi-tp-link-archer-c6-v2.html"
+                        <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2.html"
                            title="Bộ phát wifi TP-Link Archer C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 35 User)">
                             <h3 class="p-name">Bộ phát wifi TP-Link Archer C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/
                                 35 User)</h3></a>
@@ -857,7 +857,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/bo-phat-wifi-tp-link-archer-c6-v2.html" class="hover-name">Bộ phát wifi TP-Link Archer
+                        <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2.html" class="hover-name">Bộ phát wifi TP-Link Archer
                             C6 V2 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 35 User)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -1134,16 +1134,16 @@
 
 
                 <!-- aaaaa -->
-                <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html'" class="p-item-group ">
+                <li onclick="location.href='/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="p-img">
+                        <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="p-img">
                             <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg"
                                  alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                        <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
                            title="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)">
                             <h3 class="p-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi
                                 Mesh/ 35 User)</h3></a>
@@ -1204,7 +1204,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="hover-name">Bộ phát wifi 6
+                        <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="hover-name">Bộ phát wifi 6
                             Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/asus.png"
@@ -1262,9 +1262,9 @@
 
 
                 <!-- aaaaa -->
-                <li onclick="location.href='/thiet-bi-chia-mang-tp-link-tl-sg1008d.html'" class="p-item-group ">
+                <li onclick="location.href='/san-pham/thiet-bi-chia-mang-tp-link-tl-sg1008d.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/thiet-bi-chia-mang-tp-link-tl-sg1008d.html" class="p-img">
+                        <a href="/san-pham/thiet-bi-chia-mang-tp-link-tl-sg1008d.html" class="p-img">
                             <img class="lazy loaded"
                                  src="https://phucanhcdn.com/media/product/250_2456_thi____t_bi___chia_ma__ng_tp_link_tl_sg1008d_1.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_2456_thi____t_bi___chia_ma__ng_tp_link_tl_sg1008d_1.jpg"
@@ -1272,7 +1272,7 @@
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/thiet-bi-chia-mang-tp-link-tl-sg1008d.html"
+                        <a href="/san-pham/thiet-bi-chia-mang-tp-link-tl-sg1008d.html"
                            title="Switch TP-Link TL-SG1008D (Gigabit (1000Mbps)/ 8 Cổng/ Vỏ Nhựa)"><h3 class="p-name">
                                 Switch TP-Link TL-SG1008D (Gigabit (1000Mbps)/ 8 Cổng/ Vỏ Nhựa)</h3></a>
 
@@ -1332,7 +1332,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/thiet-bi-chia-mang-tp-link-tl-sg1008d.html" class="hover-name">Switch TP-Link
+                        <a href="/san-pham/thiet-bi-chia-mang-tp-link-tl-sg1008d.html" class="hover-name">Switch TP-Link
                             TL-SG1008D (Gigabit (1000Mbps)/ 8 Cổng/ Vỏ Nhựa)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -1390,16 +1390,16 @@
 
 
                 <!-- aaaaa -->
-                <li onclick="location.href='/cap-mang-bam-san-ugreen-11204-cat6-5-met.html'" class="p-item-group ">
+                <li onclick="location.href='/san-pham/cap-mang-bam-san-ugreen-11204-cat6-5-met.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/cap-mang-bam-san-ugreen-11204-cat6-5-met.html" class="p-img">
+                        <a href="/san-pham/cap-mang-bam-san-ugreen-11204-cat6-5-met.html" class="p-img">
                             <img class="lazy loaded"
                                  src="https://phucanhcdn.com/media/product/250_33211-nea-ugr-11202-1-1.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_33211-nea-ugr-11202-1-1.jpg"
                                  alt="Cáp mạng bấm sẵn Ugreen 11204 Cat6 5 mét" data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/cap-mang-bam-san-ugreen-11204-cat6-5-met.html"
+                        <a href="/san-pham/cap-mang-bam-san-ugreen-11204-cat6-5-met.html"
                            title="Cáp mạng bấm sẵn Ugreen 11204 Cat6 5 mét"><h3 class="p-name">Cáp mạng bấm sẵn Ugreen
                                 11204 Cat6 5 mét</h3></a>
 
@@ -1457,7 +1457,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/cap-mang-bam-san-ugreen-11204-cat6-5-met.html" class="hover-name">Cáp mạng bấm sẵn
+                        <a href="/san-pham/cap-mang-bam-san-ugreen-11204-cat6-5-met.html" class="hover-name">Cáp mạng bấm sẵn
                             Ugreen 11204 Cat6 5 mét</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/ugreen.jpg" alt=""></a>
@@ -1501,16 +1501,16 @@
 
 
                 <!-- aaaaa -->
-                <li onclick="location.href='/thiet-bi-chia-mang-tp-link-ls1008g-gigabit.html'" class="p-item-group ">
+                <li onclick="location.href='/san-pham/thiet-bi-chia-mang-tp-link-ls1008g-gigabit.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/thiet-bi-chia-mang-tp-link-ls1008g-gigabit.html" class="p-img">
+                        <a href="/san-pham/thiet-bi-chia-mang-tp-link-ls1008g-gigabit.html" class="p-img">
                             <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_41300_ls1008g_h1.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_41300_ls1008g_h1.jpg"
                                  alt="Switch TP-Link LS1008G (Gigabit (1000Mbps)/ 8 Cổng/ Vỏ Nhựa)"
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/thiet-bi-chia-mang-tp-link-ls1008g-gigabit.html"
+                        <a href="/san-pham/thiet-bi-chia-mang-tp-link-ls1008g-gigabit.html"
                            title="Switch TP-Link LS1008G (Gigabit (1000Mbps)/ 8 Cổng/ Vỏ Nhựa)"><h3 class="p-name">
                                 Switch TP-Link LS1008G (Gigabit (1000Mbps)/ 8 Cổng/ Vỏ Nhựa)</h3></a>
 
@@ -1568,7 +1568,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/thiet-bi-chia-mang-tp-link-ls1008g-gigabit.html" class="hover-name">Switch TP-Link
+                        <a href="/san-pham/thiet-bi-chia-mang-tp-link-ls1008g-gigabit.html" class="hover-name">Switch TP-Link
                             LS1008G (Gigabit (1000Mbps)/ 8 Cổng/ Vỏ Nhựa)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -1627,17 +1627,17 @@
 
 
                 <!-- aaaaa -->
-                <li onclick="location.href='/cac-mang-khong-day-tp-link-archer-t2u-nano-ac600mbps.html'"
+                <li onclick="location.href='/san-pham/cac-mang-khong-day-tp-link-archer-t2u-nano-ac600mbps.html'"
                     class="p-item-group ">
                     <div class="p-container">
-                        <a href="/cac-mang-khong-day-tp-link-archer-t2u-nano-ac600mbps.html" class="p-img">
+                        <a href="/san-pham/cac-mang-khong-day-tp-link-archer-t2u-nano-ac600mbps.html" class="p-img">
                             <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_35867_t2u_nano.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_35867_t2u_nano.jpg"
                                  alt="Cạc mạng không dây TP-Link USB Archer T2U Nano (Chuẩn AC/ AC600Mbps/ Ăng-ten ngầm)"
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/cac-mang-khong-day-tp-link-archer-t2u-nano-ac600mbps.html"
+                        <a href="/san-pham/cac-mang-khong-day-tp-link-archer-t2u-nano-ac600mbps.html"
                            title="Cạc mạng không dây TP-Link USB Archer T2U Nano (Chuẩn AC/ AC600Mbps/ Ăng-ten ngầm)">
                             <h3 class="p-name">Cạc mạng không dây TP-Link USB Archer T2U Nano (Chuẩn AC/ AC600Mbps/
                                 Ăng-ten ngầm)</h3></a>
@@ -1696,7 +1696,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/cac-mang-khong-day-tp-link-archer-t2u-nano-ac600mbps.html" class="hover-name">Cạc mạng
+                        <a href="/san-pham/cac-mang-khong-day-tp-link-archer-t2u-nano-ac600mbps.html" class="hover-name">Cạc mạng
                             không dây TP-Link USB Archer T2U Nano (Chuẩn AC/ AC600Mbps/ Ăng-ten ngầm)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -1756,9 +1756,9 @@
 
 
                 <!-- aaaaa -->
-                <li onclick="location.href='/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html'" class="p-item-group ">
+                <li onclick="location.href='/san-pham/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" class="p-img">
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" class="p-img">
                             <img class="lazy loaded"
                                  src="https://phucanhcdn.com/media/product/250_2411_12847_aa655b5272614e9a0d3b1817506f8230.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_2411_12847_aa655b5272614e9a0d3b1817506f8230.jpg"
@@ -1766,7 +1766,7 @@
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html"
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html"
                            title="Bộ phát wifi TP-Link TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)"><h3
                                 class="p-name">Bộ phát wifi TP-Link TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15
                                 User)</h3></a>
@@ -1827,7 +1827,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" class="hover-name">Bộ phát wifi TP-Link
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr841n-300mbps.html" class="hover-name">Bộ phát wifi TP-Link
                             TL-WR841N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -1881,9 +1881,9 @@
 
 
                 <!-- aaaaa -->
-                <li onclick="location.href='/thiet-bi-chia-mang-tp-link-tl-sf1008d.html'" class="p-item-group ">
+                <li onclick="location.href='/san-pham/thiet-bi-chia-mang-tp-link-tl-sf1008d.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/thiet-bi-chia-mang-tp-link-tl-sf1008d.html" class="p-img">
+                        <a href="/san-pham/thiet-bi-chia-mang-tp-link-tl-sf1008d.html" class="p-img">
                             <img class="lazy loaded"
                                  src="https://phucanhcdn.com/media/product/250_2426_thiet_bi_chia_mang_tp_link_tl_sf1008d_3.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_2426_thiet_bi_chia_mang_tp_link_tl_sf1008d_3.jpg"
@@ -1891,7 +1891,7 @@
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/thiet-bi-chia-mang-tp-link-tl-sf1008d.html"
+                        <a href="/san-pham/thiet-bi-chia-mang-tp-link-tl-sf1008d.html"
                            title="Switch TP-Link TL-SF1008D (10/100Mbps/ 8 Cổng/ Vỏ Nhựa)"><h3 class="p-name">Switch
                                 TP-Link TL-SF1008D (10/100Mbps/ 8 Cổng/ Vỏ Nhựa)</h3></a>
 
@@ -1951,7 +1951,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/thiet-bi-chia-mang-tp-link-tl-sf1008d.html" class="hover-name">Switch TP-Link
+                        <a href="/san-pham/thiet-bi-chia-mang-tp-link-tl-sf1008d.html" class="hover-name">Switch TP-Link
                             TL-SF1008D (10/100Mbps/ 8 Cổng/ Vỏ Nhựa)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -2010,10 +2010,10 @@
 
 
                 <!-- aaaaa -->
-                <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html'"
+                <li onclick="location.href='/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html'"
                     class="p-item-group ">
                     <div class="p-container">
-                        <a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="p-img">
+                        <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="p-img">
                             <img class="lazy loaded"
                                  src="https://phucanhcdn.com/media/product/250_46807_rt_ax1800hp_4.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_46807_rt_ax1800hp_4.jpg"
@@ -2021,7 +2021,7 @@
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                        <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
                            title="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)">
                             <h3 class="p-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten
                                 ngoài/ Wifi Mesh/ 35 User)</h3></a>
@@ -2082,7 +2082,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="hover-name">Bộ phát wifi 6
+                        <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="hover-name">Bộ phát wifi 6
                             Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/asus.png"
@@ -2142,7 +2142,7 @@
                 <!-- aaaaa -->
                 <li onclick="location.href='/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" class="p-img">
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" class="p-img">
                             <img class="lazy loaded"
                                  src="https://phucanhcdn.com/media/product/250_14405_b____ph__t_wifi_tp_link_tl_wr840n_wifi_300mbps_1.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_14405_b____ph__t_wifi_tp_link_tl_wr840n_wifi_300mbps_1.jpg"
@@ -2150,7 +2150,7 @@
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html"
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html"
                            title="Bộ phát wifi TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)"><h3
                                 class="p-name">Bộ phát wifi TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15
                                 User)</h3></a>
@@ -2211,7 +2211,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" class="hover-name">Bộ phát wifi
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr840n-wifi-300mbps.html" class="hover-name">Bộ phát wifi
                             TP-Link TL-WR840N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -2267,7 +2267,7 @@
                 <!-- aaaaa -->
                 <li onclick="location.href='/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" class="p-img">
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" class="p-img">
                             <img class="lazy loaded"
                                  src="https://phucanhcdn.com/media/product/250_35101_tl_wr820n_ha1.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_35101_tl_wr820n_ha1.jpg"
@@ -2275,7 +2275,7 @@
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html"
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html"
                            title="Bộ phát wifi TP-Link TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)"><h3
                                 class="p-name">Bộ phát wifi TP-Link TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15
                                 User)</h3></a>
@@ -2334,7 +2334,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" class="hover-name">Bộ phát wifi TP-Link
+                        <a href="/san-pham/bo-phat-wifi-tp-link-tl-wr820n-300mbps.html" class="hover-name">Bộ phát wifi TP-Link
                             TL-WR820N (Chuẩn N/ 300Mbps/ 2 Ăng-ten ngoài/ 15 User)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -3137,14 +3137,14 @@
                 <!-- aaaaa -->
                 <li onclick="location.href='/bo-phat-wifi-tp-link-archer-c50-ac1200mbps.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/bo-phat-wifi-tp-link-archer-c50-ac1200mbps.html" class="p-img">
+                        <a href="/san-pham/bo-phat-wifi-tp-link-archer-c50-ac1200mbps.html" class="p-img">
                             <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_26368_c50.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_26368_c50.jpg"
                                  alt="Bộ phát wifi TP-Link Archer C50 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)"
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/bo-phat-wifi-tp-link-archer-c50-ac1200mbps.html"
+                        <a href="/san-pham/bo-phat-wifi-tp-link-archer-c50-ac1200mbps.html"
                            title="Bộ phát wifi TP-Link Archer C50 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)"><h3
                                 class="p-name">Bộ phát wifi TP-Link Archer C50 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/
                                 25 User)</h3></a>
@@ -3205,7 +3205,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/bo-phat-wifi-tp-link-archer-c50-ac1200mbps.html" class="hover-name">Bộ phát wifi
+                        <a href="/san-pham/bo-phat-wifi-tp-link-archer-c50-ac1200mbps.html" class="hover-name">Bộ phát wifi
                             TP-Link Archer C50 (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -3905,14 +3905,14 @@
                 <!-- aaaaa -->
                 <li onclick="location.href='/bo-phat-wifi-4g-tp-link-m7000-lte-10-user.html'" class="p-item-group ">
                     <div class="p-container">
-                        <a href="/bo-phat-wifi-4g-tp-link-m7000-lte-10-user.html" class="p-img">
+                        <a href="/san-pham/bo-phat-wifi-4g-tp-link-m7000-lte-10-user.html" class="p-img">
                             <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_47808_m7000.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_47808_m7000.jpg"
                                  alt="Bộ phát wifi 4G TP-Link M7000 (4G LTE/ Ăng-ten ngầm/ Khe Sim 4G/ 10 User)"
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/bo-phat-wifi-4g-tp-link-m7000-lte-10-user.html"
+                        <a href="/san-pham/bo-phat-wifi-4g-tp-link-m7000-lte-10-user.html"
                            title="Bộ phát wifi 4G TP-Link M7000 (4G LTE/ Ăng-ten ngầm/ Khe Sim 4G/ 10 User)"><h3
                                 class="p-name">Bộ phát wifi 4G TP-Link M7000 (4G LTE/ Ăng-ten ngầm/ Khe Sim 4G/ 10
                                 User)</h3></a>
@@ -3971,7 +3971,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/bo-phat-wifi-4g-tp-link-m7000-lte-10-user.html" class="hover-name">Bộ phát wifi 4G
+                        <a href="/san-pham/bo-phat-wifi-4g-tp-link-m7000-lte-10-user.html" class="hover-name">Bộ phát wifi 4G
                             TP-Link M7000 (4G LTE/ Ăng-ten ngầm/ Khe Sim 4G/ 10 User)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -4031,14 +4031,14 @@
                 <li onclick="location.href='/bo-phat-wifi-tp-link-archer-c64-mu-mimo-ac1200mbps.html'"
                     class="p-item-group ">
                     <div class="p-container">
-                        <a href="/bo-phat-wifi-tp-link-archer-c64-mu-mimo-ac1200mbps.html" class="p-img">
+                        <a href="/san-pham/bo-phat-wifi-tp-link-archer-c64-mu-mimo-ac1200mbps.html" class="p-img">
                             <img class="lazy loaded" src="https://phucanhcdn.com/media/product/250_45900_c64.jpg"
                                  data-src="https://phucanhcdn.com/media/product/250_45900_c64.jpg"
                                  alt="Bộ phát wifi TP-Link Archer C64 (Chuẩn AC/ 1200Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 25 User)"
                                  data-was-processed="true">
                             <i class="icon-apple"></i>
                         </a>
-                        <a href="/bo-phat-wifi-tp-link-archer-c64-mu-mimo-ac1200mbps.html"
+                        <a href="/san-pham/bo-phat-wifi-tp-link-archer-c64-mu-mimo-ac1200mbps.html"
                            title="Bộ phát wifi TP-Link Archer C64 (Chuẩn AC/ 1200Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 25 User)">
                             <h3 class="p-name">Bộ phát wifi TP-Link Archer C64 (Chuẩn AC/ 1200Mbps/ 4 Ăng-ten ngoài/
                                 Wifi Mesh/ 25 User)</h3></a>
@@ -4097,7 +4097,7 @@
                     </div>
 
                     <div class="hover-content-pro">
-                        <a href="/bo-phat-wifi-tp-link-archer-c64-mu-mimo-ac1200mbps.html" class="hover-name">Bộ phát
+                        <a href="/san-pham/bo-phat-wifi-tp-link-archer-c64-mu-mimo-ac1200mbps.html" class="hover-name">Bộ phát
                             wifi TP-Link Archer C64 (Chuẩn AC/ 1200Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 25 User)</a>
 
                         <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
