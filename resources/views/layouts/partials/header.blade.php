@@ -402,6 +402,9 @@
         #main-menu ul{
             height: auto;
         }
+        .sub-menu {
+            min-height: 10px;
+        }
     </style>
 </head>
 <body>
