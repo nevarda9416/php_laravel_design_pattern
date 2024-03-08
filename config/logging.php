@@ -3,7 +3,7 @@
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\SyslogUdpHandler;
-use Elastic\Elasticsearch\ClientBuilder;
+//use Elastic\Elasticsearch\ClientBuilder;
 
 return [
 
@@ -59,7 +59,7 @@ return [
                 'type' => '_doc'
             ],
             'handler_with' => [
-                'client' => ClientBuilder::create()->setHosts([env('ELASTICSEARCH_HOST')])->build()
+                //'client' => ClientBuilder::create()->setHosts([env('ELASTICSEARCH_HOST')])->build()
             ]
         ],
 

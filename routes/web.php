@@ -1,5 +1,6 @@
 <?php
 
+use App\Helpers\HttpHelper\Response;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BatchJobController;
@@ -16,16 +17,13 @@ use Jenssegers\Agent\Agent;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods:  POST, GET, OPTIONS, PUT, DELETE');
-header('Access-Control-Allow-Headers:  Content-Type, X-Auth-Token, Origin, Authorization');
 Route::get('/', function () {
+    $rawResponse = app(Response::class)->responseData('/api/products/all');
     $agent = new Agent();
     if ($agent->isMobile()) {
-        return view('homepage/mobile/index');
+        return view('homepage/mobile/index', ['rawResponse' => $rawResponse]);
     } else {
-        return view('homepage/index');
+        return view('homepage/index', ['rawResponse' => $rawResponse]);
     }
 });
 Route::prefix('dang-ky')->group(function () {
