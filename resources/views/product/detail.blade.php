@@ -270,7 +270,7 @@
 
                 </div>
                 <a><span style=color:red>Giao hàng tận nơi miễn phí theo chính sách vận chuyển</span> <a
-                            style="color:blue" ; href="https://www.phucanh.vn/van-chuyen-giao-nhan-hang-hoa.html"
+                            style="color:blue" ; href="{{url('trang/van-chuyen-giao-nhan-hang-hoa')}}"
                             target="_blank"><i>(Xem chi tiết)</i></a></a></p>
 
                 <p style="margin: 0 0 10px 0;"><strong>Lượt xem:</strong> 13.415</p>
@@ -364,7 +364,9 @@
 
                 <div class="stock-info" id="showroom-info1" style="display:block;">
                     <span id="ktstocksr">Đang còn hàng tại:<br> (Bấm xem dẫn đường)</span>
-                    <div id="stock-list"></div>
+                    <div id="stock-list">
+                        <label>- <a rel="nofollow" target="_blank" href="https://www.google.com/maps/place/Ph%C3%BAc+Anh+SmartWorld-+15+X%C3%A3+%C4%90%C3%A0n/@21.011203,105.8344263,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ab871916eb05:0x696fde03613dd134!8m2!3d21.011078!4d105.8367192">Số 15 Xã Đàn, Q.Đống Đa, HN</a></label><label>- <a rel="nofollow" target="_blank" href="https://www.google.com/maps/place/Ph%C3%BAc+Anh+SmartWorld-+134+Th%C3%A1i+H%C3%A0/@21.012089,105.8189362,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ab534a6c9bc1:0x4ab60470210947cc!8m2!3d21.012089!4d105.8211249?hl=vi-VN">Số 134 Thái Hà, Q.Đống Đa, HN</a></label><label>- <a rel="nofollow" target="_blank" href="https://www.google.com/maps/place/Ph%C3%BAc+Anh+Computer+World/@21.009269,105.797419,17z/data=!4m13!1m7!3m6!1s0x3135aca6fca51e57:0xa59725fa094ada5a!2zMTUyIFRy4bqnbiBEdXkgSMawbmcsIFRydW5nIEhvw6AsIEPhuqd1IEdp4bqleSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!3b1!8m2!3d21.009269!4d105.797419!3m4!1s0x3135aca7247ba4db:0x7b8299b80fc526b5!8m2!3d21.0100184!4d105.7986354">Số 152 Trần Duy Hưng, Q.Cầu Giấy, HN</a></label><label>- <a rel="nofollow" target="_blank" href="https://www.google.com/maps/place/Ph%C3%BAc+Anh+Smart+World/@21.0451484,105.7811318,15z/data=!4m5!3m4!1s0x31345561b67bebbb:0xbdf01afb8f719353!8m2!3d21.0455522!4d105.7808813">Số 141 Phạm Văn Đồng, Q.Cầu Giấy, HN</a></label><label>- <a rel="nofollow" target="_blank" href="https://goo.gl/maps/Moz2UmRJ6NDUNTqcA">Số 89 Lê Duẩn, Q. Hoàn Kiếm, HN</a></label>
+                    </div>
                 </div><!--showroom-->
 
                 <!-- ./. sale E-->

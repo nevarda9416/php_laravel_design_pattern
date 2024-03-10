@@ -228,15 +228,13 @@
                     <td>
                         <div class="list_info">
                             <b class="font16 title">Quy định & chính sách</b>
-                            <a href="{{url('/trang/chinh-sach-kinh-doanh')}}" rel="nofollow">Chính sách kinh doanh</a>
-                            <a href="/chinh-sach-cho-khach-hang-doanh-nghiep-2020.html" rel="nofollow">Ưu đãi cho khách hàng doanh nghiệp</a>
-                            <a href="/trang/chinh-sach-game-net" rel="nofollow">Ưu đãi cho khách hàng Game-Net</a>
-                            <a href="/trang/van-chuyen-giao-nhan-hang-hoa" rel="nofollow">Chính sách vận chuyển và giao nhận</a>
-                            <a href="/trang/chinh-sach-bao-hanh" rel="nofollow">Chính sách bảo hành</a>
-                            <a href="/trang/chinh-sach-doi-tra-san-pham" rel="nofollow">Chính sách đổi trả sản phẩm</a>
-                            <a href="https://www.phucanh.vn/chinh-sach-kiem-hang.html" rel="nofollow">Chính sách kiểm hàng</a>
-
-                            <!--  <a href="/trang/bao-mat-thong-tin" rel="nofollow">Chính sách bảo mật thông tin</a>-->
+                            <a href="{{url('trang/chinh-sach-kinh-doanh')}}" rel="nofollow">Chính sách kinh doanh</a>
+                            <a href="{{url('trang/chinh-sach-cho-khach-hang-doanh-nghiep')}}" rel="nofollow">Ưu đãi cho khách hàng doanh nghiệp</a>
+                            <a href="{{url('trang/chinh-sach-game-net')}}" rel="nofollow">Ưu đãi cho khách hàng Game-Net</a>
+                            <a href="{{url('trang/van-chuyen-giao-nhan-hang-hoa')}}" rel="nofollow">Chính sách vận chuyển và giao nhận</a>
+                            <a href="{{url('trang/chinh-sach-bao-hanh')}}" rel="nofollow">Chính sách bảo hành</a>
+                            <a href="{{url('trang/chinh-sach-doi-tra-san-pham')}}" rel="nofollow">Chính sách đổi trả sản phẩm</a>
+                            <a href="{{url('trang/chinh-sach-kiem-hang')}}" rel="nofollow">Chính sách kiểm hàng</a>
                         </div>
                     </td>
                     <td>

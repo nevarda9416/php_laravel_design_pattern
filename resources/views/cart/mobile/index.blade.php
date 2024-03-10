@@ -264,7 +264,7 @@
         </div>
         <div class="nd thanhtoan">
             <p style="font-family: 'times new roman', times; font-size: 13pt; text-align: justify;">
-                - Quý khách hàng thực hiện việc chuyển khoản qua ngân hàng tổng số tiền mua hàng, cước vận chuyển&nbsp;(nếu có) vào tài khoản của Phúc Anh (ghi rõ nội dung nộp tiền là thanh toán tiền mua ..… cho công ty Phúc Anh).
+                - Quý khách hàng thực hiện việc chuyển khoản qua ngân hàng tổng số tiền mua hàng, cước vận chuyển&nbsp;(nếu có) vào tài khoản của NIIT-ICT Hà Nội (ghi rõ nội dung nộp tiền là thanh toán tiền mua ..… cho công ty Phúc Anh).
             </p>
             <p style="font-family: 'times new roman', times; font-size: 13pt; text-align: justify;">- Quý khách chuyển tiền cho chúng tôi vào tài khoản sau đây:</p>
 
@@ -295,7 +295,7 @@
             </div>
             <p>
                         <span style="font-size: 12pt; font-family: 'times new roman', times;">
-                            <strong><strong></strong></strong>Phúc Anh sẽ thực hiện giao dịch ngay sau khi nhận được tiền chuyển khoản từ Quý khách.
+                            <strong><strong></strong></strong>NIIT-ICT Hà Nội sẽ thực hiện giao dịch ngay sau khi nhận được tiền chuyển khoản từ Quý khách.
                         </span>
             </p>
         </div>

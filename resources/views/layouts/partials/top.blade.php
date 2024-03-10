@@ -18,10 +18,10 @@
                     <!-- end bán hàng trực tuyến -->
                 </div>
             </li>
-            <li><a href="{{url('/khuyen-mai')}}"><i class="icons icon-km"></i>Khuyến mãi</a></li>
+            <li><a href="{{url('tin-khuyen-mai')}}"><i class="icons icon-km"></i>Khuyến mãi</a></li>
             <li><a href="/tra-cuu-hoa-don-dien-tu.html" rel="nofollow"><i class="icons icon-hd"></i>In hóa đơn điện tử</a></li>
             <li><a href="http://tracuubaohanh.phucanh.vn/" target="_blank" rel="nofollow"><!--<i class="icons icon-bh"></i>-->Tra cứu bảo hành</a></li>
-            <li><a href="/tin-tuc"><i class="icons icon-news-top"></i>Tin tức</a></li>
+            <li><a href="{{url('tin-cong-nghe')}}"><i class="icons icon-news-top"></i>Tin tức</a></li>
         </ul>
         <ul class="ul right">
             <li style="margin-right: 6px;"><i class="icons icon-login"></i><a href="/dang-ky" rel="nofollow">Đăng ký</a></li>

@@ -35,7 +35,7 @@
                     <img src="https://phucanhcdn.com/media/news/120_1000002294_nhan_li_xi_sam_ngay_laptop_dang_mua_nhat.jpg" alt="[Khuyến Mại] Xuân sang nhận lì xì - Sắm ngay laptop đáng mua nhất">
                 </a>
                 <a href="/khuyen-mai-xuan-sang-nhan-li-xi-sam-ngay-laptop-dang-mua-nhat.html" class="news-name">[Khuyến Mại] Xuân sang nhận lì xì - Sắm ngay laptop đáng mua nhất</a>
-                <span class="news-summary">Nhân dịp Tết đến, xuân về, GIGABYTE cùng Phúc Anh ra mắt chương trình khuyến mãi vô cùng hấp dẫn dành cho dòng sản phẩm laptop rất được người dùng ưa chuộng của GIGABYTE là AORUS 15, GIGABYTE G5 &amp; GIGABYTE G6.</span>
+                <span class="news-summary">Nhân dịp Tết đến, xuân về, GIGABYTE cùng NIIT-ICT Hà Nội ra mắt chương trình khuyến mãi vô cùng hấp dẫn dành cho dòng sản phẩm laptop rất được người dùng ưa chuộng của GIGABYTE là AORUS 15, GIGABYTE G5 &amp; GIGABYTE G6.</span>
             </div>
 
             <div class="news-item">
@@ -59,7 +59,7 @@
                     <img src="https://phucanhcdn.com/media/news/120_1000002233_chinh_phuc_dinh_cao_rinh_ngay_steam_code.jpg" alt="[Khuyến Mại] Chinh Phục Đỉnh Cao - Rinh Ngay Steam Code">
                 </a>
                 <a href="/khuyen-mai-chinh-phuc-dinh-cao-rinh-ngay-steam-code.html" class="news-name">[Khuyến Mại] Chinh Phục Đỉnh Cao - Rinh Ngay Steam Code</a>
-                <span class="news-summary">Đầu xuân năm mới bạn đừng bõ lỡ cơ hội nhận ngay các ưu đãi hấp dẫn tại Phúc Anh khi mua các sản phẩm của thương hiệu Gigabyte</span>
+                <span class="news-summary">Đầu xuân năm mới bạn đừng bõ lỡ cơ hội nhận ngay các ưu đãi hấp dẫn tại NIIT-ICT Hà Nội khi mua các sản phẩm của thương hiệu Gigabyte</span>
             </div>
 
             <div class="news-item">
@@ -67,7 +67,7 @@
                     <img src="https://phucanhcdn.com/media/news/120_1000002194_don_xuan_sang_cung_lenovo_nhan_qua_don_tet.jpg" alt="[Khuyến Mại] Đón xuân sang cùng Lenovo – Nhận quà đón Tết">
                 </a>
                 <a href="/khuyen-mai-don-xuan-sang-cung-lenovo-nhan-qua-don-tet.html" class="news-name">[Khuyến Mại] Đón xuân sang cùng Lenovo – Nhận quà đón Tết</a>
-                <span class="news-summary">Để đón mừng một năm mới thành công, khi mua các sản phẩm máy tính Lenovo tại Phúc Anh khách hàng sẽ được hưởng ưu đãi tặng ngay tai nghe cực kỳ hấp dẫn.</span>
+                <span class="news-summary">Để đón mừng một năm mới thành công, khi mua các sản phẩm máy tính Lenovo tại NIIT-ICT Hà Nội khách hàng sẽ được hưởng ưu đãi tặng ngay tai nghe cực kỳ hấp dẫn.</span>
             </div>
 
             <div class="news-item">

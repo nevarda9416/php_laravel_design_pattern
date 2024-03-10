@@ -875,7 +875,7 @@
             </div>
             <div class="location_address" style="display: block;">
                 <div class="box_address">
-                    <div class="row_title">Phúc Anh - Xã Đàn</div>
+                    <div class="row_title">NIIT-ICT Hà Nội - Xã Đàn</div>
                     <div class="row_content">
                         <span>Địa chỉ: Số 15 Xã Đàn, Đống Đa, Hà Nội.</span> <br>
                         <span>Điện thoại: (024) 3968 9966 (ext 1)</span> <br>
@@ -888,7 +888,7 @@
 
                 <!---->
                 <div class="box_address">
-                    <div class="row_title">Phúc Anh - Trần Duy Hưng</div>
+                    <div class="row_title">NIIT-ICT Hà Nội - Trần Duy Hưng</div>
                     <div class="row_content">
                         <span>Địa chỉ: 152-154 Trần Duy Hưng, Cầu Giấy, Hà Nội.</span><br>
                         <span>Điện thoại: (024) 3968 9966 (ext 2)</span> <br>
@@ -898,7 +898,7 @@
                 </div>
                 <!---->
                 <div class="box_address ">
-                    <div class="row_title">Phúc Anh - Thái Hà</div>
+                    <div class="row_title">NIIT-ICT Hà Nội - Thái Hà</div>
                     <div class="row_content">
                         <span>Địa chỉ: 134 Thái Hà, Đống Đa, Hà Nội.</span><br>
                         <span>Điện thoại: (024) 3968 9966 (ext 3)</span><br>
@@ -910,7 +910,7 @@
                 <!---->
                 <!---->
                 <!--<div class="box_address ">
-                  <div class="row_title">Phúc Anh - Nguyễn Hoàng</div>
+                  <div class="row_title">NIIT-ICT Hà Nội - Nguyễn Hoàng</div>
                   <div class="row_content">
                     <span>Địa chỉ: 63 Nguyễn Hoàng, Nam Từ Niêm, Hà Nội.</span><br />
                     <span>Điện thoại: (024)3968 9966 (ext 4) </span><br />
@@ -921,7 +921,7 @@
                 <!---->
 
                 <div class="box_address ">
-                    <div class="row_title">Phúc Anh - Phạm Văn Đồng</div>
+                    <div class="row_title">NIIT-ICT Hà Nội - Phạm Văn Đồng</div>
                     <div class="row_content">
                         <span>Địa chỉ: 141-143 Phạm Văn Đồng, Cầu Giấy, Hà Nội.</span><br>
                         <span>Điện thoại: (024) 3968 9966 (ext 5) </span><br>
@@ -932,7 +932,7 @@
                     </div>
                 </div>
                 <div class="box_address ">
-                    <div class="row_title">Phúc Anh - Lê Duẩn</div>
+                    <div class="row_title">NIIT-ICT Hà Nội - Lê Duẩn</div>
                     <div class="row_content">
                         <span>Địa chỉ: 87-89 Lê Duẩn, Hoàn Kiếm, Hà Nội.</span><br>
                         <span>Điện thoại: (024) 3968 9966 (ext 6) </span><br>
@@ -1062,15 +1062,15 @@
             <div class="title-popup"><span>Địa chỉ liên hệ mua hàng</span><i class="close" onclick="closePopup()">x</i></div>
             <div class="content-popup" style="padding:0 20px; font-size:14px; line-height:1.6;">
 
-                <p><b>Phúc Anh 15 Xã Đàn, Đống Đa, Hà Nội</b><br>Điện thoại: <span class="red">(024) 35737383</span> - <span class="red">(024) 39689966  </span> (ext 1)</p>
+                <p><b>NIIT-ICT Hà Nội 15 Xã Đàn, Đống Đa, Hà Nội</b><br>Điện thoại: <span class="red">(024) 35737383</span> - <span class="red">(024) 39689966  </span> (ext 1)</p>
 
-                <p><b>Phúc Anh 152 - 154 Trần Duy Hưng, Cầu Giấy, Hà Nội</b><br>Điện thoại: <span class="red">(024) 37545599</span> - <span class="red">(024) 39689966  </span> (ext 2)</p>
+                <p><b>NIIT-ICT Hà Nội 152 - 154 Trần Duy Hưng, Cầu Giấy, Hà Nội</b><br>Điện thoại: <span class="red">(024) 37545599</span> - <span class="red">(024) 39689966  </span> (ext 2)</p>
 
-                <p><b>Phúc Anh 134 Thái Hà, Đống Đa, Hà Nội</b><br>Điện thoại: <span class="red">(024) 38571919</span> - <span class="red">(024) 39689966 </span> (ext 3)</p>
+                <p><b>NIIT-ICT Hà Nội 134 Thái Hà, Đống Đa, Hà Nội</b><br>Điện thoại: <span class="red">(024) 38571919</span> - <span class="red">(024) 39689966 </span> (ext 3)</p>
 
-                <p><b>Phúc Anh 63 Nguyễn Hoàng, Nam Từ Liêm, Hà Nội</b><br>Điện thoại: <span class="red">(024) 62925225</span> - <span class="red">(024) 39689966 </span> (ext 4)</p>
-                <p><b>Phúc Anh 141-143 Phạm Văn Đồng, Cầu Giấy, Hà Nội</b><br>Điện thoại:  <span class="red">(024) 39689966 </span> (ext 5)</p>
-                <p><b>Phúc Anh 89 Lê Duẩn, Cửa Nam, Hoàn Kiếm, Hà Nội</b><br>Điện thoại:  <span class="red">(024) 39689966 </span> (ext 6)</p>
+                <p><b>NIIT-ICT Hà Nội 63 Nguyễn Hoàng, Nam Từ Liêm, Hà Nội</b><br>Điện thoại: <span class="red">(024) 62925225</span> - <span class="red">(024) 39689966 </span> (ext 4)</p>
+                <p><b>NIIT-ICT Hà Nội 141-143 Phạm Văn Đồng, Cầu Giấy, Hà Nội</b><br>Điện thoại:  <span class="red">(024) 39689966 </span> (ext 5)</p>
+                <p><b>NIIT-ICT Hà Nội 89 Lê Duẩn, Cửa Nam, Hoàn Kiếm, Hà Nội</b><br>Điện thoại:  <span class="red">(024) 39689966 </span> (ext 6)</p>
                 <p><b>Phòng bán hàng trực tuyến</b><br>
                     Điện thoại: <span class="red">1900 2164 </span> (ext 1)</p>
 

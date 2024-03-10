@@ -133,9 +133,9 @@
         <ul class="ul list-nav-right">
             <li><span><i class="icons icon-ck1"></i><a href="{{url('/trang/chinh-sach-kinh-doanh')}}"> 100% chính hãng</a></span></li>
             <li><span><i class="icons icon-ck2"></i><a href="{{url('/trang/chinh-sach-kinh-doanh')}}"> Giá ưu đãi nhất</a></span></li>
-            <li><span><i class="icons icon-ck3"></i><a href="https://www.phucanh.vn/trang/van-chuyen-giao-nhan-hang-hoa"> Miễn phí vận chuyển</a></span></li>
-            <li><span><i class="icons icon-ck4"></i><a href="https://www.phucanh.vn/trang/chinh-sach-bao-hanh"> Bảo hành nơi sử dụng</a></span></li>
-            <li class="sale-menu"><span><i class="icons icon-ck5"></i><a href="https://www.phucanh.vn/hang-trung-bay-gia-re.html"> Sản phẩm khuyến mãi</a></span></li>
+            <li><span><i class="icons icon-ck3"></i><a href="{{url('/trang/van-chuyen-giao-nhan-hang-hoa')}}"> Miễn phí vận chuyển</a></span></li>
+            <li><span><i class="icons icon-ck4"></i><a href="{{url('/trang/chinh-sach-bao-hanh')}}"> Bảo hành nơi sử dụng</a></span></li>
+            <li class="sale-menu"><span><i class="icons icon-ck5"></i><a href="{{url('/danh-muc/thiet-bi-mang-khuyen-mai.html')}}"> Sản phẩm khuyến mãi</a></span></li>
         </ul>
     </div><!--container-->
 </nav>
