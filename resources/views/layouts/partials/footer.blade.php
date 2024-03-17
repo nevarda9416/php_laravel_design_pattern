@@ -254,7 +254,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="/trang/yeu-cau-bao-hanh" target="_blank">Liên hệ kỹ thuật</a>
                             <a href="/trang/y-kien-khach-hang" rel="follow">Gửi góp ý, khiếu nại</a>
                         </div>
                     </td>
