@@ -157,12 +157,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><label>Mã bảo mật*</label></td>
-                        <td>
-                            <input type="text" size="10" name="register_captcha" class="inputText" style="width:100px; float:left;" onkeyup="check_user_captcha(this.value)">
-                        </td>
-                    </tr>
-                    <tr>
                         <td></td>
                         <td>
                             <div style="height: 150px;overflow: auto;padding: 10px;width: 88%;margin: 6px 0;border: 1px solid #ddd;">
@@ -182,6 +176,16 @@
                             <label>
                                 <input type="checkbox" name=""> Đăng ký nhận thông tin khuyến mãi
                             </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="form-group">
+                                {!! NoCaptcha::renderJs() !!}
+                                {!! NoCaptcha::display() !!}
+                                <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                            </div>
                         </td>
                     </tr>
                     <tr>
