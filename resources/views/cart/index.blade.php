@@ -18,9 +18,7 @@
             </div>
             <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                 &nbsp;/&nbsp;
-                <a href="<br />
-<b>Notice</b>:  Undefined variable: value in <b>/var/www/html/phucanh.vn/public_html/cache/template/shopping_cart_new.ec89894c8d86a623a84a398a01c2d4e6.php</b> on line <b>11</b><br />
-" itemprop="url">
+                <a href="" itemprop="url">
                     <span itemprop="title">Giỏ hàng</span>
                 </a>
             </div>
@@ -30,55 +28,34 @@
         <h1 style="font-size: 18px; display: inline; font-weight: 500;">Giỏ hàng của tôi</h1>
         <a href="/" class="btn" style="background: #24aa98; color: #fff; font-size: 15px; padding: 5px 10px; border-radius: 3px; -moz-border-radius: 3px; margin-left: 10px;">Tiếp tục mua hàng</a>
         <div class="space20"></div>
-
         <div id="cart-page">
-
             <form method="post" enctype="multipart/form-data" action="/mua-hang" onsubmit="return check_field()">
+                @csrf
                 <div class="cart-left">
                     <table class="tbl-cart">
-                        <!-- -->
-
-
-
-
-
-
-                        <!-- 1350000-->
                         <tbody><tr class="itemCart js-item-row" data-variant_id="0" data-item_id="46807" data-item_type="product" data-sku="ROW.ASU.RT-AX1800HP" data-name="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-id="46807">
                             <td style="width: 100px;">
                                 <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="itemCart-img"><img src="https://phucanhcdn.com/media/product/120_46807_rt_ax1800hp_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
                             </td>
-
                             <td style="border-right: solid 1px #eee; padding-right: 15px;">
                                 <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="itemCart-name">
-
                                     Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)
                                 </a>
-
                                 <p class="itemCart-stock">
-
                                     <span style="color: #eaaa00;"><img src="/template/2019/images/icon_list_stock.png" alt="còn hàng">&nbsp;Còn hàng</span>
-
                                 </p>
-
-
-
                             </td>
-
                             <td style="width: 210px;">
                                 <p class="itemCart-price" style="font-size: 16px;">
                                     <input type="hidden" class="bulk_price_config" value="[]">
                                     <input type="hidden" class="buy-price" value="1350000">
                                     <span class="js-show-buy-price">1.350.000</span> VNĐ
                                 </p>
-
                                 <p class="itemCartOldPrice">1.599.000 VNĐ<br></p>
-
                                 <p class="itemCart-price">
                                     Thành tiền: <span class="total-item-price">1.350.000</span>
                                 </p>
                             </td>
-
                             <td>
                                 <div class="unit-detail-amount-control">
                                     <a href="javascript:;" class="quantity-change amount-down" data-value="-1">-</a>
@@ -90,48 +67,29 @@
                                 <a class="itemCart-del delete-from-cart" href="javascript:void(0)" style="padding: 0;"><img src="/template/2019/images/icon_cart_del.png" alt=""></a>
                             </td>
                         </tr>
-
-
-
-
-
-
-                        <!-- 2449000-->
                         <tr class="itemCart js-item-row" data-variant_id="0" data-item_id="44679" data-item_type="product" data-sku="ROW.ASU.RT-AX53U" data-name="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-id="44679">
                             <td style="width: 100px;">
                                 <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="itemCart-img"><img src="https://phucanhcdn.com/media/product/120_44679_rt_ax53u_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
                             </td>
-
                             <td style="border-right: solid 1px #eee; padding-right: 15px;">
                                 <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="itemCart-name">
-
                                     Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)
                                 </a>
-
                                 <p class="itemCart-stock">
-
                                     <span style="color: #eaaa00;"><img src="/template/2019/images/icon_list_stock.png" alt="còn hàng">&nbsp;Còn hàng</span>
-
                                 </p>
-
-
-
                             </td>
-
                             <td style="width: 210px;">
                                 <p class="itemCart-price" style="font-size: 16px;">
                                     <input type="hidden" class="bulk_price_config" value="[]">
                                     <input type="hidden" class="buy-price" value="1099000">
                                     <span class="js-show-buy-price">1.099.000</span> VNĐ
                                 </p>
-
                                 <p class="itemCartOldPrice">1.390.000 VNĐ<br></p>
-
                                 <p class="itemCart-price">
                                     Thành tiền: <span class="total-item-price">1.099.000</span>
                                 </p>
                             </td>
-
                             <td>
                                 <div class="unit-detail-amount-control">
                                     <a href="javascript:;" class="quantity-change amount-down" data-value="-1">-</a>
@@ -143,11 +101,7 @@
                                 <a class="itemCart-del delete-from-cart" href="javascript:void(0)" style="padding: 0;"><img src="/template/2019/images/icon_cart_del.png" alt=""></a>
                             </td>
                         </tr>
-
-
                         <!--DEAL-->
-                        <!--  -->
-
                         <tr class="itemCart">
                             <td colspan="2" align="right" style="vertical-align: middle;">Tổng cộng:</td>
                             <td colspan="3" class="red">
@@ -159,9 +113,7 @@
                             <td colspan="3">
                                 <div class="voucher space10px">
                                     <input type="text" placeholder="Nhập mã giảm giá" class="txt" id="js_voucher_input" name="coupon_code">
-
                                     <a href="javascript:void(0);" class="button button-check-discount js-voucher-submit js-apply-discount-code" style="padding: 7px 10px;">Áp dụng</a>
-
                                     <div class="clear"></div>
                                     <span id="js-voucher-message" style="margin: 5px 0px; display: block; color: #f00; font-size: 13px;"></span>
                                     <div class="clear"></div>
@@ -178,29 +130,22 @@
                                 <b><span class="total-cart-payment" style="color: #e00; font-size: 25px;">2.449.000</span>&nbsp;<span>VNĐ</span></b>
                             </td>
                         </tr>
-
                         <tr class="itemCart">
                             <td colspan="2" align="right" style="vertical-align: middle;"></td>
                             <td colspan="3" class="red">
                                 <a href="/print/user.php?view=cart-new" class="txt_b"><i class="fa fa-print"></i> In báo giá</a>
-
                                 <a href="/ajax/export_download.php?file_type=xls&amp;content_type=shopping-cart-new" class="txt_b" style="padding-left: 10px;"> <i class="fa fa-download"></i> Tải file excel</a>
                             </td>
                         </tr>
                         </tbody></table>
-
                     <div class="nd thanhtoan">
                         <p style="font-family: 'times new roman', times; font-size: 13pt; text-align: justify;">
                             - Quý khách hàng thực hiện việc chuyển khoản qua ngân hàng tổng số tiền mua hàng, cước vận chuyển&nbsp;(nếu có) vào tài khoản của NIIT-ICT Hà Nội (ghi rõ nội dung nộp tiền là thanh toán tiền mua ..… cho công ty NIIT-ICT Hà Nội).
                         </p>
                         <p style="font-family: 'times new roman', times; font-size: 13pt; text-align: justify;">- Quý khách chuyển tiền cho chúng tôi vào tài khoản sau đây:</p>
-
                         <p style="font-family: 'times new roman', times; font-size: 13pt; text-align: justify;">Tên tài khoản: <strong>CÔNG TY TNHH KỸ NGHỆ NIIT-ICT Hà Nội</strong></p>
-
                         <p style="font-family: 'times new roman', times; font-size: 13pt; text-align: justify;">Địa chỉ: số 15 Xã Đàn, phường Phương Liên, quận Đống Đa, Thành phố Hà Nội</p>
-
                         <p style="font-family: 'times new roman', times; font-size: 13pt; text-align: justify;">Điện thoại: (024) 35737383 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Fax: (024) 35737347</p>
-
                         <div class="pay-qrcode-bank">
                             <ul>
                                 <li>
@@ -221,68 +166,6 @@
                                 </li>
                             </ul>
                         </div>
-
-                        <!--<table style="border: none; border-collapse: collapse;">
-                            <tbody>
-                            <tr style="height: 24pt;">
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="color: #222222; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Tên Ngân hàng</span></strong></span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="color: #222222; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Địa chỉ</span></strong></span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="color: #222222; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Số TK</span></strong></span></p>
-                            </td>
-                            </tr>
-                            <tr style="height: 37pt;">
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: left; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><span style="color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Ngân hàng TMCP Đầu tư và phát triển Việt Nam (</span><strong><span style="color: #222222; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">BIDV</span></strong><span style="color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">)</span></span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'times new roman', times; color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Chi nhánh Đông Đô</span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'times new roman', times; color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1251.0000.080393</span></p>
-                            </td>
-                            </tr>
-                            <tr style="height: 37pt;">
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; margin-top: 11pt; margin-bottom: 0pt; text-align: left;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><span style="color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Ngân hàng TMCP Quân đội (</span><strong><span style="color: #222222; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">MB Bank</span></strong><span style="color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">)</span></span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'times new roman', times; color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Chi nhánh Hoàn Kiếm</span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'times new roman', times; color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">067.11.000.32.009</span></p>
-                            </td>
-                            </tr>
-                            <tr style="height: 37pt;">
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; margin-top: 11pt; margin-bottom: 0pt; text-align: left;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><span style="color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Ngân hàng TMCP Kỹ thương Việt Nam (</span><strong><span style="color: #222222; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Techcombank</span></strong><span style="color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">)</span></span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'times new roman', times; color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Trung tâm Giao dịch Hội Sở</span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'times new roman', times; color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">191.2226.8888.011</span></p>
-                            </td>
-                            </tr>
-                            <tr style="height: 37pt;">
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; margin-top: 11pt; margin-bottom: 0pt; text-align: left;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><span style="color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Ngân hàng TMCP Ngoại thương Việt Nam (</span><strong><span style="color: #222222; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Vietcombank</span></strong><span style="color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">)</span></span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'times new roman', times; color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Chi nhánh Hà Nội</span></p>
-                            </td>
-                            <td style="vertical-align: top; padding: 5pt 5pt 5pt 5pt; overflow: hidden; overflow-wrap: break-word; border: solid #888888 0.9960975000000001pt;">
-                            <p style="line-height: 1.38; text-align: center; margin-top: 11pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'times new roman', times; color: #222222; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">0021.000.272.878</span></p>
-                            </td>
-                            </tr>
-                            </tbody>
-                        </table>-->
-
-
                         <p>
                         <span style="font-size: 12pt; font-family: 'times new roman', times;">
                             <strong><strong></strong></strong>NIIT-ICT Hà Nội sẽ thực hiện giao dịch ngay sau khi nhận được tiền chuyển khoản từ Quý khách.
@@ -295,10 +178,10 @@
                 <div class="cart-right">
                     <div class="title">2. Thông tin thanh toán</div>
                     <p>
-                        Để tiếp tục đặt hàng, quý khách xin vui lòng <a style="color: #185ede;" href="/dang-nhap?return_url=https://www.phucanh.vn/cart"><b>đăng nhập</b></a> hoặc nhập thông tin bên dưới.
+                        Để tiếp tục đặt hàng, quý khách xin vui lòng <a style="color: #185ede;" href="/dang-nhap?return_url={{url('cart')}}"><b>đăng nhập</b></a> hoặc nhập thông tin bên dưới.
                     </p>
                     <p>
-                        Bằng cách đặt hàng, bạn đồng ý với <a style="color: #185ede;" href="https://www.phucanh.vn/trang/dieu-khoan-giao-dich" target="_blank"><b>Điều khoản giao dịch</b></a> của NIIT-ICT Hà Nội.
+                        Bằng cách đặt hàng, bạn đồng ý với <a style="color: #185ede;" href="/trang/dieu-khoan-giao-dich" target="_blank"><b>Điều khoản giao dịch</b></a> của NIIT-ICT Hà Nội.
                     </p>
                     <p>
                         <label>Họ và tên*</label>
@@ -318,7 +201,6 @@
                     </p>
                     <div class="ship-info" id="address-info">
                         <p>
-                            <!--<label>Địa chỉ*</label>-->
                             <input type="text" name="user_info[address]" id="buyer_address" value="" placeholder="Địa chỉ nhận hàng.">
                         </p>
                     </div>
@@ -331,10 +213,6 @@
                         <div id="store-list" style="display: none;"></div>
                     </div>
                     <!--showroom-->
-                    <!-- <p>
-                         <label>Ghi chú</label>
-                         <textarea name="user_info[note]" id="buyer_note" placeholder="Ghi chú thông tin viết hóa đơn, yêu cầu lắp đặt..."></textarea>
-                     </p>-->
                     <p>
                         <label>Ghi chú</label>
                         <textarea name="user_info[note]" onkeyup="change(this);" id="buyer_note" placeholder="Yêu cầu lắp đặt hoặc ghi chú thêm..."></textarea>
@@ -343,11 +221,10 @@
                     <div class="clear" style="clear:both;"></div>
                     <div class="cart-info-box" style="margin: 5px;padding: 5px 10px;">
                         <label id="js-box-company" class="m-0">
-                            <input type="checkbox">
+{{--                            <input type="checkbox">--}}
                             <span class="text-14">Xuất hóa đơn công ty</span>
                         </label>
-
-                        <div class="info-box-group mt-3" style="display: none;">
+                        <div class="info-box-group mt-3">
                             <div class="customer-item" style="margin-bottom: 10px;">
                                 <input type="text" placeholder="Tên công ty" name="user_info[tax_company]">
                             </div>
@@ -359,66 +236,48 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="payment_method">
-
                         <div class="item-pay" style="padding: 3px 10px;">
                             <input type="radio" name="pay_method" value="1" onchange="paymentShow('pay0')" checked="checked">
                             <span>Thanh toán khi nhận hàng.</span>
                             <em>
-                                <div class="detail" id="pay0" style="display: none;">
-
-                                </div>
+                                <div class="detail" id="pay0" style="display: none;"></div>
                             </em>
                             <div class="clear"></div>
                         </div>
-
                         <div class="item-pay" style="padding: 3px 10px;">
                             <input type="radio" name="pay_method" value="2" onchange="paymentShow('pay1')">
                             <span>Thanh toán chuyển khoản qua tài khoản ngân hàng.</span>
                             <em>
-                                <div class="detail" id="pay1" style="display: none;">
-
-                                </div>
+                                <div class="detail" id="pay1" style="display: none;"></div>
                             </em>
                             <div class="clear"></div>
                         </div>
-
                         <div class="item-pay" style="padding: 3px 10px;">
                             <input type="radio" name="pay_method" value="3" onchange="paymentShow('pay2')">
                             <span>Thanh toán trực tuyến (bằng thẻ ATM, VISA, MASTER).</span>
                             <em>
-                                <div class="detail" id="pay2" style="display: none;">
-
-                                </div>
+                                <div class="detail" id="pay2" style="display: none;"></div>
                             </em>
                             <div class="clear"></div>
                         </div>
-
                         <div class="item-pay" style="padding: 3px 10px;">
                             <input type="radio" name="pay_method" value="4" onchange="paymentShow('pay3')">
                             <span>Trả góp qua thẻ tín dụng.</span>
                             <em>
-                                <div class="detail" id="pay3" style="display: none;">
-
-                                </div>
+                                <div class="detail" id="pay3" style="display: none;"></div>
                             </em>
                             <div class="clear"></div>
                         </div>
-
                         <div class="item-pay" style="padding: 3px 10px;">
                             <input type="radio" name="pay_method" value="5" onchange="paymentShow('pay4')">
                             <span>Thanh toán Online qua VNpay (bằng thẻ ATM, VISA, MASTER, quét mã QR VNpay).</span>
                             <em>
-                                <div class="detail" id="pay4" style="display: none;">
-
-                                </div>
+                                <div class="detail" id="pay4" style="display: none;"></div>
                             </em>
                             <div class="clear"></div>
                         </div>
-
                     </div>
-
                     <div class="btn-buy-order js-btn-buy-order-container">
                         <input type="submit" value="Đặt hàng" class="submit" id="btn-submit">
                         <span>Tư vấn viên sẽ gọi điện thoại xác nhận</span>
@@ -434,7 +293,6 @@
                 <input type="hidden" name="send_order" value="yes">
                 <input type="hidden" name="email_route" value="default" id="email_route">
             </form>
-
             <div class="space20"></div>
         </div>
         <!--cart-page-->

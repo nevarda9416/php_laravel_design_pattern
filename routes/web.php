@@ -77,7 +77,7 @@ Route::prefix('gio-hang')->group(function () {
     });
 });
 Route::prefix('mua-hang')->group(function () {
-    Route::get('/', function () {
+    Route::post('/', function () {
         $agent = new Agent();
         if ($agent->isMobile()) {
             return view('cart/mobile/buy');
