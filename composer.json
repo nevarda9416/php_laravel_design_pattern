@@ -7,6 +7,7 @@
     "require": {
         "php": "^8.2",
         "anhskohbo/no-captcha": "^3.6",
+        "arcanedev/log-viewer": "^8.3",
         "elasticsearch/elasticsearch": "*",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
