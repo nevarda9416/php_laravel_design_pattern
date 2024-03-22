@@ -42,11 +42,11 @@
                         <table cellpadding="5" cellspacing="0" width="96%">
                             <tbody><tr>
                                 <td>Email đăng nhập</td>
-                                <td><input type="text" size="25" name="email" id="email" class="inputText"></td>
+                                <td><input type="text" size="25" name="email" id="email" class="inputText" required></td>
                             </tr>
                             <tr>
                                 <td>Mật khẩu</td>
-                                <td><input type="password" size="25" name="password" id="password" class="inputText"></td>
+                                <td><input type="password" size="25" name="password" id="password" class="inputText" required></td>
                             </tr>
                             <tr>
                                 <td></td>

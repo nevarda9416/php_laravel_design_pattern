@@ -32,13 +32,13 @@
                     <tbody><tr>
                         <td style="width:140px;"><label>Email đăng ký*</label></td>
                         <td>
-                            <input type="text" class="inputText" size="50" name="info[email]" id="email" onkeyup="check_user_email(this.value)">
+                            <input type="text" class="inputText" size="50" name="info[email]" id="email" onkeyup="check_user_email(this.value)" required>
                             <span id="check_user"></span>
                         </td>
                     </tr>
                     <tr>
                         <td><label>Tên*</label></td>
-                        <td><input type="text" class="inputText" size="50" name="info[full_name]" id="full_name"></td>
+                        <td><input type="text" class="inputText" size="50" name="info[full_name]" id="full_name" required></td>
                     </tr>
                     <tr>
                         <td><label>Số máy bàn</label></td>
@@ -50,7 +50,7 @@
                     <tr>
                         <td><label>Số di động*</label></td>
                         <td>
-                            <input type="text" class="inputText" size="20" name="info[mobile]" id="mobile">
+                            <input type="text" class="inputText" size="20" name="info[mobile]" id="mobile" required>
                             <span style="color: #ff0000;" class="mobile-call"></span>
                         </td>
                     </tr>
@@ -71,13 +71,13 @@
                     <tr>
                         <td><label>Mật khẩu*</label></td>
                         <td>
-                            <input type="password" class="inputText" size="50" name="info[password]" id="password">
+                            <input type="password" class="inputText" size="50" name="info[password]" id="password" required>
                             <span class="password-call" style="color: #ff0000;"></span>
                         </td>
                     </tr>
                     <tr>
                         <td><label>Nhập lại mật khẩu*</label></td>
-                        <td><input type="password" name="info[password1]" id="password1" class="inputText" size="20"></td>
+                        <td><input type="password" name="info[password1]" id="password1" class="inputText" size="20" required></td>
                     </tr>
                     <tr>
                         <td><label>Địa chỉ</label></td>
