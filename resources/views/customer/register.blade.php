@@ -27,7 +27,8 @@
 
         <h1 style="font-size:18px; font-weight:500;">Tạo tài khoản khách hàng cá nhân</h1>
         <div class="regist_left">
-            <form method="post" action="/ajax/customer_register.php" enctype="multipart/form-data" onsubmit="return check_field();">
+            <form method="post" action="{{url('dang-ky')}}" enctype="multipart/form-data">
+                @csrf
                 <table>
                     <tbody><tr>
                         <td style="width:140px;"><label>Email đăng ký*</label></td>
@@ -50,7 +51,7 @@
                     <tr>
                         <td><label>Số di động*</label></td>
                         <td>
-                            <input type="text" class="inputText" size="20" name="info[mobile]" id="mobile" required>
+                            <input type="number" class="inputText" size="20" name="info[mobile]" id="mobile" required>
                             <span style="color: #ff0000;" class="mobile-call"></span>
                         </td>
                     </tr>
@@ -190,7 +191,7 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td style="text-align:center;"><input id="btn_reg" type="submit" value="Đăng ký" style="background:#4267b2; text-transform:uppercase; font-size:15px; font-weight:bold; padding:10px 20px; color:#fff; border:none; margin:auto;"></td>
+                        <td style="text-align:center;"><input id="btn_reg" type="submit" value="Đăng ký" style="background:#4267b2; text-transform:uppercase; font-size:15px; font-weight:bold; padding:10px 20px; color:#fff; border:none; margin:auto;cursor: pointer;"></td>
                     </tr>
                     </tbody></table>
             </form>

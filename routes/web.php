@@ -2,7 +2,7 @@
 
 use App\Helpers\HttpHelper\Response;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\DateTimeController;
 use Jenssegers\Agent\Agent;
@@ -35,6 +35,7 @@ Route::prefix('dang-ky')->group(function () {
             return view('customer/register');
         }
     });
+    Route::post('/', [UserController::class, 'register']);
 });
 Route::prefix('dang-nhap')->group(function () {
     Route::get('/', function () {
@@ -45,6 +46,7 @@ Route::prefix('dang-nhap')->group(function () {
             return view('customer/login');
         }
     });
+    Route::post('/', [UserController::class, 'login']);
 });
 Route::prefix('danh-muc')->group(function () {
     Route::get('/{slug}.html', function () {

@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\API\UserController;
+use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\ContractController;
 use App\Http\Controllers\ViewPublicUserProfileController;
 use Illuminate\Http\Request;
