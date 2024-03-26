@@ -50,11 +50,13 @@ Route::prefix('dang-nhap')->group(function () {
 });
 Route::prefix('danh-muc')->group(function () {
     Route::get('/{slug}.html', function () {
+        $slug = request()->get('slug');
+        $rawResponse = app(Response::class)->responseData('/api/products/category/slug/' . $slug);
         $agent = new Agent();
         if ($agent->isMobile()) {
-            return view('category/mobile/index');
+            return view('category/mobile/index', ['rawResponse' => $rawResponse]);
         } else {
-            return view('category/index');
+            return view('category/index', ['rawResponse' => $rawResponse]);
         }
     });
 });

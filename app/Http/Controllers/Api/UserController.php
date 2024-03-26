@@ -19,7 +19,9 @@ class UserController extends Controller
         $user->$property = 'Admin';
         $method = 'save';
         $result = $user->$method();
-        dd($result);
+        if ($result) {
+            return redirect()->to('/');
+        }
     }
 
     public function register(Request $request)
@@ -33,6 +35,8 @@ class UserController extends Controller
         $user->$property = 'Admin';
         $method = 'save';
         $result = $user->$method();
-        dd($result);
+        if ($result) {
+            return redirect()->to('dang-nhap');
+        }
     }
 }
