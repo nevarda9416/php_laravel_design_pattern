@@ -12,6 +12,9 @@ use App\Services\Contracts\RunningStatus\RunningStatusService;
 use App\Services\Contracts\RunningStatus\RunningStatusServiceInterface;
 use App\Services\Contracts\StoppingStatus\StoppingStatusService;
 use App\Services\Contracts\StoppingStatus\StoppingStatusServiceInterface;
+use League\Flysystem\Filesystem;
+use Illuminate\Support\Facades\Storage;
+use League\Flysystem\Sftp\SftpAdapter;
 use Queue;
 use Illuminate\Queue\Events\JobFailed;
 use Illuminate\Support\ServiceProvider;
@@ -48,6 +51,9 @@ class AppServiceProvider extends ServiceProvider
             // $event->connectionName
             // $event->job
             // $event->data
+        });
+        Storage::extend('sftp', function ($app, $config)  {
+            return new Filesystem(new SftpAdapter($config));
         });
     }
 }

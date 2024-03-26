@@ -7,6 +7,7 @@ use App\Facades\Process;
 use App\Jobs\CreateUser;
 use App\Jobs\SendEmailUsingRedisQueue;
 use App\Models\Posts;
+use App\Models\User;
 use App\Services\UserService;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -25,6 +26,40 @@ class UserController extends Controller
     public function __construct(UserService $userService)
     {
         return $this->userService = $userService;
+    }
+
+    public function login(Request $request)
+    {
+        $user = User::find(1);
+        // Old: Traditional
+        $user->name = 'Admin';
+        $user->save();
+        // New: Modern
+        $property = 'name';
+        $user->$property = 'Admin';
+        $method = 'save';
+        $result = $user->$method();
+        if ($result) {
+            return redirect()->to('/');
+        }
+        return redirect()->to('/');
+    }
+
+    public function register(Request $request)
+    {
+        $user = User::find(1);
+        // Old: Traditional
+        $user->name = 'Admin';
+        $user->save();
+        // New: Modern
+        $property = 'name';
+        $user->$property = 'Admin';
+        $method = 'save';
+        $result = $user->$method();
+        if ($result) {
+            return redirect()->to('dang-nhap');
+        }
+        return redirect()->to('dang-nhap');
     }
 
     /**

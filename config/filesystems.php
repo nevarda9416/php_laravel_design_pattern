@@ -53,6 +53,19 @@ return [
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
         ],
 
+        'sftp' => [
+            'driver' => 'sftp',
+            'host' => env('SFTP_HOST', 'example.com'), // aws server host name
+            'username' => env('SFTP_USERNAME', 'your-username'),
+            'password' => env('SFTP_PASSWORD', 'your-password'),
+            // Settings for SSH key based authentication with encryption password
+            'privateKey' => env('SFTP_PRIVATE_KEY', '/path/to/privateKey'),
+            'password' => env('SFTP_PASSWORD', 'encryption-password'),
+            // Optional SFTP settings
+             'port' => env('SFTP_PORT', 22),
+             'root' => env('SFTP_ROOT', ''),
+             'timeout' => env('SFTP_TIMEOUT', 30),
+        ],
     ],
 
     /*

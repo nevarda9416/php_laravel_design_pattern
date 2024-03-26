@@ -2,7 +2,7 @@
 
 use App\Helpers\HttpHelper\Response;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\DateTimeController;
 use Jenssegers\Agent\Agent;
