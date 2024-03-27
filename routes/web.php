@@ -2,6 +2,7 @@
 
 use App\Helpers\HttpHelper\Response;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\DateTimeController;
@@ -48,18 +49,19 @@ Route::prefix('dang-nhap')->group(function () {
     });
     Route::post('/', [UserController::class, 'login']);
 });
-Route::prefix('danh-muc')->group(function () {
-    Route::get('/{slug}.html', function () {
-        $slug = request()->get('slug');
-        $rawResponse = app(Response::class)->responseData('/api/products/category/slug/' . $slug);
-        $agent = new Agent();
-        if ($agent->isMobile()) {
-            return view('category/mobile/index', ['rawResponse' => $rawResponse]);
-        } else {
-            return view('category/index', ['rawResponse' => $rawResponse]);
-        }
-    });
-});
+Route::get('danh-muc/{slug}.html', [CategoryController::class, 'getProduct']);
+//Route::prefix('danh-muc')->group(function () {
+//    Route::get('/{slug}.html', function () {
+//        $slug = request()->get('slug');
+//        $rawResponse = app(Response::class)->responseData('/api/products/category/slug/' . $slug);
+//        $agent = new Agent();
+//        if ($agent->isMobile()) {
+//            return view('category/mobile/index', ['rawResponse' => $rawResponse]);
+//        } else {
+//            return view('category/index', ['rawResponse' => $rawResponse]);
+//        }
+//    });
+//});
 Route::prefix('san-pham')->group(function () {
     Route::get('/{slug}.html', function () {
         $agent = new Agent();
