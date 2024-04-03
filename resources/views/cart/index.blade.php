@@ -42,7 +42,7 @@
                                     Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)
                                 </a>
                                 <p class="itemCart-stock">
-                                    <span style="color: #eaaa00;"><img src="/template/2019/images/icon_list_stock.png" alt="còn hàng">&nbsp;Còn hàng</span>
+                                    <span style="color: #eaaa00;"><img src="https://phucanh.vn/template/2019/images/icon_list_stock.png" alt="còn hàng">&nbsp;Còn hàng</span>
                                 </p>
                             </td>
                             <td style="width: 210px;">
@@ -58,13 +58,13 @@
                             </td>
                             <td>
                                 <div class="unit-detail-amount-control">
-                                    <a href="javascript:;" class="quantity-change amount-down" data-value="-1">-</a>
+                                    <a href="javascript:;" class="quantity-change amount-down" data-price="" data-product="1" onclick="cart_minus_item(this)">-</a>
                                     <input type="text" size="3" value="1" class="buy-quantity quantity-change" data-stock="40">
-                                    <a href="javascript:;" class="quantity-change amount-up" data-value="1">+</a>
+                                    <a href="javascript:;" class="quantity-change amount-up" data-price="" data-product="1" onclick="cart_plus_item(this)">+</a>
                                 </div>
                             </td>
                             <td width="45px">
-                                <a class="itemCart-del delete-from-cart" href="javascript:void(0)" style="padding: 0;"><img src="/template/2019/images/icon_cart_del.png" alt=""></a>
+                                <a class="itemCart-del delete-from-cart" href="javascript:void(0)" onclick="cart_delete_item(1)" style="padding: 0;"><img src="https://phucanh.vn/template/2019/images/icon_cart_del.png" alt=""></a>
                             </td>
                         </tr>
                         <tr class="itemCart js-item-row" data-variant_id="0" data-item_id="44679" data-item_type="product" data-sku="ROW.ASU.RT-AX53U" data-name="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-id="44679">
@@ -76,7 +76,7 @@
                                     Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)
                                 </a>
                                 <p class="itemCart-stock">
-                                    <span style="color: #eaaa00;"><img src="/template/2019/images/icon_list_stock.png" alt="còn hàng">&nbsp;Còn hàng</span>
+                                    <span style="color: #eaaa00;"><img src="https://phucanh.vn/template/2019/images/icon_list_stock.png" alt="còn hàng">&nbsp;Còn hàng</span>
                                 </p>
                             </td>
                             <td style="width: 210px;">
@@ -92,13 +92,13 @@
                             </td>
                             <td>
                                 <div class="unit-detail-amount-control">
-                                    <a href="javascript:;" class="quantity-change amount-down" data-value="-1">-</a>
+                                    <a href="javascript:;" class="quantity-change amount-down" data-price="" data-product="1" onclick="cart_minus_item(this)">-</a>
                                     <input type="text" size="3" value="1" class="buy-quantity quantity-change" data-stock="61">
-                                    <a href="javascript:;" class="quantity-change amount-up" data-value="1">+</a>
+                                    <a href="javascript:;" class="quantity-change amount-up" data-price="" data-product="1" onclick="cart_plus_item(this)">+</a>
                                 </div>
                             </td>
                             <td width="45px">
-                                <a class="itemCart-del delete-from-cart" href="javascript:void(0)" style="padding: 0;"><img src="/template/2019/images/icon_cart_del.png" alt=""></a>
+                                <a class="itemCart-del delete-from-cart" href="javascript:void(0)" onclick="cart_delete_item(1)" style="padding: 0;"><img src="https://phucanh.vn/template/2019/images/icon_cart_del.png" alt=""></a>
                             </td>
                         </tr>
                         <!--DEAL-->
