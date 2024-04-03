@@ -1945,36 +1945,7 @@
     $srv = server_busy ( 500 ); // 1000 là số người truy cập tại 1 thời điểm
 </script>
 
-<!--<style>
-#snow img { width:100%;float:left; position:fixed;bottom:-30px;z-index: 9999;}
-#mery_christmas_left{left:0px;position: fixed;top: 0;z-index: 9999;    width: 120px;}
-#mery_christmas_right {position: fixed;top: 0;z-index: 9999;right: 0px!important;    width: 120px;}
-/*.ft-ld{ background: url('https://www.phucanh.vn/upload/style_snow/imgs/ft.png') center top transparent!important;}
-.ft-ld .ft-ld-tag a{ color:#121212; font-weight:bold!important;}*/
- .ft-ld .ft-ld-tag a {margin-left: 20px;}
-</style>
-
-<img id="mery_christmas_left" class="mery_christmas" src="https://phucanh.vn/upload/img/km/header-rope-left-23.png" alt="Icon Top Left">
-<img id="mery_christmas_right" class="mery_christmas" src="https://phucanh.vn/upload/img/km/header-rope-right-23.png" alt="Icon Top Right">
-
-<script src="https://www.phucanh.vn/upload/style_snow/js/snow-plugin.js"></script>
-<style>
-.snow-canvas {
-display: block;
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-position: fixed;
-pointer-events: none; z-index: 9999;
-}
-</style>
-<canvas class="snow-canvas" speed="1" interaction="false" size="2" count="60" opacity="0.00001" start-color="rgba(253,252,251,1)" end-color="rgba(251,252,253,0.3)" wind-power="0" image="false" width="1366" height="667"></canvas>
-<canvas class="snow-canvas" speed="3" interaction="true" size="6" count="20" start-color="rgba(253,252,251,1)" end-color="rgba(251,252,253,0.3)" opacity="0.00001" wind-power="2" image="false" width="1366" height="667"></canvas>
-<canvas class="snow-canvas" speed="3" interaction="true" size="12" count="10" wind-power="-5" image="https://www.phucanh.vn/upload/style_snow/imgs/snow.png" width="1366" height="667"></canvas>
-<script>
-$(".snow-canvas").snow();
-</script> -->
+<script type="text/javascript" src="{{asset('js/shopping-cart.js')}}"></script>
 </body>
 </html>
 

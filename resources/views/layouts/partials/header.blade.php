@@ -405,6 +405,11 @@
         .sub-menu {
             min-height: 10px;
         }
+        @media (min-width: 1400px) {
+            #main-menu ul {
+                width: 250px;
+            }
+        }
     </style>
 </head>
 <body>

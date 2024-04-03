@@ -2031,7 +2031,7 @@
                     <ul class="ul product-list  product-list-full" id="product-list-home753"
                         style="min-height:200px;display: flex;flex-wrap: wrap;">
                         @foreach ($rawResponse['data'] as $raw)
-                            <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html'"
+                            <li
                                 class="p-item-group">
                                 <div class="p-container">
                                     <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
@@ -2043,7 +2043,7 @@
                                         <span class="discount">-21%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>1.390.000 ₫</span>
                                         <span class="p-price2"><i>Giá bán: </i>1.099.000 ₫</span><span class="p-bottom">
                                         <span style="color: #12bd1b;">✔ Có hàng</span>
-                                        <a href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
+                                        <a href="javascript:void(0)" onclick="addCartInList({{$raw['id']}})" class="btn-cart-stop">Giỏ hàng</a></span>
                                 </div>
                                 <div class="hover-content-pro">
                                     <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
