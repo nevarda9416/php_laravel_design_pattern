@@ -184,28 +184,28 @@
                         Bằng cách đặt hàng, bạn đồng ý với <a style="color: #185ede;" href="/trang/dieu-khoan-giao-dich" target="_blank"><b>Điều khoản giao dịch</b></a> của NIIT-ICT Hà Nội.
                     </p>
                     <p>
-                        <label>Họ và tên*</label>
-                        <input type="text" name="user_info[name]" id="buyer_name" value="" placeholder="Họ tên người nhận hàng">
+                        <label>Họ và tên *</label>
+                        <input type="text" name="user_info[name]" id="buyer_name" value="" placeholder="Họ tên người nhận hàng" required>
                     </p>
                     <p>
                         <label>Số điện thoại di động *</label>
-                        <input type="text" name="user_info[tel]" id="buyer_tel" value="" placeholder="Dùng để liên lạc khi giao hàng">
+                        <input type="text" name="user_info[tel]" id="buyer_tel" value="" placeholder="Dùng để liên lạc khi giao hàng" required>
                     </p>
                     <p>
-                        <label>Email (Vui lòng điền chính xác)*</label>
-                        <input type="text" name="user_info[email]" id="buyer_email" value="" placeholder="Để nhận thông báo đơn hàng">
+                        <label>Email (Vui lòng điền chính xác) *</label>
+                        <input type="text" name="user_info[email]" id="buyer_email" value="" placeholder="Để nhận thông báo đơn hàng" required>
                     </p>
                     <p>
-                        <label style="display: inline-block;" class="rd-shipping-method active" data-id="address-info"> <input type="radio" name="shipping-method" id="enter-address" checked=""> Địa chỉ giao nhận hàng </label>
+                        <label style="display: inline-block;" class="rd-shipping-method active" data-id="address-info"> <input type="radio" name="shipping-method" id="enter-address" checked=""> Địa chỉ giao nhận hàng *</label>
                         <label style="display: inline-block;" class="rd-shipping-method" data-id="showroom-info"> <input type="radio" name="shipping-method" id="select-store" onclick="getListShowroom('')"> Giao nhận tại siêu thị </label>
                     </p>
                     <div class="ship-info" id="address-info">
                         <p>
-                            <input type="text" name="user_info[address]" id="buyer_address" value="" placeholder="Địa chỉ nhận hàng.">
+                            <input type="text" name="user_info[address]" id="buyer_address" value="" placeholder="Địa chỉ nhận hàng." required>
                         </p>
                     </div>
                     <!--address-->
-                    <div class="ship-info" id="showroom-info" style="display: none;">
+                    <div class="ship-info" id="showroom-info">
                         <select id="province" name="user_info[province]" onchange="getListDistrict(this.value)"><option value="0">Chọn Tỉnh/TP</option><option value="Hà Nội">Hà Nội</option></select>
                         <select id="district" name="user_info[district]" onchange="getListShowroom(this.value)">
                             <option value="0">Chọn Quận/Huyện</option>
@@ -258,14 +258,6 @@
                             <span>Thanh toán trực tuyến (bằng thẻ ATM, VISA, MASTER).</span>
                             <em>
                                 <div class="detail" id="pay2" style="display: none;"></div>
-                            </em>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="item-pay" style="padding: 3px 10px;">
-                            <input type="radio" name="pay_method" value="4" onchange="paymentShow('pay3')">
-                            <span>Trả góp qua thẻ tín dụng.</span>
-                            <em>
-                                <div class="detail" id="pay3" style="display: none;"></div>
                             </em>
                             <div class="clear"></div>
                         </div>
