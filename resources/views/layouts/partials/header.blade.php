@@ -27,6 +27,7 @@
     <link href="https://www.phucanh.vn/template/2019/script/style_new.css?v=18.1.2023.2" rel="stylesheet" />
     <!-- Google Tag Manager -->
     <script>
+        var base_url = '{{ config()->get('constants.FRONTEND_URL') }}';
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

@@ -640,7 +640,7 @@ var cId = 0;
                     type: 'POST',
                     url: '/cart-update',
                     data: {content: dataC},
-                    success: function (response) {
+                    success: function (response) {alert('/gio-hang');
                         window.location.href = '/gio-hang'
                     }
                 });
@@ -723,7 +723,7 @@ function cart_minus_item(element) {
 
 function cart_plus_item(element) {
     var productId = parseInt($(element).attr('data-product'));
-    var quantity = parseInt($('.product_' + productId + ' .quantity').val());
+    var quantity = parseInt($('.product_' + productId + ' .quantity').val());console.log('.product_' + productId + ' .quantity');
     $('.product_' + productId + ' .quantity').val(quantity + 1);
     totalClick++;
     let tt = totalClick
@@ -771,7 +771,7 @@ function updateCartData(totalQ, redirect = 0) {
                 data: {content: dataC},
                 success: function (response) {
                     updateCartView();
-                    updatePromotion();
+                 //   updatePromotion();
                     if (redirect == 1) {
                         window.location.href = '/gio-hang'
                     }
@@ -872,7 +872,7 @@ function addItemToCart(data, type = 0) {
     }  else {
         cartData[data.item_id] = data;
     }
-
+console.log(cartData);
     setCart(JSON.stringify(cartData));
 }
 

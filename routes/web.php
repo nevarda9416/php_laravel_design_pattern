@@ -6,6 +6,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\DateTimeController;
+use App\Http\Controllers\ShoppingCartController;
 use Jenssegers\Agent\Agent;
 
 /*
@@ -214,3 +215,7 @@ Route::get('users/index', [UserController::class, 'index']);
 Route::get('users/count', [UserController::class, 'count']);
 Route::get('batch-job', [BatchJobController::class, 'run']);
 Route::get('date-time', [DateTimeController::class, 'index']);
+/**
+ * Giỏ hàng
+ */
+Route::post('/cart-update', [ShoppingCartController::class, 'updateContent'])->name('cart.updateContent');

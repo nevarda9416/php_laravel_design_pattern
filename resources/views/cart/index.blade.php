@@ -33,7 +33,8 @@
                 @csrf
                 <div class="cart-left">
                     <table class="tbl-cart">
-                        <tbody><tr class="itemCart js-item-row" data-variant_id="0" data-item_id="46807" data-item_type="product" data-sku="ROW.ASU.RT-AX1800HP" data-name="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-id="46807">
+                        <tbody>
+                        <tr class="itemCart js-item-row product_1" data-variant_id="0" data-item_id="46807" data-item_type="product" data-sku="ROW.ASU.RT-AX1800HP" data-name="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-id="46807">
                             <td style="width: 100px;">
                                 <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html" class="itemCart-img"><img src="https://phucanhcdn.com/media/product/120_46807_rt_ax1800hp_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
                             </td>
@@ -59,7 +60,7 @@
                             <td>
                                 <div class="unit-detail-amount-control">
                                     <a href="javascript:;" class="quantity-change amount-down" data-price="" data-product="1" onclick="cart_minus_item(this)">-</a>
-                                    <input type="text" size="3" value="1" class="buy-quantity quantity-change" data-stock="40">
+                                    <input type="text" size="3" value="1" class="buy-quantity quantity-change quantity" data-stock="40">
                                     <a href="javascript:;" class="quantity-change amount-up" data-price="" data-product="1" onclick="cart_plus_item(this)">+</a>
                                 </div>
                             </td>
@@ -67,7 +68,7 @@
                                 <a class="itemCart-del delete-from-cart" href="javascript:void(0)" onclick="cart_delete_item(1)" style="padding: 0;"><img src="https://phucanh.vn/template/2019/images/icon_cart_del.png" alt=""></a>
                             </td>
                         </tr>
-                        <tr class="itemCart js-item-row" data-variant_id="0" data-item_id="44679" data-item_type="product" data-sku="ROW.ASU.RT-AX53U" data-name="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-id="44679">
+                        <tr class="itemCart js-item-row product_2" data-variant_id="0" data-item_id="44679" data-item_type="product" data-sku="ROW.ASU.RT-AX53U" data-name="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)" data-id="44679">
                             <td style="width: 100px;">
                                 <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="itemCart-img"><img src="https://phucanhcdn.com/media/product/120_44679_rt_ax53u_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
                             </td>
@@ -92,13 +93,13 @@
                             </td>
                             <td>
                                 <div class="unit-detail-amount-control">
-                                    <a href="javascript:;" class="quantity-change amount-down" data-price="" data-product="1" onclick="cart_minus_item(this)">-</a>
-                                    <input type="text" size="3" value="1" class="buy-quantity quantity-change" data-stock="61">
-                                    <a href="javascript:;" class="quantity-change amount-up" data-price="" data-product="1" onclick="cart_plus_item(this)">+</a>
+                                    <a href="javascript:;" class="quantity-change amount-down" data-price="" data-product="2" onclick="cart_minus_item(this)">-</a>
+                                    <input type="text" size="3" value="1" class="buy-quantity quantity-change quantity" data-stock="61">
+                                    <a href="javascript:;" class="quantity-change amount-up" data-price="" data-product="2" onclick="cart_plus_item(this)">+</a>
                                 </div>
                             </td>
                             <td width="45px">
-                                <a class="itemCart-del delete-from-cart" href="javascript:void(0)" onclick="cart_delete_item(1)" style="padding: 0;"><img src="https://phucanh.vn/template/2019/images/icon_cart_del.png" alt=""></a>
+                                <a class="itemCart-del delete-from-cart" href="javascript:void(0)" onclick="cart_delete_item(2)" style="padding: 0;"><img src="https://phucanh.vn/template/2019/images/icon_cart_del.png" alt=""></a>
                             </td>
                         </tr>
                         <!--DEAL-->
