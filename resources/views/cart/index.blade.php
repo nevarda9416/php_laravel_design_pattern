@@ -29,7 +29,7 @@
         <a href="/" class="btn" style="background: #24aa98; color: #fff; font-size: 15px; padding: 5px 10px; border-radius: 3px; -moz-border-radius: 3px; margin-left: 10px;">Tiếp tục mua hàng</a>
         <div class="space20"></div>
         <div id="cart-page">
-            <form method="post" enctype="multipart/form-data" action="/mua-hang" onsubmit="return check_field()">
+            <form method="post" enctype="multipart/form-data" action="/thanh-toan" onsubmit="return check_field()">
                 @csrf
                 <div class="cart-left">
                     <table class="tbl-cart">

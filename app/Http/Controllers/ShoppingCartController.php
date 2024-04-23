@@ -16,6 +16,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Ixudra\Curl\Facades\Curl;
+use Jenssegers\Agent\Agent;
 
 class ShoppingCartController extends Controller
 {
@@ -36,12 +37,17 @@ class ShoppingCartController extends Controller
 
         $cart_data = ShoppingCartBusiness::getDataCart($list_products);
         if ($cart_data) {
-            $promotions = $cart_data->getPromotion($list_products);
-            $discounts = $cart_data->getDiscounts($list_products);
-            $promotionL = $cart_data->getPromotionLocation($list_products);
+          //  $promotions = $cart_data->getPromotion($list_products);
+          //  $discounts = $cart_data->getDiscounts($list_products);
+          //  $promotionL = $cart_data->getPromotionLocation($list_products);
         }
 
-        return view('cart.index', compact('cart_data', 'list_products', 'promotions', 'discounts', 'user_cookie', 'promotionL', 'shipping_fee'));
+        $agent = new Agent();
+        if ($agent->isMobile()) {
+            return view('cart/mobile/index', compact('cart_data', 'list_products', 'promotions', 'discounts', 'user_cookie', 'promotionL', 'shipping_fee'));
+        } else {
+            return view('cart/index', compact('cart_data', 'list_products', 'promotions', 'discounts', 'user_cookie', 'promotionL', 'shipping_fee'));
+        }
     }
 
     /**

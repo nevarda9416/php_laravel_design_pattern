@@ -61,16 +61,7 @@ Route::prefix('san-pham')->group(function () {
         }
     });
 });
-Route::prefix('gio-hang')->group(function () {
-    Route::get('/', function () {
-        $agent = new Agent();
-        if ($agent->isMobile()) {
-            return view('cart/mobile/index');
-        } else {
-            return view('cart/index');
-        }
-    });
-});
+Route::get('/gio-hang', [ShoppingCartController::class, 'index'])->name('cart.index');
 Route::prefix('mua-hang')->group(function () {
     Route::post('/', function () {
         $agent = new Agent();

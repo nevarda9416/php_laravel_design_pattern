@@ -151,7 +151,7 @@ class ShoppingCartBusiness extends ShoppingCart
             }
         }
 
-        $products = ProductBusiness::getListProductCheckoutByIds($ids);
+        $products = [];//ProductBusiness::getListProductCheckoutByIds($ids);
         $listP = [];
         if (count($products) > 0) {
             foreach ($products as $v) {
