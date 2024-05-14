@@ -141,7 +141,7 @@ class ShoppingCartBusiness extends ShoppingCart
         return $shoppingCart;
     }
 
-    public static function getListCartInfo(&$list_products)
+    public static function getListCartInfo($list_products)
     {
         $ids = [];
         if (count($list_products) > 0) {

@@ -276,12 +276,14 @@ class ProductBusiness
         if (is_array($ids) && count($ids) > 0) {
             $dataK = [];
             foreach ($ids as $item) {
-                $dataK[] = RedisEnum::PRODUCT_DETAIL_KEY . $item['productId'];
+                $dataK[] = $item['productId'];//RedisEnum::PRODUCT_DETAIL_KEY . $item['productId'];
             }
 
             //Check promotion
-            $promotions = ProductBusiness::getPromotionCheckouByProducts($ids);
-            $result = RedisServer::mget($dataK, config()->get('constants.REDIS_PRODUCT_DB'), 1);
+            $promotions = [];//ProductBusiness::getPromotionCheckouByProducts($ids);
+            // Call API spring boot get product detail
+//dd($dataK);
+            $result = [];//RedisServer::mget($dataK, config()->get('constants.REDIS_PRODUCT_DB'), 1);
             $dP = [];
             if (!empty($result)) {
                 foreach ($result as $key => $value) {
@@ -312,7 +314,7 @@ class ProductBusiness
                         $products[$item['productId']]['promotion'] = $promotions[$item['productId']];
                     }
                 } else {
-                    $pr = ProductBusiness::getProductDetailAPI($item['productId']);
+                    $pr = [];//ProductBusiness::getProductDetailAPI($item['productId']);
                     if (!empty($pr)) {
                         $products[$item['productId']] = $pr;
                         if (isset($promotions[$item['productId']])) {
