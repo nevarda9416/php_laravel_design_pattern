@@ -27,7 +27,7 @@
                 </a>
             </div>
         </div><!--breadcrumb-->
-        <h1 style="float: left;overflow: hidden;font-size: 20px;color: #333;line-height: 30px;">{{$productDetailData['name']??''}}</h1>
+        <h1 style="float: left;overflow: hidden;font-size: 20px;color: #333;line-height: 30px;">{{$productDetailData['name']}}</h1>
         <div class="clear"></div>
         <div id="list-image_fancybox">
             <a href="https://phucanhcdn.com/media/product/46807_rt_ax1800hp_1.jpg" class='fancybox fancybox-item'
@@ -103,14 +103,7 @@
                 </div>
             </div>
             <div class="pro-summary">
-                <ul class="ul">
-                    <li><i class="before"></i><span><h3>Tốc độ WIFI: AX1800Mbps</h3></span></li>
-                    <li><i class="before"></i><span><h3>Chuẩn kết nối: Chuẩn AX (Wifi 6)</h3></span></li>
-                    <li><i class="before"></i><span><h3>Angten: 4 Ăng-ten ngoài</h3></span></li>
-                    <li><i class="before"></i><span><h3>Cổng giao tiếp: RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT for LAN x 4</h3></span></li>
-                    <li><i class="before"></i><span><h3>Tốc độ LAN: 10/100/1000Mbps</h3></span></li>
-                    <li><div id="tabtem"><a href="#tab2" style="color: #f00;">Xem chi tiết</a></div></li>
-                </ul>
+                <?php echo html_entity_decode($productDetailData['summary']) ?>
             </div>
             <div class="clear"></div>
         </div>
@@ -177,14 +170,13 @@
                             <tr>
                                 <td>Giá niêm yết:</td>
                                 <td style="position: relative;">
-                                    <span class="detail-product-old-price">1.599.000 ₫</span>
-                                    <!--<span class="discount-prodetail">-16%</span>-->
+                                    <span class="detail-product-old-price">{{ number_format($productDetailData['original_price'], 0, '.', '.') }} ₫</span>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="width: 145px; font-weight: bold;">Giá ưu đãi tháng 1:</td>
+                                <td style="width: 145px; font-weight: bold;">Giá ưu đãi:</td>
                                 <td>
-                                    <span class="detail-product-best-price">1.350.000 ₫</span>
+                                    <span class="detail-product-best-price">{{ number_format($productDetailData['sale_price'], 0, '.', '.') }} ₫</span>
                                     <span style="font-size: 12px; color: #888;">[Giá đã có VAT]</span>
                                 </td>
                             </tr>
@@ -193,14 +185,14 @@
                 </div><!--js-copy-html-to-bottom-->
                 <p>
                 <div class="bao-hanh">
-                    <strong>Bảo hành:</strong> 36 Tháng. Bảo hành tại Phúc Anh.
+                    <strong>Bảo hành:</strong> 36 Tháng. Bảo hành tại NIIT.
                     <br>
                     <br>
                 </div>
                 <a><span style=color:red>Giao hàng tận nơi miễn phí theo chính sách vận chuyển</span> <a
                             style="color:blue" ; href="{{url('trang/van-chuyen-giao-nhan-hang-hoa')}}"
                             target="_blank"><i>(Xem chi tiết)</i></a></a></p>
-                <p style="margin: 0 0 10px 0;"><strong>Lượt xem:</strong> 13.415</p>
+                <p style="margin: 0 0 10px 0;display: none"><strong>Lượt xem:</strong> 13.415</p>
                 <div class="button-buy-detail">
                     <a href="javascript:void(0)" onclick="addProductToCart('46807',0,'/cart');"
                        class="btn-buy btn-buy-red1 btn-buynow"><span>Mua ngay</span>Giao hàng tận nơi nhanh chóng</a>
@@ -230,22 +222,22 @@
                     <h4 class="title h-title">Chính sách bán hàng và bảo hành</h4>
                     <ul class="ul">
                         <li><i class="icon-star-list"></i> <span><a>Mua hàng trả góp lãi suất 0% <a style="color:blue" ;
-                                                                                                    href="https://www.phucanh.vn/trang/chinh-sach-mua-tra-gop"><i>Chi tiết</i></a></a></span>
+                                                                                                    href="{{url('/trang/chinh-sach-mua-tra-gop')}}><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Giao hàng nhanh 2h và miễn phí giao hàng từ 500.000đ <a
                                             style="color:blue" ;
-                                            href="https://www.phucanh.vn/van-chuyen-giao-nhan-hang-hoa.html"><i>Chi tiết</i></a></a></span>
+                                            href="{{url('/trang/van-chuyen-giao-nhan-hang-hoa')}}"><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Ưu đãi vàng dành cho khách hàng doanh nghiệp <a
                                             style="color:blue" ;
-                                            href="https://www.phucanh.vn/chinh-sach-cho-khach-hang-doanh-nghiep-2020.html"><i>Chi tiết</i></a></a></span>
+                                            href="{{url('/trang/chinh-sach-cho-khach-hang-doanh-nghiep')}}"><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Đổi mới sản phẩm đến 30 ngày &nbsp; &nbsp; &nbsp; &nbsp;    <a
                                             style="color:blue" ;
-                                            href="https://www.phucanh.vn/trang/chinh-sach-doi-tra-san-pham"><i>Chi tiết</i></a></a></span>
+                                            href="{{url('/trang/chinh-sach-doi-tra-san-pham')}}"><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Dịch vụ bảo hành chuyên nghiệp, uy tín <a
-                                            style="color:blue" ; href="https://www.phucanh.vn/trang/chinh-sach-bao-hanh"><i>Chi tiết</i></a></a></span>
+                                            style="color:blue" ; href="{{url('/trang/chinh-sach-bao-hanh')}}"><i>Chi tiết</i></a></a></span>
                         </li>
                     </ul>
                 </div><!--uudai btn-buy btn-buy-yellow -->
@@ -275,88 +267,7 @@
                 <div id="tab2">
                     <h2 class="h-title">Đặc điểm nổi bật</h2>
                     <div class="nd" style="width: 100%;height:450px;overflow: hidden;">
-                        <p>Tới <strong><span style="color: red;">PH&Uacute;C ANH</span></strong> an t&acirc;m mua sắm
-                            những sản phẩm <strong>CHẤT LƯỢNG</strong> với mức <strong>GI&Aacute; LU&Ocirc;N TỐT
-                                NHẤT!</strong></p>
-                        <h2>B&ocirc;̣ ph&aacute;t wifi 6 Asus RT-AX1800HP MU-MIMO AX1800Mbps (Xuy&ecirc;n tường)</h2>
-                        <h3>Kết nối cho căn nh&agrave; của bạn với WiFi 6</h3>
-                        <p>Ng&agrave;y c&agrave;ng c&oacute; nhiều thiết bị c&aacute; nh&acirc;n v&agrave; thiết bị IoT
-                            được kết nối với <span style="color: #0000ff;"><strong><a style="color: #0000ff;"
-                                                                                      href="https://www.phucanh.vn/bo-phat-wifi.html">bộ ph&aacute;t Wifi</a></strong></span>,
-                            dẫn đến sự gia tăng tổng thể về mật độ mạng, đẩy giới hạn của ti&ecirc;u chuẩn WiFi hiện tại
-                            l&ecirc;n mức cao hơn.&nbsp;Chuẩn WiFi 6 (802.11ax) mới nhất cung cấp c&aacute;c c&ocirc;ng
-                            nghệ tương lai, hiệu quả kết nối mạng tốt hơn, tốc độ WiFi nhanh hơn, phạm vi phủ s&oacute;ng
-                            lớn hơn v&agrave; cải thiện thời lượng pin cho c&aacute;c thiết bị được kết nối, mang lại
-                            trải nghiệm mạng tối ưu hơn nhiều cho người d&ugrave;ng.</p>
-                        <p><img style="display: block; margin-left: auto; margin-right: auto;"
-                                src="https://phucanhcdn.com/media/lib/21-06-2023/pt01.jpg" alt=""/></p>
-                        <p><img style="display: block; margin-left: auto; margin-right: auto;"
-                                src="https://phucanhcdn.com/media/lib/21-06-2023/pt02.jpg" alt=""/></p>
-                        <p><img style="display: block; margin-left: auto; margin-right: auto;"
-                                src="https://phucanhcdn.com/media/lib/28-03-2022/asusrt-ax1800hpbvh1.jpg"
-                                alt="Bộ ph&aacute;t wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngo&agrave;i/ Wifi Mesh/ 35 User)"
-                                width="1080" height="608"/></p>
-                        <h3>Tốc độ WiFi thế hệ mới</h3>
-                        <p><span style="color: #0000ff;"><strong><a style="color: #0000ff;"
-                                                                    href="https://www.phucanh.vn/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html">RT-AX1800HP</a></strong></span>&nbsp;l&agrave;
-                            WiFi router hai băng tần 2x2 cung cấp băng th&ocirc;ng 80MHz v&agrave; 1024-QAM cho kết nối
-                            kh&ocirc;ng d&acirc;y nhanh hơn r&otilde; rệt. Với tổng tốc độ mạng khoảng 1800Mbps -
-                            574Mbps tr&ecirc;n băng tần 2.4GHz v&agrave; 1201Mbps tr&ecirc;n băng tần 5GHz - bộ ph&aacute;t
-                            Wifi Asus&nbsp;nhanh hơn 1,5 lần so với c&aacute;c router hai băng tần 2x2 chuẩn 802.11ac.
-                        </p>
-                        <p><img style="display: block; margin-left: auto; margin-right: auto;"
-                                src="https://phucanhcdn.com/media/lib/28-03-2022/asusrt-ax1800hpbvh2.jpg"
-                                alt="Bộ ph&aacute;t wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngo&agrave;i/ Wifi Mesh/ 35 User)"
-                                width="1080" height="500"/></p>
-                        <h3>Kết nối đồng thời nhiều thiết bị c&ugrave;ng l&uacute;c</h3>
-                        <p>Với sự kết hợp mang t&iacute;nh c&aacute;ch mạng giữa c&ocirc;ng nghệ OFDMA v&agrave;
-                            MU-MIMO, c&ocirc;ng nghệ 802.11ax cung cấp khả năng v&agrave; hiệu quả kết nối mạng cao hơn
-                            gấp 4 lần trong m&ocirc;i trường tỉ lệ lưu lượng truy cập d&agrave;y đặc như hiện nay. Chuẩn
-                            WiFi 802.11ac thế hệ trước chỉ c&oacute; thể xử l&yacute; một thiết bị tại một thời điểm tr&ecirc;n
-                            mỗi k&ecirc;nh mạng, đ&acirc;y l&agrave; việc sử dụng băng th&ocirc;ng khả dụng kh&ocirc;ng
-                            hiệu quả. Hỗ trợ c&ocirc;ng nghệ OFDMA trong chuẩn WiFi 6 (802.11ax) chia mỗi k&ecirc;nh th&agrave;nh
-                            c&aacute;c k&ecirc;nh phụ nhỏ, cho ph&eacute;p t&iacute;n hiệu từ nhiều thiết bị được nh&oacute;m
-                            lại với nhau v&agrave; truyền đồng thời, giảm độ trễ từ đ&oacute; mang lại trải nghiệm lướt
-                            WiFi mượt m&agrave; hơn, thời gian phản hồi nhanh hơn.</p>
-                        <p><img style="display: block; margin-left: auto; margin-right: auto;"
-                                src="https://phucanhcdn.com/media/lib/28-03-2022/asusrt-ax1800hpbvh3.jpg"
-                                alt="Bộ ph&aacute;t wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngo&agrave;i/ Wifi Mesh/ 35 User)"
-                                width="1080" height="455"/></p>
-                        <h3>Bảo vệ mạng gia đ&igrave;nh của bạn</h3>
-                        <p><strong><span style="color: #0000ff;"><a style="color: #0000ff;"
-                                                                    href="https://www.phucanh.vn/thiet-bi-mang.html">Thiết bị mạng</a></span>&nbsp;RT-AX1800HP</strong>
-                            c&oacute; t&iacute;nh năng đi k&egrave;m ASUS AiProtection, một hệ thống bảo mật mạng cấp
-                            thương mại hợp t&aacute;c với Trend Micro&trade; Smart Home Network. Với AiProtection, tất
-                            cả c&aacute;c thiết bị được kết nối đều được bảo vệ, ngay cả khi ch&uacute;ng kh&ocirc;ng c&oacute;
-                            khả năng chống vi-r&uacute;t của ri&ecirc;ng thiết bị đ&oacute; - chẳng hạn như c&aacute;c
-                            thiết bị IoT. Bảo mật mạng AiProtection chặn c&aacute;c cuộc tấn c&ocirc;ng tr&ecirc;n
-                            internet phổ biến trước khi ch&uacute;ng đến được mạng v&agrave; nếu một thiết bị bị nhiễm
-                            được ph&aacute;t hiện tr&ecirc;n kết nối mạng, AiProtection sẽ ngay lập tức chặn thiết bị đ&oacute;
-                            v&agrave; ngăn gửi bất kỳ th&ocirc;ng tin c&aacute; nh&acirc;n n&agrave;o đến c&aacute;c m&aacute;y
-                            chủ độc hại.</p>
-                        <p><img style="display: block; margin-left: auto; margin-right: auto;"
-                                src="https://phucanhcdn.com/media/lib/28-03-2022/asusrt-ax1800hpbvh4.jpg"
-                                alt="Bộ ph&aacute;t wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngo&agrave;i/ Wifi Mesh/ 35 User)"
-                                width="1080" height="433"/></p>
-                        <h3>C&aacute;c t&ugrave;y chọn kết nối</h3>
-                        <p><strong>Router RT-AX1800HP</strong> c&oacute; một cổng WAN Gigabit, 4 cổng LAN Gigabit. Smart
-                            TV, m&aacute;y console, thiết bị lưu trữ NAS, Internet dự ph&ograve;ng, v.v.. giờ đ&acirc;y
-                            c&oacute; thể c&oacute; c&aacute;c cổng chuy&ecirc;n dụng ri&ecirc;ng, biến router
-                            RT-AX1800HP trở th&agrave;nh trung t&acirc;m kỹ thuật số tại nh&agrave; v&ocirc; c&ugrave;ng
-                            ổn định cho bạn.</p>
-                        <p><img style="display: block; margin-left: auto; margin-right: auto;"
-                                src="https://phucanhcdn.com/media/lib/28-03-2022/asusrt-ax1800hpbvh5.jpg"
-                                alt="Bộ ph&aacute;t wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngo&agrave;i/ Wifi Mesh/ 35 User)"
-                                width="1080" height="464"/></p>
-                        <h3>Kiểm so&aacute;t v&agrave; tối ưu linh hoạt với ASUSWRT</h3>
-                        <p>Với bảng điều khiển ASUSWRT giao diện th&acirc;n thiện người d&ugrave;ng, việc thiết lập, gi&aacute;m
-                            s&aacute;t v&agrave; điều khiển c&aacute;c ứng dụng mạng đều trong một nơi điều chỉnh trực
-                            quan. Thiết lập nhanh, ph&aacute;t hiện nhiều thiết bị v&agrave; c&agrave;i đặt linh hoạt,
-                            ASUSWRT tận dụng tối đa hiệu năng kết nối mạng nh&agrave; bạn.</p>
-                        <p><img style="display: block; margin-left: auto; margin-right: auto;"
-                                src="https://phucanhcdn.com/media/lib/28-03-2022/asusrt-ax1800hpbvh6.jpg"
-                                alt="Bộ ph&aacute;t wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngo&agrave;i/ Wifi Mesh/ 35 User)"
-                                width="1080" height="507"/></p>
+                        <?php echo html_entity_decode($productDetailData['long_description']) ?>
                     </div>
                     <p class="show-more" style="display: block;" onclick="showArticle();">
                         <a id="xem-them-bai-viet" href="javascript:;" class="readmore">Đọc thêm</a>
@@ -378,53 +289,9 @@
             </div><!--content-tab-left-->
             <div class="content-tab-right">
                 <div class="pd-specSummary-group">
-                    <p class="title">Cấu hình Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten
-                        ngoài/ Wifi Mesh/ 35 User)</p>
+                    <p class="title">Cấu hình {{$productDetailData['name']}}</p>
                     <div class="pd-specSummary-holder js-spec-holder">
-                        <table class="tb-product-spec">
-                            <tr>
-                                <td class="spec-key">Tốc độ WIFI</td>
-                                <td class="spec-value">: AX1800Mbps</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-key">Chuẩn kết nối</td>
-                                <td class="spec-value">: <a href="https://www.phucanh.vn/cong-nghe-wifi-6-la-gi.html">Chuẩn
-                                        AX (Wifi 6)</a></td>
-                            </tr>
-                            <tr>
-                                <td class="spec-key">Angten</td>
-                                <td class="spec-value">: 4 Ăng-ten ngoài</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-key">Cổng giao tiếp</td>
-                                <td class="spec-value">: RJ45 for Gigabits BaseT for WAN x 1, RJ45 for Gigabits BaseT
-                                    for LAN x 4
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="spec-key">Tốc độ LAN</td>
-                                <td class="spec-value">: 10/100/1000Mbps</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-key">Công nghệ Mesh</td>
-                                <td class="spec-value">: Wifi Mesh</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-key">Nhu cầu sử dụng</td>
-                                <td class="spec-value">: Gaming, Gia đình</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-key">Số thiết bị truy cập</td>
-                                <td class="spec-value">: 30-40 User</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-key">Mô tả khác</td>
-                                <td class="spec-value">: Hỗ trợ công nghệ MU-MIMO và OFDMA, với bảo mật mạng
-                                    AiProtection Classic do Trend MicroTM cung cấp, tương thích với hệ thống WiFi AiMesh
-                                    của ASUS
-                                </td>
-                            </tr>
-                        </table>
+                        <?php echo html_entity_decode($productDetailData['short_description']) ?>
                     </div>
                     <a href="javascript:void(0)" class="box-btn-spec"
                        onclick="$('#fancybox-spec').fadeIn();$('body').css('overflow','hidden')"><span>Xem thêm cấu hình chi tiết</span></a>
@@ -575,7 +442,7 @@
                 </div><!--comment-->
                 <div id="review-statistic">
                     <h4 class="h-title">Chi tiết đánh giá</h4>
-                    <p id="ratingOveriew">&nbsp;&nbsp;<a href="javascript:void(0)" class="blue">(<b class="reviewCount">0</b>
+                    <p id="ratingOveriew"><i class="icons icon-star star5"></i>&nbsp;&nbsp;<a href="javascript:void(0)" class="blue">(<b class="reviewCount">0</b>
                             người đánh giá)</a></p>
                     <div class="rating-form">
                         <p>Mời bạn gửi đánh giá về sản phẩm</p>

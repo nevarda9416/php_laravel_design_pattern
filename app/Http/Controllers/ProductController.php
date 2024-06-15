@@ -132,8 +132,8 @@ class ProductController extends Controller
         $ProductBusiness = new ProductBusiness();
         // Call API get product detail
         $productDetail = app(Response::class)->responseData('/api/products/slug/' . $slug);
-        $productDetailData = $productDetail['data']??[];
-//dd($productDetail);
+        $productDetailData = $productDetail['data'][0]??[];
+//dd($productDetailData);
 /*
         $product_detail = $ProductBusiness->get_product_detail($product_id);
         if (!empty($product_detail)) {
