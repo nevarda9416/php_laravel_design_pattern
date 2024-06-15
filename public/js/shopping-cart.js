@@ -5,26 +5,26 @@ var totalClick = 0;
 var cId = 0;
 (function ($) {
     $(document ).ready(function() {
-        $('#select-loyatyl').select2({
-            minimumResultsForSearch: -1
-        }).on('change', function (e) {
-            var pointC = this.value;
-            $.ajax({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                },
-                type: 'POST',
-                url: '/cart-point',
-                data: {point: pointC},
-                success: function (response) {
-                    window.location.href = '/thong-tin'
-                }
-            });
-        });
+        // $('#select-loyatyl').select2({
+        //     minimumResultsForSearch: -1
+        // }).on('change', function (e) {
+        //     var pointC = this.value;
+        //     $.ajax({
+        //         headers: {
+        //             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        //         },
+        //         type: 'POST',
+        //         url: '/cart-point',
+        //         data: {point: pointC},
+        //         success: function (response) {
+        //             window.location.href = '/thong-tin'
+        //         }
+        //     });
+        // });
         $('.back-to-top').click();
-        $('.box-select-subject').select2({
-            minimumResultsForSearch: -1
-        });
+        // $('.box-select-subject').select2({
+        //     minimumResultsForSearch: -1
+        // });
 
         if (window.location.pathname.indexOf('hoan-tat') >= 0) {
             if ($('#shopping-total-price').length > 0) {
@@ -32,9 +32,9 @@ var cId = 0;
             }
         }
         getShoppingCart();
-        $('.select2-select').select2({
-            maximumInputLength: 20
-        });
+        // $('.select2-select').select2({
+        //     maximumInputLength: 20
+        // });
 
         if ($('#body-highlight-product').length > 0) {
             highlightProduct();

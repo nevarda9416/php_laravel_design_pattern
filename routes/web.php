@@ -7,6 +7,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\DateTimeController;
 use App\Http\Controllers\ShoppingCartController;
+use App\Http\Controllers\ProductController;
 use Jenssegers\Agent\Agent;
 
 /*
@@ -52,14 +53,7 @@ Route::prefix('dang-nhap')->group(function () {
 });
 Route::get('danh-muc/{slug}.html', [CategoryController::class, 'getProduct']);
 Route::prefix('san-pham')->group(function () {
-    Route::get('/{slug}.html', function () {
-        $agent = new Agent();
-        if ($agent->isMobile()) {
-            return view('product/mobile/detail');
-        } else {
-            return view('product/detail');
-        }
-    });
+    Route::get('/{slug}.html', [ProductController::class, 'detail'])->name('product.detail');
 });
 Route::get('/gio-hang', [ShoppingCartController::class, 'index'])->name('cart.index');
 Route::get('/list-products', [ShoppingCartController::class, 'listProducts']);
