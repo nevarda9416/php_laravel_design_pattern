@@ -1,15 +1,5 @@
 @extends('layouts.default')
 @section('content')
-    <style>
-        #main-menu ul {
-            display: none
-        }
-
-        #main-menu:hover ul {
-            display: block !important;
-            top: 37px;
-        }
-    </style>
     <div class="product-page container">
         <div id="breadcrumb">
             <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
@@ -17,7 +7,6 @@
                     <span itemprop="title">Trang chủ</span>
                 </a>
             </div>
-
             <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                 &nbsp;/&nbsp;
                 <a href="/thiet-bi-mang.html" itemprop="url">

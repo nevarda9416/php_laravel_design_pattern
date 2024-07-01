@@ -411,6 +411,13 @@
                 width: 250px;
             }
         }
+        #main-menu ul {
+            display: none
+        }
+        #main-menu:hover ul {
+            display: block !important;
+            top: 37px;
+        }
     </style>
 </head>
 <body>

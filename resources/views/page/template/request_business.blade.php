@@ -1,19 +1,12 @@
 @extends('layouts.default')
 @section('content')
-    <style>
-        #main-menu ul {
-            display: none
-        }
-        #main-menu:hover ul {
-            display: block !important;
-            top: 37px;
-        }
-    </style>
     <div class="container">
-        <h1 style="margin:15px 0; text-align:center;">Gửi yêu cầu báo giá, đặt hàng</h1>
-        <p class="font14" style="max-width:800px; margin:auto; text-align:center;">Khi khách hàng cá nhân có nhu cầu báo giá, đặt hàng, quý khách vui lòng gửi yêu cầu tới phòng kinh doanh của Phúc Anh. Với kinh nghiệm hơn 20 năm phục vụ, Phúc Anh sẽ nỗ lực hết mình để làm hài lòng quý khách hàng!</p>
-        <br>
-        <form method="post" action="/upload/individual.php" enctype="multipart/form-data" onsubmit="return check_field();" style="width: 600px;margin: auto;border: solid 1px #ddd;padding: 10px;">
+        <div style="margin-left:10px; margin-right:10px;">
+            <h1 style="margin:15px 0; text-align:center;">Gửi yêu cầu báo giá, đặt hàng</h1>
+            <p class="font14" style="max-width:800px; margin:auto; text-align:center;">Khi khách hàng doanh nghiệp có nhu cầu báo giá, đặt hàng, quý khách vui lòng gửi yêu cầu tới phòng kinh doanh của Phúc Anh. Với kinh nghiệm hơn 20 năm phục vụ, Phúc Anh sẽ nỗ lực hết mình để làm hài lòng quý khách hàng!</p>
+            <br>
+        </div>
+        <form method="post" action="/upload/enterprise.php" enctype="multipart/form-data" onsubmit="return check_field();" style="width: 600px;margin: auto;border: solid 1px #ddd;padding: 10px;">
 
             <table class="tbl-common">
                 <tbody><tr>
@@ -31,7 +24,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Nội dung yêu cầu<br><textarea style="max-width: 565px;height: 100px;" cols="50" rows="8" name="content" class="inputText"></textarea></td>
+                    <td>Công ty <b style="color:Red">*</b><br>
+                        <input type="text" size="40" name="company" id="buyer_company" class="inputText" required="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nội dung yêu cầu<br><textarea style="max-width: 565px;height: 100px;" cols="45" rows="8" name="content" class="inputText"></textarea></td>
                 </tr>
                 <tr>
                     <td>Mã bảo vệ
@@ -50,3 +48,4 @@
         </form>
     </div>
 @endsection
+

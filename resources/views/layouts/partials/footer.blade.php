@@ -181,17 +181,12 @@
                                         </p>
                                     </td>
                                     <td>
-                                        <p><span class="title">
-											<b>Tư vấn mua trả góp:</b></span>
-                                            <b class="red">1900 2164</b> - Nhánh số 3 (8h00 - 20h30)<br/>
-                                            <b class="red"><font style="color:#000; font-weight: normal;">Hoặc </font>094 558 2323</b>
-                                        </p>
-                                        <p style="margin-bottom: 0;"><span class="title"><b>Hỗ trợ kỹ thuật:</b> </span><b class="red">1900 2165</b> (8h00 - 20h30)</p>
-                                    </td>
-                                    <td>
 
                                         <p><span class="title"><b>Tra cứu bảo hành- Yêu cầu dịch vụ:</b></span><b class="red">1900 2173</b> (8h00 - 17h30, Thứ 2 - Thứ 7)</p>
                                         <p><span class="title"><b>Góp ý, khiếu nại:</b> </span><b class="red">1900 2174</b> (8h00 - 20h30)</p>
+                                    </td>
+                                    <td>
+                                        <p style="margin-bottom: 0;"><span class="title"><b>Hỗ trợ kỹ thuật:</b> </span><b class="red">1900 2165</b> (8h00 - 20h30)</p>
                                     </td>
                                 </tr>
                             </table>

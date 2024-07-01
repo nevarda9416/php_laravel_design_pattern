@@ -1,14 +1,5 @@
 @extends('layouts.default')
 @section('content')
-    <style>
-        #main-menu ul {
-            display: none
-        }
-        #main-menu:hover ul {
-            display: block !important;
-            top: 37px;
-        }
-    </style>
     <div id="wrap" class="width_body isCenter">
         <div id="b_scroll_left" class="fload-menu">  </div>
         <div id="b_scroll_right" class="fload-menu">  </div>

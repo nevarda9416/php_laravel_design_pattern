@@ -1,5 +1,13 @@
 @extends('layouts.default')
 @section('content')
+    <style>
+        #main-menu ul {
+            display: block;
+        }
+        #main-menu:hover ul {
+            margin-top: 11px;
+        }
+    </style>
     <div class="container" style="min-height: 541px">
         <div class="home-banner-group">
             <div class="home-banner-slider">
@@ -164,12 +172,11 @@
                             alt="1" width="1200" height="210" class="lazy"></a>
                 </div>
                 <div class="title_tab">
-                    <a href="#tab2" class="cufon1 a_tab current">Sản phẩm Hot</a>
-                    <a href="#tab3" class="cufon1 a_tab">Sản phẩm mới</a>
+                    <a href="#tab3" class="cufon1 a_tab current">Sản phẩm mới</a>
                 </div>
                 <div class="product_list">
                     <div id="tab2" style="display: block;" class="ul cf">
-                        <div class="top-deal p-item-group bg_product10">
+                        <div class="top-deal p-item-group">
                             <div class="p-container">
                                 <a href="/laptop-lenovo-v15-g3-aba.html" class="d-img p-img">
                                     <img class="lazy"

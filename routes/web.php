@@ -8,6 +8,7 @@ use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\DateTimeController;
 use App\Http\Controllers\ShoppingCartController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\PageController;
 use Jenssegers\Agent\Agent;
 
 /*
@@ -21,7 +22,7 @@ use Jenssegers\Agent\Agent;
 |
 */
 Route::get('/', function () {
-    $rawResponse = app(Response::class)->responseData('/api/products/all');
+    $rawResponse = app(Response::class)->responseData('/products/all');
     $agent = new Agent();
     if ($agent->isMobile()) {
         return view('homepage/mobile/index', ['rawResponse' => $rawResponse]);
@@ -124,6 +125,9 @@ Route::prefix('tin-cong-nghe')->group(function () {
     });
 });
 Route::prefix('trang')->group(function () {
+    Route::get('/{slug}', [PageController::class, 'detail'])->name('page.detail');
+});
+/*
     Route::get('gioi-thieu', function () {
         $agent = new Agent();
         return $agent->isMobile() ? view('page/mobile/about') : view('page/about');
@@ -197,6 +201,7 @@ Route::prefix('trang')->group(function () {
         return $agent->isMobile() ? view('page/mobile/complaint') : view('page/complaint');
     });
 });
+*/
 Route::get('users/index', [UserController::class, 'index']);
 Route::get('users/count', [UserController::class, 'count']);
 Route::get('batch-job', [BatchJobController::class, 'run']);

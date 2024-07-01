@@ -6,11 +6,11 @@ use Illuminate\Support\Facades\Http;
 
 class Response
 {
-    private string $domain;
+    protected $domain;
 
     public function __construct()
     {
-        $this->domain = env('API_DOMAIN', 'http://localhost:8082');
+        $this->domain = env('API_DOMAIN', 'http://localhost:8082/api');
     }
 
     public function responseData($endpoint)

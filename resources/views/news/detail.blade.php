@@ -1,16 +1,6 @@
 @extends('layouts.default')
 @section('content')
-    <style>
-        #main-menu ul {
-            display: none
-        }
-        #main-menu:hover ul {
-            display: block !important;
-            top: 37px;
-        }
-    </style>
     <div class="container">
-
         <div id="breadcrumb">
             <div>
                 <a href="/" itemprop="url" class="nopad-l">
@@ -22,7 +12,6 @@
                     <span itemprop="title">Tin tức</span>
                 </a>
             </div>
-
             <div>
                 &nbsp;/&nbsp;<a href="<br />
 <b>Notice</b>:  Undefined index: request_path in <b>/var/www/html/phucanh.vn/public_html/cache/template/article_detail.bcb3a4ea8dfb00139cb2abec09a26b2c.php</b> on line <b>26</b><br />
