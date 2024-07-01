@@ -17,7 +17,7 @@
         <div class="clear"></div>
         <div class="nd"><p style="text-align: center;"><strong><span style="font-size: 18pt;">THÔNG TIN LIÊN HỆ</span></strong></p>
 
-            <p><span style="font-size: 11pt;">Thành lập vào ngày 08/08/2000 và trải qua hơn 20 năm hoạt động &amp; phát triển, Phúc Anh đã từng bước khẳng định và tạo sự tín nhiệm trong lòng khách hàng, trở thành một trong những công ty chuyên nghiệp nhất cung cấp điện thoại, máy tính, thiết bị văn phòng và các giải pháp, ứng dụng công nghệ. Với đội ngũ nhân viên trình độ cao, tận tâm cùng hệ thống showroom, trung tâm bảo hành hiện đại trên khắp Hà Nội, Phúc Anh sẽ mang đến cho khách hàng sự hài lòng cao nhất khi lựa chọn sản phẩm, sử dụng dịch vụ.</span></p>
+            <p><span style="font-size: 11pt;">Thành lập vào ngày 08/08/2000 và trải qua hơn 20 năm hoạt động &amp; phát triển, NIIT-ICT đã từng bước khẳng định và tạo sự tín nhiệm trong lòng khách hàng, trở thành một trong những công ty chuyên nghiệp nhất cung cấp điện thoại, máy tính, thiết bị văn phòng và các giải pháp, ứng dụng công nghệ. Với đội ngũ nhân viên trình độ cao, tận tâm cùng hệ thống showroom, trung tâm bảo hành hiện đại trên khắp Hà Nội, NIIT-ICT sẽ mang đến cho khách hàng sự hài lòng cao nhất khi lựa chọn sản phẩm, sử dụng dịch vụ.</span></p>
             <p><span style="font-size: 11pt;">Để được phục vụ tốt nhất, Quý khách vui lòng liên hệ với chúng tôi theo các thông tin sau:</span></p>
 
             <p style="text-align: center;"><strong><span style="font-size: 18pt;">&nbsp;HỆ THỐNG SHOWROOM</span></strong></p>
@@ -25,7 +25,7 @@
                 <tbody>
                 <tr>
                     <td style="width: 50%; border-bottom: 1px solid #dddddd; vertical-align: top;">
-                        <p><strong><span class="number-footer">1</span><span class="title-footer">PHÚC ANH 15 XÃ ĐÀN</span></strong></p>
+                        <p><strong><span class="number-footer">1</span><span class="title-footer">NIIT-ICT 15 XÃ ĐÀN</span></strong></p>
                         <p>&nbsp; &nbsp;<br><strong>&nbsp; &nbsp;* Địa chỉ</strong>: Số 15, Xã Đàn, Phương Liên, Đống Đa, Hà Nội</p>
                         <p>&nbsp; &nbsp;<strong>* Điện thoại</strong>: (024) 39.68.99.66 (ext 1)</p>
                         <p>&nbsp; &nbsp;<strong>* Thời gian làm việc</strong>: 8h00 - 21h00</p>
@@ -40,7 +40,7 @@
                 </tr>
                 <tr>
                     <td style="width: 50%; border-bottom: 1px solid #dddddd; vertical-align: top;">
-                        <p><strong><span class="number-footer">2</span><span class="title-footer">PHÚC ANH 152&nbsp;TRẦN DUY HƯNG</span></strong></p>
+                        <p><strong><span class="number-footer">2</span><span class="title-footer">NIIT-ICT 152&nbsp;TRẦN DUY HƯNG</span></strong></p>
                         <p>&nbsp; <br>&nbsp; &nbsp;<strong>* Địa chỉ</strong>: Số 152 Trần Duy Hưng,&nbsp;Cầu Giấy, Hà Nội</p>
                         <p>&nbsp; &nbsp;<strong>* Điện thoại</strong>: (024) 39.68.99.66 (ext 2)</p>
                         <p>&nbsp; &nbsp;<strong>* Thời gian làm việc</strong>: 8h00 - 21h00</p>
@@ -56,7 +56,7 @@
                 </tr>
                 <tr>
                     <td style="width: 50%; border-bottom: 1px solid #dddddd; vertical-align: top;">
-                        <p>&nbsp;<strong><span class="number-footer">3</span><span class="title-footer">PHÚC ANH 134&nbsp;THÁI HÀ</span></strong></p>
+                        <p>&nbsp;<strong><span class="number-footer">3</span><span class="title-footer">NIIT-ICT 134&nbsp;THÁI HÀ</span></strong></p>
                         <p>&nbsp; <br>&nbsp; &nbsp;<strong>* Địa chỉ</strong>: Số 134 Thái Hà, Đống Đa, Hà Nội</p>
                         <p>&nbsp; &nbsp;<strong>* Điện thoại</strong>: (024) 39.68.99.66 (ext 3)</p>
                         <p>&nbsp; &nbsp;<strong>* Thời gian làm việc</strong>: 8h00 - 21h00</p>
@@ -71,7 +71,7 @@
                 </tr>
                 <tr>
                     <td style="width: 50%; border-bottom: 1px solid #dddddd; vertical-align: top;">
-                        <p><strong><span class="number-footer">4</span><span class="title-footer">PHÚC ANH 141 PHẠM VĂN ĐỒNG</span></strong></p>
+                        <p><strong><span class="number-footer">4</span><span class="title-footer">NIIT-ICT 141 PHẠM VĂN ĐỒNG</span></strong></p>
                         <p>&nbsp; <br>&nbsp; &nbsp;<strong>* Địa chỉ</strong>: Số 141 - 143 Phạm Văn Đồng, Cầu Giấy, Hà Nội</p>
                         <p>&nbsp; &nbsp;<strong>* Điện thoại</strong>: (024) 39689966 (ext 5)</p>
                         <p>&nbsp; &nbsp;<strong>* Thời gian làm việc</strong>: 8h00 - 21h00</p>
@@ -86,7 +86,7 @@
                 </tr>
                 <tr>
                     <td style="width: 50%; border-bottom: 1px solid #dddddd; vertical-align: top;">
-                        <p><strong><span class="title-footer">5PHÚC ANH 89 LÊ DUẨN</span></strong></p>
+                        <p><strong><span class="title-footer">5NIIT-ICT 89 LÊ DUẨN</span></strong></p>
                         <p>&nbsp; &nbsp;<br><strong>&nbsp; &nbsp;* Địa chỉ</strong>: Số 89, Lê Duẩn, Cửa Nam, Hoàn Kiếm, Hà Nội</p>
                         <p>&nbsp; &nbsp;<strong>* Điện thoại</strong>: (024) 39.68.99.66 (ext 6)</p>
                         <p>&nbsp; &nbsp;<strong>* Thời gian làm việc</strong>: 8h00 - 21h00</p>

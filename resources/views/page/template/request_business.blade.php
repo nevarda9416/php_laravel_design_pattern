@@ -3,7 +3,7 @@
     <div class="container">
         <div style="margin-left:10px; margin-right:10px;">
             <h1 style="margin:15px 0; text-align:center;">Gửi yêu cầu báo giá, đặt hàng</h1>
-            <p class="font14" style="max-width:800px; margin:auto; text-align:center;">Khi khách hàng doanh nghiệp có nhu cầu báo giá, đặt hàng, quý khách vui lòng gửi yêu cầu tới phòng kinh doanh của Phúc Anh. Với kinh nghiệm hơn 20 năm phục vụ, Phúc Anh sẽ nỗ lực hết mình để làm hài lòng quý khách hàng!</p>
+            <p class="font14" style="max-width:800px; margin:auto; text-align:center;">Khi khách hàng doanh nghiệp có nhu cầu báo giá, đặt hàng, quý khách vui lòng gửi yêu cầu tới phòng kinh doanh của Phúc Anh. Với kinh nghiệm hơn 20 năm phục vụ, NIIT-ICT sẽ nỗ lực hết mình để làm hài lòng quý khách hàng!</p>
             <br>
         </div>
         <form method="post" action="/upload/enterprise.php" enctype="multipart/form-data" onsubmit="return check_field();" style="width: 600px;margin: auto;border: solid 1px #ddd;padding: 10px;">

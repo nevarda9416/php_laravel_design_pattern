@@ -2,7 +2,7 @@
 @section('content')
     <div class="container">
         <h1 style="margin:15px 0; text-align:center;">Gửi yêu cầu tư vấn sản phẩm</h1>
-        <p class="font14" style="max-width:800px; margin:auto; text-align:center;">Khi khách hàng có nhu cầu tư vấn sản phẩm, quý khách vui lòng gửi yêu cầu tới phòng kinh doanh của Phúc Anh. Với kinh nghiệm hơn 20 năm phục vụ, Phúc Anh sẽ nỗ lực hết mình để làm hài lòng quý khách hàng!</p>
+        <p class="font14" style="max-width:800px; margin:auto; text-align:center;">Khi khách hàng có nhu cầu tư vấn sản phẩm, quý khách vui lòng gửi yêu cầu tới phòng kinh doanh của Phúc Anh. Với kinh nghiệm hơn 20 năm phục vụ, NIIT-ICT sẽ nỗ lực hết mình để làm hài lòng quý khách hàng!</p>
         <br>
         <form method="post" action="/upload/product.php" enctype="multipart/form-data" onsubmit="return check_field();" style="width: 600px;margin: auto;border: solid 1px #ddd;padding: 10px;">
             <table class="tbl-common">
