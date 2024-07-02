@@ -62,9 +62,9 @@ return [
             'privateKey' => env('SFTP_PRIVATE_KEY', '/path/to/privateKey'),
             'password' => env('SFTP_PASSWORD', 'encryption-password'),
             // Optional SFTP settings
-             'port' => env('SFTP_PORT', 22),
-             'root' => env('SFTP_ROOT', ''),
-             'timeout' => env('SFTP_TIMEOUT', 30),
+            'port' => env('SFTP_PORT', 22),
+            'root' => env('SFTP_ROOT', ''),
+            'timeout' => env('SFTP_TIMEOUT', 30),
         ],
     ],
 

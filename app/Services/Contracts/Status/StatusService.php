@@ -17,23 +17,13 @@ abstract class StatusService implements StatusServiceInterface
      */
     public $oldStatus;
 
-    /**
-     * @var
-     */
     public $newStatus;
 
-    /**
-     *
-     */
     public function __construct()
     {
         $this->oldStatus = ContractStatus::SUBSCRIPTION->value;
     }
 
-    /**
-     * @param $status
-     * @return mixed
-     */
     public function getStatus($status): mixed
     {
         return match ($status) {
@@ -46,10 +36,5 @@ abstract class StatusService implements StatusServiceInterface
         };
     }
 
-    /**
-     * @param $id
-     * @param $reason
-     * @return bool
-     */
     abstract public function update($id, $reason): bool;
 }

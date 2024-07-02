@@ -37,6 +37,6 @@ Route::get('/profiles/{user:public_profile_slug}', ViewPublicUserProfileControll
     ->name('users.profile.view.public');
 Route::fallback(function () {
     return response()->json([
-        'message' => 'Page Not Found. If error persists, contact info@website.com'
+        'message' => 'Page Not Found. If error persists, contact info@website.com',
     ], 404);
 });

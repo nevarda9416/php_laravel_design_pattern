@@ -15,6 +15,7 @@ class Status
                 $html = '<span style="color: #de0b00;height: 25px;"> Hết hàng</span>';
                 break;
         }
+
         return $html;
     }
 }

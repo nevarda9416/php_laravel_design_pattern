@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\Posts;
-use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class PostsTableSeeder extends Seeder

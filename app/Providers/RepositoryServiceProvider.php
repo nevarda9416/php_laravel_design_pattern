@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Providers;
 
 use App\Repositories\Contract\StatusRepository;
@@ -11,7 +12,7 @@ class RepositoryServiceProvider extends ServiceProvider
 {
     public array $bindings = [
         UserRepositoryInterface::class => UserRepository::class,
-        StatusRepositoryInterface::class => StatusRepository::class
+        StatusRepositoryInterface::class => StatusRepository::class,
     ];
 
     /**

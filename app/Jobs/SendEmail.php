@@ -12,7 +12,9 @@ use Illuminate\Support\Facades\Mail;
 class SendEmail implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+
     protected $details;
+
     /**
      * Create a new job instance.
      *

@@ -10,12 +10,14 @@ class Comments extends Model
     use HasFactory;
 
     protected $fillable = [
-        'post_id'
+        'post_id',
     ];
+
     protected $primaryKey = 'info_id';
 
     /**
      * 1 comment of 1 post
+     *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function post()

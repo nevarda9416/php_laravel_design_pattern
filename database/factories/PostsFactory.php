@@ -15,7 +15,7 @@ class PostsFactory extends Factory
     {
         return [
             'title' => $this->faker->paragraph,
-            'content' => $this->faker->text
+            'content' => $this->faker->text,
         ];
     }
 }

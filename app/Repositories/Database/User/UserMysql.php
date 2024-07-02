@@ -6,14 +6,10 @@ use App\Repositories\Database\Models\User;
 
 class UserMysql
 {
-    /**
-     * @var $name
-     */
     public $name;
 
     /**
      * UserMysql constructor.
-     * @param $name
      */
     public function __construct($name = null)
     {
@@ -28,9 +24,6 @@ class UserMysql
         return $this->name;
     }
 
-    /**
-     * @param $name
-     */
     public function setName($name)
     {
         $this->name = $name;

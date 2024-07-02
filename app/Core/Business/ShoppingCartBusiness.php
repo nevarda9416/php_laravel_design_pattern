@@ -14,7 +14,7 @@ class ShoppingCartBusiness extends ShoppingCart
         $shoppingCart = null;
         if (isset($_COOKIE[CommonEnum::COOKIE_USER_TOKEN])) {
             $shoppingCart = ShoppingCartBusiness::getCartByCustomer();
-        } else if (isset($_COOKIE[CommonEnum::COOKIE_CART_ITEM])) {
+        } elseif (isset($_COOKIE[CommonEnum::COOKIE_CART_ITEM])) {
             $shoppingCart = new ShoppingCartBusiness();
             $shoppingCart->content = $_COOKIE[CommonEnum::COOKIE_CART_ITEM];
         }
@@ -25,6 +25,7 @@ class ShoppingCartBusiness extends ShoppingCart
     public static function getCartByCustomer()
     {
         $userData = MyAccountBusiness::getUserInfoByToken($_COOKIE[CommonEnum::COOKIE_USER_TOKEN]);
+
         return ShoppingCartBusiness::where([['customer_id', '=', $userData[0]['customer_id']], ['result', '=', 'start_order']])->orderBy('id', 'DESC')->first();
     }
 
@@ -35,14 +36,14 @@ class ShoppingCartBusiness extends ShoppingCart
             $user_data = MyAccountBusiness::getUserInfoByToken($_COOKIE[CommonEnum::COOKIE_USER_TOKEN]);
             $customerId = $user_data[0]['customer_id'];
             $shoppingCart = ShoppingCartBusiness::where([['customer_id', '=', $customerId], ['order_id', '=', 0], ['result', '=', 'start_order']])->orderBy('id', 'DESC')->first();
-        } else if (isset($_COOKIE[CommonEnum::COOKIE_CART_ITEM])) {
+        } elseif (isset($_COOKIE[CommonEnum::COOKIE_CART_ITEM])) {
             $shoppingCart = new ShoppingCartBusiness();
             $shoppingCart->content = $_COOKIE[CommonEnum::COOKIE_CART_ITEM];
         }
 
-        if ($shoppingCart && !empty($shoppingCart->content)) {
-            $shoppingCart->discounts = (array)json_decode($shoppingCart->discounts, true);
-            $list_products = (array)json_decode($shoppingCart->content, true);
+        if ($shoppingCart && ! empty($shoppingCart->content)) {
+            $shoppingCart->discounts = (array) json_decode($shoppingCart->discounts, true);
+            $list_products = (array) json_decode($shoppingCart->content, true);
             ShoppingCartBusiness::getListCartInfo($list_products);
         }
 
@@ -68,18 +69,18 @@ class ShoppingCartBusiness extends ShoppingCart
                         }
                     } else {
                         if (isset($discount['coupon_code']) && $discount['coupon_code'] != '') {
-                            $url = config()->get('constants.API_FC_PROMOTION') . ApiEnum::PROMOTION_VALIDATE_COUPON . '?coupon=' . $discount['coupon_code'];
+                            $url = config()->get('constants.API_FC_PROMOTION').ApiEnum::PROMOTION_VALIDATE_COUPON.'?coupon='.$discount['coupon_code'];
                             $dataP = Curl::to($url)->get();
                             $dataP = json_decode($dataP, true);
-                            if ($dataP['statusCode'] == 200 && count((array)$dataP['data'])) {
+                            if ($dataP['statusCode'] == 200 && count((array) $dataP['data'])) {
                                 $discounts[$key] = $dataP['data'];
                                 if ($dataP['data']['typeId'] == 3) {
                                     foreach ($dataP['data']['promotionReward'] as $k => $rew) {
                                         $rw = json_decode($rew['rewards'], true);
-                                        $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCT_DETAIL . $rw['ProductId'];
+                                        $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCT_DETAIL.$rw['ProductId'];
                                         $dataPro = Curl::to($url)->get();
                                         $dataPro = json_decode($dataPro, true);
-                                        $productM = array(
+                                        $productM = [
                                             'item_id' => $rw['ProductId'],
                                             'item_sku' => isset($dataPro['data']['ProductSkus'][0]['Sku']) ? $dataPro['data']['ProductSkus'][0]['Sku'] : '',
                                             'item_name' => $dataPro['data']['Name'],
@@ -89,7 +90,7 @@ class ShoppingCartBusiness extends ShoppingCart
                                             'item_description' => $dataPro['data']['ShortDescription1'],
                                             'item_quantity' => $rw['Quantity'],
                                             'weight' => isset($dataPro['data']['ProductSkus'][0]['WeightGram']) ? $dataPro['data']['ProductSkus'][0]['WeightGram'] : '',
-                                        );
+                                        ];
 
                                         $discounts[$key]['promotionReward'][$k]['product'] = $productM;
                                     }
@@ -151,7 +152,7 @@ class ShoppingCartBusiness extends ShoppingCart
             }
         }
 
-        $products = [];//ProductBusiness::getListProductCheckoutByIds($ids);
+        $products = []; //ProductBusiness::getListProductCheckoutByIds($ids);
         $listP = [];
         if (count($products) > 0) {
             foreach ($products as $v) {
@@ -176,7 +177,7 @@ class ShoppingCartBusiness extends ShoppingCart
         }
 
         foreach ($list_products as $key => $product) {
-            if (!isset($listP[$key])) {
+            if (! isset($listP[$key])) {
                 unset($list_products[$key]);
             }
         }
@@ -185,8 +186,8 @@ class ShoppingCartBusiness extends ShoppingCart
     public function createDataOrder($user_cookie, $request)
     {
         $shippingAddress = [];
-        if (!empty($request->get('fullname_delivery'))) {
-            $data = array(
+        if (! empty($request->get('fullname_delivery'))) {
+            $data = [
                 'fullName' => $request->get('fullname_delivery'),
                 'provinceId' => $request->get('province_id_delivery'),
                 'provinceName' => $request->get('province_name_delivery'),
@@ -195,31 +196,31 @@ class ShoppingCartBusiness extends ShoppingCart
                 'subDistrictId' => $request->get('sub_district_id_delivery'),
                 'subDistrictName' => $request->get('sub_district_name_delivery'),
                 'address' => $request->get('address_delivery'),
-                'phone' => !empty($request->get('telephone_delivery')) ? $request->get('telephone_delivery') : $user_cookie[0]['telephone'],
+                'phone' => ! empty($request->get('telephone_delivery')) ? $request->get('telephone_delivery') : $user_cookie[0]['telephone'],
                 'isDefault' => 1,
-                'customerId' => $user_cookie[0]['customer_id']
-            );
+                'customerId' => $user_cookie[0]['customer_id'],
+            ];
 
-            $url = config()->get('constants.API_FC_LOGIN_REGISTER') . ApiEnum::MYACCOUNT_CREATE_SHIPPING_ADDRESS;
+            $url = config()->get('constants.API_FC_LOGIN_REGISTER').ApiEnum::MYACCOUNT_CREATE_SHIPPING_ADDRESS;
             $server_output = Curl::to($url)->withData($data)->asJson()->post();
             $server_output = json_decode(json_encode($server_output), true);
-            if (!empty($server_output['data'])) {
+            if (! empty($server_output['data'])) {
                 $shippingAddress = $server_output['data'];
                 $shippingAddress['post_address'] = true;
             }
-        } elseif (!empty($request->get('shippingAddressId'))) {
+        } elseif (! empty($request->get('shippingAddressId'))) {
             $shippingAddress = ShoppingCartBusiness::getShippingAddressById($request->get('shippingAddressId'));
         } else {
-            $url = config()->get('constants.API_FC_LOGIN_REGISTER') . ApiEnum::MYACCOUNT_GET_LIST_SHIPPING_ADDRESS . $user_cookie[0]['customer_id'] . '/0/1';
+            $url = config()->get('constants.API_FC_LOGIN_REGISTER').ApiEnum::MYACCOUNT_GET_LIST_SHIPPING_ADDRESS.$user_cookie[0]['customer_id'].'/0/1';
             $server_output = Curl::to($url)->get();
             $server_output = json_decode($server_output, true);
-            if (!empty($server_output['data']['data'][0])) {
+            if (! empty($server_output['data']['data'][0])) {
                 $shippingAddress = $server_output['data']['data'][0];
             }
         }
 
-        if (!empty($shippingAddress)) {
-            if (!empty($request->get('customer_note'))) {
+        if (! empty($shippingAddress)) {
+            if (! empty($request->get('customer_note'))) {
                 $this->customer_note = $request->get('customer_note');
             }
 
@@ -248,7 +249,7 @@ class ShoppingCartBusiness extends ShoppingCart
         if ($this->result == 'create_new_order') {
             try {
                 $coefficientPoint = CommonEnum::COEFFICIENT_POINT;
-                $point = (int)$this->identifier;
+                $point = (int) $this->identifier;
                 $totalPrice = 0;
                 $totalDiscount = 0;
                 $itemService = [];
@@ -260,7 +261,7 @@ class ShoppingCartBusiness extends ShoppingCart
                     $point = 0;
                     $this->identifier = 0;
                 }
-                $data = array(
+                $data = [
                     'orderCode' => $this->order_code,
                     'customerId' => $this->customer_id,
                     'customerName' => $this->customer_name,
@@ -277,8 +278,8 @@ class ShoppingCartBusiness extends ShoppingCart
                     'shipCustomerEmail' => $this->shipping_email,
                     'shipPhone1' => $this->shipping_phone,
                     'amount' => $totalPrice,
-                    'shipFee' => (int)$this->shipping_fee,
-                    'totalAmount' => $totalPrice + (int)$this->shipping_fee - (int)$totalDiscount - ($point * $coefficientPoint),
+                    'shipFee' => (int) $this->shipping_fee,
+                    'totalAmount' => $totalPrice + (int) $this->shipping_fee - (int) $totalDiscount - ($point * $coefficientPoint),
                     'paymentMethod' => $this->payment_method,
                     'paymentTransaction' => $this->payment_transaction,
                     'paymentDate' => $this->payment_date,
@@ -295,22 +296,22 @@ class ShoppingCartBusiness extends ShoppingCart
                     'deductionLoyalty' => $point * $coefficientPoint,
                     'lineItems' => $myBag,
                     'lineServices' => $itemService,
-                    'LineDiscounts' => $itemDiscount
-                );
+                    'LineDiscounts' => $itemDiscount,
+                ];
 
                 $start_time = microtime(true);
-                $url = config()->get('constants.API_FC_ORDER') . ApiEnum::CUSTOMER_CREATE_NEW_ORDER;
+                $url = config()->get('constants.API_FC_ORDER').ApiEnum::CUSTOMER_CREATE_NEW_ORDER;
                 $server_output1 = Curl::to($url)->withData($data)->asJson()->post();
                 $server_output1 = json_decode(json_encode($server_output1, JSON_UNESCAPED_UNICODE), true);
                 $end_time = microtime(true);
                 try {
-                    if (config()->get('constants.CUSTOM_LOG_ORDER') == "true") {
+                    if (config()->get('constants.CUSTOM_LOG_ORDER') == 'true') {
                         //Log order
-                        file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r('=========[' . date('m-d-Y_hi') . ']', true) . PHP_EOL, FILE_APPEND);
-                        file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r('orderCode: ' . $this->order_code, true) . PHP_EOL, FILE_APPEND);
-                        file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r(json_encode($data), true) . PHP_EOL, FILE_APPEND);
-                        file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r(json_encode($server_output1), true) . PHP_EOL, FILE_APPEND);
-                        file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r('Request elapsed: ' . ($end_time - $start_time), true) . PHP_EOL, FILE_APPEND);
+                        file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r('=========['.date('m-d-Y_hi').']', true).PHP_EOL, FILE_APPEND);
+                        file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r('orderCode: '.$this->order_code, true).PHP_EOL, FILE_APPEND);
+                        file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r(json_encode($data), true).PHP_EOL, FILE_APPEND);
+                        file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r(json_encode($server_output1), true).PHP_EOL, FILE_APPEND);
+                        file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r('Request elapsed: '.($end_time - $start_time), true).PHP_EOL, FILE_APPEND);
                     }
                 } catch (\Exception  $e) {
                     // Ignore
@@ -322,17 +323,17 @@ class ShoppingCartBusiness extends ShoppingCart
                     $this->order_id = $server_output1['data']['orderId'];
                     $check = $this->save();
                     $this->applyPromotion($itemDiscount);
-                } else if ($server_output1['statusCode'] == '409') {
+                } elseif ($server_output1['statusCode'] == '409') {
                     $check = true;
                 }
             } catch (\Exception $ex) {
-                if (config()->get('constants.CUSTOM_LOG_ORDER') == "true") {
+                if (config()->get('constants.CUSTOM_LOG_ORDER') == 'true') {
                     //Log order
-                    file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r('=========[' . date('m-d-Y_hi') . ']', true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r('orderCode: ' . $this->order_code, true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r(json_encode($data), true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r('Request exception: ', true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logOrder_' . date('m-d-Y') . '.txt', print_r(json_encode($ex), true) . PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r('=========['.date('m-d-Y_hi').']', true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r('orderCode: '.$this->order_code, true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r(json_encode($data), true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r('Request exception: ', true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logOrder_'.date('m-d-Y').'.txt', print_r(json_encode($ex), true).PHP_EOL, FILE_APPEND);
                 }
             }
         }
@@ -353,14 +354,14 @@ class ShoppingCartBusiness extends ShoppingCart
             ];
 
             foreach ($listProducts as $dataI) {
-                $dataTicket['items'][] = ['productId' => $dataI['item_id'], 'quantity' => $dataI['item_quantity']] ;
+                $dataTicket['items'][] = ['productId' => $dataI['item_id'], 'quantity' => $dataI['item_quantity']];
             }
         } else {
             $dataTicket = $dataCart;
         }
 
         $dataTicket['ipAddress'] = ShoppingCartBusiness::get_client_ip();
-        $url = config()->get('constants.API_FC_APP') . ApiEnum::CUSTOMER_POST_OPPORTUNITY;
+        $url = config()->get('constants.API_FC_APP').ApiEnum::CUSTOMER_POST_OPPORTUNITY;
         $result = Curl::to($url)->withData($dataTicket)->asJson()->post();
     }
 
@@ -369,16 +370,10 @@ class ShoppingCartBusiness extends ShoppingCart
         if (count($itemDiscount) > 0) {
             foreach ($itemDiscount as $key => $service) {
                 $dataD = [
-                    'PromotionId' => $service['promotionId']
-                    , 'Coupon' => $service['DiscountName']
-                    , 'CustomerId' => $this->customer_id
-                    , 'Phone' => $this->customer_phone
-                    , 'Email' => $this->shipping_email
-                    , 'OrderCode' => $this->order_code
-                    , 'Amount' => $service['DiscountAmount']
+                    'PromotionId' => $service['promotionId'], 'Coupon' => $service['DiscountName'], 'CustomerId' => $this->customer_id, 'Phone' => $this->customer_phone, 'Email' => $this->shipping_email, 'OrderCode' => $this->order_code, 'Amount' => $service['DiscountAmount'],
                 ];
 
-                $url = config()->get('constants.API_FC_PROMOTION') . ApiEnum::PROMOTION_APPLY_COUPON;
+                $url = config()->get('constants.API_FC_PROMOTION').ApiEnum::PROMOTION_APPLY_COUPON;
                 $p = Curl::to($url)->withData($dataD)->asJson()->post();
             }
         }
@@ -386,13 +381,13 @@ class ShoppingCartBusiness extends ShoppingCart
 
     public static function getShippingAddressById($shippingAddressId)
     {
-        $url = config()->get('constants.API_FC_LOGIN_REGISTER') . ApiEnum::MYACCOUNT_GET_DETAIL_SHIPPING_ADDRESS . $shippingAddressId;
+        $url = config()->get('constants.API_FC_LOGIN_REGISTER').ApiEnum::MYACCOUNT_GET_DETAIL_SHIPPING_ADDRESS.$shippingAddressId;
         $server_output = Curl::to($url)->get();
         $server_output = json_decode($server_output, true);
-        if (!empty($server_output['data'])) {
+        if (! empty($server_output['data'])) {
             return $server_output['data'];
         } else {
-            return array();
+            return [];
         }
     }
 
@@ -417,7 +412,7 @@ class ShoppingCartBusiness extends ShoppingCart
         $coupon = [];
         $checkIds = [];
         $discounts = json_decode(json_encode($discounts), true);
-        $service[] = ["serviceId" => 0, "serviceCode" => '01', "serviceName" => "Phí vận chuyển", "price" => $this->shipping_fee, "notes" => "Phí vận chuyển"];
+        $service[] = ['serviceId' => 0, 'serviceCode' => '01', 'serviceName' => 'Phí vận chuyển', 'price' => $this->shipping_fee, 'notes' => 'Phí vận chuyển'];
         foreach ($products as $key => $product) {
             if (isset($product['item_price'])) {
                 $price = $product['item_price'];
@@ -457,7 +452,7 @@ class ShoppingCartBusiness extends ShoppingCart
                     (isset($product['promotion']['coupon']) && ($product['promotion']['coupon'] == '' || ($product['promotion']['coupon'] != '' && isset($discounts[strtoupper($product['promotion']['coupon'])]))))
                 ) {
                     $checkIds[$product['promotion']['promotionId']] = $product['promotion']['promotionId'];
-                    $myBag[] = array(
+                    $myBag[] = [
                         'itemId' => $product['promotion']['productId'],
                         'itemSku' => $product['promotion']['productSku'],
                         'itemName' => $product['promotion']['productName'],
@@ -466,12 +461,12 @@ class ShoppingCartBusiness extends ShoppingCart
                         'originalPrice' => $product['promotion']['price'],
                         'quantity' => round(($product['item_quantity'] * $product['promotion']['quantity']) / $product['promotion']['quantityCondition'], 0, PHP_ROUND_HALF_DOWN),
                         'weight' => $product['promotion']['productWeight'],
-                        'notes' => ''
-                    );
+                        'notes' => '',
+                    ];
                 }
 
                 $totalPrice += $price * $product['item_quantity'];
-                $myBag[] = array(
+                $myBag[] = [
                     'itemId' => $product['item_id'],
                     'itemSku' => $product['item_sku'],
                     'itemName' => $product['item_name'],
@@ -480,16 +475,16 @@ class ShoppingCartBusiness extends ShoppingCart
                     'originalPrice' => $product['item_price'],
                     'quantity' => $product['item_quantity'],
                     'weight' => $product['item_weightgram'],
-                    'notes' => ''
-                );
+                    'notes' => '',
+                ];
             }
         }
 
-        if (count((array)$discounts) > 0) {
+        if (count((array) $discounts) > 0) {
             foreach ($discounts as $discount) {
                 if ($discount['promotionType'] == 1) {
                     if ($discount['typeId'] == 3) {
-                        if (!isset($checkIds[$discount['id']])) {
+                        if (! isset($checkIds[$discount['id']])) {
                             $pr = [];
                             foreach ($discount['promotionReward'] as $rew) {
                                 $rw = json_decode($rew['rewards'], true);
@@ -499,7 +494,7 @@ class ShoppingCartBusiness extends ShoppingCart
                             }
 
                             if (count($pr) > 0) {
-                                $myBag[] = array(
+                                $myBag[] = [
                                     'itemId' => $pr['item_id'],
                                     'itemSku' => $pr['item_sku'],
                                     'itemName' => $pr['item_name'],
@@ -508,8 +503,8 @@ class ShoppingCartBusiness extends ShoppingCart
                                     'originalPrice' => $pr['item_price'],
                                     'quantity' => $pr['item_quantity'],
                                     'weight' => $pr['weight'],
-                                    'notes' => ''
-                                );
+                                    'notes' => '',
+                                ];
 
                                 $itemDiscount[] = [
                                     'promotionId' => $discount['id'],
@@ -531,23 +526,23 @@ class ShoppingCartBusiness extends ShoppingCart
                             $rw = json_decode($rew['rewards'], true);
                             if ($rw['Type'] == 1) {
                                 if ($totalPrice >= $rw['StartPrice']) {
-                                    $tP = (int)$rw['Discount'];
+                                    $tP = (int) $rw['Discount'];
                                 }
                             } else {
                                 if ($totalPrice >= $rw['StartPrice']) {
-                                    $t = ($totalPrice / 100) * (int)$rw['Discount'];
-                                    $tP = (isset($rw['Max']) && (int)$rw['Max'] > 0 && $t > $rw['Max']) ? (int)$rw['Max'] : $t;
+                                    $t = ($totalPrice / 100) * (int) $rw['Discount'];
+                                    $tP = (isset($rw['Max']) && (int) $rw['Max'] > 0 && $t > $rw['Max']) ? (int) $rw['Max'] : $t;
                                 }
                             }
                         }
 
                         if ($discount['typeId'] == 1) {
-                            $tP = ($this->shipping_fee >= $tP) ? $tP : (int)$this->shipping_fee;
+                            $tP = ($this->shipping_fee >= $tP) ? $tP : (int) $this->shipping_fee;
                             $totalDiscount += $tP;
                             $itemDiscount[] = [
                                 'promotionId' => $discount['id'],
                                 'ServiceId' => $discount['id'],
-                                'DiscountName' => !empty($discount['coupon_code']) ? $discount['name'] . '(' . $discount['coupon_code'] . ')' : $discount['name'],
+                                'DiscountName' => ! empty($discount['coupon_code']) ? $discount['name'].'('.$discount['coupon_code'].')' : $discount['name'],
                                 'Discount' => $tP,
                                 'DiscountAmount' => $tP,
                                 'SKU' => '',
@@ -561,7 +556,7 @@ class ShoppingCartBusiness extends ShoppingCart
                             $itemDiscount[] = [
                                 'promotionId' => $discount['id'],
                                 'ServiceId' => $discount['id'],
-                                'DiscountName' => !empty($discount['coupon_code']) ? $discount['name'] . '(' . $discount['coupon_code'] . ')' : $discount['name'],
+                                'DiscountName' => ! empty($discount['coupon_code']) ? $discount['name'].'('.$discount['coupon_code'].')' : $discount['name'],
                                 'Discount' => $tP,
                                 'DiscountAmount' => $tP,
                                 'SKU' => '',
@@ -580,7 +575,7 @@ class ShoppingCartBusiness extends ShoppingCart
                         $itemDiscount[] = [
                             'promotionId' => $discount['id'],
                             'ServiceId' => $discount['id'],
-                            'DiscountName' => !empty($discount['coupon_code']) ? $discount['name'] . '(' . $discount['coupon_code'] . ')' : $discount['name'],
+                            'DiscountName' => ! empty($discount['coupon_code']) ? $discount['name'].'('.$discount['coupon_code'].')' : $discount['name'],
                             'Discount' => $tP,
                             'DiscountAmount' => $tP,
                             'SKU' => '',
@@ -599,21 +594,19 @@ class ShoppingCartBusiness extends ShoppingCart
     }
 
     /**
-     * @param $customerId
-     * @param $shoppingCartId
+     * @param  $shoppingCartId
      */
     public static function addCustomerId($customerId, $content)
     {
         $shoppingCart = ShoppingCartBusiness::where([['customer_id', '=', $customerId], ['order_id', '=', 0], ['result', '=', 'start_order']])->orderBy('id', 'DESC')->first();
         if ($shoppingCart) {
-            if (!is_array($shoppingCart->content)) {
+            if (! is_array($shoppingCart->content)) {
                 $dataO = json_decode($shoppingCart->content, true);
             } else {
                 $dataO = $shoppingCart->content;
             }
 
-
-            if (!is_array($content)) {
+            if (! is_array($content)) {
                 $data = json_decode($content, true);
             } else {
                 $data = $content;
@@ -642,7 +635,7 @@ class ShoppingCartBusiness extends ShoppingCart
         try {
             $discounts = json_decode(json_encode($this->discounts), true);
             $data = $this->createDataPromotion($products, $discounts);
-            $url = config()->get('constants.API_FC_PROMOTION') . ApiEnum::PROMOTION_BY_CHECKOUT;
+            $url = config()->get('constants.API_FC_PROMOTION').ApiEnum::PROMOTION_BY_CHECKOUT;
             $dataP = Curl::to($url)->withData($data)->asJson()->post();
             if ($dataP->statusCode == 200 && count($dataP->data) > 0) {
                 $check = false;
@@ -652,10 +645,10 @@ class ShoppingCartBusiness extends ShoppingCart
                         if ($d->typeId == 3) {
                             foreach ($d->promotionReward as $k => $rew) {
                                 $rw = json_decode($rew->rewards, true);
-                                $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCT_DETAIL . $rw['ProductId'];
+                                $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCT_DETAIL.$rw['ProductId'];
                                 $dataPro = Curl::to($url)->get();
                                 $dataPro = json_decode($dataPro, true);
-                                $productM = array(
+                                $productM = [
                                     'item_id' => $rw['ProductId'],
                                     'item_sku' => isset($dataPro['data']['ProductSkus'][0]['Sku']) ? $dataPro['data']['ProductSkus'][0]['Sku'] : '',
                                     'item_name' => $dataPro['data']['Name'],
@@ -665,7 +658,7 @@ class ShoppingCartBusiness extends ShoppingCart
                                     'item_description' => $dataPro['data']['ShortDescription1'],
                                     'item_quantity' => $rw['Quantity'],
                                     'weight' => isset($dataPro['data']['ProductSkus'][0]['WeightGram']) ? $dataPro['data']['ProductSkus'][0]['WeightGram'] : '',
-                                );
+                                ];
 
                                 $d->promotionReward[$k]->product = $productM;
                             }
@@ -680,7 +673,7 @@ class ShoppingCartBusiness extends ShoppingCart
                 }
 
                 if (count($result) > 0 && $check == false) {
-                    if (!empty($discounts)) {
+                    if (! empty($discounts)) {
                         foreach ($discounts as $discount) {
                             if ($discount['promotionType'] == 1) {
                                 $check = true;
@@ -722,7 +715,7 @@ class ShoppingCartBusiness extends ShoppingCart
         $result = [];
         try {
             $data = $this->createDataPromotion($products, [], false);
-            $url = config()->get('constants.API_FC_PROMOTION') . ApiEnum::PROMOTION_BY_LOCATION;
+            $url = config()->get('constants.API_FC_PROMOTION').ApiEnum::PROMOTION_BY_LOCATION;
             $dataP = Curl::to($url)->withData($data)->asJson()->post();
             if ($dataP->statusCode == 200 && count($dataP->data) > 0) {
                 foreach ($dataP->data as $d) {
@@ -730,10 +723,10 @@ class ShoppingCartBusiness extends ShoppingCart
                         if ($d->typeId == 3) {
                             foreach ($d->promotionReward as $k => $rew) {
                                 $rw = json_decode($rew->rewards, true);
-                                $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCT_DETAIL . $rw['ProductId'];
+                                $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCT_DETAIL.$rw['ProductId'];
                                 $dataPro = Curl::to($url)->get();
                                 $dataPro = json_decode($dataPro, true);
-                                $productM = array(
+                                $productM = [
                                     'item_id' => $rw['ProductId'],
                                     'item_sku' => isset($dataPro['data']['ProductSkus'][0]['Sku']) ? $dataPro['data']['ProductSkus'][0]['Sku'] : '',
                                     'item_name' => $dataPro['data']['Name'],
@@ -743,7 +736,7 @@ class ShoppingCartBusiness extends ShoppingCart
                                     'item_description' => $dataPro['data']['ShortDescription1'],
                                     'item_quantity' => $rw['Quantity'],
                                     'weight' => isset($dataPro['data']['ProductSkus'][0]['WeightGram']) ? $dataPro['data']['ProductSkus'][0]['WeightGram'] : '',
-                                );
+                                ];
 
                                 $d->promotionReward[$k]->product = $productM;
                             }
@@ -765,10 +758,10 @@ class ShoppingCartBusiness extends ShoppingCart
         $result = [];
         $check = false;
         $discounts = json_decode(json_encode($this->discounts), true);
-        if (!empty($discounts)) {
+        if (! empty($discounts)) {
             $dataPromotion = [];
             $data = $this->createDataPromotion($listProducts, $discounts);
-            $url = config()->get('constants.API_FC_PROMOTION') . ApiEnum::PROMOTION_BY_CHECKOUT;
+            $url = config()->get('constants.API_FC_PROMOTION').ApiEnum::PROMOTION_BY_CHECKOUT;
             $dataP = Curl::to($url)->withData($data)->asJson()->post();
             if (property_exists($dataP, 'statusCode') && $dataP->statusCode == 200 && count($dataP->data) > 0) {
                 foreach ($dataP->data as $pr) {
@@ -783,11 +776,11 @@ class ShoppingCartBusiness extends ShoppingCart
                         if ($result[$key]['typeId'] == 3) {
                             foreach ($result[$key]['promotionReward'] as $k => $rew) {
                                 $rw = json_decode($rew['rewards'], true);
-                                $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCT_DETAIL . $rw['ProductId'];
+                                $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCT_DETAIL.$rw['ProductId'];
                                 $dataPro = Curl::to($url)->get();
                                 $dataPro = json_decode($dataPro, true);
                                 if (isset($dataPro['data']['Name'])) {
-                                    $productM = array(
+                                    $productM = [
                                         'item_id' => $rw['ProductId'],
                                         'item_sku' => isset($dataPro['data']['ProductSkus'][0]['Sku']) ? $dataPro['data']['ProductSkus'][0]['Sku'] : '',
                                         'item_name' => $dataPro['data']['Name'],
@@ -797,7 +790,7 @@ class ShoppingCartBusiness extends ShoppingCart
                                         'item_description' => $dataPro['data']['ShortDescription1'],
                                         'item_quantity' => $rw['Quantity'],
                                         'weight' => isset($dataPro['data']['ProductSkus'][0]['WeightGram']) ? $dataPro['data']['ProductSkus'][0]['WeightGram'] : '',
-                                    );
+                                    ];
 
                                     $result[$key]['promotionReward'][$k]['product'] = $productM;
                                 }
@@ -811,18 +804,18 @@ class ShoppingCartBusiness extends ShoppingCart
                     }
                 } else {
                     if (isset($discount['coupon_code']) && $discount['coupon_code'] != '') {
-                        $url = config()->get('constants.API_FC_PROMOTION') . ApiEnum::PROMOTION_VALIDATE_COUPON . '?coupon=' . $discount['coupon_code'];
+                        $url = config()->get('constants.API_FC_PROMOTION').ApiEnum::PROMOTION_VALIDATE_COUPON.'?coupon='.$discount['coupon_code'];
                         $dataP = Curl::to($url)->get();
                         $dataP = json_decode($dataP, true);
-                        if ($dataP['statusCode'] == 200 && count((array)$dataP['data'])) {
+                        if ($dataP['statusCode'] == 200 && count((array) $dataP['data'])) {
                             $result[$key] = $dataP['data'];
                             if ($dataP['data']['typeId'] == 3) {
                                 foreach ($dataP['data']['promotionReward'] as $k => $rew) {
                                     $rw = json_decode($rew['rewards'], true);
-                                    $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCT_DETAIL . $rw['ProductId'];
+                                    $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCT_DETAIL.$rw['ProductId'];
                                     $dataPro = Curl::to($url)->get();
                                     $dataPro = json_decode($dataPro, true);
-                                    $productM = array(
+                                    $productM = [
                                         'item_id' => $rw['ProductId'],
                                         'item_sku' => isset($dataPro['data']['ProductSkus'][0]['Sku']) ? $dataPro['data']['ProductSkus'][0]['Sku'] : '',
                                         'item_name' => $dataPro['data']['Name'],
@@ -832,7 +825,7 @@ class ShoppingCartBusiness extends ShoppingCart
                                         'item_description' => $dataPro['data']['ShortDescription1'],
                                         'item_quantity' => $rw['Quantity'],
                                         'weight' => isset($dataPro['data']['ProductSkus'][0]['WeightGram']) ? $dataPro['data']['ProductSkus'][0]['WeightGram'] : '',
-                                    );
+                                    ];
 
                                     $result[$key]['promotionReward'][$k]['product'] = $productM;
                                 }
@@ -865,8 +858,8 @@ class ShoppingCartBusiness extends ShoppingCart
         if (count($products) > 0) {
             foreach ($products as $product) {
                 if (isset($product['item_quantity'])) {
-                    $total += $product['item_price'] * (int)$product['item_quantity'];
-                    $data['products'][] = array('productId' => $product['item_id'], 'quantity' => $product['item_quantity']);
+                    $total += $product['item_price'] * (int) $product['item_quantity'];
+                    $data['products'][] = ['productId' => $product['item_id'], 'quantity' => $product['item_quantity']];
                 }
             }
         }
@@ -876,10 +869,10 @@ class ShoppingCartBusiness extends ShoppingCart
         }
 
         if ($checkLocation) {
-            if ((int)$this->province_id > 0) {
+            if ((int) $this->province_id > 0) {
                 $data['location'] = $this->province_id;
-            } else if ($this->customer_id > 0) {
-                $url = config()->get('constants.API_FC_LOGIN_REGISTER') . ApiEnum::MYACCOUNT_GET_LIST_SHIPPING_ADDRESS . $this->customer_id . '/0/1';
+            } elseif ($this->customer_id > 0) {
+                $url = config()->get('constants.API_FC_LOGIN_REGISTER').ApiEnum::MYACCOUNT_GET_LIST_SHIPPING_ADDRESS.$this->customer_id.'/0/1';
                 $server_output = Curl::to($url)->get();
                 $server_output = json_decode($server_output, true);
                 $list_address = $server_output['data'];
@@ -890,12 +883,12 @@ class ShoppingCartBusiness extends ShoppingCart
                 }
             }
 
-            if (!empty($discounts) > 0) {
+            if (! empty($discounts) > 0) {
                 $dt = json_decode(json_encode($discounts), true);
                 $cp = '';
                 foreach ($dt as $key => $v) {
                     if (isset($v['coupon_code']) && $v['coupon_code'] != '') {
-                        $cp .= ',' . $v['coupon_code'];
+                        $cp .= ','.$v['coupon_code'];
                     }
 
                 }
@@ -911,22 +904,25 @@ class ShoppingCartBusiness extends ShoppingCart
         return $data;
     }
 
-    public static function get_client_ip() {
+    public static function get_client_ip()
+    {
         $ipaddress = '';
-        if (isset($_SERVER['HTTP_CLIENT_IP']))
+        if (isset($_SERVER['HTTP_CLIENT_IP'])) {
             $ipaddress = $_SERVER['HTTP_CLIENT_IP'];
-        else if(isset($_SERVER['HTTP_X_FORWARDED_FOR']))
+        } elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
             $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
-        else if(isset($_SERVER['HTTP_X_FORWARDED']))
+        } elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
             $ipaddress = $_SERVER['HTTP_X_FORWARDED'];
-        else if(isset($_SERVER['HTTP_FORWARDED_FOR']))
+        } elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
             $ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
-        else if(isset($_SERVER['HTTP_FORWARDED']))
+        } elseif (isset($_SERVER['HTTP_FORWARDED'])) {
             $ipaddress = $_SERVER['HTTP_FORWARDED'];
-        else if(isset($_SERVER['REMOTE_ADDR']))
+        } elseif (isset($_SERVER['REMOTE_ADDR'])) {
             $ipaddress = $_SERVER['REMOTE_ADDR'];
-        else
+        } else {
             $ipaddress = 'UNKNOWN';
+        }
+
         return $ipaddress;
     }
 }

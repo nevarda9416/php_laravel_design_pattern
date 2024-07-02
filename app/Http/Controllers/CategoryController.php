@@ -8,15 +8,14 @@
 
 namespace App\Http\Controllers;
 
-use Jenssegers\Agent\Agent;
 use App\Helpers\HttpHelper\Response;
-
+use Jenssegers\Agent\Agent;
 
 class CategoryController
 {
     public function getProduct($slug)
     {
-        $listProducts = app(Response::class)->responseData('/products/category/slug/' . $slug);
+        $listProducts = app(Response::class)->responseData('/products/category/slug/'.$slug);
         $countProducts = count($listProducts['data']);
         $agent = new Agent();
         if ($agent->isMobile()) {

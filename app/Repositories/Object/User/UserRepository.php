@@ -2,8 +2,8 @@
 
 namespace App\Repositories\Object\User;
 
-use App\Repositories\Database\User\UserMysql;
 use App\Repositories\Cache\User\UserRedis;
+use App\Repositories\Database\User\UserMysql;
 use App\Repositories\Repository;
 
 class UserRepository extends Repository implements UserRepositoryInterface
@@ -16,6 +16,7 @@ class UserRepository extends Repository implements UserRepositoryInterface
         $redis = new UserRedis();
         if ($redis->getData() == null) {
             $mysql = new UserMysql();
+
             return $mysql->getData();
         } else {
             return $redis->getData();
@@ -23,7 +24,6 @@ class UserRepository extends Repository implements UserRepositoryInterface
     }
 
     /**
-     * @param $limit
      * @return mixed
      */
     public function getTopUsers($limit)
@@ -32,12 +32,12 @@ class UserRepository extends Repository implements UserRepositoryInterface
     }
 
     /**
-     * @param $name
      * @return |null
      */
     public function getName($name)
     {
         $mysql = new UserMysql($name);
+
         return $mysql->getName();
     }
 
@@ -48,6 +48,7 @@ class UserRepository extends Repository implements UserRepositoryInterface
     {
         $mysql = new UserMysql();
         $mysql->setName('David Copperfield');
+
         return $mysql->getName();
     }
 

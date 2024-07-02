@@ -1,12 +1,12 @@
 <?php
+
 namespace App\Notifications;
 
+use App\Models\NotificationSetting;
 use App\Models\User;
 use Illuminate\Bus\Queueable;
-use App\Models\NotificationSetting;
-use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\URL;
 use Illuminate\Notifications\Notification;
+use Illuminate\Support\Facades\URL;
 
 class SetPasswordNotification extends Notification
 {
@@ -36,6 +36,6 @@ class SetPasswordNotification extends Notification
 
     private function resolveNotificationSetting(User $notifiable): ?NotificationSetting
     {
-        return $notifiable->teams()->first()?->division?->notificationSettting?->setting;//Giải nghĩa cách viết???
+        return $notifiable->teams()->first()?->division?->notificationSettting?->setting; //Giải nghĩa cách viết???
     }
 }

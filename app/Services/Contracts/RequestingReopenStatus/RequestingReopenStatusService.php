@@ -1,15 +1,13 @@
 <?php
 
 namespace App\Services\Contracts\RequestingReopenStatus;
+
 use App\Enums\ContractStatus;
 use App\Repositories\Contract\StatusRepositoryInterface;
 use App\Services\Contracts\Status\StatusService;
 
 class RequestingReopenStatusService extends StatusService implements RequestingReopenStatusServiceInterface
 {
-    /**
-     * @param $newStatus
-     */
     public function __construct($newStatus)
     {
         parent::__construct();
@@ -17,11 +15,6 @@ class RequestingReopenStatusService extends StatusService implements RequestingR
         $this->newStatus = $newStatus;
     }
 
-    /**
-     * @param $id
-     * @param $reason
-     * @return bool
-     */
     public function update($id, $reason): bool
     {
         return app(StatusRepositoryInterface::class)->update($id, $this->oldStatus, $this->newStatus, $reason);

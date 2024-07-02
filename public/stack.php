@@ -7,24 +7,21 @@ class Stack
      * @var array
      */
     private $stack; // object
+
     /**
      * @var int|mixed
      */
     private $limit; // limit items in object
 
-    /**
-     * @param $limit
-     */
     public function __construct($limit = 10)
     {
         // initialize the stack
-        $this->stack = array();
+        $this->stack = [];
         // stack can only contain this many items
         $this->limit = $limit;
     }
 
     /**
-     * @param $item
      * @return void
      */
     public function push($item)
@@ -72,18 +69,18 @@ $myStack->push('A Clash of Kings');
 $myStack->push('A Game of Thrones');
 // Lấy các phần tử
 echo $myStack->pop();
-echo "<br/>"; // outputs 'A Game of Thrones'
+echo '<br/>'; // outputs 'A Game of Thrones'
 echo $myStack->pop();
-echo "<br/>"; // outputs 'A Clash of Kings'
+echo '<br/>'; // outputs 'A Clash of Kings'
 echo $myStack->pop();
-echo "<br/>"; // outputs 'A Storm of Swords'
+echo '<br/>'; // outputs 'A Storm of Swords'
 // Hiển thị phần tử trên cùng của stack
 echo $myStack->top();
-echo "<br/>"; // outputs 'A Feast for Crows'
+echo '<br/>'; // outputs 'A Feast for Crows'
 // Lấy tiếp phần tử
 echo $myStack->pop();
-echo "<br/>"; // outputs 'A Feast for Crows'
+echo '<br/>'; // outputs 'A Feast for Crows'
 // Thêm tiếp phần tử
 $myStack->push('The Armageddon Rag');
 echo $myStack->pop();
-echo "<br/>"; // outputs 'The Armageddon Rag'
+echo '<br/>'; // outputs 'The Armageddon Rag'

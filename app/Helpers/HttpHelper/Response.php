@@ -15,10 +15,11 @@ class Response
 
     public function responseData($endpoint)
     {
-        $response = Http::get($this->domain . $endpoint);
+        $response = Http::get($this->domain.$endpoint);
         if ($response->status() !== 200) {
             return null;
         }
+
         return $response->json();
     }
 }

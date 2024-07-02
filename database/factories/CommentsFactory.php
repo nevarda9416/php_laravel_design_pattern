@@ -14,7 +14,7 @@ class CommentsFactory extends Factory
     public function definition()
     {
         return [
-            'post_id' => $this->faker->randomElement(array(1, 20))
+            'post_id' => $this->faker->randomElement([1, 20]),
         ];
     }
 }

@@ -9,6 +9,7 @@ use Illuminate\Queue\SerializesModels;
 class SendEmail extends Mailable
 {
     use Queueable, SerializesModels;
+
     private $name;
 
     /**
@@ -29,7 +30,7 @@ class SendEmail extends Mailable
     public function build()
     {
         return $this->subject('Welcome to Laravel')->view('emails.welcome')->with([
-            'name' => $this->name
+            'name' => $this->name,
         ]);
     }
 }

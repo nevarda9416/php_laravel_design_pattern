@@ -17,10 +17,10 @@ class ProductBusiness
     public static function get_product_detail($id)
     {
         try {
-            $key = RedisEnum::PRODUCT_DETAIL_KEY . $id;
+            $key = RedisEnum::PRODUCT_DETAIL_KEY.$id;
             $data = RedisServer::getKey($key, config()->get('constants.REDIS_PRODUCT_DB'), 1);
-            if (count((array)$data) == 0) {
-                $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCT_DETAIL . $id;
+            if (count((array) $data) == 0) {
+                $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCT_DETAIL.$id;
                 $data = Curl::to($url)->get();
                 $data = json_decode($data, true);
                 $data = isset($data['data']) ? $data['data'] : [];
@@ -38,12 +38,13 @@ class ProductBusiness
             $key = RedisEnum::PRODUCT_CATEGORIES_KEY;
             $data = RedisServer::getKey($key, config()->get('constants.REDIS_PRODUCT_DB'), 1);
             if (empty($data)) {
-                $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_ALL_CATES;
+                $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_ALL_CATES;
                 $data = Curl::to($url)->withTimeout(config()->get('constants.CURLOPT_TIMEOUT'))
                     ->enableDebug(FileLogUtility::createFileLog('api'))->get();
                 $data = json_decode($data, true);
                 $data = isset($data['data']) ? $data['data'] : '';
             }
+
             return $data;
         } catch (\Exception  $e) {
             return [];
@@ -53,10 +54,10 @@ class ProductBusiness
     public static function get_all_products()
     {
         try {
-            $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_ALL_PRODUCTS;
+            $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_ALL_PRODUCTS;
             $data = Curl::to($url)->get();
             $data = json_decode($data, true);
-            $data = isset($data['data']) ? $data['data'] : array();
+            $data = isset($data['data']) ? $data['data'] : [];
             if (count($data) > 0) {
                 foreach ($data as $key => $val) {
                     $displayOrder[$key][] = $val['DisplayOrder'];
@@ -75,10 +76,10 @@ class ProductBusiness
     public static function allProducts()
     {
         try {
-            $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_ALL_PRODUCTS;
+            $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_ALL_PRODUCTS;
             $data = Curl::to($url)->get();
             $data = json_decode($data, true);
-            $data = isset($data['data']) ? $data['data'] : array();
+            $data = isset($data['data']) ? $data['data'] : [];
             if (count($data) > 0) {
                 $products = [];
                 foreach ($data as $key => $val) {
@@ -97,17 +98,18 @@ class ProductBusiness
     public static function get_related_products($id)
     {
         try {
-            $key = RedisEnum::PRODUCT_RELATED_PRODUCTS . $id;
+            $key = RedisEnum::PRODUCT_RELATED_PRODUCTS.$id;
             $data = RedisServer::getKey($key, config()->get('constants.REDIS_PRODUCT_DB'), 1);
             $data = isset($data['TargetProducts']) ? $data['TargetProducts'] : null;
             if ($data == null) {
-                $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCT_RELATED . $id;
+                $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCT_RELATED.$id;
                 $data = Curl::to($url)->get();
                 $data = json_decode($data, true);
                 $data = isset($data['data']['TargetProducts']) ? $data['data']['TargetProducts'] : null;
             }
             $data = $data != null && count($data) > 0 ? array_slice($data, 0, 4) : [];
             $products = ProductBusiness::getListProductByIds($data);
+
             return $products;
         } catch (\Exception  $e) {
             return [];
@@ -122,11 +124,12 @@ class ProductBusiness
             $data = isset($data['data'])?$data['TargetProducts'] : null;*/
             $data = null;
             if ($data == null) {
-                $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_BREADCRUMB . $id;
+                $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_BREADCRUMB.$id;
                 $data = Curl::to($url)->get();
                 $data = json_decode($data, true);
                 $data = isset($data['data']) ? $data['data'] : null;
             }
+
             return $data;
         } catch (\Exception  $e) {
             return [];
@@ -136,19 +139,20 @@ class ProductBusiness
     public static function rename_img($img)
     {
         $newimg = [];
-        if ($img != "") {
+        if ($img != '') {
             $arr_img = explode('.', $img);
             if (count($arr_img) > 0) {
                 $img_ext = $arr_img[count($arr_img) - 1];
-                if ($img_ext != "") {
-                    $arr_img = explode('.' . $img_ext, $img);
-                    $newimg[CommonEnum::IMAGE_SIZE_SMALL] = config()->get('constants.PRODUCT_IMAGES') . $arr_img[0] . '_' . CommonEnum::IMAGE_SIZE_SMALL . '.' . $img_ext;
-                    $newimg[CommonEnum::IMAGE_SIZE_MEDIUM] = config()->get('constants.PRODUCT_IMAGES') . $arr_img[0] . '_' . CommonEnum::IMAGE_SIZE_MEDIUM . '.' . $img_ext;
-                    $newimg[CommonEnum::IMAGE_SIZE_LARGE] = config()->get('constants.PRODUCT_IMAGES') . $arr_img[0] . '_' . CommonEnum::IMAGE_SIZE_LARGE . '.' . $img_ext;
-                    $newimg[CommonEnum::IMAGE_SIZE_XLARGE] = config()->get('constants.PRODUCT_IMAGES') . $arr_img[0] . '_' . CommonEnum::IMAGE_SIZE_XLARGE . '.' . $img_ext;
+                if ($img_ext != '') {
+                    $arr_img = explode('.'.$img_ext, $img);
+                    $newimg[CommonEnum::IMAGE_SIZE_SMALL] = config()->get('constants.PRODUCT_IMAGES').$arr_img[0].'_'.CommonEnum::IMAGE_SIZE_SMALL.'.'.$img_ext;
+                    $newimg[CommonEnum::IMAGE_SIZE_MEDIUM] = config()->get('constants.PRODUCT_IMAGES').$arr_img[0].'_'.CommonEnum::IMAGE_SIZE_MEDIUM.'.'.$img_ext;
+                    $newimg[CommonEnum::IMAGE_SIZE_LARGE] = config()->get('constants.PRODUCT_IMAGES').$arr_img[0].'_'.CommonEnum::IMAGE_SIZE_LARGE.'.'.$img_ext;
+                    $newimg[CommonEnum::IMAGE_SIZE_XLARGE] = config()->get('constants.PRODUCT_IMAGES').$arr_img[0].'_'.CommonEnum::IMAGE_SIZE_XLARGE.'.'.$img_ext;
                 }
             }
         }
+
         return $newimg;
     }
 
@@ -171,24 +175,25 @@ class ProductBusiness
                         // the cate banner data
                         $cate_banner['name'] = $val['banner_name'];
                         $cate_banner['description'] = $val['banner_description'];
-                        $cate_banner['url'] = config()->get('constants.STATIC_IMAGES') . $val['banner_url'];
+                        $cate_banner['url'] = config()->get('constants.STATIC_IMAGES').$val['banner_url'];
                         $cate_banners['banners'][] = $cate_banner;
                         if ($val['banner_id'] == $val['is_default']) {
                             $cate_banners['default']['name'] = $val['banner_name'];
                             $cate_banners['default']['description'] = $val['banner_description'];
-                            $cate_banners['default']['url'] = config()->get('constants.STATIC_IMAGES') . $val['banner_url'];
+                            $cate_banners['default']['url'] = config()->get('constants.STATIC_IMAGES').$val['banner_url'];
                         }
                         // the seo data
                         if ($seq == 0) {
                             $cate_seo['meta_title'] = $val['meta_title'];
                             $cate_seo['meta_keyword'] = $val['meta_keyword'];
                             $cate_seo['meta_description'] = $val['meta_description'];
-                            $cate_seo['meta_image'] = config()->get('constants.STATIC_IMAGES') . $val['thumb_url'];
+                            $cate_seo['meta_image'] = config()->get('constants.STATIC_IMAGES').$val['thumb_url'];
                             $seq++;
                         }
                     }
                 }
             }
+
             return ['cate_banners' => $cate_banners, 'cate_seo' => $cate_seo];
         } catch (\Exception  $e) {
             return [];
@@ -201,7 +206,7 @@ class ProductBusiness
             $key = RedisEnum::LIST_FAVORITE_PRODUCTS;
             $dataP = RedisServer::getKey($key, config()->get('constants.REDIS_PRODUCT_DB'), 1);
             if (empty($dataP)) {
-                $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::GET_LIST_FAVORITE_PORDUCTS . '?take=' . $perPage;
+                $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::GET_LIST_FAVORITE_PORDUCTS.'?take='.$perPage;
                 $dataP = Curl::to($url)->withTimeout(config()->get('constants.CURLOPT_TIMEOUT'))
                     ->enableDebug(FileLogUtility::createFileLog('api'))->get();
                 $dataP = json_decode($dataP, true);
@@ -210,9 +215,10 @@ class ProductBusiness
 
             $dataP = array_slice($dataP, 0, $perPage);
             $products = ProductBusiness::getListProductByIds($dataP);
+
             return $products;
         } catch (\Exception $e) {
-            return array();
+            return [];
         }
     }
 
@@ -222,7 +228,7 @@ class ProductBusiness
         if (is_array($ids) && count($ids) > 0) {
             $dataK = [];
             foreach ($ids as $item => $productId) {
-                $dataK[] = RedisEnum::PRODUCT_DETAIL_KEY . $productId;
+                $dataK[] = RedisEnum::PRODUCT_DETAIL_KEY.$productId;
             }
 
             //Check promotion
@@ -231,9 +237,9 @@ class ProductBusiness
             $dP = [];
             if (count($result) > 0) {
                 foreach ($result as $key => $value) {
-                    $dP[$value['Id']] = array(
+                    $dP[$value['Id']] = [
                         'Id' => $value['Id'],
-                        'url_detail' => url('/san-pham/' . $value['SeoId'] . '-' . $value['Id'] . '.html'),
+                        'url_detail' => url('/san-pham/'.$value['SeoId'].'-'.$value['Id'].'.html'),
                         'Sku' => isset($value['ProductSkus'][0]['Sku']) ? $value['ProductSkus'][0]['Sku'] : '',
                         'WeightGram' => isset($value['ProductSkus'][0]['WeightGram']) ? $value['ProductSkus'][0]['WeightGram'] : '',
                         'ConvertedWeightGram' => isset($value['ProductSkus'][0]['ConvertedWeightGram']) ? $value['ProductSkus'][0]['ConvertedWeightGram'] : '',
@@ -244,8 +250,8 @@ class ProductBusiness
                         'Status' => $value['Status'],
                         'ShortDescription1' => $value['ShortDescription1'],
                         'ThumbnailUrl' => isset($value['ThumbnailUrl']) ? $value['ThumbnailUrl'] : '',
-                        'SalePrice' => isset($value['ProductSkus'][0]['SalePrice']) ? $value['ProductSkus'][0]['SalePrice'] : ''
-                    );
+                        'SalePrice' => isset($value['ProductSkus'][0]['SalePrice']) ? $value['ProductSkus'][0]['SalePrice'] : '',
+                    ];
                 }
             }
 
@@ -257,7 +263,7 @@ class ProductBusiness
                     }
                 } else {
                     $pr = ProductBusiness::getProductDetailAPI($productId);
-                    if (!empty($pr)) {
+                    if (! empty($pr)) {
                         $products[$item] = $pr;
                         if (isset($promotions[$productId])) {
                             $products[$item]['promotion'] = $promotions[$productId];
@@ -276,33 +282,33 @@ class ProductBusiness
         if (is_array($ids) && count($ids) > 0) {
             $dataK = [];
             foreach ($ids as $item) {
-                $dataK[] = $item['productId'];//RedisEnum::PRODUCT_DETAIL_KEY . $item['productId'];
+                $dataK[] = $item['productId']; //RedisEnum::PRODUCT_DETAIL_KEY . $item['productId'];
             }
 
             //Check promotion
-            $promotions = [];//ProductBusiness::getPromotionCheckouByProducts($ids);
+            $promotions = []; //ProductBusiness::getPromotionCheckouByProducts($ids);
             // Call API spring boot get product detail
-//dd($dataK);
-            $result = [];//RedisServer::mget($dataK, config()->get('constants.REDIS_PRODUCT_DB'), 1);
+            //dd($dataK);
+            $result = []; //RedisServer::mget($dataK, config()->get('constants.REDIS_PRODUCT_DB'), 1);
             $dP = [];
-            if (!empty($result)) {
+            if (! empty($result)) {
                 foreach ($result as $key => $value) {
                     if (isset($value['Id'])) {
-                        $dP[$value['Id']] = array(
+                        $dP[$value['Id']] = [
                             'Id' => $value['Id'],
-                            'url_detail' => url('/san-pham/' . $value['SeoId'] . '-' . $value['Id'] . '.html'),
+                            'url_detail' => url('/san-pham/'.$value['SeoId'].'-'.$value['Id'].'.html'),
                             'Sku' => isset($value['ProductSkus'][0]['Sku']) ? $value['ProductSkus'][0]['Sku'] : '',
                             'WeightGram' => isset($value['ProductSkus'][0]['WeightGram']) ? $value['ProductSkus'][0]['WeightGram'] : '',
                             'ConvertedWeightGram' => isset($value['ProductSkus'][0]['ConvertedWeightGram']) ? $value['ProductSkus'][0]['ConvertedWeightGram'] : '',
                             'DimensionXCm' => isset($value['ProductSkus'][0]['DimensionXCm']) ? $value['ProductSkus'][0]['DimensionXCm'] : '',
                             'DimensionYCm' => isset($value['ProductSkus'][0]['DimensionYCm']) ? $value['ProductSkus'][0]['DimensionYCm'] : '',
                             'DimensionZCm' => isset($value['ProductSkus'][0]['DimensionZCm']) ? $value['ProductSkus'][0]['DimensionZCm'] : '',
-                            'Name' => isset($value['Name']) ? $value['Name']: '',
-                            'Status' => isset($value['Status']) ? $value['Status'] : '' ,
+                            'Name' => isset($value['Name']) ? $value['Name'] : '',
+                            'Status' => isset($value['Status']) ? $value['Status'] : '',
                             'ShortDescription1' => isset($value['ShortDescription1']) ? $value['ShortDescription1'] : '',
                             'ThumbnailUrl' => isset($value['ThumbnailUrl']) ? $value['ThumbnailUrl'] : '',
-                            'SalePrice' => isset($value['ProductSkus'][0]['SalePrice']) ? $value['ProductSkus'][0]['SalePrice'] : ''
-                        );
+                            'SalePrice' => isset($value['ProductSkus'][0]['SalePrice']) ? $value['ProductSkus'][0]['SalePrice'] : '',
+                        ];
                     }
                 }
             }
@@ -314,8 +320,8 @@ class ProductBusiness
                         $products[$item['productId']]['promotion'] = $promotions[$item['productId']];
                     }
                 } else {
-                    $pr = [];//ProductBusiness::getProductDetailAPI($item['productId']);
-                    if (!empty($pr)) {
+                    $pr = []; //ProductBusiness::getProductDetailAPI($item['productId']);
+                    if (! empty($pr)) {
                         $products[$item['productId']] = $pr;
                         if (isset($promotions[$item['productId']])) {
                             $products[$item['productId']]['promotion'] = $promotions[$item['productId']];
@@ -334,7 +340,7 @@ class ProductBusiness
             $key = RedisEnum::LIST_HIGHLIGHTED_PRODUCTS;
             $dataP = RedisServer::getKey($key, config()->get('constants.REDIS_PRODUCT_DB'), 1);
             if (empty($dataP)) {
-                $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::GET_LIST_HIGHLIGHTED_PRODUCTS;
+                $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::GET_LIST_HIGHLIGHTED_PRODUCTS;
                 $dataP = Curl::to($url)->withTimeout(config()->get('constants.CURLOPT_TIMEOUT'))
                     ->enableDebug(FileLogUtility::createFileLog('api'))->get();
                 $dataP = json_decode($dataP, true);
@@ -343,20 +349,20 @@ class ProductBusiness
 
             $dataP = array_slice($dataP, 0, $perPage);
             $products = ProductBusiness::getListProductByIds($dataP);
+
             return $products;
         } catch (\Exception $e) {
-            return array();
+            return [];
         }
     }
 
     /**
-     * @param $postId
      * @return array|\Illuminate\Support\Collection
      */
     public static function getAllListHighlightProducts($postId)
     {
         try {
-            $dataP1 = array();
+            $dataP1 = [];
             if ($postId > 0) {
                 $products = DB::table('posts_has_products')->select('product_id')->where('post_id', $postId)->orderBy('product_order', 'ASC')->get();
                 foreach ($products as $product) {
@@ -369,11 +375,11 @@ class ProductBusiness
                 $key = RedisEnum::LIST_HIGHLIGHTED_PRODUCTS;
                 $dataP2 = RedisServer::getKey($key, config()->get('constants.REDIS_PRODUCT_DB'), 1);
                 if (empty($dataP2)) {
-                    $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::GET_LIST_HIGHLIGHTED_PRODUCTS;
+                    $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::GET_LIST_HIGHLIGHTED_PRODUCTS;
                     $dataP2 = Curl::to($url)->withTimeout(config()->get('constants.CURLOPT_TIMEOUT'))
                         ->enableDebug(FileLogUtility::createFileLog('api'))->get();
                     $dataP2 = json_decode($dataP2, true);
-                    $dataP2 = isset($dataP2['data']) ? $dataP2['data'] : array();
+                    $dataP2 = isset($dataP2['data']) ? $dataP2['data'] : [];
                 }
                 shuffle($dataP2); // Không muốn random hiển thị list sản phẩm thì comment dòng này
                 $dataP = array_unique(array_merge($dataP1, $dataP2));
@@ -381,9 +387,10 @@ class ProductBusiness
                 $dataP = $dataP1;
             }
             $products = ProductBusiness::getListProductByIds($dataP);
+
             return $products;
         } catch (\Exception $e) {
-            return array();
+            return [];
         }
     }
 
@@ -392,10 +399,10 @@ class ProductBusiness
         try {
             $products = [];
             if ($categoryProductId != null) {
-                $key = RedisEnum::PRODUCT_GET_PRODUCTS_BY_CATEGORY . $categoryProductId;
+                $key = RedisEnum::PRODUCT_GET_PRODUCTS_BY_CATEGORY.$categoryProductId;
                 $dataP = RedisServer::getKey($key, config()->get('constants.REDIS_PRODUCT_DB'), 1);
                 if (empty($dataP)) {
-                    $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCTS_BY_CATEGORY . $categoryProductId;
+                    $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCTS_BY_CATEGORY.$categoryProductId;
                     $dataP = Curl::to($url)->withTimeout(config()->get('constants.CURLOPT_TIMEOUT'))
                         ->enableDebug(FileLogUtility::createFileLog('api'))->get();
                     $dataP = json_decode($dataP, true);
@@ -405,23 +412,24 @@ class ProductBusiness
                 $dataP = array_slice($dataP, 0, $perPage);
                 $products = ProductBusiness::getListProductByIds($dataP);
             }
+
             return $products;
         } catch (\Exception $e) {
-            return array();
+            return [];
         }
     }
 
     public static function getProductDetailAPI($productId)
     {
-        $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCT_DETAIL . $productId;
+        $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCT_DETAIL.$productId;
         $dataP = Curl::to($url)->get();
         $dataP = json_decode($dataP, true);
         $result = [];
         if (isset($dataP['data']) && count($dataP['data'])) {
             if (isset($dataP['data']['Status']) && $dataP['data']['Status'] != 'disabled') {
-                $result = array(
+                $result = [
                     'Id' => $dataP['data']['Id'],
-                    'url_detail' => url('/san-pham/' . $dataP['data']['SeoId'] . '-' . $dataP['data']['Id'] . '.html'),
+                    'url_detail' => url('/san-pham/'.$dataP['data']['SeoId'].'-'.$dataP['data']['Id'].'.html'),
                     'Sku' => isset($dataP['data']['ProductSkus'][0]['Sku']) ? $dataP['data']['ProductSkus'][0]['Sku'] : '',
                     'WeightGram' => isset($dataP['data']['ProductSkus'][0]['WeightGram']) ? $dataP['data']['ProductSkus'][0]['WeightGram'] : '',
                     'ConvertedWeightGram' => isset($dataP['data']['ProductSkus'][0]['ConvertedWeightGram']) ? $dataP['data']['ProductSkus'][0]['ConvertedWeightGram'] : '',
@@ -432,8 +440,8 @@ class ProductBusiness
                     'Status' => $dataP['data']['Status'],
                     'ShortDescription1' => $dataP['data']['ShortDescription1'],
                     'ThumbnailUrl' => isset($dataP['data']['ThumbnailUrl']) ? $dataP['data']['ThumbnailUrl'] : '',
-                    'SalePrice' => isset($dataP['data']['ProductSkus'][0]['SalePrice']) ? $dataP['data']['ProductSkus'][0]['SalePrice'] : ''
-                );
+                    'SalePrice' => isset($dataP['data']['ProductSkus'][0]['SalePrice']) ? $dataP['data']['ProductSkus'][0]['SalePrice'] : '',
+                ];
             }
         }
 
@@ -443,16 +451,16 @@ class ProductBusiness
     public static function getCategoryBySlug($catesandsub, $slug)
     {
         $category = [];
-        if (!empty($catesandsub) && count((array)$catesandsub) > 0) {
+        if (! empty($catesandsub) && count((array) $catesandsub) > 0) {
             foreach ($catesandsub as $v) {
                 if (isset($v['SeoId']) && $v['SeoId'] == $slug) {
-                    $category = array('Id' => $v['Id'], 'Name' => $v['Name'], 'SeoId' => $v['SeoId'], 'ParentId' => $v['ParentId']);
+                    $category = ['Id' => $v['Id'], 'Name' => $v['Name'], 'SeoId' => $v['SeoId'], 'ParentId' => $v['ParentId']];
                     break;
                 } else {
                     if (isset($v['Child']) && count($v['Child']) > 0) {
                         foreach ($v['Child'] as $sv) {
                             if (isset($sv['SeoId']) && $sv['SeoId'] == $slug) {
-                                $category = array('Id' => $sv['Id'], 'Name' => $sv['Name'], 'SeoId' => $sv['SeoId'], 'ParentId' => $sv['ParentId']);
+                                $category = ['Id' => $sv['Id'], 'Name' => $sv['Name'], 'SeoId' => $sv['SeoId'], 'ParentId' => $sv['ParentId']];
                                 break;
                             }
                         }
@@ -472,33 +480,33 @@ class ProductBusiness
         $key = $order = $orderBy = '';
         $totalProduct = 0;
         switch ($sortby) {
-            case "p-asc":
+            case 'p-asc':
                 $order = 'ASC';
                 $orderBy = 'price';
-                $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_PRICE . $category['Id'];
+                $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_PRICE.$category['Id'];
                 break;
-            case "p-desc":
+            case 'p-desc':
                 $order = 'DESC';
                 $orderBy = 'price';
-                $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_PRICE . $category['Id'];
+                $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_PRICE.$category['Id'];
                 break;
-            case "d-asc":
+            case 'd-asc':
                 $order = 'ASC';
                 $orderBy = 'date';
-                $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_DATE . $category['Id'];
+                $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_DATE.$category['Id'];
                 break;
-            case "d-asc":
+            case 'd-asc':
                 $order = 'DESC';
                 $orderBy = 'date';
-                $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_DATE . $category['Id'];
+                $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_DATE.$category['Id'];
                 break;
             default:
                 $order = 'ASC';
                 $orderBy = 'display';
-                if ((int)$category['ParentId'] == 0) {
-                    $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_lEVEL1 . $category['Id'];
+                if ((int) $category['ParentId'] == 0) {
+                    $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_lEVEL1.$category['Id'];
                 } else {
-                    $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_PRICE . $category['Id'];
+                    $key = RedisEnum::GET_PRODUCTS_BY_CATEGORY_ORDERBY_PRICE.$category['Id'];
                 }
 
                 break;
@@ -521,15 +529,15 @@ class ProductBusiness
             $products = ProductBusiness::getListProductByIds($idsP);
         }
 
-        return array('total' => $totalP, 'products' => $products);
+        return ['total' => $totalP, 'products' => $products];
     }
 
     public function GetProductsApiByCategoryId($category, $order, $orderBy, $start, $perPage, &$totalP)
     {
-        if ((int)$category['ParentId'] == 0) {
-            $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCTS_BY_CATEGORY_LEVEL1 . $category['Id'];
+        if ((int) $category['ParentId'] == 0) {
+            $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCTS_BY_CATEGORY_LEVEL1.$category['Id'];
         } else {
-            $url = config()->get('constants.API_FC_PRODUCT') . ApiEnum::PRODUCT_GET_PRODUCTS_BY_CATEGORY_ID . $category['Id'];
+            $url = config()->get('constants.API_FC_PRODUCT').ApiEnum::PRODUCT_GET_PRODUCTS_BY_CATEGORY_ID.$category['Id'];
         }
 
         $url .= "&skip=$start&take=$perPage";
@@ -544,7 +552,7 @@ class ProductBusiness
         $data = Curl::to($url)->get();
         $data = json_decode($data, true);
         $ids = isset($data['data']['Products']) ? $data['data']['Products'] : [];
-        $totalP = isset($data['data']['Total']) ? (int)$data['data']['Total'] : 0;
+        $totalP = isset($data['data']['Total']) ? (int) $data['data']['Total'] : 0;
 
         return $ids;
     }
@@ -556,48 +564,48 @@ class ProductBusiness
             $parameters['index'] = CommonEnum::ELASTIC_PRODUCT_INDEX;
             $parameters['type'] = CommonEnum::ELASTICPOSTS_TYPE;
             $sort = [['_score' => ['order' => 'desc']], 'Id'];
-            if (!empty($t_s)) {
-                $query["function_score"]["query"]["bool"]["must"][] = ["multi_match" => ["query" => $t_s,
-                    "fields" => ["Name", "Tags", "ShortDescription1", "ShortDescription2", "NameKhongDau", "ShortDescription1KhongDau"]]];
+            if (! empty($t_s)) {
+                $query['function_score']['query']['bool']['must'][] = ['multi_match' => ['query' => $t_s,
+                    'fields' => ['Name', 'Tags', 'ShortDescription1', 'ShortDescription2', 'NameKhongDau', 'ShortDescription1KhongDau']]];
             }
 
             if ($c_id) {
-                $query["function_score"]["query"]["bool"]["must"][] = ["match" => ['CategoryId' => $c_id]];
+                $query['function_score']['query']['bool']['must'][] = ['match' => ['CategoryId' => $c_id]];
             }
 
-            $query["function_score"]["functions"] = [
-                ["weight" => 10000, "filter" => ["match_phrase" => ["Name" => $t_s]]],
-                ["weight" => 10000, "filter" => ["match_phrase" => ["Tags" => $t_s]]],
-                ["weight" => 1000, "filter" => ["match_phrase" => ["ShortDescription1" => $t_s]]],
-                ["weight" => 100, "filter" => ["match_phrase" => ["ShortDescription2" => $t_s]]],
-                ["weight" => 10000, "filter" => ["match_phrase" => ["NameKhongDau" => $t_s]]],
-                ["weight" => 1000, "filter" => ["match_phrase" => ["ShortDescription1KhongDau" => $t_s]]],
+            $query['function_score']['functions'] = [
+                ['weight' => 10000, 'filter' => ['match_phrase' => ['Name' => $t_s]]],
+                ['weight' => 10000, 'filter' => ['match_phrase' => ['Tags' => $t_s]]],
+                ['weight' => 1000, 'filter' => ['match_phrase' => ['ShortDescription1' => $t_s]]],
+                ['weight' => 100, 'filter' => ['match_phrase' => ['ShortDescription2' => $t_s]]],
+                ['weight' => 10000, 'filter' => ['match_phrase' => ['NameKhongDau' => $t_s]]],
+                ['weight' => 1000, 'filter' => ['match_phrase' => ['ShortDescription1KhongDau' => $t_s]]],
             ];
 
-            $query["function_score"]["boost"] = 1;
-            $query["function_score"]["boost_mode"] = "multiply";
-            $query["function_score"]["score_mode"] = "sum";
-            $parameters['body'] = ["sort" => $sort, "query" => $query, "from" => $start, "size" => $per_page];
+            $query['function_score']['boost'] = 1;
+            $query['function_score']['boost_mode'] = 'multiply';
+            $query['function_score']['score_mode'] = 'sum';
+            $parameters['body'] = ['sort' => $sort, 'query' => $query, 'from' => $start, 'size' => $per_page];
             $client = ElasticsearchServer::getConnection();
             $response = $client->search($parameters);
             $TotalRow = $response['hits']['total']['value'];
             if (count($response['hits']['hits']) > 0) {
                 foreach ($response['hits']['hits'] as $row) {
                     $data = $row['_source'];
-                    $data['url_detail'] = url('/san-pham/' . $data['SeoId'] . '-' . $data['Id'] . '.html');
+                    $data['url_detail'] = url('/san-pham/'.$data['SeoId'].'-'.$data['Id'].'.html');
                     $data['tag_name'] = [];
-//                    if (!empty($data['Tags'])) {
-//                        $dataT = explode(',', $data['Tags']);
-//                        $dataTags = [];
-//                        foreach ($dataT as $i => $t) {
-//                            if ($i == 4) break;
-//                            $dataTags[] = array('name' => $t, 'url' => url('/tag/' . HtmlFormatUtility::get_slug_alias($t)));
-//                        }
-//
-//                        $data['tag_name'] = $dataTags;
-//                    } else {
-//                        $data['tag_name'] = [];
-//                    }
+                    //                    if (!empty($data['Tags'])) {
+                    //                        $dataT = explode(',', $data['Tags']);
+                    //                        $dataTags = [];
+                    //                        foreach ($dataT as $i => $t) {
+                    //                            if ($i == 4) break;
+                    //                            $dataTags[] = array('name' => $t, 'url' => url('/tag/' . HtmlFormatUtility::get_slug_alias($t)));
+                    //                        }
+                    //
+                    //                        $data['tag_name'] = $dataTags;
+                    //                    } else {
+                    //                        $data['tag_name'] = [];
+                    //                    }
 
                     $dataSearch[] = $data;
                 }
@@ -614,16 +622,16 @@ class ProductBusiness
     {
         try {
             $start_time = microtime(true);
-            $url = config()->get('constants.API_FC_PROMOTION') . ApiEnum::PROMOTION_CHECK_PRODUCT;
+            $url = config()->get('constants.API_FC_PROMOTION').ApiEnum::PROMOTION_CHECK_PRODUCT;
             $dataP = Curl::to($url)->withData($ids)->asJson()->post();
             $end_time = microtime(true);
             try {
-                if (config()->get('constants.CUSTOM_LOG_PROMOTION') == "true") {
-                    file_put_contents(storage_path() . '/logs/logPromotion_' . date('m-d-Y') . '.txt', print_r('=========[' . date('m-d-Y_hi') . ']', true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logPromotion_' . date('m-d-Y') . '.txt', print_r($url, true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logPromotion_' . date('m-d-Y') . '.txt', print_r(json_encode($ids), true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logPromotion_' . date('m-d-Y') . '.txt', print_r(json_encode($dataP), true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logPromotion_' . date('m-d-Y') . '.txt', print_r('Request elapsed: ' . ($end_time - $start_time), true) . PHP_EOL, FILE_APPEND);
+                if (config()->get('constants.CUSTOM_LOG_PROMOTION') == 'true') {
+                    file_put_contents(storage_path().'/logs/logPromotion_'.date('m-d-Y').'.txt', print_r('=========['.date('m-d-Y_hi').']', true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logPromotion_'.date('m-d-Y').'.txt', print_r($url, true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logPromotion_'.date('m-d-Y').'.txt', print_r(json_encode($ids), true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logPromotion_'.date('m-d-Y').'.txt', print_r(json_encode($dataP), true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logPromotion_'.date('m-d-Y').'.txt', print_r('Request elapsed: '.($end_time - $start_time), true).PHP_EOL, FILE_APPEND);
                 }
             } catch (\Exception $e) {
                 // Ignore
@@ -647,7 +655,7 @@ class ProductBusiness
                                 'quantity' => $product->rewardQuantity,
                                 'discount' => 0,
                                 'type' => $product->rewardType,
-                                'price' => isset($productD['ProductSkus'][0]['SalePrice']) ? $productD['ProductSkus'][0]['SalePrice'] : ''
+                                'price' => isset($productD['ProductSkus'][0]['SalePrice']) ? $productD['ProductSkus'][0]['SalePrice'] : '',
                             ];
                         }
                     } else {
@@ -676,16 +684,16 @@ class ProductBusiness
     {
         try {
             $start_time = microtime(true);
-            $url = config()->get('constants.API_FC_PROMOTION') . ApiEnum::PROMOTION_CHECKOUT_PRODUCT;
+            $url = config()->get('constants.API_FC_PROMOTION').ApiEnum::PROMOTION_CHECKOUT_PRODUCT;
             $dataP = Curl::to($url)->withData($ids)->asJson()->post();
             $end_time = microtime(true);
             try {
-                if (config()->get('constants.CUSTOM_LOG_PROMOTION') == "true") {
-                    file_put_contents(storage_path() . '/logs/logPromotionCheckout_' . date('m-d-Y') . '.txt', print_r('=========[' . date('m-d-Y_hi') . ']', true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logPromotionCheckout_' . date('m-d-Y') . '.txt', print_r($url, true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logPromotionCheckout_' . date('m-d-Y') . '.txt', print_r(json_encode($ids), true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logPromotionCheckout_' . date('m-d-Y') . '.txt', print_r(json_encode($dataP), true) . PHP_EOL, FILE_APPEND);
-                    file_put_contents(storage_path() . '/logs/logPromotionCheckout_' . date('m-d-Y') . '.txt', print_r('Request elapsed: ' . ($end_time - $start_time), true) . PHP_EOL, FILE_APPEND);
+                if (config()->get('constants.CUSTOM_LOG_PROMOTION') == 'true') {
+                    file_put_contents(storage_path().'/logs/logPromotionCheckout_'.date('m-d-Y').'.txt', print_r('=========['.date('m-d-Y_hi').']', true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logPromotionCheckout_'.date('m-d-Y').'.txt', print_r($url, true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logPromotionCheckout_'.date('m-d-Y').'.txt', print_r(json_encode($ids), true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logPromotionCheckout_'.date('m-d-Y').'.txt', print_r(json_encode($dataP), true).PHP_EOL, FILE_APPEND);
+                    file_put_contents(storage_path().'/logs/logPromotionCheckout_'.date('m-d-Y').'.txt', print_r('Request elapsed: '.($end_time - $start_time), true).PHP_EOL, FILE_APPEND);
                 }
             } catch (\Exception $e) {
                 // Ignore
@@ -709,7 +717,7 @@ class ProductBusiness
                                 'quantity' => $product->rewardQuantity,
                                 'discount' => 0,
                                 'type' => $product->rewardType,
-                                'price' => isset($productD['ProductSkus'][0]['SalePrice']) ? $productD['ProductSkus'][0]['SalePrice'] : ''
+                                'price' => isset($productD['ProductSkus'][0]['SalePrice']) ? $productD['ProductSkus'][0]['SalePrice'] : '',
                             ];
                         }
                     } else {
@@ -739,11 +747,11 @@ class ProductBusiness
         try {
             $promotions = [];
             $locations = [];
-            $url = config()->get('constants.API_FC_PROMOTION') . ApiEnum::PROMOTION_BY_PRODUCT . '?productId=' . $productId;
+            $url = config()->get('constants.API_FC_PROMOTION').ApiEnum::PROMOTION_BY_PRODUCT.'?productId='.$productId;
             $dataPr = Curl::to($url)->get();
             $dataPr = json_decode($dataPr, true);
             if ($dataPr['statusCode'] == 200 && count($dataPr['data']) > 0) {
-                $url = config()->get('constants.API_FC_SHIPMENT') . ApiEnum::MYACCOUNT_GET_PROVINCES;
+                $url = config()->get('constants.API_FC_SHIPMENT').ApiEnum::MYACCOUNT_GET_PROVINCES;
                 $dataP = Curl::to($url)->get();
                 $dataP = json_decode($dataP, true);
                 if (isset($dataP['data']) && count($dataP['data']) > 0) {
@@ -762,7 +770,7 @@ class ProductBusiness
                                     foreach ($con['LocationList'] as $lc) {
                                         $loc[] = $locations[$lc]['provinceName'];
                                     }
-                                    $promotion['promotionCondition'][$k]['locations'] = join(', ', $loc);
+                                    $promotion['promotionCondition'][$k]['locations'] = implode(', ', $loc);
                                 }
                             }
 
@@ -791,14 +799,15 @@ class ProductBusiness
         }
     }
 
-    function getProductPending($products) {
+    public function getProductPending($products)
+    {
         $product_data = [];
         $product_pending = [];
-        if (!empty($products)) {
+        if (! empty($products)) {
             foreach ($products as $product) {
-                if(isset($product['Status']) && $product['Status'] == 'normal') {
+                if (isset($product['Status']) && $product['Status'] == 'normal') {
                     $product_data[] = $product;
-                } elseif(isset($product['Status']) && $product['Status'] == 'coming_soon') {
+                } elseif (isset($product['Status']) && $product['Status'] == 'coming_soon') {
                     $product_pending[] = $product;
                 }
             }

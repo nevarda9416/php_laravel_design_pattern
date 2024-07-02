@@ -9,7 +9,4 @@ use BenSampo\Enum\Enum;
  * @method static static OptionTwo()
  * @method static static OptionThree()
  */
-class ApiEnum extends Enum
-{
-
-}
+class ApiEnum extends Enum {}

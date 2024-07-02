@@ -11,11 +11,12 @@ class Posts extends Model
 
     protected $fillable = [
         'title',
-        'content'
+        'content',
     ];
 
     /**
      * Get the comments of 1 post
+     *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
     public function comments()

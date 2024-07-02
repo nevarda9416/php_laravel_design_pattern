@@ -9,7 +9,9 @@ use Illuminate\Queue\SerializesModels;
 class SendSubcriber extends Mailable
 {
     use Queueable, SerializesModels;
+
     public $subject;
+
     public $message;
 
     /**
@@ -32,7 +34,7 @@ class SendSubcriber extends Mailable
     {
         return $this->subject('Welcome Subcriber')->view('emails.subcriber')->with([
             'subject' => $this->subject,
-            'message' => $this->message
+            'message' => $this->message,
         ]);
     }
 }

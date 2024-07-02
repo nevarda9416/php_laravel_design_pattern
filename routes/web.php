@@ -1,14 +1,14 @@
 <?php
 
 use App\Helpers\HttpHelper\Response;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\UserController;
 use App\Http\Controllers\BatchJobController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DateTimeController;
-use App\Http\Controllers\ShoppingCartController;
-use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ShoppingCartController;
+use App\Http\Controllers\UserController;
+use Illuminate\Support\Facades\Route;
 use Jenssegers\Agent\Agent;
 
 /*

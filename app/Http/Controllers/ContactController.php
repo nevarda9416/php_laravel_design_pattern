@@ -7,10 +7,6 @@ use Illuminate\Support\Facades\Storage;
 
 class ContactController extends Controller
 {
-    /**
-     * @param Request $request
-     * @return mixed
-     */
     public function upload(Request $request, $destinationName): mixed
     {
         // Path store files on server
@@ -18,7 +14,7 @@ class ContactController extends Controller
         // Get file name
         $fileName = $request->get('file_name');
         // 1) Storage disks save file from sftp to local
-        Storage::disk('local')->put($destinationName, Storage::disk('sftp')->get($path/$fileName));
+        Storage::disk('local')->put($destinationName, Storage::disk('sftp')->get($path / $fileName));
         // Others
         // To write the contents of a file to another file in SFTP use the following code
         Storage::disk('sftp')->put($destinationName, file_get_contents($fileName));
@@ -28,11 +24,12 @@ class ContactController extends Controller
             Storage::disk('local')->put($content, Storage::disk('sftp')->get($content));
         }
         // To add content to an existing file
-        Storage::disk('sftp')->append($path/$fileName, 'Test content');
+        Storage::disk('sftp')->append($path / $fileName, 'Test content');
         // Download the file from the AWS Server
-        Storage::disk('sftp')->download($path/$fileName);
+        Storage::disk('sftp')->download($path / $fileName);
         // Remove the file from the AWS Server
-        Storage::disk('sftp')->delete($path/$fileName);
+        Storage::disk('sftp')->delete($path / $fileName);
+
         return true;
     }
 }

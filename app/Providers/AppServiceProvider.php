@@ -12,12 +12,12 @@ use App\Services\Contracts\RunningStatus\RunningStatusService;
 use App\Services\Contracts\RunningStatus\RunningStatusServiceInterface;
 use App\Services\Contracts\StoppingStatus\StoppingStatusService;
 use App\Services\Contracts\StoppingStatus\StoppingStatusServiceInterface;
-use League\Flysystem\Filesystem;
+use Illuminate\Queue\Events\JobFailed;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\ServiceProvider;
+use League\Flysystem\Filesystem;
 use League\Flysystem\Sftp\SftpAdapter;
 use Queue;
-use Illuminate\Queue\Events\JobFailed;
-use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -52,7 +52,7 @@ class AppServiceProvider extends ServiceProvider
             // $event->job
             // $event->data
         });
-        Storage::extend('sftp', function ($app, $config)  {
+        Storage::extend('sftp', function ($app, $config) {
             return new Filesystem(new SftpAdapter($config));
         });
     }

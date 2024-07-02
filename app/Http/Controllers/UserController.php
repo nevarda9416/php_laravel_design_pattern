@@ -21,7 +21,6 @@ class UserController extends Controller
 
     /**
      * UserController constructor.
-     * @param UserService $userService
      */
     public function __construct(UserService $userService)
     {
@@ -42,6 +41,7 @@ class UserController extends Controller
         if ($result) {
             return redirect()->to('/');
         }
+
         return redirect()->to('/');
     }
 
@@ -59,6 +59,7 @@ class UserController extends Controller
         if ($result) {
             return redirect()->to('dang-nhap');
         }
+
         return redirect()->to('dang-nhap');
     }
 
@@ -83,31 +84,32 @@ class UserController extends Controller
         // With where condition
         $posts = Posts::with(['comments' => function ($query) {
             $query->where([
-                ['id', '<', 10]
+                ['id', '<', 10],
             ]);
         }])->get();
         foreach ($posts as $post) {
-            echo $post->title . '<br/>';
+            echo $post->title.'<br/>';
             $comments = $post->comments;
             foreach ($comments as $comment) {
-                echo $comment->posts_id . '<br/>';
+                echo $comment->posts_id.'<br/>';
             }
         }
-        $event = new ServerCreated(array('id' => '1'), 'Init broadcasting');
+        $event = new ServerCreated(['id' => '1'], 'Init broadcasting');
         print_r($event);
         $fullname = $this->userService->getName('Peter đại đế');
-        echo $fullname . '<br/>';
+        echo $fullname.'<br/>';
         $othername = $this->userService->getOtherName();
-        echo $othername . '<br/>';
+        echo $othername.'<br/>';
         // Facade
         Process::process();
         // Dispatch job
-        $details = array(
+        $details = [
             'name' => 'DAO TIEN TU',
-            'email' => 'daotientu@gmail.com'
-        );
-        $job = (new SendEmailUsingRedisQueue($details));//->delay(Carbon::now()->addMinutes(60));
+            'email' => 'daotientu@gmail.com',
+        ];
+        $job = (new SendEmailUsingRedisQueue($details)); //->delay(Carbon::now()->addMinutes(60));
         dispatch($job)->onQueue('email');
+
         return $this->userService->index($this->limit);
     }
 
@@ -120,7 +122,6 @@ class UserController extends Controller
     }
 
     /**
-     * @param $id
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function show($id)
@@ -129,7 +130,6 @@ class UserController extends Controller
     }
 
     /**
-     * @param Request $request
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function store(Request $request)
@@ -138,8 +138,6 @@ class UserController extends Controller
     }
 
     /**
-     * @param Request $request
-     * @param $id
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function update(Request $request, $id)
@@ -148,7 +146,6 @@ class UserController extends Controller
     }
 
     /**
-     * @param $id
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function destroy($id)

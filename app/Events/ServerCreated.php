@@ -2,18 +2,17 @@
 
 namespace App\Events;
 
-use Illuminate\Broadcasting\Channel;
 use Illuminate\Broadcasting\InteractsWithSockets;
-use Illuminate\Broadcasting\PresenceChannel;
 use Illuminate\Broadcasting\PrivateChannel;
-use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 
 class ServerCreated
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
+
     public $user;
+
     public $message;
 
     /**
@@ -34,11 +33,12 @@ class ServerCreated
      */
     public function broadcastOn()
     {
-        return new PrivateChannel('user.' . $this->user['id']);
+        return new PrivateChannel('user.'.$this->user['id']);
     }
 
     /**
      * Tự định nghĩa tên broadcast
+     *
      * @return string
      */
     public function broadcastAs()
@@ -48,12 +48,13 @@ class ServerCreated
 
     /**
      * Định nghĩa dữ liệu nào sẽ được gửi kèm trong các tin
+     *
      * @return array
      */
     public function broadcastWith()
     {
         return [
-            'message' => $this->message
+            'message' => $this->message,
         ];
     }
 }

@@ -2,15 +2,12 @@
 
 namespace App\Repositories;
 
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Exception;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 abstract class Repository implements RepositoryInterface
 {
     // Model tương tác
-    /**
-     * @var
-     */
     protected $model;
 
     /**
@@ -39,6 +36,7 @@ abstract class Repository implements RepositoryInterface
 
     /**
      * Get all
+     *
      * @return mixed
      */
     public function all()
@@ -48,7 +46,7 @@ abstract class Repository implements RepositoryInterface
 
     /**
      * Get one
-     * @param $id
+     *
      * @return mixed
      */
     public function find($id)
@@ -58,6 +56,7 @@ abstract class Repository implements RepositoryInterface
 
     /**
      * Count all
+     *
      * @return mixed
      */
     public function count()
@@ -67,7 +66,8 @@ abstract class Repository implements RepositoryInterface
 
     /**
      * Create
-     * @param array $data
+     *
+     * @param  array  $data
      * @return mixed
      */
     public function create($data = [])
@@ -83,8 +83,8 @@ abstract class Repository implements RepositoryInterface
 
     /**
      * Update
-     * @param $id
-     * @param array $data
+     *
+     * @param  array  $data
      * @return mixed
      */
     public function update($id, $data = [])
@@ -92,14 +92,16 @@ abstract class Repository implements RepositoryInterface
         $result = $this->model->find($id);
         if ($result) {
             $result->model->update($data);
+
             return $result;
         }
+
         return false;
     }
 
     /**
      * Delete
-     * @param $id
+     *
      * @return mixed
      */
     public function delete($id)
@@ -107,8 +109,10 @@ abstract class Repository implements RepositoryInterface
         $result = $this->model->find($id);
         if ($result) {
             $result->model->delete($id);
+
             return true;
         }
+
         return false;
     }
 }
