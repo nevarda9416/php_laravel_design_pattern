@@ -20,7 +20,7 @@ class ProductController extends Controller
     {
         $product_pending = [];
         $templates = TemplatesBusiness::getAllContent();
-        $ProductBusiness = new ProductBusiness();
+        $ProductBusiness = new ProductBusiness;
         $all_products = $ProductBusiness->get_all_products();
         if (! empty($all_products)) {
             foreach ($all_products as $key => $cate) {
@@ -48,7 +48,7 @@ class ProductController extends Controller
      */
     public function index(Request $request, $slug)
     {
-        $ProductBusiness = new ProductBusiness();
+        $ProductBusiness = new ProductBusiness;
         $catesandsub = $ProductBusiness->get_all_categories();
         $category = ProductBusiness::getCategoryBySlug($catesandsub, $slug);
         if (count($category) > 0) {
@@ -131,9 +131,9 @@ class ProductController extends Controller
      */
     public function detail($slug, $product_id = 1)
     {
-        $ProductBusiness = new ProductBusiness();
+        $ProductBusiness = new ProductBusiness;
         // Call API get product detail
-        $productDetail = app(Response::class)->responseData('/products/slug/'.$slug);
+        $productDetail = app(Response::class)->getData('/products/slug/'.$slug);
         $productDetailData = $productDetail['data'][0] ?? [];
         //dd($productDetailData);
         /*
@@ -181,7 +181,7 @@ class ProductController extends Controller
                         }
                     }
         */
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('product.mobile.detail', compact('slug', 'breadcrumb_data', 'product_detail', 'first_product_skus', 'html_list_product', 'metaData', 'promotions'));
         } else {
@@ -219,7 +219,7 @@ class ProductController extends Controller
 
     public function highlightProduct($postId = 0)
     {
-        $productBusiness = new \App\Core\Business\ProductBusiness();
+        $productBusiness = new \App\Core\Business\ProductBusiness;
         $list_product = $productBusiness->getAllListHighlightProducts($postId);
         $returnHTML = '';
         $success = false;
@@ -235,7 +235,7 @@ class ProductController extends Controller
 
     private function getProductDetailById($product_id)
     {
-        $ProductBusiness = new ProductBusiness();
+        $ProductBusiness = new ProductBusiness;
         $product_detail = $ProductBusiness->get_product_detail($product_id);
         if (count($product_detail) > 0) {
             if (isset($product_detail['ProductSkus']) && count($product_detail['ProductSkus']) > 0) {

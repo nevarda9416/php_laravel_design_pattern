@@ -832,7 +832,7 @@
 
 
 
-                    <?php echo htmlspecialchars_decode(ProductStatus::shout($product['status'])) ?>
+                    <?php echo htmlspecialchars_decode(ProductStatus::shout($product['status']??null)) ?>
                     <a href="javascript:void(0)" onclick="addProductToCart('53937',0,'/cart');" class="btn-cart-stop">Giỏ hàng</a>
 
 
@@ -876,7 +876,7 @@
                                         <td>
 
 
-                                            <?php echo htmlspecialchars_decode(ProductStatus::shout($product['status'])) ?>
+                                            <?php echo htmlspecialchars_decode(ProductStatus::shout($product['status']??null)) ?>
 
 
                                         </td>

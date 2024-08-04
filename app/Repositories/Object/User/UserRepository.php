@@ -13,9 +13,9 @@ class UserRepository extends Repository implements UserRepositoryInterface
      */
     public function setModel()
     {
-        $redis = new UserRedis();
+        $redis = new UserRedis;
         if ($redis->getData() == null) {
-            $mysql = new UserMysql();
+            $mysql = new UserMysql;
 
             return $mysql->getData();
         } else {
@@ -46,7 +46,7 @@ class UserRepository extends Repository implements UserRepositoryInterface
      */
     public function getOtherName()
     {
-        $mysql = new UserMysql();
+        $mysql = new UserMysql;
         $mysql->setName('David Copperfield');
 
         return $mysql->getName();

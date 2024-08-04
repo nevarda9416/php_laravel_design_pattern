@@ -42,7 +42,7 @@ class ShoppingCartController extends Controller
             //  $promotionL = $cart_data->getPromotionLocation($list_products);
         }
 
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('cart/mobile/index', compact('cart_data', 'list_products', 'promotions', 'discounts', 'user_cookie', 'promotionL', 'shipping_fee'));
         } else {
@@ -513,7 +513,7 @@ class ShoppingCartController extends Controller
                 'vnp_TxnRef' => $vnp_TxnRef,
             ];
 
-            $orderLogs = new OrderLogsBusiness();
+            $orderLogs = new OrderLogsBusiness;
             $orderLogs->order_code = $inputData['vnp_TxnRef'];
             $orderLogs->order_value = $inputData['vnp_Amount'];
             $orderLogs->payment_method = 'PaymentGateway';
@@ -570,9 +570,9 @@ class ShoppingCartController extends Controller
             if (! empty($cart_data)) {
                 $point = (int) $cart_data->identifier;
                 $shipping_fee = $cart_data->shipping_fee;
-                $setting = DB::table('settings')->where('key', '=', 'footer_info')->first();
+                $setting = DB::table('settings')->first();
                 if (! empty((array) $setting)) {
-                    $setting = json_decode($setting->value, true);
+                    $setting = $setting; //json_decode($setting->value, true);
                 } else {
                     $setting = ['telephone_contact' => ''];
                 }
@@ -895,7 +895,7 @@ class ShoppingCartController extends Controller
             $user_data = ['phone' => '', 'email' => '', 'fullName' => '', 'dateOfBirth' => '', 'gender' => ''];
         }
 
-        $ProductBusiness = new ProductBusiness();
+        $ProductBusiness = new ProductBusiness;
         $all_products = $ProductBusiness->get_all_products()[0]['Products'];
 
         return view('cart.order_contact', compact('user_data', 'all_products'));
@@ -965,7 +965,7 @@ class ShoppingCartController extends Controller
                 $shoppingCart->result = 'start_order';
             } else {
                 $userData = MyAccountBusiness::getUserInfoByToken($_COOKIE[CommonEnum::COOKIE_USER_TOKEN]);
-                $shoppingCart = new ShoppingCartBusiness();
+                $shoppingCart = new ShoppingCartBusiness;
                 $shoppingCart->result = 'start_order';
                 $shoppingCart->created_at = date('Y-m-d H:i:s');
                 $shoppingCart->customer_id = $userData[0]['customer_id'];
@@ -1032,7 +1032,7 @@ class ShoppingCartController extends Controller
             }
 
             if (! empty($dataTicket['items'])) {
-                $spb = new ShoppingCartBusiness();
+                $spb = new ShoppingCartBusiness;
                 $spb->createTicket($dataTicket, $listProducts);
                 if (isset($_COOKIE[CommonEnum::COOKIE_USER_TOKEN])) {
                     $shoppingCart->delete();

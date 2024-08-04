@@ -22,8 +22,8 @@ use Jenssegers\Agent\Agent;
 |
 */
 Route::get('/', function () {
-    $rawResponse = app(Response::class)->responseData('/products/all');
-    $agent = new Agent();
+    $rawResponse = app(Response::class)->getData('/products/all');
+    $agent = new Agent;
     if ($agent->isMobile()) {
         return view('homepage/mobile/index', ['rawResponse' => $rawResponse]);
     } else {
@@ -32,7 +32,7 @@ Route::get('/', function () {
 });
 Route::prefix('dang-ky')->group(function () {
     Route::get('/', function () {
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('customer/mobile/register');
         } else {
@@ -43,7 +43,7 @@ Route::prefix('dang-ky')->group(function () {
 });
 Route::prefix('dang-nhap')->group(function () {
     Route::get('/', function () {
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('customer/mobile/login');
         } else {
@@ -60,7 +60,7 @@ Route::get('/gio-hang', [ShoppingCartController::class, 'index'])->name('cart.in
 Route::get('/list-products', [ShoppingCartController::class, 'listProducts']);
 Route::prefix('mua-hang')->group(function () {
     Route::post('/', function () {
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('cart/mobile/buy');
         } else {
@@ -70,7 +70,7 @@ Route::prefix('mua-hang')->group(function () {
 });
 Route::prefix('tim-kiem')->group(function () {
     Route::get('/', function () {
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('search/mobile/index');
         } else {
@@ -80,7 +80,7 @@ Route::prefix('tim-kiem')->group(function () {
 });
 Route::prefix('khuyen-mai')->group(function () {
     Route::get('/', function () {
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('promotion/mobile/index');
         } else {
@@ -90,7 +90,7 @@ Route::prefix('khuyen-mai')->group(function () {
 });
 Route::prefix('tin-khuyen-mai')->group(function () {
     Route::get('/', function () {
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('news/mobile/index');
         } else {
@@ -98,7 +98,7 @@ Route::prefix('tin-khuyen-mai')->group(function () {
         }
     });
     Route::get('/{slug}.html', function () {
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('news/mobile/detail');
         } else {
@@ -108,7 +108,7 @@ Route::prefix('tin-khuyen-mai')->group(function () {
 });
 Route::prefix('tin-cong-nghe')->group(function () {
     Route::get('/', function () {
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('news/mobile/index');
         } else {
@@ -116,7 +116,7 @@ Route::prefix('tin-cong-nghe')->group(function () {
         }
     });
     Route::get('/{slug}.html', function () {
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('news/mobile/detail');
         } else {

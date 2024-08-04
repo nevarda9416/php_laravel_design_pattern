@@ -11,13 +11,13 @@ namespace App\Http\Controllers;
 use App\Helpers\HttpHelper\Response;
 use Jenssegers\Agent\Agent;
 
-class CategoryController
+class CategoryController extends Controller
 {
     public function getProduct($slug)
     {
-        $listProducts = app(Response::class)->responseData('/products/category/slug/'.$slug);
+        $listProducts = app(Response::class)->getData('/products/category/slug/'.$slug);
         $countProducts = count($listProducts['data']);
-        $agent = new Agent();
+        $agent = new Agent;
         if ($agent->isMobile()) {
             return view('category/mobile/index', ['listProducts' => $listProducts['data'], 'countProducts' => $countProducts]);
         } else {

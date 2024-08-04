@@ -4,7 +4,7 @@ namespace App\Helpers\ProductHelper;
 
 class Status
 {
-    public static function shout(string $string)
+    public static function shout(mixed $string)
     {
         switch ($string) {
             case 'in_stock':

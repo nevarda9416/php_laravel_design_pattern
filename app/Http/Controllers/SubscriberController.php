@@ -18,7 +18,7 @@ class SubscriberController extends Controller
             'email' => 'required|email|unique:subscribers', // |max:30
         ]);
         $token = hash('sha256', time());
-        $subscriber = new Subscriber();
+        $subscriber = new Subscriber;
         $subscriber->email = $request->email;
         $subscriber->token = $token;
         $subscriber->status = 'PENDING';

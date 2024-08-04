@@ -58,7 +58,7 @@ class Stack
 }
 
 // Run
-$myStack = new Stack();
+$myStack = new Stack;
 // Thêm các phần tử
 $myStack->push('A Dream of Spring');
 $myStack->push('The Winds of Winter');
