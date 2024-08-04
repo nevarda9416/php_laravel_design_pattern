@@ -15,7 +15,7 @@ class ShoppingCartBusiness extends ShoppingCart
         if (isset($_COOKIE[CommonEnum::COOKIE_USER_TOKEN])) {
             $shoppingCart = ShoppingCartBusiness::getCartByCustomer();
         } elseif (isset($_COOKIE[CommonEnum::COOKIE_CART_ITEM])) {
-            $shoppingCart = new ShoppingCartBusiness();
+            $shoppingCart = new ShoppingCartBusiness;
             $shoppingCart->content = $_COOKIE[CommonEnum::COOKIE_CART_ITEM];
         }
 
@@ -37,7 +37,7 @@ class ShoppingCartBusiness extends ShoppingCart
             $customerId = $user_data[0]['customer_id'];
             $shoppingCart = ShoppingCartBusiness::where([['customer_id', '=', $customerId], ['order_id', '=', 0], ['result', '=', 'start_order']])->orderBy('id', 'DESC')->first();
         } elseif (isset($_COOKIE[CommonEnum::COOKIE_CART_ITEM])) {
-            $shoppingCart = new ShoppingCartBusiness();
+            $shoppingCart = new ShoppingCartBusiness;
             $shoppingCart->content = $_COOKIE[CommonEnum::COOKIE_CART_ITEM];
         }
 
@@ -617,7 +617,7 @@ class ShoppingCartBusiness extends ShoppingCart
             }
             $shoppingCart->content = json_encode($dataO);
         } else {
-            $shoppingCart = new ShoppingCartBusiness();
+            $shoppingCart = new ShoppingCartBusiness;
             $shoppingCart->result = 'start_order';
             $shoppingCart->created_at = date('Y-m-d H:i:s');
             $shoppingCart->content = $content;

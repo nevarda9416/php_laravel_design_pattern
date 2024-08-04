@@ -15,7 +15,7 @@ class RedisServer
     public static function getConnection($db = RedisEnum::REDIS_DB)
     {
         try {
-            $redis = new Redis();
+            $redis = new Redis;
             $redis->connect(config()->get('constants.REDIS_HOST'), config()->get('constants.REDIS_PORT'), 1);
             $redis->auth(config()->get('constants.REDIS_PASSWORD'));
             $redis->select($db);
@@ -35,7 +35,7 @@ class RedisServer
     public static function getOtherConnection($db = RedisEnum::REDIS_DB)
     {
         try {
-            $redis = new Redis();
+            $redis = new Redis;
             $redis->connect(config()->get('constants.REDIS_OTHER_HOST'), config()->get('constants.REDIS_OTHER_PORT'), 1);
             $redis->auth(config()->get('constants.REDIS_OTHER_PASSWORD'));
             $redis->select($db);

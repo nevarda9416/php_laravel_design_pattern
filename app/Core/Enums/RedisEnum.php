@@ -12,4 +12,10 @@ use BenSampo\Enum\Enum;
 class RedisEnum extends Enum
 {
     const PRODUCT_DETAIL_KEY = 'ProductDetail_';
+
+    const REDIS_DB = 1;
+
+    const GET_HTML_HEADER = 'html_header_v2';
+
+    const GET_HTML_FOOTER = 'html_footer_v2';
 }

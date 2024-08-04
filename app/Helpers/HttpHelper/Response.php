@@ -13,9 +13,20 @@ class Response
         $this->domain = env('API_DOMAIN', 'http://localhost:8082/api');
     }
 
-    public function responseData($endpoint)
+    public function getData($endpoint)
     {
         $response = Http::get($this->domain.$endpoint);
+        if ($response->status() !== 200) {
+            return null;
+        }
+
+        return $response->json();
+    }
+
+    public function postData($endpoint, $data = [])
+    {
+        $response = Http::post($this->domain.$endpoint, $data);
+        dd($response);
         if ($response->status() !== 200) {
             return null;
         }

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Enums;
+namespace App\Core\Enums;
 
 use BenSampo\Enum\Enum;
 
-final class Page extends Enum
+final class PageEnum extends Enum
 {
     const GIOI_THIEU = 'gioi-thieu';
 

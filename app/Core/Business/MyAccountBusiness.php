@@ -266,7 +266,7 @@ class MyAccountBusiness
         $dataP = Curl::to($url)->get();
         $orders = json_decode($dataP, true);
         $totalRow = $orders['total'];
-        $myAccountBusiness = new MyAccountBusiness();
+        $myAccountBusiness = new MyAccountBusiness;
         if (! empty($orders['data'])) {
             foreach ($orders['data'] as $key => $value) {
                 $itemLines = [];
@@ -304,7 +304,7 @@ class MyAccountBusiness
         $data = Curl::to($url)->get();
         $data = json_decode($data, true);
         $totalRow = $data['total'];
-        $myAccountBusiness = new MyAccountBusiness();
+        $myAccountBusiness = new MyAccountBusiness;
         if (! empty($data['data'])) {
             foreach ($data['data'] as $key => $value) {
                 $list_medias = $myAccountBusiness->getProductMedias($value['ProductId']);
@@ -316,7 +316,7 @@ class MyAccountBusiness
         } else {
             $data = [];
         }
-        $agent = new Agent();
+        $agent = new Agent;
         if (config()->get('constants.MY_ACCOUNT_VERSION') == 'v3' && $agent->isMobile() && ! $agent->isTablet()) {
             $returnHTML = view('v3.myaccount.yba_online')->with(['lst_order_items' => $data])->render();
         } else {
@@ -358,7 +358,7 @@ class MyAccountBusiness
                         array_push($listPostIds, $post->post_id);
                     }
                 }
-                $post = new PostsBusiness();
+                $post = new PostsBusiness;
                 $lst_posts = $post->getPostsByIds(array_unique($listPostIds));
                 $totalRow = count(DB::table('posts_has_products')->select('post_id')->whereIn('product_id', $dataP)->get());
             }
@@ -370,7 +370,7 @@ class MyAccountBusiness
             if (! empty($dataNews['data'])) {
                 $totalRow = $dataNews['data']['total'];
                 if (! empty($dataNews['data']['postId'])) {
-                    $postsBusiness = new PostsBusiness();
+                    $postsBusiness = new PostsBusiness;
                     foreach ($dataNews['data']['postId'] as $postId) {
                         $lst_posts[] = $postsBusiness->getPostsById($postId);
                     }
@@ -382,7 +382,7 @@ class MyAccountBusiness
         }
         $urlP = '/account/'.$slug.'?page=(:num)';
         $paginatorUtility = new PaginatorUtility($totalRow, $limit, $curPage, $urlP);
-        $agent = new Agent();
+        $agent = new Agent;
         if (config()->get('constants.MY_ACCOUNT_VERSION') == 'v3' && $agent->isMobile() && ! $agent->isTablet()) {
             return view('v3.myaccount.news')->with([
                 'paginatorUtility' => $paginatorUtility, 'lst_posts' => $lst_posts,
@@ -406,7 +406,7 @@ class MyAccountBusiness
         $totalRow = $data['total'];
         $urlP = '/account/'.$slug.'?page=(:num)';
         $paginatorUtility = new PaginatorUtility($totalRow, $take, $curPage, $urlP);
-        $agent = new Agent();
+        $agent = new Agent;
         if (config()->get('constants.MY_ACCOUNT_VERSION') == 'v3' && $agent->isMobile() && ! $agent->isTablet()) {
             return view('v3.myaccount.questions')->with([
                 'paginatorUtility' => $paginatorUtility, 'lst_questions' => $data['data'],
@@ -430,7 +430,7 @@ class MyAccountBusiness
         $totalRow = $dataP['data']['total'];
         $urlP = '/account/'.$slug.'?page=(:num)';
         $paginatorUtility = new PaginatorUtility($totalRow, $take, $curPage, $urlP);
-        $agent = new Agent();
+        $agent = new Agent;
         if (config()->get('constants.MY_ACCOUNT_VERSION') == 'v3' && $agent->isMobile() && ! $agent->isTablet()) {
             return view('v3.myaccount.address')->with([
                 'paginatorUtility' => $paginatorUtility, 'data' => $dataP['data'],
