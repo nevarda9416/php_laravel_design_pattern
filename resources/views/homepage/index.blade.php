@@ -16,118 +16,118 @@
                         <a href="/ad.php?id=3782"><img
                                 data-src="https://phucanhcdn.com/media/banner/19_Jan587b5e9d104cbcab1f9e620be6a87290.jpg"
                                 alt="Đón tết Nguyên Đán - Rước vạn điều may" width="1294" height="1000"
-                                class="owl-lazy"></a>
+                                class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3775"><img
                                 data-src="https://phucanhcdn.com/media/banner/12_Jan83cd8e60ddea02a836bb42d15358fb4a.jpg"
                                 alt="Chào Tết cùng Lenovo - Nhận quà đón xuân" width="906" height="700"
-                                class="owl-lazy"></a>
+                                class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3765"><img
                                 data-src="https://phucanhcdn.com/media/banner/23_Dec0b234dfa2770d1364a0c0316119457cb.jpg"
-                                alt="Sắm HP Thả Ga - Mua Là Có Quà" width="906" height="700" class="owl-lazy"></a>
+                                alt="Sắm HP Thả Ga - Mua Là Có Quà" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3773"><img
                                 data-src="https://phucanhcdn.com/media/banner/05_Jan611b61a954d7e838da1c56805e9adf4d.jpg"
-                                alt="MUA ROG NHẬN LÌ XÌ KHỦNG" width="906" height="700" class="owl-lazy"></a>
+                                alt="MUA ROG NHẬN LÌ XÌ KHỦNG" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3777"><img
                                 data-src="https://phucanhcdn.com/media/banner/16_Jancda1d2f578cb4469f034de49683aab51.jpg"
                                 alt="Quà xịn ngập trời - Lên đời với LG Gram" width="906" height="700"
-                                class="owl-lazy"></a>
+                                class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3751"><img
                                 data-src="https://phucanhcdn.com/media/banner/11_Jan6339cb2abf892aa804aa8ddfab6b63fa.jpg"
                                 alt="Laptop hàng hiệu - Quà tiền triệu" width="906" height="700"
-                                class="owl-lazy"></a>
+                                class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3772"><img
                                 data-src="https://phucanhcdn.com/media/banner/05_Jan0875d01b068ef9af6471a6fc7b79855e.jpg"
                                 alt="Laptop HP Victus - Chiến mọi tựa game" width="906" height="700"
-                                class="owl-lazy"></a>
+                                class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3771"><img
                                 data-src="https://phucanhcdn.com/media/banner/05_Janb296192b069472cbe2700f531ae36351.jpg"
                                 alt="Đón xuân sang - Deal hoành tráng" width="906" height="700"
-                                class="owl-lazy"></a>
+                                class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3619"><img
                                 data-src="https://phucanhcdn.com/media/banner/30_Dec018487e9a3ee0224715bce3df533445f.jpg"
-                                alt="Chốt đơn từ xa - Giá giảm thật đã”" width="906" height="700" class="owl-lazy"></a>
+                                alt="Chốt đơn từ xa - Giá giảm thật đã”" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3774"><img
                                 data-src="https://phucanhcdn.com/media/banner/09_Janaf3693a005159e117653fb604af8c83b.jpg"
                                 alt="Asus Zenbook 14 OLED - New Zen with AI" width="906" height="700"
-                                class="owl-lazy"></a>
+                                class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3504"><img
                                 data-src="https://phucanhcdn.com/media/banner/30_Dec3c43d9019d40191ceb910c0f18d43688.jpg"
-                                alt="SINH VIÊN" width="906" height="700" class="owl-lazy"></a>
+                                alt="SINH VIÊN" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3530"><img
                                 data-src="https://phucanhcdn.com/media/banner/30_Decb5454ab4ce80863a090fad9cf0ab7efe.jpg"
-                                alt="LAPTOP VP" width="906" height="700" class="owl-lazy"></a>
+                                alt="LAPTOP VP" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3503"><img
                                 data-src="https://phucanhcdn.com/media/banner/30_Dec80f51092c20d937e428eb9ac730d0db9.jpg"
-                                alt="LAPTOP GAMING" width="906" height="700" class="owl-lazy"></a>
+                                alt="LAPTOP GAMING" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3502"><img
                                 data-src="https://phucanhcdn.com/media/banner/30_Dec5dae5655163654dd5df7a0732d42f101.jpg"
-                                alt="MÀN HÌNH" width="906" height="700" class="owl-lazy"></a>
+                                alt="MÀN HÌNH" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3769"><img
                                 data-src="https://phucanhcdn.com/media/banner/02_Jan3b9683068d0eb91ac70b560cf67514ff.jpg"
-                                alt="Macbook" width="906" height="700" class="owl-lazy"></a>
+                                alt="Macbook" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3501"><img
                                 data-src="https://phucanhcdn.com/media/banner/30_Decf6929d79067a5be0ab368eac3f03558e.jpg"
-                                alt="Build PC" width="906" height="700" class="owl-lazy"></a>
+                                alt="Build PC" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3499"><img
                                 data-src="https://phucanhcdn.com/media/banner/30_Dec01b0c08b5cfed28b91aa5e69b0fa6e41.jpg"
-                                alt="PHẦN MỀM" width="906" height="700" class="owl-lazy"></a>
+                                alt="PHẦN MỀM" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3498"><img
                                 data-src="https://phucanhcdn.com/media/banner/30_Dec0af6471ff171bdc4f387e6c53819461e.jpg"
-                                alt="THIẾT BỊ LƯU TRỮ NAS" width="906" height="700" class="owl-lazy"></a>
+                                alt="THIẾT BỊ LƯU TRỮ NAS" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3497"><img
                                 data-src="https://phucanhcdn.com/media/banner/30_Decea88be1813732dc337b3a12823e7bd45.jpg"
-                                alt="AIO" width="906" height="700" class="owl-lazy"></a>
+                                alt="AIO" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3646"><img
                                 data-src="https://phucanhcdn.com/media/banner/18_Novf96289c0612ef05bcf875c8733ac8b6f.jpg"
-                                alt="OFFICE" width="906" height="700" class="owl-lazy"></a>
+                                alt="OFFICE" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3645"><img
                                 data-src="https://phucanhcdn.com/media/banner/18_Nove9d4b27d01a54fade5cadcc668264d26.jpg"
-                                alt="INTEL" width="906" height="700" class="owl-lazy"></a>
+                                alt="INTEL" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                     <div class="item">
                         <a href="/ad.php?id=3644"><img
                                 data-src="https://phucanhcdn.com/media/banner/18_Novf807eebd013970830161e4b14f3549df.jpg"
-                                alt="AMD" width="906" height="700" class="owl-lazy"></a>
+                                alt="AMD" width="906" height="700" class="owl-lazy" src=""></a>
                     </div>
                 </div>
             </div>
@@ -139,15 +139,15 @@
                                class="youtube-video-place" style="display: block;position: relative">
                                 <img src="https://www.phucanh.vn/template/2019/images/blank.gif"
                                      data-src="https://img.youtube.com/vi/km7C6Hd9cFg/hqdefault.jpg" async
-                                     class="lazy play-youtube-video">
+                                     class="lazy play-youtube-video" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="owl-carousel">
                         <div class="item">
-                            <a href="https://www.phucanh.vn/iphone-15-series.html" target="_blank" rel="nofollow">
+                            <a href="https://www.phucanh.vn/iphone-15-series" target="_blank" rel="nofollow">
                                 <img border="0" data-src="https://phucanh.vn/upload/img/laptop/350x195.jpg" alt=""
-                                     class="owl-lazy"/>
+                                     class="owl-lazy" src=""/>
                             </a>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                     <a href="/ad.php?id=3058"><img
                             data-src="https://phucanh.vn/media/banner/12_Oct579702eb66a569ac47e496cba555e382.jpg"
                             alt="Chính sách ưu đãi dành cho doanh nghiệp" width="1200" height="675"
-                            class="lazy"></a>
+                            class="lazy" src=""></a>
                 </div>
             </div>
             <div class="clear"></div>
@@ -169,7 +169,7 @@
                 <div class="banner-saleoff-home">
                     <a href="/ad.php?id=3528"><img
                             data-src="https://phucanhcdn.com/media/banner/30_Dec9602d79fe1ac98e20d4287d8eb08c4ea.jpg"
-                            alt="1" width="1200" height="210" class="lazy"></a>
+                            alt="1" width="1200" height="210" class="lazy" src=""></a>
                 </div>
                 <div class="title_tab">
                     <a href="#tab3" class="cufon1 a_tab current">Sản phẩm mới</a>
@@ -178,13 +178,13 @@
                     <div id="tab2" style="display: block;" class="ul cf">
                         <div class="top-deal p-item-group">
                             <div class="p-container">
-                                <a href="/laptop-lenovo-v15-g3-aba.html" class="d-img p-img">
+                                <a href="/laptop-lenovo-v15-g3-aba" class="d-img p-img">
                                     <img class="lazy"
                                          src="https://phucanhcdn.com/media/product/53337_laptop_lenovo_v15_g3_6.jpg"
                                          alt="Laptop Lenovo V15 G3 ABA (Ryzen 5 5625U/ 8GB/ 512GB SSD/ AMD Radeon Graphics/ 15.6inch Full HD/ Windows 11 Home/ Grey/ ABS/ 1 Year)"
                                          width="16" height="16" style="width: auto;"/>
                                 </a>
-                                <h3><a href="/laptop-lenovo-v15-g3-aba.html" class="d-name">Laptop Lenovo V15 G3 ABA
+                                <h3><a href="/laptop-lenovo-v15-g3-aba" class="d-name">Laptop Lenovo V15 G3 ABA
                                         (Ryzen 5 5625U/ 8GB/ 512GB SSD/ AMD Radeon Graphics/ 15.6inch Full HD/ Windows
                                         11 Home/ Grey/ ABS/ 1 Year)</a></h3>
                                 <span class="d-price">9.390.000 VNĐ</span>
@@ -193,7 +193,7 @@
                                 <span class="d-summary">Bộ VXL: Ryzen 5 5625U 2.3GHz<br/>Bộ nhớ RAM: 8Gb (4Gb onboard + 1 khe rời) DDR4 3200<br/>Ổ cứng: 512Gb SSD<br/>Card màn hình: VGA onboard - AMD Radeon Graphics<br/>Kích thước màn hình: 15.6inch Full HD<br/>Hệ điều hành: Windows 11 Home<br/></span>
                             </div>
                             <div class="hover-content-pro">
-                                <a href="/laptop-lenovo-v15-g3-aba.html" class="hover-name">Laptop Lenovo V15 G3 ABA
+                                <a href="/laptop-lenovo-v15-g3-aba" class="hover-name">Laptop Lenovo V15 G3 ABA
                                     (Ryzen 5 5625U/ 8GB/ 512GB SSD/ AMD Radeon Graphics/ 15.6inch Full HD/ Windows 11
                                     Home/ Grey/ ABS/ 1 Year)</a>
                                 <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/lenovo.png"
@@ -212,7 +212,7 @@
                                     <tr>
                                         <td><b>Bảo hành:</b></td>
                                         <td>12 Tháng. Bảo hành tại hãng. <a
-                                                href="https://www.phucanh.vn/lenovo-premier-support-lenovo-premium-care-goi-bao-hanh-cao-cap-nhat-tu-lenovo.html"
+                                                href="https://www.phucanh.vn/lenovo-premier-support-lenovo-premium-care-goi-bao-hanh-cao-cap-nhat-tu-lenovo"
                                                 target=_blank>Bảo hành tại nơi sử dụng. Đổi mới 30 ngày.</a></td>
                                     </tr>
                                     <tr>
@@ -235,7 +235,7 @@
                                     Áp dụng từ 01/01/2024 đến 31/01/2024
                                     <br/> ✦ Laptop hàng hiệu - Ưu đãi tiền triệu. Giảm tới 1.000.000đ khi khách hàng đặt
                                     mua Laptop trong tháng 1/2024 <a
-                                        href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da.html"
+                                        href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da"
                                         target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
                                     <br/>Áp dụng từ 12/01/2024 đến 31/01/2024
                                     <br/> ✦ Chuột không dây
@@ -249,11 +249,11 @@
                                     <br/> ✦ Giảm <span class="red"><b>20%</b></span> cặp, túi chống sốc, balo thời
                                     trang khi mua kèm laptop
                                     <br/> ✦ Giảm <span class="red"><b>20%</b></span> khi mua phụ kiện Lenovo chính hãng
-                                    <a href="https://www.phucanh.vn/phu-kien-lenovo-chinh-hang.html"
+                                    <a href="https://www.phucanh.vn/phu-kien-lenovo-chinh-hang"
                                        target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
                                     <br/> ✦Mua thêm 1 năm bảo hành chính hãng chỉ với <span
                                         class="red"><b>1.990.000đ</b> <a
-                                            href="https://www.phucanh.vn/dich-vu-bao-hanh-lenovo-chinh-hang.html"
+                                            href="https://www.phucanh.vn/dich-vu-bao-hanh-lenovo-chinh-hang"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 <br/>
                                 </div>
@@ -263,14 +263,14 @@
                             <li onclick="location.href='/laptop-asus-vivobook-15-oled-a1505va-l1114w.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/san-pham/may-tram-workstation-dell-precision-3660-tower-71010148-core-i7-12700-16gb-2-x8gb-256gb-ssd-1tb-hdd-nvidia-t1000-4gb-windows-11-pro.html"
+                                    <a href="/san-pham/may-tram-workstation-dell-precision-3660-tower-71010148-core-i7-12700-16gb-2-x8gb-256gb-ssd-1tb-hdd-nvidia-t1000-4gb-windows-11-pro"
                                        class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_51271_48591_49914_dell_precision_3660_tower__a4.jpg"
                                              alt="Máy trạm Workstation Dell Precision 3660 Tower 71010148 (Core i7 12700/ 16GB (2 x8GB)/ 256GB SSD + 1TB HDD/ NVIDIA T1000 4GB/ Windows 11 Pro)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/san-pham/may-tram-workstation-dell-precision-3660-tower-71010148-core-i7-12700-16gb-2-x8gb-256gb-ssd-1tb-hdd-nvidia-t1000-4gb-windows-11-pro.html"
+                                    <a href="/san-pham/may-tram-workstation-dell-precision-3660-tower-71010148-core-i7-12700-16gb-2-x8gb-256gb-ssd-1tb-hdd-nvidia-t1000-4gb-windows-11-pro"
                                        title="Máy trạm Workstation Dell Precision 3660 Tower 71010148 (Core i7 12700/ 16GB (2 x8GB)/ 256GB SSD + 1TB HDD/ NVIDIA T1000 4GB/ Windows 11 Pro)">
                                         <h3 class="p-name">Máy trạm Workstation Dell Precision 3660 Tower 71010148 (Core
                                             i7 12700/ 16GB (2 x8GB)/ 256GB SSD + 1TB HDD/ NVIDIA T1000 4GB/ Windows 11
@@ -297,7 +297,7 @@
                                     <i class="p-icon_sale">HOT</i>
                                 </div>
                                 <div class="hover-content-pro">
-                                    <a href="/laptop-asus-vivobook-15-oled-a1505va-l1114w.html" class="hover-name">Laptop
+                                    <a href="/laptop-asus-vivobook-15-oled-a1505va-l1114w" class="hover-name">Laptop
                                         Asus Vivobook 15 OLED A1505VA-L1114W (Core i5 13500H/ 16GB/ 512GB SSD/ Intel
                                         Iris Xe Graphics/ 15.6inch FHD OLED/ Windows 11 Home/ Black)</a>
                                     <a href="" class="hover-brand"><img
@@ -341,16 +341,16 @@
                                         <br/> ✦ Công dịch vụ bảo trì bảo dưỡng laptop tại Niithanoi (12 tháng)
                                         <br/> ✦ Mua Laptop kèm Microsoft Office nhận ngay voucher giảm giá Office lên
                                         tới <span class="red"><b>150.000 VND</b></span> <a
-                                            href="https://www.phucanh.vn/phan-mem-microsoft-office.html"
+                                            href="https://www.phucanh.vn/phan-mem-microsoft-office"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
                                         <br/> ✦ Giảm <span class="red"><b>10%</b></span> ram Laptop khi mua kèm laptop
-                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong.html"
+                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong"
                                            target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
                                         <br/> ✦ Mua phụ kiện kèm laptop giảm <span class="red"><b>10%</b></span> (<a
                                             target="_blank"
-                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac.html"><span
+                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac"><span
                                                 class="blue"><i>Thiết bị chuyển đổi</i></span></a>, <a
-                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap.html"><span
+                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap"><span
                                                 class="blue"><i> Các loại cáp</i></span></a>)
                                         <br/> ✦ Giảm <span class="red"><b>20%</b></span> giá làm mát khi mua kèm
                                         laptop
@@ -367,13 +367,13 @@
                             <li onclick="location.href='/man-hinh-samsung-lu28r550uqexxv-28.0inch-4k-uhd-ips.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/man-hinh-samsung-lu28r550uqexxv-28.0inch-4k-uhd-ips.html" class="p-img">
+                                    <a href="/man-hinh-samsung-lu28r550uqexxv-28.0inch-4k-uhd-ips" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_37411_lu28r550uqexxv_ha2.jpg"
                                              alt="Màn hình đồ họa Samsung LU28R550UQEXXV (28.0Inch/ 4K (3840x2160)/ 4ms/ 60HZ/ 300 cd/m2/ IPS)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/man-hinh-samsung-lu28r550uqexxv-28.0inch-4k-uhd-ips.html"
+                                    <a href="/man-hinh-samsung-lu28r550uqexxv-28.0inch-4k-uhd-ips"
                                        title="Màn hình đồ họa Samsung LU28R550UQEXXV (28.0Inch/ 4K (3840x2160)/ 4ms/ 60HZ/ 300 cd/m2/ IPS)">
                                         <h3 class="p-name">Màn hình đồ họa Samsung LU28R550UQEXXV (28.0Inch/ 4K
                                             (3840x2160)/ 4ms/ 60HZ/ 300 cd/m2/ IPS)</h3></a>
@@ -406,7 +406,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/man-hinh-samsung-lu28r550uqexxv-28.0inch-4k-uhd-ips.html"
+                                    <a href="/man-hinh-samsung-lu28r550uqexxv-28.0inch-4k-uhd-ips"
                                        class="hover-name">Màn hình đồ họa Samsung LU28R550UQEXXV (28.0Inch/ 4K
                                         (3840x2160)/ 4ms/ 60HZ/ 300 cd/m2/ IPS)</a>
 
@@ -454,17 +454,17 @@
                                     <div class="hover-offer">
                                         <b>Khuyến mại:</b><br/>
                                         Áp dụng từ 01/01/2024 đến 31/01/2024
-                                        <br/> ✦ Giảm 50,000 VNĐ khi mua kèm PC Sunpac </b> <a
-                                            href="https://www.phucanh.vn/may-tinh-de-ban-sunpac.html"
+                                        <br/> ✦ Giảm 50,000 VNĐ khi mua kèm PC Sunpac <a
+                                            href="https://www.phucanh.vn/may-tinh-de-ban-sunpac"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Giảm ngay <span class="red"><b>5%</b></span> giá treo màn mình khi mua
-                                        cùng màn hình máy tính <a href="https://www.phucanh.vn/gia-treo-man-hinh.html"
+                                        cùng màn hình máy tính <a href="https://www.phucanh.vn/gia-treo-man-hinh"
                                                                   target="_blank"><span
                                                 class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Giảm <span class="red"><b>10%</b></span> cáp HDMI, VGA khi mua kèm màn
-                                        hình <a href="https://www.phucanh.vn/cac-loai-cap.html" target="_blank"><span
+                                        hình <a href="https://www.phucanh.vn/cac-loai-cap" target="_blank"><span
                                                 class="blue"><i>(Xem chi tiết)</i></span></a>
                                         <br/>
 
@@ -477,13 +477,13 @@
                             <li onclick="location.href='/ghe-game-e-dra-fresh-egc230-plus-black-grey.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/ghe-game-e-dra-fresh-egc230-plus-black-grey.html" class="p-img">
+                                    <a href="/ghe-game-e-dra-fresh-egc230-plus-black-grey" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_49572_gh____game_e_dra_fresh_egc230_plus_black.jpg"
                                              alt="Ghế game E-Dra Fresh EGC230 Plus Black Grey"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/ghe-game-e-dra-fresh-egc230-plus-black-grey.html"
+                                    <a href="/ghe-game-e-dra-fresh-egc230-plus-black-grey"
                                        title="Ghế game E-Dra Fresh EGC230 Plus Black Grey"><h3 class="p-name">Ghế game
                                             E-Dra Fresh EGC230 Plus Black Grey</h3></a>
 
@@ -541,7 +541,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/ghe-game-e-dra-fresh-egc230-plus-black-grey.html" class="hover-name">Ghế
+                                    <a href="/ghe-game-e-dra-fresh-egc230-plus-black-grey" class="hover-name">Ghế
                                         game E-Dra Fresh EGC230 Plus Black Grey</a>
 
                                     <a href="" class="hover-brand"><img
@@ -595,14 +595,14 @@
                             <li onclick="location.href='/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060.html"
+                                    <a href="/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060"
                                        class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_53583_paws_designer_34_20112023.jpg"
                                              alt="Máy trạm Workstation PAWS DESIGNER 34-I7/32GB/RTX3060"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060.html"
+                                    <a href="/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060"
                                        title="Máy trạm Workstation PAWS DESIGNER 34-I7/32GB/RTX3060">
                                         <h3 class="p-name">Máy tính để bàn PCPA G16 (Core i5 12400F/ Intel B760/ 8GB/
                                             256Gb SSD/ GTX 1660 Super)</h3></a>
@@ -648,7 +648,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060.html"
+                                    <a href="/san-pham/may-tram-workstation-paws-designer-34-i7-32gb-rtx3060"
                                        class="hover-name">Máy trạm Workstation PAWS DESIGNER 34-I7/32GB/RTX3060</a>
 
                                     <a href="" class="hover-brand"><img
@@ -695,12 +695,12 @@
                                         <b>Khuyến mại:</b><br/>
 
                                         Trọn bộ gaming gear trị giá 1.000.000đ ( khách không lấy quà giảm trực tiếp
-                                        500.000Đ gồm:</br>Bàn phím cơ E-DRA EK387L Rainbow
-                                        </br>Chuột E-DRA Gaming EM6102</br>Tai nghe E-DRA EH410 PRO</br>
-                                        </br>Tặng thẻ bảo hành tại nơi sử dụng 12 tháng.</br>Chương trình mua
-                                        kèm:</br> Mua thêm ram giảm thêm 50.000Đ</br>Mua thêm thiết bị stream giảm thêm
+                                        500.000Đ gồm:<br/>Bàn phím cơ E-DRA EK387L Rainbow
+                                        <br/>Chuột E-DRA Gaming EM6102<br/>Tai nghe E-DRA EH410 PRO<br/>
+                                        <br/>Tặng thẻ bảo hành tại nơi sử dụng 12 tháng.<br/>Chương trình mua
+                                        kèm:<br/> Mua thêm ram giảm thêm 50.000Đ<br/>Mua thêm thiết bị stream giảm thêm
                                         50.000Đ
-                                        </br>Mua thêm ghế gaming giảm thêm 100.000Đ.
+                                        <br/>Mua thêm ghế gaming giảm thêm 100.000Đ.
                                         <br/>
 
                                     </div>
@@ -712,13 +712,13 @@
                             <li onclick="location.href='/ban-phim-co-e-dra-ek375-pro-beta-brown-switch.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/ban-phim-co-e-dra-ek375-pro-beta-brown-switch.html" class="p-img">
+                                    <a href="/ban-phim-co-e-dra-ek375-pro-beta-brown-switch" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_53881_ban_phim_co_e_dra_ek375_pro_beta_5.jpg"
                                              alt="Bàn phím cơ E-Dra EK375 Pro Beta Brown Switch"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/ban-phim-co-e-dra-ek375-pro-beta-brown-switch.html"
+                                    <a href="/ban-phim-co-e-dra-ek375-pro-beta-brown-switch"
                                        title="Bàn phím cơ E-Dra EK375 Pro Beta Brown Switch"><h3 class="p-name">Bàn phím
                                             cơ E-Dra EK375 Pro Beta Brown Switch</h3></a>
 
@@ -768,7 +768,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/ban-phim-co-e-dra-ek375-pro-beta-brown-switch.html" class="hover-name">Bàn
+                                    <a href="/ban-phim-co-e-dra-ek375-pro-beta-brown-switch" class="hover-name">Bàn
                                         phím cơ E-Dra EK375 Pro Beta Brown Switch</a>
 
                                     <a href="" class="hover-brand"><img
@@ -820,13 +820,13 @@
                             <li onclick="location.href='/laptop-dell-inspiron-t7430-n7430i58w1.html'"
                                 class="p-item-group bg_product8">
                                 <div class="p-container">
-                                    <a href="/laptop-dell-inspiron-t7430-n7430i58w1.html" class="p-img">
+                                    <a href="/laptop-dell-inspiron-t7430-n7430i58w1" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_52007_laptop_dell_inspiron_t7430_n7430i58w1_1.jpeg"
                                              alt="Laptop Dell Inspiron T7430 N7430I58W1 (Core i5 1335U/ 8GB/ 512GB SSD/ Intel Iris Xe Graphics/ 14.0inch Full HD+ Touch/ Windows 11 Home + Office Student/ Silver/ Vỏ nhôm/ Pen/ 1 Year)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/laptop-dell-inspiron-t7430-n7430i58w1.html"
+                                    <a href="/laptop-dell-inspiron-t7430-n7430i58w1"
                                        title="Laptop Dell Inspiron T7430 N7430I58W1 (Core i5 1335U/ 8GB/ 512GB SSD/ Intel Iris Xe Graphics/ 14.0inch Full HD+ Touch/ Windows 11 Home + Office Student/ Silver/ Vỏ nhôm/ Pen/ 1 Year)">
                                         <h3 class="p-name">Laptop Dell Inspiron T7430 N7430I58W1 (Core i5 1335U/ 8GB/
                                             512GB SSD/ Intel Iris Xe Graphics/ 14.0inch Full HD+ Touch/ Windows 11 Home
@@ -886,7 +886,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/laptop-dell-inspiron-t7430-n7430i58w1.html" class="hover-name">Laptop Dell
+                                    <a href="/laptop-dell-inspiron-t7430-n7430i58w1" class="hover-name">Laptop Dell
                                         Inspiron T7430 N7430I58W1 (Core i5 1335U/ 8GB/ 512GB SSD/ Intel Iris Xe
                                         Graphics/ 14.0inch Full HD+ Touch/ Windows 11 Home + Office Student/ Silver/ Vỏ
                                         nhôm/ Pen/ 1 Year)</a>
@@ -945,23 +945,23 @@
                                         <br/>Áp dụng từ 01/01/2024 đến 31/01/2024
                                         <br/> ✦ Laptop hàng hiệu - Ưu đãi tiền triệu. Giảm tới 1.000.000đ khi khách hàng
                                         đặt mua Laptop trong tháng 1/2024 <a
-                                            href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da.html"
+                                            href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Mua Laptop kèm Microsoft Office nhận ngay voucher giảm giá Office lên
                                         tới <span class="red"><b>150.000 VND</b></span> <a
-                                            href="https://www.phucanh.vn/phan-mem-microsoft-office.html"
+                                            href="https://www.phucanh.vn/phan-mem-microsoft-office"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Giảm <span class="red"><b>10%</b></span> ram Laptop khi mua kèm laptop
-                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong.html"
+                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong"
                                            target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Mua phụ kiện kèm laptop giảm <span class="red"><b>10%</b></span> (<a
                                             target="_blank"
-                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac.html"><span
+                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac"><span
                                                 class="blue"><i>Thiết bị chuyển đổi</i></span></a>, <a
-                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap.html"><span
+                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap"><span
                                                 class="blue"><i> Các loại cáp</i></span></a>)
 
                                         <br/> ✦ Giảm <span class="red"><b>20%</b></span> giá làm mát khi mua kèm
@@ -987,14 +987,14 @@
 
                         <div class="top-deal p-item-group bg_product4">
                             <div class="p-container">
-                                <a href="/laptop-lenovo-thinkpad-p16s-g2-21hk0037vn-oled.html" class="d-img p-img">
+                                <a href="/laptop-lenovo-thinkpad-p16s-g2-21hk0037vn-oled" class="d-img p-img">
                                     <img class="lazy"
                                          src="https://phucanhcdn.com/media/product/53187_laptop_lenovo_thinkpad_p16s_g2_1.jpg"
                                          alt="Laptop Lenovo ThinkPad P16s G2 OLED 4K (Core i7 1360P/ 32GB/ 1TB SSD/ Nvidia GeForce RTX A500 4GB DDR6/ 16.0inch WQUXGA/ Windows 11 Pro/ Black/ Aluminium/ 3 Year)"
                                          width="16" height="16" style="width: auto;"/>
 
                                 </a>
-                                <a href="/laptop-lenovo-thinkpad-p16s-g2-21hk0037vn-oled.html" class="d-name">Laptop
+                                <a href="/laptop-lenovo-thinkpad-p16s-g2-21hk0037vn-oled" class="d-name">Laptop
                                     Lenovo ThinkPad P16s G2 OLED 4K (Core i7 1360P/ 32GB/ 1TB SSD/ Nvidia GeForce RTX
                                     A500 4GB DDR6/ 16.0inch WQUXGA/ Windows 11 Pro/ Black/ Aluminium/ 3 Year)</a>
                                 <span class="d-price">52.490.000 VNĐ</span>
@@ -1006,7 +1006,7 @@
                             </div>
 
                             <div class="hover-content-pro">
-                                <a href="/laptop-lenovo-thinkpad-p16s-g2-21hk0037vn-oled.html" class="hover-name">Laptop
+                                <a href="/laptop-lenovo-thinkpad-p16s-g2-21hk0037vn-oled" class="hover-name">Laptop
                                     Lenovo ThinkPad P16s G2 OLED 4K (Core i7 1360P/ 32GB/ 1TB SSD/ Nvidia GeForce RTX
                                     A500 4GB DDR6/ 16.0inch WQUXGA/ Windows 11 Pro/ Black/ Aluminium/ 3 Year)</a>
 
@@ -1027,7 +1027,7 @@
                                     <tr>
                                         <td><b>Bảo hành:</b></td>
                                         <td>36 Tháng. Bảo hành tại hãng. <a
-                                                href="https://www.phucanh.vn/lenovo-premier-support-lenovo-premium-care-goi-bao-hanh-cao-cap-nhat-tu-lenovo.html"
+                                                href="https://www.phucanh.vn/lenovo-premier-support-lenovo-premium-care-goi-bao-hanh-cao-cap-nhat-tu-lenovo"
                                                 target=_blank>Bảo hành tại nơi sử dụng. Đổi mới 30 ngày.</a></td>
                                     </tr>
                                     <tr>
@@ -1058,13 +1058,13 @@
                                     <br/> ✦ Tặng gói bảo trì, bảo dưỡng laptop miễn phí tại Niithanoi
                                     <br/>Áp dụng từ 01/01/2024 đến 31/01/2024
                                     <br/> ✦ Tặng Pin sạc dự phòng Lenovo chính hãng trị giá <span class="red"><b>2.290.000đ</b></span>
-                                    <a href="https://www.phucanh.vn/khuyen-mai-laptop-hang-hieu-qua-tien-trieu.html"
+                                    <a href="https://www.phucanh.vn/khuyen-mai-laptop-hang-hieu-qua-tien-trieu"
                                        target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                     <br/> ✦ Mua phụ kiện kèm laptop giảm <span class="red"><b>10%</b></span> (<a
-                                        target="_blank" href="https://www.phucanh.vn/bo-chuyen-doi-khac.html"><span
+                                        target="_blank" href="https://www.phucanh.vn/bo-chuyen-doi-khac"><span
                                             class="blue"><i>Thiết bị chuyển đổi</i></span></a>, <a target="_blank"
-                                                                                                   href="https://www.phucanh.vn/cac-loai-cap.html"><span
+                                                                                                   href="https://www.phucanh.vn/cac-loai-cap"><span
                                             class="blue"><i> Các loại cáp</i></span></a>)
 
                                     <br/> ✦ Giảm <span class="red"><b>20%</b></span> cặp, túi chống sốc, balo thời
@@ -1076,12 +1076,12 @@
                                             class="blue"><i>(Xem ngay)</i></span></a>
 
                                     <br/> ✦ Giảm <span class="red"><b>20%</b></span> khi mua phụ kiện Lenovo chính hãng
-                                    <a href="https://www.phucanh.vn/phu-kien-lenovo-chinh-hang.html"
+                                    <a href="https://www.phucanh.vn/phu-kien-lenovo-chinh-hang"
                                        target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                     <br/> ✦Mua thêm 1 năm bảo hành chính hãng chỉ với <span
                                         class="red"><b>1.990.000đ</b> <a
-                                            href="https://www.phucanh.vn/dich-vu-bao-hanh-lenovo-chinh-hang.html"
+                                            href="https://www.phucanh.vn/dich-vu-bao-hanh-lenovo-chinh-hang"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 <br/>
 
@@ -1098,13 +1098,13 @@
                             <li onclick="location.href='/laptop-lenovo-thinkpad-x1-yoga-gen-7-21cd006avn-oled.html'"
                                 class="p-item-group bg_product14">
                                 <div class="p-container">
-                                    <a href="/laptop-lenovo-thinkpad-x1-yoga-gen-7-21cd006avn-oled.html" class="p-img">
+                                    <a href="/laptop-lenovo-thinkpad-x1-yoga-gen-7-21cd006avn-oled" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_52529_laptop_lenovo_thinkpad_x1_yoga_gen_7_21cd006avn_oled_1.jpg"
                                              alt="Laptop Lenovo ThinkPad X1 Yoga Gen 7 21CD006AVN OLED (Core i7 1260P/ 32GB/ 1TB SSD/ Intel Iris Xe Graphics/ 14.0inch WQUXGA Touch/ Windows 11 Pro/ Storm Grey/ Aluminium/ Pen/ 3 Year)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/laptop-lenovo-thinkpad-x1-yoga-gen-7-21cd006avn-oled.html"
+                                    <a href="/laptop-lenovo-thinkpad-x1-yoga-gen-7-21cd006avn-oled"
                                        title="Laptop Lenovo ThinkPad X1 Yoga Gen 7 21CD006AVN OLED (Core i7 1260P/ 32GB/ 1TB SSD/ Intel Iris Xe Graphics/ 14.0inch WQUXGA Touch/ Windows 11 Pro/ Storm Grey/ Aluminium/ Pen/ 3 Year)">
                                         <h3 class="p-name">Laptop Lenovo ThinkPad X1 Yoga Gen 7 21CD006AVN OLED (Core i7
                                             1260P/ 32GB/ 1TB SSD/ Intel Iris Xe Graphics/ 14.0inch WQUXGA Touch/ Windows
@@ -1166,7 +1166,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/laptop-lenovo-thinkpad-x1-yoga-gen-7-21cd006avn-oled.html"
+                                    <a href="/laptop-lenovo-thinkpad-x1-yoga-gen-7-21cd006avn-oled"
                                        class="hover-name">Laptop Lenovo ThinkPad X1 Yoga Gen 7 21CD006AVN OLED (Core i7
                                         1260P/ 32GB/ 1TB SSD/ Intel Iris Xe Graphics/ 14.0inch WQUXGA Touch/ Windows 11
                                         Pro/ Storm Grey/ Aluminium/ Pen/ 3 Year)</a>
@@ -1188,7 +1188,7 @@
                                         <tr>
                                             <td><b>Bảo hành:</b></td>
                                             <td>36 Tháng. Bảo hành tại hãng. <a
-                                                    href="https://www.phucanh.vn/lenovo-premier-support-lenovo-premium-care-goi-bao-hanh-cao-cap-nhat-tu-lenovo.html"
+                                                    href="https://www.phucanh.vn/lenovo-premier-support-lenovo-premium-care-goi-bao-hanh-cao-cap-nhat-tu-lenovo"
                                                     target=_blank>Bảo hành tại nơi sử dụng. Đổi mới 30 ngày.</a>
                                             </td>
                                         </tr>
@@ -1224,23 +1224,23 @@
                                         <br/> ✦ Tặng gói bảo trì, bảo dưỡng laptop miễn phí tại Niithanoi
                                         <br/>Áp dụng từ 01/01/2024 đến 31/01/2024
                                         <br/> ✦ Tặng Pin sạc dự phòng Lenovo chính hãng trị giá <span class="red"><b>2.290.000đ</b></span>
-                                        <a href="https://www.phucanh.vn/khuyen-mai-laptop-hang-hieu-qua-tien-trieu.html"
+                                        <a href="https://www.phucanh.vn/khuyen-mai-laptop-hang-hieu-qua-tien-trieu"
                                            target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
                                         <br/>Áp dụng từ 01/01/2024 đến 31/01/2024
                                         <br/> ✦ Laptop hàng hiệu - Ưu đãi tiền triệu. Giảm tới 1.000.000đ khi khách hàng
                                         đặt mua Laptop trong tháng 1/2024 <a
-                                            href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da.html"
+                                            href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Giảm <span class="red"><b>10%</b></span> ram Laptop khi mua kèm laptop
-                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong.html"
+                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong"
                                            target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Mua phụ kiện kèm laptop giảm <span class="red"><b>10%</b></span> (<a
                                             target="_blank"
-                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac.html"><span
+                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac"><span
                                                 class="blue"><i>Thiết bị chuyển đổi</i></span></a>, <a
-                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap.html"><span
+                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap"><span
                                                 class="blue"><i> Các loại cáp</i></span></a>)
 
                                         <br/> ✦ Giảm <span class="red"><b>20%</b></span> giá làm mát khi mua kèm
@@ -1255,11 +1255,11 @@
                                         thời trang khi mua kèm laptop
 
                                         <br/> ✦ Giảm <span class="red"><b>20%</b></span> khi mua phụ kiện Lenovo chính
-                                        hãng <a href="https://www.phucanh.vn/phu-kien-lenovo-chinh-hang.html"
+                                        hãng <a href="https://www.phucanh.vn/phu-kien-lenovo-chinh-hang"
                                                 target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦Mua thêm 1 năm bảo hành chính hãng chỉ với <span class="red"><b>1.990.000đ</b> <a
-                                                href="https://www.phucanh.vn/dich-vu-bao-hanh-lenovo-chinh-hang.html"
+                                                href="https://www.phucanh.vn/dich-vu-bao-hanh-lenovo-chinh-hang"
                                                 target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 <br/>
 
@@ -1273,14 +1273,14 @@
                             <li onclick="location.href='/laptop-dell-vostro-5630-tht7n-core-i7-1360p-16gb-512gb-ssd-nvidia-geforce-rtx-2050-4gb-gddr6-16-1inch-fhd-windows-11-home-office-student-grey-vo-nhom-1-year.html'"
                                 class="p-item-group bg_product10">
                                 <div class="p-container">
-                                    <a href="/laptop-dell-vostro-5630-tht7n-core-i7-1360p-16gb-512gb-ssd-nvidia-geforce-rtx-2050-4gb-gddr6-16-1inch-fhd-windows-11-home-office-student-grey-vo-nhom-1-year.html"
+                                    <a href="/laptop-dell-vostro-5630-tht7n-core-i7-1360p-16gb-512gb-ssd-nvidia-geforce-rtx-2050-4gb-gddr6-16-1inch-fhd-windows-11-home-office-student-grey-vo-nhom-1-year"
                                        class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_51716_dell_vostro_5630_intel_grey_a7.jpg"
                                              alt="Laptop Dell Vostro 5630 THT7N (Core i7 1360P/ 16GB/ 512GB SSD/ Nvidia GeForce RTX 2050 4GB GDDR6/ 16.1inch FHD+/ Windows 11 Home + Office Student/ Grey/ Vỏ nhôm/ 1 Year)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/laptop-dell-vostro-5630-tht7n-core-i7-1360p-16gb-512gb-ssd-nvidia-geforce-rtx-2050-4gb-gddr6-16-1inch-fhd-windows-11-home-office-student-grey-vo-nhom-1-year.html"
+                                    <a href="/laptop-dell-vostro-5630-tht7n-core-i7-1360p-16gb-512gb-ssd-nvidia-geforce-rtx-2050-4gb-gddr6-16-1inch-fhd-windows-11-home-office-student-grey-vo-nhom-1-year"
                                        title="Laptop Dell Vostro 5630 THT7N (Core i7 1360P/ 16GB/ 512GB SSD/ Nvidia GeForce RTX 2050 4GB GDDR6/ 16.1inch FHD+/ Windows 11 Home + Office Student/ Grey/ Vỏ nhôm/ 1 Year)">
                                         <h3 class="p-name">Laptop Dell Vostro 5630 THT7N (Core i7 1360P/ 16GB/ 512GB
                                             SSD/ Nvidia GeForce RTX 2050 4GB GDDR6/ 16.1inch FHD+/ Windows 11 Home +
@@ -1342,7 +1342,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/laptop-dell-vostro-5630-tht7n-core-i7-1360p-16gb-512gb-ssd-nvidia-geforce-rtx-2050-4gb-gddr6-16-1inch-fhd-windows-11-home-office-student-grey-vo-nhom-1-year.html"
+                                    <a href="/laptop-dell-vostro-5630-tht7n-core-i7-1360p-16gb-512gb-ssd-nvidia-geforce-rtx-2050-4gb-gddr6-16-1inch-fhd-windows-11-home-office-student-grey-vo-nhom-1-year"
                                        class="hover-name">Laptop Dell Vostro 5630 THT7N (Core i7 1360P/ 16GB/ 512GB SSD/
                                         Nvidia GeForce RTX 2050 4GB GDDR6/ 16.1inch FHD+/ Windows 11 Home + Office
                                         Student/ Grey/ Vỏ nhôm/ 1 Year)</a>
@@ -1401,23 +1401,23 @@
                                         <br/>Áp dụng từ 01/01/2024 đến 31/01/2024
                                         <br/> ✦ Laptop hàng hiệu - Ưu đãi tiền triệu. Giảm tới 1.000.000đ khi khách hàng
                                         đặt mua Laptop trong tháng 1/2024 <a
-                                            href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da.html"
+                                            href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Mua Laptop kèm Microsoft Office nhận ngay voucher giảm giá Office lên
                                         tới <span class="red"><b>150.000 VND</b></span> <a
-                                            href="https://www.phucanh.vn/phan-mem-microsoft-office.html"
+                                            href="https://www.phucanh.vn/phan-mem-microsoft-office"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Giảm <span class="red"><b>10%</b></span> ram Laptop khi mua kèm laptop
-                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong.html"
+                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong"
                                            target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Mua phụ kiện kèm laptop giảm <span class="red"><b>10%</b></span> (<a
                                             target="_blank"
-                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac.html"><span
+                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac"><span
                                                 class="blue"><i>Thiết bị chuyển đổi</i></span></a>, <a
-                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap.html"><span
+                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap"><span
                                                 class="blue"><i> Các loại cáp</i></span></a>)
 
                                         <br/> ✦ Giảm <span class="red"><b>20%</b></span> giá làm mát khi mua kèm
@@ -1441,13 +1441,13 @@
                             <li onclick="location.href='/laptop-acer-aspire-gaming-a715-76-728x-nh-qgesv-008.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/laptop-acer-aspire-gaming-a715-76-728x-nh-qgesv-008.html" class="p-img">
+                                    <a href="/laptop-acer-aspire-gaming-a715-76-728x-nh-qgesv-008" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_53009_laptop_acer_aspire_gaming_a715_76_728x_nh_qgesv_008_3.jpg"
                                              alt="Laptop Acer Aspire A715 76 728X NH.QGESV.008 (Core i7 12650H/ 16GB/ 512GB SSD/ Intel UHD Graphics/ 15.6inch Full HD/ Windows 11 Home/ Black/ Hợp kim nhôm/ 1 Year)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/laptop-acer-aspire-gaming-a715-76-728x-nh-qgesv-008.html"
+                                    <a href="/laptop-acer-aspire-gaming-a715-76-728x-nh-qgesv-008"
                                        title="Laptop Acer Aspire A715 76 728X NH.QGESV.008 (Core i7 12650H/ 16GB/ 512GB SSD/ Intel UHD Graphics/ 15.6inch Full HD/ Windows 11 Home/ Black/ Hợp kim nhôm/ 1 Year)">
                                         <h3 class="p-name">Laptop Acer Aspire A715 76 728X NH.QGESV.008 (Core i7 12650H/
                                             16GB/ 512GB SSD/ Intel UHD Graphics/ 15.6inch Full HD/ Windows 11 Home/
@@ -1507,7 +1507,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/laptop-acer-aspire-gaming-a715-76-728x-nh-qgesv-008.html"
+                                    <a href="/laptop-acer-aspire-gaming-a715-76-728x-nh-qgesv-008"
                                        class="hover-name">Laptop Acer Aspire A715 76 728X NH.QGESV.008 (Core i7 12650H/
                                         16GB/ 512GB SSD/ Intel UHD Graphics/ 15.6inch Full HD/ Windows 11 Home/ Black/
                                         Hợp kim nhôm/ 1 Year)</a>
@@ -1569,13 +1569,13 @@
                             <li onclick="location.href='/laptop-lenovo-ideapad-5-16iah8-83bg001xvn.html'"
                                 class="p-item-group bg_product10">
                                 <div class="p-container">
-                                    <a href="/laptop-lenovo-ideapad-5-16iah8-83bg001xvn.html" class="p-img">
+                                    <a href="/laptop-lenovo-ideapad-5-16iah8-83bg001xvn" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_51887_lenovo_ideapad_5_16iah8_intel_cloud_grey_a.jpg"
                                              alt="Laptop Lenovo IdeaPad Slim 5 16IAH8 (Core i5 12450H/ 16GB/ 512GB SSD/ Intel UHD Graphics/ 16.0inch WUXGA/ Windows 11 Home/ Cloud Grey/ Vỏ nhôm/ 3 Year)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/laptop-lenovo-ideapad-5-16iah8-83bg001xvn.html"
+                                    <a href="/laptop-lenovo-ideapad-5-16iah8-83bg001xvn"
                                        title="Laptop Lenovo IdeaPad Slim 5 16IAH8 (Core i5 12450H/ 16GB/ 512GB SSD/ Intel UHD Graphics/ 16.0inch WUXGA/ Windows 11 Home/ Cloud Grey/ Vỏ nhôm/ 3 Year)">
                                         <h3 class="p-name">Laptop Lenovo IdeaPad Slim 5 16IAH8 (Core i5 12450H/ 16GB/
                                             512GB SSD/ Intel UHD Graphics/ 16.0inch WUXGA/ Windows 11 Home/ Cloud Grey/
@@ -1635,7 +1635,7 @@
                                 </div>
 
                                 <div class="hover-content-pro">
-                                    <a href="/laptop-lenovo-ideapad-5-16iah8-83bg001xvn.html" class="hover-name">Laptop
+                                    <a href="/laptop-lenovo-ideapad-5-16iah8-83bg001xvn" class="hover-name">Laptop
                                         Lenovo IdeaPad Slim 5 16IAH8 (Core i5 12450H/ 16GB/ 512GB SSD/ Intel UHD
                                         Graphics/ 16.0inch WUXGA/ Windows 11 Home/ Cloud Grey/ Vỏ nhôm/ 3 Year)</a>
 
@@ -1687,7 +1687,7 @@
                                         Áp dụng từ 01/01/2024 đến 31/01/2024
                                         <br/> ✦ Laptop hàng hiệu - Ưu đãi tiền triệu. Giảm tới 1.000.000đ khi khách hàng
                                         đặt mua Laptop trong tháng 1/2024 <a
-                                            href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da.html"
+                                            href="https://www.phucanh.vn/khuyen-mai-chot-don-tu-xa-giam-gia-that-da"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
                                         <br/>Áp dụng từ 12/01/2024 đến 31/01/2024
                                         <br/> ✦ Chuột không dây
@@ -1697,18 +1697,18 @@
 
                                         <br/> ✦ Mua Laptop kèm Microsoft Office nhận ngay voucher giảm giá Office lên
                                         tới <span class="red"><b>150.000 VND</b></span> <a
-                                            href="https://www.phucanh.vn/phan-mem-microsoft-office.html"
+                                            href="https://www.phucanh.vn/phan-mem-microsoft-office"
                                             target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Giảm <span class="red"><b>10%</b></span> ram Laptop khi mua kèm laptop
-                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong.html"
+                                        <a href="https://www.phucanh.vn/gian-hang-phu-kien-bo-nho-trong"
                                            target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Mua phụ kiện kèm laptop giảm <span class="red"><b>10%</b></span> (<a
                                             target="_blank"
-                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac.html"><span
+                                            href="https://www.phucanh.vn/bo-chuyen-doi-khac"><span
                                                 class="blue"><i>Thiết bị chuyển đổi</i></span></a>, <a
-                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap.html"><span
+                                            target="_blank" href="https://www.phucanh.vn/cac-loai-cap"><span
                                                 class="blue"><i> Các loại cáp</i></span></a>)
 
                                         <br/> ✦ Mua chuột kèm laptop giảm <span class="red"><b>5%</b></span> <a
@@ -1720,14 +1720,14 @@
                                         thời trang khi mua kèm laptop
 
                                         <br/> ✦ Giảm <span class="red"><b>20%</b></span> khi mua phụ kiện Lenovo chính
-                                        hãng <a href="https://www.phucanh.vn/phu-kien-lenovo-chinh-hang.html"
+                                        hãng <a href="https://www.phucanh.vn/phu-kien-lenovo-chinh-hang"
                                                 target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 
                                         <br/> ✦ Giảm <span class="red"><b>20%</b></span> giá làm mát khi mua kèm
                                         laptop
 
                                         <br/> ✦Mua thêm 1 năm bảo hành chính hãng chỉ với <span class="red"><b>1.990.000đ</b> <a
-                                                href="https://www.phucanh.vn/dich-vu-bao-hanh-lenovo-chinh-hang.html"
+                                                href="https://www.phucanh.vn/dich-vu-bao-hanh-lenovo-chinh-hang"
                                                 target="_blank"><span class="blue"><i>(Xem ngay)</i></span></a>
 <br/>
 
@@ -1740,14 +1740,14 @@
                             <li onclick="location.href='/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
                                 class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user"
                                        class="p-img">
                                         <img class="lazy" src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_50372_bo_phat_wifi_tp_link_deco_s7_3_pack_3.jpg"
                                              alt="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user"
                                        title="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)">
                                         <h3 class="p-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3
                                             Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</h3></a>
@@ -1787,7 +1787,7 @@
                                     <i class="p-icon_sale">HOT</i>
                                 </div>
                                 <div class="hover-content-pro">
-                                    <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                    <a href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user"
                                        class="hover-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3
                                         Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a>
                                     <a href="" class="hover-brand"><img
@@ -1826,13 +1826,13 @@
                             </li>
                             <li onclick="location.href='/chuot-logitech-g502-x-white.html'" class="p-item-group ">
                                 <div class="p-container">
-                                    <a href="/chuot-logitech-g502-x-white.html" class="p-img">
+                                    <a href="/chuot-logitech-g502-x-white" class="p-img">
                                         <img class="lazy " src="https://www.phucanh.vn/template/2017/images/loading.gif"
                                              data-src="https://phucanhcdn.com/media/product/250_49216_chuot_logitech_g502_x_white_h3.jpg"
                                              alt="Chuột Logitech G502 X White"/>
                                         <i class="icon-apple"></i>
                                     </a>
-                                    <a href="/chuot-logitech-g502-x-white.html" title="Chuột Logitech G502 X White"><h3
+                                    <a href="/chuot-logitech-g502-x-white" title="Chuột Logitech G502 X White"><h3
                                             class="p-name">Chuột Logitech G502 X White</h3></a>
                                     <span class="p-oldprice2" style="width: 100%; display: none;">
                                         <i>Giá Khuyến mãi: </i>1.489.000 ₫
@@ -1856,7 +1856,7 @@
                                     <i class="p-icon_sale">HOT</i>
                                 </div>
                                 <div class="hover-content-pro">
-                                    <a href="/chuot-logitech-g502-x-white.html" class="hover-name">Chuột Logitech G502 X
+                                    <a href="/chuot-logitech-g502-x-white" class="hover-name">Chuột Logitech G502 X
                                         White</a>
                                     <a href="" class="hover-brand"><img
                                             src="https://phucanhcdn.com/media/brand/logitech.png" alt=""/></a>
@@ -1908,7 +1908,7 @@
                 </div>
                 <ul class="ul js-home-news" data-id="2" style="min-height: 300px">
                     <li>
-                        <a href="/tin-khuyen-mai/khuyen-mai-hot-sale-cuoi-tuan-check-in-rinh-ngay-qua-khung.html">
+                        <a href="/tin-khuyen-mai/khuyen-mai-hot-sale-cuoi-tuan-check-in-rinh-ngay-qua-khung">
                             <img src="https://phucanhcdn.com/media/news/120_1000002066_hot_sale_cuoi_tuan.jpg"
                                  alt="[Khuyến Mại] Hot sale cuối tuần - Check in rinh ngay quà khủng">
                             <span class="a-right">
@@ -1918,7 +1918,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/tin-khuyen-mai/khuyen-mai-tet-rog-ally-nhan-ngay-steam-code.html">
+                        <a href="/tin-khuyen-mai/khuyen-mai-tet-rog-ally-nhan-ngay-steam-code">
                             <img src="https://phucanhcdn.com/media/news/120_1000002235_tet_rog_ally.jpg"
                                  alt="[Khuyến Mại] Tết ROG Ally - Nhận Ngay Steam Code">
                             <span class="a-right">
@@ -1928,7 +1928,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/tin-khuyen-mai/khuyen-mai-chinh-phuc-dinh-cao-rinh-ngay-steam-code.html">
+                        <a href="/tin-khuyen-mai/khuyen-mai-chinh-phuc-dinh-cao-rinh-ngay-steam-code">
                             <img
                                 src="https://phucanhcdn.com/media/news/120_1000002233_chinh_phuc_dinh_cao_rinh_ngay_steam_code.jpg"
                                 alt="[Khuyến Mại] Chinh Phục Đỉnh Cao - Rinh Ngay Steam Code">
@@ -1939,7 +1939,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/tin-khuyen-mai/khuyen-mai-laptop-sale-khung-tet-rung-rinh-qua.html">
+                        <a href="/tin-khuyen-mai/khuyen-mai-laptop-sale-khung-tet-rung-rinh-qua">
                             <img src="https://phucanhcdn.com/media/news/120_1000002229_laptop_sale_khung_tet_rung_rinh_qua.jpg"
                                 alt="[Khuyến Mại] Laptop Sale Khủng - Tết Rủng Rỉnh Quà">
                             <span class="a-right">
@@ -1949,7 +1949,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/tin-khuyen-mai/khuyen-mai-sam-hp-ngay-qua-tet-lien-tay.html">
+                        <a href="/tin-khuyen-mai/khuyen-mai-sam-hp-ngay-qua-tet-lien-tay">
                             <img src="https://phucanhcdn.com/media/news/120_1000002227_sam_hp_ngay_qua_tet_lien_tay.jpg"
                                  alt="[Khuyến Mại] Sắm HP ngay - Quà Tết liền tay">
                             <span class="a-right">
@@ -1967,7 +1967,7 @@
                 </div>
                 <ul class="ul js-home-news" data-id="10" style="min-height: 300px; height:450px; overflow:auto;">
                     <li>
-                        <a href="/tin-cong-nghe/danh-gia-viewsonic-vx2780-2k-shdj-man-hinh-do-hoa-2k-gia-chi-5-trieu.html">
+                        <a href="/tin-cong-nghe/danh-gia-viewsonic-vx2780-2k-shdj-man-hinh-do-hoa-2k-gia-chi-5-trieu">
                             <img src="https://phucanhcdn.com/media/news/120_1000002241_mhhhviewsonic_vx2780_2k_shdj_min.jpg"
                                 alt="[Đánh giá] ViewSonic VX2780-2K-SHDJ - màn hình đồ họa 2K giá chỉ 5 triệu">
                             <span class="a-right">
@@ -1977,7 +1977,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/tin-cong-nghe/trai-nghiem-ios-17.3-chinh-thuc-trom-cung-khoc-thet-cap-nhat-ngay-thoi.html">
+                        <a href="/tin-cong-nghe/trai-nghiem-ios-17.3-chinh-thuc-trom-cung-khoc-thet-cap-nhat-ngay-thoi">
                             <img src="https://phucanhcdn.com/media/news/120_1000002234_z5098471084269_3ec3ae261f2d739e0a9a8d414a7fb5ad.jpg"
                                 alt="[Trải nghiệm] iOS 17.3 chính thức: trộm cũng khóc thét, cập nhật ngay thôi!">
                             <span class="a-right">
@@ -1987,7 +1987,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/tin-cong-nghe/tren-tay-asus-zenbook-14-oled-ux3405ma-laptop-ai-tich-hop-cpu-core-ultra-dau-tien-tren-the-gioi..html">
+                        <a href="/tin-cong-nghe/tren-tay-asus-zenbook-14-oled-ux3405ma-laptop-ai-tich-hop-cpu-core-ultra-dau-tien-tren-the-gioi">
                             <img src="https://phucanhcdn.com/media/news/120_1000002224_z5097348762649_e99314d04dd0ca600b07a995bc7a9828.jpg"
                                 alt="[Trên tay] Asus Zenbook 14 OLED UX3405MA: laptop AI tích hợp CPU Core Ultra đầu tiên trên thế giới.">
                             <span class="a-right">
@@ -1997,7 +1997,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/tin-cong-nghe/danh-gia-lg-27up850n-w-man-hinh-sinh-ra-de-lam-do-hoa.html">
+                        <a href="/tin-cong-nghe/danh-gia-lg-27up850n-w-man-hinh-sinh-ra-de-lam-do-hoa">
                             <img src="https://phucanhcdn.com/media/news/120_1000002189__lg_27up850n_w_min.jpg"
                                  alt="[Đánh giá] LG 27UP850N-W | Chiếc màn hình sinh ra để làm đồ họa">
                             <span class="a-right">
@@ -2007,7 +2007,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/tin-cong-nghe/trai-nghiem-ban-phim-co-co-man-hinh-dau-tien-cua-e-dra-ek-375-pro.html">
+                        <a href="/tin-cong-nghe/trai-nghiem-ban-phim-co-co-man-hinh-dau-tien-cua-e-dra-ek-375-pro">
                             <img src="https://phucanhcdn.com/media/news/120_1000002172_dsc09166_min.jpg"
                                  alt="Trải nghiệm chiếc bàn phím cơ có màn hình đầu tiên của E-dra EK 375 Pro ">
                             <span class="a-right">
@@ -2024,14 +2024,14 @@
             <div class="box-pro-home js-product-category-home" data-id="753" data-holder="#product-list-home753"
                  data-cat="boxcat753">
                 <div class="title-box-pro-home">
-                    <a href="/danh-muc/server-workstation.html"><h2 class="h-title">Server & Workstation</h2></a>
+                    <a href="/danh-muc/server-workstation"><h2 class="h-title">Server & Workstation</h2></a>
                     <div class="list-sub">
-                        <a href="/danh-muc/may-chu-server.html">Máy chủ - Server</a>
-                        <a href="/danh-muc/may-tram-workstation.html">Máy Trạm Workstation Đồng Bộ</a>
-                        <a href="/danh-muc/pc-lap-rap-pa.html">Máy trạm Workstation - PC lắp ráp</a>
-                        <a href="/danh-muc/linh-kien-may-chu.html">Linh kiện máy chủ</a>
+                        <a href="/danh-muc/may-chu-server">Máy chủ - Server</a>
+                        <a href="/danh-muc/may-tram-workstation">Máy Trạm Workstation Đồng Bộ</a>
+                        <a href="/danh-muc/pc-lap-rap-pa">Máy trạm Workstation - PC lắp ráp</a>
+                        <a href="/danh-muc/linh-kien-may-chu">Linh kiện máy chủ</a>
                     </div>
-                    <a class="view-right" href="/danh-muc/server-workstation.html">Xem tất cả >></a>
+                    <a class="view-right" href="/danh-muc/server-workstation">Xem tất cả >></a>
                 </div>
                 <div class="clear"></div>
                 @if (isset($rawResponse['data']))
@@ -2041,11 +2041,11 @@
                             <li
                                 class="p-item-group">
                                 <div class="p-container">
-                                    <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                                    <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps"
                                         class="p-img"><img src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg"
                                             alt="'.$raw['name'].'"></a>
                                     <i class="icon-apple"></i>
-                                    <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                                    <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps"
                                         class="p-name">{{$raw['name']}}</a>
                                         <span class="discount">-21%</span><span class="p-oldprice2"><i>Giá niêm yết: </i>1.390.000 ₫</span>
                                         <span class="p-price2"><i>Giá bán: </i>1.099.000 ₫</span><span class="p-bottom">
@@ -2053,7 +2053,7 @@
                                         <a href="javascript:void(0)" onclick="addCartInList({{$raw['id']}})" class="btn-cart-stop">Giỏ hàng</a></span>
                                 </div>
                                 <div class="hover-content-pro">
-                                    <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                                    <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps"
                                         class="hover-name">{{$raw['name']}}</a>
                                     <a href="/brand/asus" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/asus.png" alt=""></a>
                                     <div class="hori-line"></div>
@@ -2100,34 +2100,34 @@
             <div class="box-pro-home js-product-category-home" data-id="17" data-holder="#product-list-home17"
                  data-cat="boxcat17">
                 <div class="title-box-pro-home">
-                    <a href="/thiet-bi-mang.html"><h2 class="h-title">Thiết bị mạng</h2></a>
+                    <a href="/thiet-bi-mang"><h2 class="h-title">Thiết bị mạng</h2></a>
                     <div class="list-sub">
-                        <a href="/thiet-bi-mang-khuyen-mai.html">Thiết bị mạng khuyến mại</a>
-                        <a href="/san-pham/bo-phat-wifi.html">Bộ phát wifi</a>
-                        <a href="/san-pham/bo-phat-wifi-di-dong-3g4g.html">Bộ phát Wi-Fi 4G</a>
-                        <a href="/san-pham/bo-phat-wi-fi-cong-nghe-mesh.html">Wi-Fi công nghệ Mesh</a>
-                        <a href="/san-pham/bo-mo-rong-song.html">Bộ mở rộng sóng</a>
-                        <a href="/card-mang.html">Card mạng</a>
-                        <a href="/thiet-bi-chia-mang-switch.html">Thiết bị chia mạng (Switch)</a>
-                        <a href="/thiet-bi-can-bang-tai.html">Thiết bị cân bằng tải</a>
-                        <a href="/tu-mang.html">Tủ mạng</a>
-                        <a href="/phu-kien-thiet-bi-mang.html">Phụ kiện thiết bị mạng</a>
-                        <a href="/san-pham/bo-chuyen-doi-quang-dien.html">Bộ chuyển đổi quang điện</a>
-                        <a href="/thiet-bi-tuong-lua.html">Thiết bị tường lửa (Firewall)</a>
-                        <a href="/module-quang.html">Module quang</a>
-                        <a href="/may-in-nhan.html">Máy in nhãn</a>
+                        <a href="/thiet-bi-mang-khuyen-mai">Thiết bị mạng khuyến mại</a>
+                        <a href="/san-pham/bo-phat-wifi">Bộ phát wifi</a>
+                        <a href="/san-pham/bo-phat-wifi-di-dong-3g4g">Bộ phát Wi-Fi 4G</a>
+                        <a href="/san-pham/bo-phat-wi-fi-cong-nghe-mesh">Wi-Fi công nghệ Mesh</a>
+                        <a href="/san-pham/bo-mo-rong-song">Bộ mở rộng sóng</a>
+                        <a href="/card-mang">Card mạng</a>
+                        <a href="/thiet-bi-chia-mang-switch">Thiết bị chia mạng (Switch)</a>
+                        <a href="/thiet-bi-can-bang-tai">Thiết bị cân bằng tải</a>
+                        <a href="/tu-mang">Tủ mạng</a>
+                        <a href="/phu-kien-thiet-bi-mang">Phụ kiện thiết bị mạng</a>
+                        <a href="/san-pham/bo-chuyen-doi-quang-dien">Bộ chuyển đổi quang điện</a>
+                        <a href="/thiet-bi-tuong-lua">Thiết bị tường lửa (Firewall)</a>
+                        <a href="/module-quang">Module quang</a>
+                        <a href="/may-in-nhan">Máy in nhãn</a>
                     </div>
-                    <a class="view-right" href="/thiet-bi-mang.html">Xem tất cả >></a>
+                    <a class="view-right" href="/thiet-bi-mang">Xem tất cả >></a>
                 </div>
                 <div class="clear"></div>
                 <ul class="ul product-list product-list-full" id="product-list-home17" style="min-height:200px;display: flex;flex-wrap: wrap;">
-                    <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html'" class="p-item-group">
+                    <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps'" class="p-item-group">
                         <div class="p-container">
-                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="p-img">
+                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps" class="p-img">
                                 <img src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg" alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)">
                             </a>
                             <i class="icon-apple"></i>
-                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html" class="p-name">
+                            <a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps" class="p-name">
                                 Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a>
                             <span class="discount">-21%</span>
                             <span class="p-oldprice2"><i>Giá niêm yết: </i>1.390.000 ₫</span>
@@ -2137,7 +2137,7 @@
                             </span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps"
                                 class="hover-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/
                                 AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a>
                             <a href="/brand/asus" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/asus.png" alt=""></a>
@@ -2175,14 +2175,14 @@
                             </div>
                         </div>
                     </li>
-                    <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html'"
+                    <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_46807_rt_ax1800hp_4.jpg"
                                     alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh"
                                 class="p-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn
                                 AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><span
                                 class="discount">-16%</span><span
@@ -2192,7 +2192,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh"
                                 class="hover-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO
                                 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><a href="/brand/asus"
                                                                                                   class="hover-brand"><img
@@ -2233,18 +2233,18 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-totolink-a720r-ac1200mbps.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_40282_totolink_a720r_ha1.jpg"
                                     alt="Bộ phát wifi Totolink A720R (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)"></a>
-                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps"
                                                          class="p-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><span class="discount">-31%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>499.000 ₫</span><span class="p-price2"><i>Giá bán: </i>349.000 ₫</span><span
                                 class="p-bottom"><span style="color: #12bd1b;">✔ Có hàng</span><a
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps"
                                                           class="hover-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><a href="/brand/totolink"
                                                                             class="hover-brand"><img
@@ -2285,12 +2285,12 @@
                     <li onclick="location.href='/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user"
                                 class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_50372_bo_phat_wifi_tp_link_deco_s7_3_pack_3.jpg"
                                     alt="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user"
                                 class="p-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten
                                 ngầm/ Wifi Mesh/ Dưới 100 User)</a><span class="discount">-31%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>4.290.000 ₫</span><span
@@ -2299,7 +2299,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user"
                                 class="hover-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3
                                 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link" class="hover-brand"><img
                                     src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -2339,12 +2339,12 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_35862_m4_2.jpg"
                                     alt="Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps"
                                 class="p-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><span
                                 class="discount">-25%</span><span
@@ -2354,7 +2354,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps"
                                 class="hover-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><a href="/brand/tp-link"
                                                                                           class="hover-brand"><img
@@ -2394,10 +2394,10 @@
                         </div>
                     </li>
                     <li onclick="location.href='/may-in-nhan-brother-pt-e110-cam-tay.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/may-in-nhan-brother-pt-e110-cam-tay.html" class="p-img"><img
+                        <div class="p-container"><a href="/may-in-nhan-brother-pt-e110-cam-tay" class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_48092_may_in_nhan_brother_pt_e110_cam_tay_chuyen_dung_cho_nganh_dien_vien_thong_a2.jpg"
                                     alt="Máy in nhãn Brother PT-E110 cầm tay chuyên dùng cho ngành điện, viễn thông"></a>
-                            <i class="icon-apple"></i><a href="/may-in-nhan-brother-pt-e110-cam-tay.html"
+                            <i class="icon-apple"></i><a href="/may-in-nhan-brother-pt-e110-cam-tay"
                                                          class="p-name">Máy in nhãn Brother PT-E110 cầm tay chuyên dùng
                                 cho ngành điện, viễn thông</a><span class="discount">-24%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>1.105.000 ₫</span><span
@@ -2405,7 +2405,7 @@
                                 class="p-icon_promotion"></i><span class="p-bottom"><span style="color: #12bd1b;">✔ Có hàng</span><a
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/may-in-nhan-brother-pt-e110-cam-tay.html"
+                        <div class="hover-content-pro"><a href="/may-in-nhan-brother-pt-e110-cam-tay"
                                                           class="hover-name">Máy in nhãn Brother PT-E110 cầm tay chuyên
                                 dùng cho ngành điện, viễn thông</a><a href="/brand/brother" class="hover-brand"><img
                                     src="https://phucanhcdn.com/media/brand/brother.png" alt=""></a>
@@ -2449,12 +2449,12 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_35863_m4_3.jpg"
                                     alt="Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps"
                                 class="p-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                 class="discount">-29%</span><span
@@ -2464,7 +2464,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps"
                                 class="hover-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -2505,12 +2505,12 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_32718_m5_3.jpg"
                                     alt="Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps"
                                 class="p-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/
                                 AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                 class="discount">-32%</span><span
@@ -2520,7 +2520,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps"
                                 class="hover-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn
                                 AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -2562,12 +2562,12 @@
                     <li onclick="location.href='/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps"
                                 class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_40950_x60_3.jpg"
                                     alt="Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps"
                                 class="p-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn
                                 AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                 class="discount">-29%</span><span
@@ -2577,7 +2577,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps"
                                 class="hover-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack
                                 (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a
                                 href="/brand/tp-link" class="hover-brand"><img
@@ -2619,12 +2619,12 @@
                     <li onclick="location.href='/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                href="/san-pham/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
+                                href="/san-pham/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user"
                                 class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_25873_b_____thu_pha__t_ubiquiti_unifi_uap_ac_lr_1200mbps__100_user_1.gif"
                                     alt="Bộ phát wifi Ubiquiti UniFi AP AC LR (Chuẩn AC/ AC1317Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User/ Gắn trần/tường)"></a>
                             <i class="icon-apple"></i><a
-                                href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html" class="p-name">Bộ
+                                href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user" class="p-name">Bộ
                                 phát wifi Ubiquiti UniFi AP AC LR (Chuẩn AC/ AC1317Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới
                                 100 User/ Gắn trần/tường)</a><span class="discount">-17%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>3.590.000 ₫</span><span
@@ -2633,7 +2633,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
+                                href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user"
                                 class="hover-name">Bộ phát wifi Ubiquiti UniFi AP AC LR (Chuẩn AC/ AC1317Mbps/
                                 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User/ Gắn trần/tường)</a><a href="/brand/ubiquiti"
                                                                                               class="hover-brand"><img
@@ -2674,11 +2674,11 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax86u-pro.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_52898_bo_phat_wifi_6_asus_rt_ax86u_pro_7.jpg"
                                     alt="Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)"></a>
-                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro"
                                                          class="p-name">Bộ
                                 phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80
                                 User)</a><span class="discount">-23%</span><span
@@ -2687,7 +2687,7 @@
                                     style="color: #12bd1b;">✔ Có hàng</span><a
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/
                                 AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)</a><a href="/brand/asus"
                                                                                             class="hover-brand"><img
@@ -2734,12 +2734,12 @@
                     <li onclick="location.href='/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user.html"
+                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user"
                                 class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_51688_asus_tuf_gaming_ax4200_7.jpg"
                                     alt="Bộ phát wifi 6 Asus TUF Gaming AX4200 (Chuẩn AX/ AX4200Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user.html"
+                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user"
                                 class="p-name">Bộ phát wifi 6 Asus TUF Gaming AX4200 (Chuẩn AX/ AX4200Mbps/ 4
                                 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)</a><span class="discount">-24%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>3.890.000 ₫</span><span
@@ -2748,7 +2748,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user.html"
+                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user"
                                 class="hover-name">Bộ phát wifi 6 Asus TUF Gaming AX4200 (Chuẩn AX/ AX4200Mbps/ 4
                                 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)</a><a href="/brand/asus"
                                                                               class="hover-brand"><img
@@ -2799,14 +2799,14 @@
                  data-cat="boxcat35">
                 <div class="title-box-pro-home">
 
-                    <a href="/camera-giam-sat.html"><h2 class="h-title">Camera & SmartHome</h2></a>
+                    <a href="/camera-giam-sat"><h2 class="h-title">Camera & SmartHome</h2></a>
 
                     <div class="list-sub">
 
-                        <a href="/smarthome.html">SmartHome</a>
+                        <a href="/smarthome">SmartHome</a>
 
                     </div>
-                    <a class="view-right" href="/camera-giam-sat.html">Xem tất cả >></a>
+                    <a class="view-right" href="/camera-giam-sat">Xem tất cả >></a>
                 </div>
                 <div class="clear"></div>
 
@@ -2817,12 +2817,12 @@
                     style="min-height:200px;display: flex;flex-wrap: wrap;">
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_44679_rt_ax53u_4.jpg"
                                     alt="Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps"
                                 class="p-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/
                                 AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><span
                                 class="discount">-21%</span><span
@@ -2832,7 +2832,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps.html"
+                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax53u-mimo-ax1800mbps"
                                 class="hover-name">Bộ phát wifi 6 Asus RT-AX53U (Chuẩn AX/
                                 AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><a href="/brand/asus"
                                                                                        class="hover-brand"><img
@@ -2873,12 +2873,12 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_46807_rt_ax1800hp_4.jpg"
                                     alt="Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh"
                                 class="p-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO (Chuẩn
                                 AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><span
                                 class="discount">-16%</span><span
@@ -2888,7 +2888,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh.html"
+                                href="/san-pham/bo-phat-wifi-6-asus-rt-ax1800hp-mu-mimo-aimesh"
                                 class="hover-name">Bộ phát wifi 6 Asus RT-AX1800HP MU-MIMO
                                 (Chuẩn AX/ AX1800Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ 35 User)</a><a href="/brand/asus"
                                                                                                   class="hover-brand"><img
@@ -2929,18 +2929,18 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-totolink-a720r-ac1200mbps.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_40282_totolink_a720r_ha1.jpg"
                                     alt="Bộ phát wifi Totolink A720R (Chuẩn AC/ AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)"></a>
-                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps"
                                                          class="p-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><span class="discount">-31%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>499.000 ₫</span><span class="p-price2"><i>Giá bán: </i>349.000 ₫</span><span
                                 class="p-bottom"><span style="color: #12bd1b;">✔ Có hàng</span><a
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-totolink-a720r-ac1200mbps"
                                                           class="hover-name">Bộ phát wifi Totolink A720R (Chuẩn AC/
                                 AC1200Mbps/ 4 Ăng-ten ngoài/ 25 User)</a><a href="/brand/totolink"
                                                                             class="hover-brand"><img
@@ -2981,12 +2981,12 @@
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user"
                                 class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_50372_bo_phat_wifi_tp_link_deco_s7_3_pack_3.jpg"
                                     alt="Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user"
                                 class="p-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3 Ăng-ten
                                 ngầm/ Wifi Mesh/ Dưới 100 User)</a><span class="discount">-31%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>4.290.000 ₫</span><span
@@ -2995,7 +2995,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-s7-3-pack-chuan-ac-ac1900mbps-3-ang-ten-ngam-wifi-mesh-25-user"
                                 class="hover-name">Bộ phát wifi TP-Link Deco S7 3-Pack (Chuẩn AC/ AC1900Mbps/ 3
                                 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link" class="hover-brand"><img
                                     src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
@@ -3035,12 +3035,12 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_35862_m4_2.jpg"
                                     alt="Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps"
                                 class="p-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><span
                                 class="discount">-25%</span><span
@@ -3050,7 +3050,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-2-pack-ac1200mbps"
                                 class="hover-name">Bộ phát wifi TP-Link Deco M4 2-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ 55 User)</a><a href="/brand/tp-link"
                                                                                           class="hover-brand"><img
@@ -3090,10 +3090,10 @@
                         </div>
                     </li>
                     <li onclick="location.href='/may-in-nhan-brother-pt-e110-cam-tay.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/may-in-nhan-brother-pt-e110-cam-tay.html" class="p-img"><img
+                        <div class="p-container"><a href="/may-in-nhan-brother-pt-e110-cam-tay" class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_48092_may_in_nhan_brother_pt_e110_cam_tay_chuyen_dung_cho_nganh_dien_vien_thong_a2.jpg"
                                     alt="Máy in nhãn Brother PT-E110 cầm tay chuyên dùng cho ngành điện, viễn thông"></a>
-                            <i class="icon-apple"></i><a href="/may-in-nhan-brother-pt-e110-cam-tay.html"
+                            <i class="icon-apple"></i><a href="/may-in-nhan-brother-pt-e110-cam-tay"
                                                          class="p-name">Máy in nhãn Brother PT-E110 cầm tay chuyên dùng
                                 cho ngành điện, viễn thông</a><span class="discount">-24%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>1.105.000 ₫</span><span
@@ -3101,7 +3101,7 @@
                                 class="p-icon_promotion"></i><span class="p-bottom"><span style="color: #12bd1b;">✔ Có hàng</span><a
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/may-in-nhan-brother-pt-e110-cam-tay.html"
+                        <div class="hover-content-pro"><a href="/may-in-nhan-brother-pt-e110-cam-tay"
                                                           class="hover-name">Máy in nhãn Brother PT-E110 cầm tay chuyên
                                 dùng cho ngành điện, viễn thông</a><a href="/brand/brother" class="hover-brand"><img
                                     src="https://phucanhcdn.com/media/brand/brother.png" alt=""></a>
@@ -3145,12 +3145,12 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_35863_m4_3.jpg"
                                     alt="Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps"
                                 class="p-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn AC/
                                 AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                 class="discount">-29%</span><span
@@ -3160,7 +3160,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m4-3-pack-ac1200mbps"
                                 class="hover-name">Bộ phát wifi TP-Link Deco M4 3-Pack (Chuẩn
                                 AC/ AC1200Mbps/ 2 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -3201,12 +3201,12 @@
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html'"
                         class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_32718_m5_3.jpg"
                                     alt="Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps"
                                 class="p-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn AC/
                                 AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                 class="discount">-32%</span><span
@@ -3216,7 +3216,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps.html"
+                                href="/san-pham/bo-phat-wifi-tp-link-deco-m5-3-pack-ac1300mbps"
                                 class="hover-name">Bộ phát wifi TP-Link Deco M5 3-Pack (Chuẩn
                                 AC/ AC1300Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a href="/brand/tp-link"
                                                                                                 class="hover-brand"><img
@@ -3258,12 +3258,12 @@
                     <li onclick="location.href='/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps"
                                 class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_40950_x60_3.jpg"
                                     alt="Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps"
                                 class="p-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack (Chuẩn
                                 AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><span
                                 class="discount">-29%</span><span
@@ -3273,7 +3273,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps.html"
+                                href="/san-pham/bo-phat-wifi-6-tp-link-deco-x60-3-pack-ax3000mbps"
                                 class="hover-name">Bộ phát wifi 6 TP-Link Deco X60 3-Pack
                                 (Chuẩn AX/ AX3000Mbps/ 4 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User)</a><a
                                 href="/brand/tp-link" class="hover-brand"><img
@@ -3315,12 +3315,12 @@
                     <li onclick="location.href='/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                href="/san-pham/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
+                                href="/san-pham/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user"
                                 class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_25873_b_____thu_pha__t_ubiquiti_unifi_uap_ac_lr_1200mbps__100_user_1.gif"
                                     alt="Bộ phát wifi Ubiquiti UniFi AP AC LR (Chuẩn AC/ AC1317Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User/ Gắn trần/tường)"></a>
                             <i class="icon-apple"></i><a
-                                href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html" class="p-name">Bộ
+                                href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user" class="p-name">Bộ
                                 phát wifi Ubiquiti UniFi AP AC LR (Chuẩn AC/ AC1317Mbps/ Ăng-ten ngầm/ Wifi Mesh/ Dưới
                                 100 User/ Gắn trần/tường)</a><span class="discount">-17%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>3.590.000 ₫</span><span
@@ -3329,7 +3329,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user.html"
+                                href="/bo-thu-phat-ubiquiti-unifi-uap-ac-lr-1200mbps-100-user"
                                 class="hover-name">Bộ phát wifi Ubiquiti UniFi AP AC LR (Chuẩn AC/ AC1317Mbps/
                                 Ăng-ten ngầm/ Wifi Mesh/ Dưới 100 User/ Gắn trần/tường)</a><a href="/brand/ubiquiti"
                                                                                               class="hover-brand"><img
@@ -3370,11 +3370,11 @@
                         </div>
                     </li>
                     <li onclick="location.href='/bo-phat-wifi-6-asus-rt-ax86u-pro.html'" class="p-item-group  ">
-                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
+                        <div class="p-container"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro"
                                                     class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_52898_bo_phat_wifi_6_asus_rt_ax86u_pro_7.jpg"
                                     alt="Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)"></a>
-                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
+                            <i class="icon-apple"></i><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro"
                                                          class="p-name">Bộ
                                 phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/ AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80
                                 User)</a><span class="discount">-23%</span><span
@@ -3383,7 +3383,7 @@
                                     style="color: #12bd1b;">✔ Có hàng</span><a
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
-                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro.html"
+                        <div class="hover-content-pro"><a href="/san-pham/bo-phat-wifi-6-asus-rt-ax86u-pro"
                                                           class="hover-name">Bộ phát wifi 6 Asus RT-AX86U Pro (Chuẩn AX/
                                 AX5700Mbps/ 3 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)</a><a href="/brand/asus"
                                                                                             class="hover-brand"><img
@@ -3430,12 +3430,12 @@
                     <li onclick="location.href='/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user.html'"
                         class="p-item-group  ">
                         <div class="p-container"><a
-                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user.html"
+                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user"
                                 class="p-img"><img
                                     src="https://phucanhcdn.com/media/product/250_51688_asus_tuf_gaming_ax4200_7.jpg"
                                     alt="Bộ phát wifi 6 Asus TUF Gaming AX4200 (Chuẩn AX/ AX4200Mbps/ 4 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)"></a>
                             <i class="icon-apple"></i><a
-                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user.html"
+                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user"
                                 class="p-name">Bộ phát wifi 6 Asus TUF Gaming AX4200 (Chuẩn AX/ AX4200Mbps/ 4
                                 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)</a><span class="discount">-24%</span><span
                                 class="p-oldprice2"><i>Giá niêm yết: </i>3.890.000 ₫</span><span
@@ -3444,7 +3444,7 @@
                                     href="javascript:addProductToCart('undefined',0,'/cart')" class="btn-cart-stop">Giỏ hàng</a></span>
                         </div>
                         <div class="hover-content-pro"><a
-                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user.html"
+                                href="/bo-phat-wifi-6-asus-tuf-gaming-ax4200-chuan-ax-ax4200mbps-4-ang-ten-ngoai-wifi-mesh-duoi-80-user"
                                 class="hover-name">Bộ phát wifi 6 Asus TUF Gaming AX4200 (Chuẩn AX/ AX4200Mbps/ 4
                                 Ăng-ten ngoài/ Wifi Mesh/ Dưới 80 User)</a><a href="/brand/asus"
                                                                               class="hover-brand"><img

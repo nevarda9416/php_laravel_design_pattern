@@ -26,7 +26,6 @@ class Response
     public function postData($endpoint, $data = [])
     {
         $response = Http::post($this->domain.$endpoint, $data);
-        dd($response);
         if ($response->status() !== 200) {
             return null;
         }
