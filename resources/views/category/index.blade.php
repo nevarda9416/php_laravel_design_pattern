@@ -2,26 +2,20 @@
 @section('content')
     <div class="product-page container">
         <div id="breadcrumb">
-            <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+            <div itemscope="" itemtype="https://data-vocabulary.org/Breadcrumb">
                 <a href="/" itemprop="url" class="nopad-l">
                     <span itemprop="title">Trang chủ</span>
                 </a>
             </div>
-            <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+            <div itemscope="" itemtype="https://data-vocabulary.org/Breadcrumb">
                 &nbsp;/&nbsp;
-                <a href="/thiet-bi-mang.html" itemprop="url">
+                <a href="/thiet-bi-mang" itemprop="url">
                     <span itemprop="title"><h1 class="red">Thiết bị mạng</h1></span>
-
                 </a>
             </div>
-
         </div><!--breadcrumb-->
-
-
         <div id="banner-category-left" class="banner-pro-list">
             <div class="owl-carousel owl-loaded owl-drag">
-
-
                 <div class="owl-stage-outer">
                     <div class="owl-stage"
                          style="transform: translate3d(-1416px, 0px, 0px); transition: all 0s ease 0s; width: 3540px;">
@@ -68,19 +62,15 @@
                     </div>
                 </div>
                 <div class="owl-nav disabled">
-                    <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span>
+                    <button type="button" role="button" class="owl-prev"><span aria-label="Previous">‹</span>
                     </button>
-                    <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
+                    <button type="button" role="button" class="owl-next"><span aria-label="Next">›</span></button>
                 </div>
                 <div class="owl-dots disabled"></div>
             </div>
         </div><!--banner-left-->
-
-
         <div id="banner-category-right" class="banner-pro-list">
             <div class="owl-carousel owl-loaded owl-drag">
-
-
                 <div class="owl-stage-outer">
                     <div class="owl-stage"
                          style="transform: translate3d(-2880px, 0px, 0px); transition: all 0.25s ease 0s; width: 5280px;">
@@ -169,617 +159,374 @@
                     </div>
                 </div>
                 <div class="owl-nav">
-                    <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span>
+                    <button type="button" role="button" class="owl-prev"><span aria-label="Previous">‹</span>
                     </button>
-                    <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
+                    <button type="button" role="button" class="owl-next"><span aria-label="Next">›</span></button>
                 </div>
                 <div class="owl-dots disabled"></div>
             </div>
         </div><!--banner-left-->
         <div class="space20"></div>
-
-
         <div class="product-filter-container" id="js-filter-container">
             <div class="filter-item filter-large-item">
                 <a href="javascript:void(0)" class="item-title js-filter-title"><i class="fa fa-filter"></i> Bộ lọc</a>
-
                 <div class="filter-sub filter-large" style="left: -71px;">
                     <div class="filter-large-holder">
                         <a href="javascript:void(0)" class="filter-sub-close" onclick="closePopupLarge();"> Đóng <i
                                 class="fa fa-times"></i></a>
-
-
                         <div class="item" style="width: 100%">
                             <p class="title">Hãng</p>
-
                             <div class="filter-list">
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=asus" data-filter_code="brand"
                                    data-value="asus" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/asus.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/asus.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=tp-link"
                                    data-filter_code="brand" data-value="tp-link" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/tplink.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/tplink.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=cisco" data-filter_code="brand"
                                    data-value="cisco" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/cisco.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/cisco.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=linksys"
                                    data-filter_code="brand" data-value="linksys" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/linksys.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/linksys.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=draytek"
                                    data-filter_code="brand" data-value="draytek" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/draytek.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/draytek.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=totolink"
                                    data-filter_code="brand" data-value="totolink" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/totolink.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/totolink.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=commscope-amp"
                                    data-filter_code="brand" data-value="commscope-amp"
                                    class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/commscopeamp.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/commscopeamp.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=ubiquiti"
                                    data-filter_code="brand" data-value="ubiquiti" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/ubiquiti.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/ubiquiti.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=am-tako"
                                    data-filter_code="brand" data-value="am-tako" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/amtako.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/amtako.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=brother"
                                    data-filter_code="brand" data-value="brother" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/brother.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/brother.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=dintek"
                                    data-filter_code="brand" data-value="dintek" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/dintek.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/dintek.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=hq-rack"
                                    data-filter_code="brand" data-value="hq-rack" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/hqrack.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/hqrack.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=intel" data-filter_code="brand"
                                    data-value="intel" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/intel.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/intel.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=orico" data-filter_code="brand"
                                    data-value="orico" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/orico.jpg">
-
+                                    <img src="https://phucanhcdn.com/media/brand/orico.jpg" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=planet"
                                    data-filter_code="brand" data-value="planet" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/planet.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/planet.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=sino" data-filter_code="brand"
                                    data-value="sino" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/sino.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/sino.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=ugreen"
                                    data-filter_code="brand" data-value="ugreen" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/ugreen.jpg">
-
+                                    <img src="https://phucanhcdn.com/media/brand/ugreen.jpg" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=vention"
                                    data-filter_code="brand" data-value="vention" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/vention.jpg">
-
+                                    <img src="https://phucanhcdn.com/media/brand/vention.jpg" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=aruba" data-filter_code="brand"
                                    data-value="aruba" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/aruba.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/aruba.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=fortigate"
                                    data-filter_code="brand" data-value="fortigate" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/fortigate.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/fortigate.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=grandstream"
                                    data-filter_code="brand" data-value="grandstream"
                                    class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/grandstream.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/grandstream.png" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=lention"
                                    data-filter_code="brand" data-value="lention" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/lention.jpg">
-
+                                    <img src="https://phucanhcdn.com/media/brand/lention.jpg" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=unirack"
                                    data-filter_code="brand" data-value="unirack" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/0">
-
+                                    <img src="https://phucanhcdn.com/media/brand/0" alt="">
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=vcom" data-filter_code="brand"
                                    data-value="vcom" class="js-filter-item-2  has-image">
-
-                                    <img src="https://phucanhcdn.com/media/brand/vcom.png">
-
+                                    <img src="https://phucanhcdn.com/media/brand/vcom.png" alt="">
                                 </a>
-
                             </div>
                         </div>
-
-
                         <div class="item">
                             <p class="title">Giá</p>
-
-
                             <div class="filter-list">
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=duoi-1trieu" data-filter_code="p"
                                    data-value="duoi-1trieu" class="js-filter-item-2 ">
                                     Dưới 1 triệu
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=1trieu-2trieu" data-filter_code="p"
                                    data-value="1trieu-2trieu" class="js-filter-item-2 ">
                                     1 triệu - 2 triệu
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=2trieu-3trieu" data-filter_code="p"
                                    data-value="2trieu-3trieu" class="js-filter-item-2 ">
                                     2 triệu - 3 triệu
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=3trieu-4trieu" data-filter_code="p"
                                    data-value="3trieu-4trieu" class="js-filter-item-2 ">
                                     3 triệu - 4 triệu
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=4trieu-5trieu" data-filter_code="p"
                                    data-value="4trieu-5trieu" class="js-filter-item-2 ">
                                     4 triệu - 5 triệu
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=5trieu-6trieu" data-filter_code="p"
                                    data-value="5trieu-6trieu" class="js-filter-item-2 ">
                                     5 triệu - 6 triệu
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=6trieu-7trieu" data-filter_code="p"
                                    data-value="6trieu-7trieu" class="js-filter-item-2 ">
                                     6 triệu - 7 triệu
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=7trieu-8trieu" data-filter_code="p"
                                    data-value="7trieu-8trieu" class="js-filter-item-2 ">
                                     7 triệu - 8 triệu
                                 </a>
-
                                 <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=tren-8trieu" data-filter_code="p"
                                    data-value="tren-8trieu" class="js-filter-item-2 ">
                                     Trên 8 triệu
                                 </a>
-
                             </div>
                         </div>
-
-
                     </div>
-
                     <div class="filter-btn-group">
                         <a href="javascript:;" onclick="BuildFilterUrl.clearFilter('')">Bỏ chọn</a>
-                        <a class="js-open-url" href="/thiet-bi-mang.html">Xem <b class="js-show-total">494</b> kết
+                        <a class="js-open-url" href="/thiet-bi-mang">Xem <b class="js-show-total">494</b> kết
                             quả</a>
                     </div>
-
                 </div>
             </div>
-
             <div class="filter-box-group">
-
-
                 <div class="filter-item">
                     <a href="javascript:void(0)" class="item-title js-filter-title"> Hãng <i
                             class="fa fa-caret-down"></i> </a>
-
                     <div class="filter-sub" style="left: 24.8125px;">
                         <p class="title">Hãng</p>
-
                         <div class="filter-list">
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=asus" data-filter_code="brand"
                                data-value="asus" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/asus.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/asus.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=tp-link" data-filter_code="brand"
                                data-value="tp-link" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/tplink.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/tplink.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=cisco" data-filter_code="brand"
                                data-value="cisco" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/cisco.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/cisco.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=linksys" data-filter_code="brand"
                                data-value="linksys" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/linksys.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/linksys.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=draytek" data-filter_code="brand"
                                data-value="draytek" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/draytek.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/draytek.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=totolink" data-filter_code="brand"
                                data-value="totolink" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/totolink.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/totolink.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=commscope-amp"
                                data-filter_code="brand" data-value="commscope-amp" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/commscopeamp.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/commscopeamp.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=ubiquiti" data-filter_code="brand"
                                data-value="ubiquiti" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/ubiquiti.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/ubiquiti.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=am-tako" data-filter_code="brand"
                                data-value="am-tako" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/amtako.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/amtako.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=brother" data-filter_code="brand"
                                data-value="brother" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/brother.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/brother.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=dintek" data-filter_code="brand"
                                data-value="dintek" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/dintek.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/dintek.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=hq-rack" data-filter_code="brand"
                                data-value="hq-rack" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/hqrack.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/hqrack.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=intel" data-filter_code="brand"
                                data-value="intel" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/intel.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/intel.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=orico" data-filter_code="brand"
                                data-value="orico" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/orico.jpg">
-
+                                <img src="https://phucanhcdn.com/media/brand/orico.jpg" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=planet" data-filter_code="brand"
                                data-value="planet" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/planet.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/planet.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=sino" data-filter_code="brand"
                                data-value="sino" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/sino.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/sino.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=ugreen" data-filter_code="brand"
                                data-value="ugreen" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/ugreen.jpg">
-
+                                <img src="https://phucanhcdn.com/media/brand/ugreen.jpg" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=vention" data-filter_code="brand"
                                data-value="vention" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/vention.jpg">
-
+                                <img src="https://phucanhcdn.com/media/brand/vention.jpg" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=aruba" data-filter_code="brand"
                                data-value="aruba" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/aruba.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/aruba.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=fortigate" data-filter_code="brand"
                                data-value="fortigate" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/fortigate.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/fortigate.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=grandstream"
                                data-filter_code="brand" data-value="grandstream" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/grandstream.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/grandstream.png" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=lention" data-filter_code="brand"
                                data-value="lention" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/lention.jpg">
-
+                                <img src="https://phucanhcdn.com/media/brand/lention.jpg" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=unirack" data-filter_code="brand"
                                data-value="unirack" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/0">
-
+                                <img src="https://phucanhcdn.com/media/brand/0" alt="">
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?brand=vcom" data-filter_code="brand"
                                data-value="vcom" class="js-filter-item-2  has-image">
-
-                                <img src="https://phucanhcdn.com/media/brand/vcom.png">
-
+                                <img src="https://phucanhcdn.com/media/brand/vcom.png" alt="">
                             </a>
-
                         </div>
-
                         <br>
-
                         <div class="filter-btn-group">
                             <a href="javascript:;" onclick="BuildFilterUrl.clearFilter.call(this, 'brand')">Bỏ chọn</a>
-                            <a class="js-open-url" href="/thiet-bi-mang.html">Xem <b class="js-show-total">494</b> kết
+                            <a class="js-open-url" href="/thiet-bi-mang">Xem <b class="js-show-total">494</b> kết
                                 quả</a>
                         </div>
-
                     </div>
                 </div>
-
-
                 <div class="filter-item">
                     <a href="javascript:void(0)" class="item-title js-filter-title"> Giá <i
                             class="fa fa-caret-down"></i> </a>
-
                     <div class="filter-sub" style="left: 112.172px;">
                         <p class="title">Giá</p>
-
                         <div class="filter-list">
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=duoi-1trieu" data-filter_code="p"
                                data-value="duoi-1trieu" class="js-filter-item-2 ">
                                 Dưới 1 triệu
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=1trieu-2trieu" data-filter_code="p"
                                data-value="1trieu-2trieu" class="js-filter-item-2 ">
                                 1 triệu - 2 triệu
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=2trieu-3trieu" data-filter_code="p"
                                data-value="2trieu-3trieu" class="js-filter-item-2 ">
                                 2 triệu - 3 triệu
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=3trieu-4trieu" data-filter_code="p"
                                data-value="3trieu-4trieu" class="js-filter-item-2 ">
                                 3 triệu - 4 triệu
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=4trieu-5trieu" data-filter_code="p"
                                data-value="4trieu-5trieu" class="js-filter-item-2 ">
                                 4 triệu - 5 triệu
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=5trieu-6trieu" data-filter_code="p"
                                data-value="5trieu-6trieu" class="js-filter-item-2 ">
                                 5 triệu - 6 triệu
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=6trieu-7trieu" data-filter_code="p"
                                data-value="6trieu-7trieu" class="js-filter-item-2 ">
                                 6 triệu - 7 triệu
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=7trieu-8trieu" data-filter_code="p"
                                data-value="7trieu-8trieu" class="js-filter-item-2 ">
                                 7 triệu - 8 triệu
                             </a>
-
                             <a href="https://www.phucanh.vn/thiet-bi-mang.html?p=tren-8trieu" data-filter_code="p"
                                data-value="tren-8trieu" class="js-filter-item-2 ">
                                 Trên 8 triệu
                             </a>
-
                         </div>
-
                         <br>
-
                         <div class="filter-btn-group">
-                            <a href="javascript:;" onclick="BuildFilterUrl.clearFilter.call(this, 'p')">Bỏ chọn</a>
-                            <a class="js-open-url" href="/thiet-bi-mang.html">Xem <b class="js-show-total">494</b> kết
+                            <a href="javascript:" onclick="BuildFilterUrl.clearFilter.call(this, 'p')">Bỏ chọn</a>
+                            <a class="js-open-url" href="/thiet-bi-mang">Xem <b class="js-show-total">494</b> kết
                                 quả</a>
                         </div>
-
                     </div>
                 </div>
-
-
             </div>
         </div>
-
         <div class="bg-popup" onclick="closePopupLarge();"
              style="position: fixed;inset: 0 0 0 0;background: rgba(0,0,0,0.4);z-index: 9999;display: none;"></div>
-
         <div class="clear"></div>
-
         <div class="box-category-list">
-
-
-            <a href="/thiet-bi-mang-khuyen-mai.html">Thiết bị mạng khuyến mại</a>
-
-
-            <a href="/bo-phat-wifi.html">Bộ phát wifi</a>
-
-
-            <a href="/bo-phat-wifi-di-dong-3g4g.html">Bộ phát Wi-Fi 4G</a>
-
-
-            <a href="/bo-phat-wi-fi-cong-nghe-mesh.html">Wi-Fi công nghệ Mesh</a>
-
-
-            <a href="/bo-mo-rong-song.html">Bộ mở rộng sóng</a>
-
-
-            <a href="/card-mang.html">Card mạng</a>
-
-
-            <a href="/thiet-bi-chia-mang-switch.html">Thiết bị chia mạng (Switch)</a>
-
-
-            <a href="/thiet-bi-can-bang-tai.html">Thiết bị cân bằng tải</a>
-
-
-            <a href="/tu-mang.html">Tủ mạng</a>
-
-
-            <a href="/phu-kien-thiet-bi-mang.html">Phụ kiện thiết bị mạng</a>
-
-
-            <a href="/bo-chuyen-doi-quang-dien.html">Bộ chuyển đổi quang điện</a>
-
-
-            <a href="/thiet-bi-tuong-lua.html">Thiết bị tường lửa (Firewall)</a>
-
-
-            <a href="/module-quang.html">Module quang</a>
-
-
-            <a href="/may-in-nhan.html">Máy in nhãn</a>
-
-
+            <a href="/thiet-bi-mang-khuyen-mai">Thiết bị mạng khuyến mại</a>
+            <a href="/bo-phat-wifi">Bộ phát wifi</a>
+            <a href="/bo-phat-wifi-di-dong-3g4g">Bộ phát Wi-Fi 4G</a>
+            <a href="/bo-phat-wi-fi-cong-nghe-mesh">Wi-Fi công nghệ Mesh</a>
+            <a href="/bo-mo-rong-song">Bộ mở rộng sóng</a>
+            <a href="/card-mang">Card mạng</a>
+            <a href="/thiet-bi-chia-mang-switch">Thiết bị chia mạng (Switch)</a>
+            <a href="/thiet-bi-can-bang-tai">Thiết bị cân bằng tải</a>
+            <a href="/tu-mang">Tủ mạng</a>
+            <a href="/phu-kien-thiet-bi-mang">Phụ kiện thiết bị mạng</a>
+            <a href="/bo-chuyen-doi-quang-dien">Bộ chuyển đổi quang điện</a>
+            <a href="/thiet-bi-tuong-lua">Thiết bị tường lửa (Firewall)</a>
+            <a href="/module-quang">Module quang</a>
+            <a href="/may-in-nhan">Máy in nhãn</a>
         </div>
-
         <div class="product-title-group">
             <h2 class="h-title">Tất cả {{$countProducts}} Thiết bị mạng</h2>
-
             <select onchange="location.href=this.value">
                 <option value="">Sắp xếp theo</option>
-
-
                 <option value="https://www.phucanh.vn/thiet-bi-mang.html?sort=new">Mới nhất</option>
-
-
                 <option value="https://www.phucanh.vn/thiet-bi-mang.html?sort=price-asc">Giá tăng dần</option>
-
-
                 <option value="https://www.phucanh.vn/thiet-bi-mang.html?sort=price-desc">Giá giảm dần</option>
-
-
                 <option value="https://www.phucanh.vn/thiet-bi-mang.html?sort=view">Lượt xem</option>
-
-
             </select>
         </div>
-
         <div class="product-list-group">
             @if (!empty($listProducts))
                 <ul class="ul product-list product-list-not-full">
                     @foreach($listProducts as $product)
                         <li onclick="location.href='/bo-phat-wifi-tp-link-archer-c6-v2.html'" class="p-item-group ">
                             <div class="p-container">
-                                <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2.html" class="p-img">
+                                <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2" class="p-img">
                                     <img class="lazy loaded"
                                          src="https://phucanhcdn.com/media/product/250_53937_bo_phat_wifi_tp_link_archer_c6_v2_4.jpg"
                                          data-src="https://phucanhcdn.com/media/product/250_53937_bo_phat_wifi_tp_link_archer_c6_v2_4.jpg"
@@ -787,68 +534,34 @@
                                          data-was-processed="true">
                                     <i class="icon-apple"></i>
                                 </a>
-                                <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2.html"
+                                <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2"
                                    title="{{$product['name']}}">
                                     <h3 class="p-name">{{$product['name']}}</h3></a>
-
-
                                 <span class="p-oldprice2" style="width: 100%; display: none;">
             <i>Giá Khuyến mãi: </i>569.000 ₫
             </span>
-
-
                                 <span class="p-price2" style="width: 100%; display: none;">
                 <i>Giá VNPAY: </i>     540.550 ₫
             </span>
-
-
                                 <span class="p-oldprice2">
-
-
-
-
                                 <i>Giá niêm yết: </i>
                                 799.000 ₫
-
-
-
                 </span>
-
                                 <span class="p-price2">
-
                         <i>
-
                                     Giá bán:
-
-
                     </i>569.000 ₫
                 </span>
-
-
                                 <span class="discount">-29%</span>
-
-
                                 <span class="p-bottom">
-
-
-
                     <?php echo htmlspecialchars_decode(ProductStatus::shout($product['status']??null)) ?>
                     <a href="javascript:void(0)" onclick="addProductToCart('53937',0,'/cart');" class="btn-cart-stop">Giỏ hàng</a>
-
-
-
         </span>
-
                                 <i class="p-icon_promotion"></i>
-
-
                             </div>
-
                             <div class="hover-content-pro">
-                                <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2.html" class="hover-name">{{$product['name']}}</a>
-
+                                <a href="/san-pham/bo-phat-wifi-tp-link-archer-c6-v2" class="hover-name">{{$product['name']}}</a>
                                 <a href="" class="hover-brand"><img src="https://phucanhcdn.com/media/brand/tplink.png" alt=""></a>
-
                                 <div class="hori-line"></div>
                                 <table>
                                     <tbody>
@@ -874,24 +587,16 @@
                                     <tr>
                                         <td><b>Kho hàng:</b></td>
                                         <td>
-
-
                                             <?php echo htmlspecialchars_decode(ProductStatus::shout($product['status']??null)) ?>
-
-
                                         </td>
                                     </tr>
                                     </tbody>
                                 </table>
-
                                 <div class="hori-line"></div>
                                 <div class="hover-offer">
-
                                     <b>Mô tả tóm tắt:</b><br>
                                     <?php echo htmlspecialchars_decode($product['short_description']) ?>
-
                                 </div>
-
                             </div>
                         </li>
                     @endforeach
@@ -906,42 +611,18 @@
                     }
                 });
             </script>
-
             <div class="clear"></div>
         </div>
-
         <div class="clear"></div>
-
-
         <div class="paging">
-
-
-            <a href="/thiet-bi-mang.html" class="current">1</a>
-
-
-            <a href="/thiet-bi-mang.html?page=2">2</a>
-
-
-            <a href="/thiet-bi-mang.html?page=3">3</a>
-
-
-            <a href="/thiet-bi-mang.html?page=4">4</a>
-
-
-            <a href="/thiet-bi-mang.html?page=5">5</a>
-
-
-            <a href="/thiet-bi-mang.html?page=6">6</a>
-
-
-            <a href="/thiet-bi-mang.html?page=7">7</a>
-
-
-            <a href="/thiet-bi-mang.html?page=2">Tiếp theo</a>
-
-
+            <a href="/thiet-bi-mang" class="current">1</a>
+            <a href="/thiet-bi-mang?page=2">2</a>
+            <a href="/thiet-bi-mang?page=3">3</a>
+            <a href="/thiet-bi-mang?page=4">4</a>
+            <a href="/thiet-bi-mang?page=5">5</a>
+            <a href="/thiet-bi-mang?page=6">6</a>
+            <a href="/thiet-bi-mang?page=7">7</a>
+            <a href="/thiet-bi-mang?page=2">Tiếp theo</a>
         </div>
-
-
     </div>
 @endsection
