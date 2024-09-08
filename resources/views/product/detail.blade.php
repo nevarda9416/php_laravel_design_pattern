@@ -8,12 +8,12 @@
                 </a>
             </div>
             <div itemscope itemtype="">
-                &nbsp;/&nbsp;<a href="/thiet-bi-mang.html" itemprop="url">
+                &nbsp;/&nbsp;<a href="/thiet-bi-mang" itemprop="url">
                     <span itemprop="title">Thiết bị mạng</span>
                 </a>
             </div>
             <div itemscope itemtype="">
-                &nbsp;/&nbsp;<a href="/bo-phat-wifi.html" itemprop="url">
+                &nbsp;/&nbsp;<a href="/bo-phat-wifi" itemprop="url">
                     <span itemprop="title"><b class="red">Bộ phát wifi</b></span>
                 </a>
             </div>
@@ -157,7 +157,7 @@
                                 }
                             });
                         </script>
-                        <table style="width: 100%; background: #f0f0f0; border-radius: 5px; padding: 0px 20px;">
+                        <table style="width: 100%; background: #f0f0f0; border-radius: 5px; padding: 0 20px;">
                             <tr>
                                 <td>Giá niêm yết:</td>
                                 <td style="position: relative;">
@@ -182,7 +182,8 @@
                 </div>
                 <a><span style=color:red>Giao hàng tận nơi miễn phí theo chính sách vận chuyển</span> <a
                             style="color:blue" ; href="{{url('trang/van-chuyen-giao-nhan-hang-hoa')}}"
-                            target="_blank"><i>(Xem chi tiết)</i></a></a></p>
+                            target="_blank"><i>(Xem chi tiết)</i></a></a>
+                </p>
                 <p style="margin: 0 0 10px 0;display: none"><strong>Lượt xem:</strong> 13.415</p>
                 <div class="button-buy-detail">
                     <a href="javascript:void(0)" onclick="addProductToCart('46807',0,'/cart');"
@@ -212,23 +213,19 @@
                     </ul>
                     <h4 class="title h-title">Chính sách bán hàng và bảo hành</h4>
                     <ul class="ul">
-                        <li><i class="icon-star-list"></i> <span><a>Mua hàng trả góp lãi suất 0% <a style="color:blue" ;
-                                                                                                    href="{{url('/trang/chinh-sach-mua-tra-gop')}}><i>Chi tiết</i></a></a></span>
+                        <li><i class="icon-star-list"></i> <span><a>Mua hàng trả góp lãi suất 0% <a style="color:blue" href="{{url('/trang/chinh-sach-mua-tra-gop')}}"><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Giao hàng nhanh 2h và miễn phí giao hàng từ 500.000đ <a
-                                            style="color:blue" ;
-                                            href="{{url('/trang/van-chuyen-giao-nhan-hang-hoa')}}"><i>Chi tiết</i></a></a></span>
+                                            style="color:blue" href="{{url('/trang/van-chuyen-giao-nhan-hang-hoa')}}"><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Ưu đãi vàng dành cho khách hàng doanh nghiệp <a
-                                            style="color:blue" ;
-                                            href="{{url('/trang/chinh-sach-cho-khach-hang-doanh-nghiep')}}"><i>Chi tiết</i></a></a></span>
+                                            style="color:blue" href="{{url('/trang/chinh-sach-cho-khach-hang-doanh-nghiep')}}"><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Đổi mới sản phẩm đến 30 ngày &nbsp; &nbsp; &nbsp; &nbsp;    <a
-                                            style="color:blue" ;
-                                            href="{{url('/trang/chinh-sach-doi-tra-san-pham')}}"><i>Chi tiết</i></a></a></span>
+                                            style="color:blue" href="{{url('/trang/chinh-sach-doi-tra-san-pham')}}"><i>Chi tiết</i></a></a></span>
                         </li>
                         <li><i class="icon-star-list"></i> <span><a>Dịch vụ bảo hành chuyên nghiệp, uy tín <a
-                                            style="color:blue" ; href="{{url('/trang/chinh-sach-bao-hanh')}}"><i>Chi tiết</i></a></a></span>
+                                            style="color:blue" href="{{url('/trang/chinh-sach-bao-hanh')}}"><i>Chi tiết</i></a></a></span>
                         </li>
                     </ul>
                 </div><!--uudai btn-buy btn-buy-yellow -->
@@ -247,7 +244,6 @@
                 <a href="#tab2">Đặc điểm nổi bật</a>
                 <a href="#tab3">Video</a>
                 <!--<a href="#tab4">Sản phẩm bán chạy nhất</a>-->
-                <a href="#tab5">Sản phẩm giá tương đương</a>
                 <!--<a href="#tab6">Sản phẩm liên quan</a>-->
                 <a href="#tab7">Bình luận người dùng</a>
                 <a href="#review-statistic" id="gotoReview">Đánh giá sản phẩm</a>
@@ -261,7 +257,7 @@
                         <?php echo html_entity_decode($productDetailData['long_description']) ?>
                     </div>
                     <p class="show-more" style="display: block;" onclick="showArticle();">
-                        <a id="xem-them-bai-viet" href="javascript:;" class="readmore">Đọc thêm</a>
+                        <a id="xem-them-bai-viet" href="javascript:" class="readmore">Đọc thêm</a>
                     </p>
                     <div class="clear"></div>
                 </div><!--tab2-->
@@ -364,8 +360,7 @@
                     <div class="comment-form">
                         <img src="https://www.phucanh.vn/template/2019/images/noavatar.jpg" alt="avatar"
                              class="img-avatar"/>
-                        <form action="" method="post" enctype="multipart/form-data" onsubmit="return check_field(0)"
-                              class="form-post">
+                        <form action="" method="post" enctype="multipart/form-data" class="form-post">
                             <input type="hidden" name="user_post[item_type]" value="product"/>
                             <input type="hidden" name="user_post[item_id]" value="46807"/>
                             <input type="hidden" name="user_post[item_title]"

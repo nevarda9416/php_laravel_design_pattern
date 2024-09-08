@@ -9,7 +9,7 @@
             </div>
             <div itemscope="" itemtype="https://data-vocabulary.org/Breadcrumb">
                 &nbsp;/&nbsp;
-                <a href="/thiet-bi-mang" itemprop="url">
+                <a href="/danh-muc/thiet-bi-mang.html" itemprop="url">
                     <span itemprop="title"><h1 class="red">Thiết bị mạng</h1></span>
                 </a>
             </div>
@@ -511,7 +511,7 @@
             <a href="/may-in-nhan">Máy in nhãn</a>
         </div>
         <div class="product-title-group">
-            <h2 class="h-title">Tất cả {{$countProducts}} Thiết bị mạng</h2>
+            <h2 class="h-title">Tất cả {{$countProducts}} thiết bị mạng</h2>
             <select onchange="location.href=this.value">
                 <option value="">Sắp xếp theo</option>
                 <option value="https://www.phucanh.vn/thiet-bi-mang.html?sort=new">Mới nhất</option>

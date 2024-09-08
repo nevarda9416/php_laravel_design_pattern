@@ -11,7 +11,7 @@
                         </span>
                         <span class="name">Server</span></a>
                     <div class="sub-menu" id="sub_nav_1">
-                        <table style="border: 0px;width: 100%;padding: 7px 0px 0px 5px;">
+                        <table style="border: 0px;width: 100%;padding: 0 5px 5px 0;">
                             <tbody>
                             <tr>
                                 <td style="vertical-align: top; text-align: left;">
@@ -39,7 +39,7 @@
                         </span>
                         <span class="name">Bộ phát Wi-Fi</span></a>
                     <div class="sub-menu" id="sub_nav_1">
-                        <table style="border: 0px;width: 100%;padding: 7px 0px 0px 5px;">
+                        <table style="border: 0px;width: 100%;padding: 0 5px 5px 0;">
                             <tbody>
                             <tr>
                                 <td style="vertical-align: top; text-align: left;">
@@ -80,7 +80,7 @@
                         </span>
                         <span class="name">Card mạng</span></a>
                     <div class="sub-menu" id="sub_nav_3">
-                        <table style="border: 0px;width: 100%;padding: 7px 0px 0px 5px;">
+                        <table style="border: 0px;width: 100%;padding: 0 5px 5px 0;">
                             <tbody>
                             <tr>
                                 <td style="vertical-align: top; text-align: left;">
@@ -124,7 +124,7 @@
                         </span>
                         <span class="name">Phụ kiện thiết bị mạng</span></a>
                     <div class="sub-menu" id="sub_nav_6">
-                        <table style="border: 0px;width: 100%;padding: 7px 0px 0px 5px;">
+                        <table style="border: 0px;width: 100%;padding: 0 5px 5px 0;">
                             <tbody>
                             <tr>
                                 <td style="vertical-align: top; text-align: left;">
