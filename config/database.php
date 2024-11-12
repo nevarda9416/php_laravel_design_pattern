@@ -44,13 +44,33 @@ return [
         ],
 
         'mysql' => [
+            'read' => [
+                'host' => [ // host trong read có thể truyền vào 1 mảng ip nếu có nhiều scale server. Laravel sẽ chọn ngẫu nhiên 1 server trong danh sách để kết nối
+                    '192.168.1.1',
+                    '192.168.1.2',
+                ],
+                'port' => env('DB_SLAVE_PORT', '3306'),
+                'username' => env('DB_SLAVE_USERNAME', 'root'),
+                'password' => env('DB_SLAVE_PASSWORD', 'root'),
+            ],
+            'write' => [
+                'host' => [
+                    '192.168.1.3',
+                    '192.168.1.4',
+                ],
+                'port' => env('DB_MASTER_PORT', '3306'),
+                'username' => env('DB_MASTER_USERNAME', 'root'),
+                'password' => env('DB_MASTER_PASSWORD', 'root'),
+            ],
+            'sticky' => ['host' => env('DB_STICKY_HOST', 'true')], // true nghĩa là khi ghi dữ liệu vào database và đọc ngay thì truy vấn đọc sẽ được thực hiện trực tiếp trên master server. Nó sẽ khắc phục được trường hợp máy chủ master được ghi dữ liệu nhưng máy chủ slave chưa kịp cập nhật dữ liệu dẫn đến việc đọc dữ liệu trên slave chưa được mới
+            // nhất
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
+            #'host' => env('DB_HOST', '127.0.0.1'),
+            #'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            #'username' => env('DB_USERNAME', 'forge'),
+            #'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
