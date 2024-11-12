@@ -162,6 +162,26 @@ return [
             'database' => env('REDIS_CACHE_DB', '1'),
         ],
 
+        'master' => [
+            'host' => env('REDIS_MASTER_HOST', '127.0.0.1'),
+            'password' => env('REDIS_MASTER_PASSWORD', null),
+            'port' => env('REDIS_MASTER_PORT', '6379'),
+            'database' => env('REDIS_MASTER_DB', '0'),
+        ],
+
+        'slave_1' => [
+            'host' => env('REDIS_SLAVE_1_HOST', '127.0.0.1'),
+            'password' => env('REDIS_SLAVE_1_PASSWORD', null),
+            'port' => env('REDIS_SLAVE_1_PORT', '6380'),
+            'database' => env('REDIS_SLAVE_1_DB', '0'),
+        ],
+
+        'slave_2' => [
+            'host' => env('REDIS_SLAVE_2_HOST', '127.0.0.1'),
+            'password' => env('REDIS_SLAVE_2_PASSWORD', null),
+            'port' => env('REDIS_SLAVE_2_PORT', '6381'),
+            'database' => env('REDIS_SLAVE_2_DB', '0'),
+        ],
     ],
 
 ];
