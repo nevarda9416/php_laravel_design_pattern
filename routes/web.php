@@ -58,6 +58,8 @@ Route::prefix('san-pham')->group(function () {
 });
 Route::get('/gio-hang', [ShoppingCartController::class, 'index'])->name('cart.index');
 Route::get('/list-products', [ShoppingCartController::class, 'listProducts']);
+Route::get('/list-product', [ProductController::class, 'getProducts']);
+Route::get('/product', [ProductController::class, 'setProduct']);
 Route::prefix('mua-hang')->group(function () {
     Route::post('/', function () {
         $agent = new Agent;

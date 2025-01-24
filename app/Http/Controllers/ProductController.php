@@ -7,12 +7,36 @@ use App\Core\Business\TemplatesBusiness;
 use App\Core\Enums\CommonEnum;
 use App\Core\Utilities\PaginatorUtility;
 use App\Helpers\HttpHelper\Response;
+use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Jenssegers\Agent\Agent;
 
 class ProductController extends Controller
 {
+    /**
+     * @return void
+     */
+    public function getProducts(): void
+    {
+        $products = Product::get();
+        foreach ($products as $product) {
+            echo $product->name . '<br/>';
+        }
+    }
+
+    /**
+     * @return void
+     */
+    public function setProduct(): void
+    {
+        $product = new Product();
+        $product->name = 'Sample Product 1';
+        $product->amount = 12;
+        $product->description = 'Sample Product Created';
+        $product->save();
+    }
+
     /**
      * trang san pham
      */
