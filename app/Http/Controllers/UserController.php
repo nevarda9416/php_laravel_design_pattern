@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Events\ServerCreated;
+use App\Events\UserRegistered;
 use App\Facades\Process;
 use App\Helpers\HttpHelper\Response;
 use App\Jobs\CreateUser;
@@ -49,7 +50,8 @@ class UserController extends Controller
     public function register(Request $request)
     {
         $user = app(Response::class)->postData('/users', $request->all());
-
+        // Fire the UserRegistered event
+        event(new UserRegistered($user));
         $user = User::find(1);
         // Old: Traditional
         $user->name = 'Admin';
