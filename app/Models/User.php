@@ -52,6 +52,6 @@ class User extends Authenticatable
      */
     public function routeNotificationForFcm(): mixed
     {
-        return $this->fcm_token;
+        return $this->device_token;
     }
 }

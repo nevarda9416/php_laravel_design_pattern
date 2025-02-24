@@ -1,6 +1,7 @@
 <?php
 
 use App\Helpers\HttpHelper\Response;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DateTimeController;
@@ -206,6 +207,7 @@ Route::prefix('trang')->group(function () {
 */
 Route::get('users/index', [UserController::class, 'index']);
 Route::get('users/count', [UserController::class, 'count']);
+Route::post('users/fcm-token', [AuthController::class, 'fcmToken']);
 Route::get('batch-job', [BatchJobController::class, 'run']);
 Route::get('date-time', [DateTimeController::class, 'index']);
 /**
