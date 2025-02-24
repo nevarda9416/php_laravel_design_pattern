@@ -46,4 +46,12 @@ class User extends Authenticatable
     {
         return $this->avatar_url ?: $this->getFirstTemporaryUrl(now()->addMinutes(5), 'avatar', 'avatar-height-250px');
     }
+
+    /**
+     * @return mixed
+     */
+    public function routeNotificationForFcm(): mixed
+    {
+        return $this->fcm_token;
+    }
 }

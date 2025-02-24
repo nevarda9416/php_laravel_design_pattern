@@ -10,6 +10,7 @@ use App\Jobs\CreateUser;
 use App\Jobs\SendEmailUsingRedisQueue;
 use App\Models\Posts;
 use App\Models\User;
+use App\Notifications\AccountActivated;
 use App\Services\UserService;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -53,6 +54,7 @@ class UserController extends Controller
         // Fire the UserRegistered event
         event(new UserRegistered($user));
         $user = User::find(1);
+        $user->notify(new AccountActivated());
         // Old: Traditional
         $user->name = 'Admin';
         $user->save();
