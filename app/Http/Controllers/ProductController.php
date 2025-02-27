@@ -8,6 +8,10 @@ use App\Core\Enums\CommonEnum;
 use App\Core\Utilities\PaginatorUtility;
 use App\Helpers\HttpHelper\Response;
 use App\Models\Product;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Jenssegers\Agent\Agent;
@@ -46,9 +50,9 @@ class ProductController extends Controller
         $templates = TemplatesBusiness::getAllContent();
         $ProductBusiness = new ProductBusiness;
         $all_products = $ProductBusiness->get_all_products();
-        if (! empty($all_products)) {
+        if (!empty($all_products)) {
             foreach ($all_products as $key => $cate) {
-                if (! empty($cate['Products'])) {
+                if (!empty($cate['Products'])) {
                     foreach ($cate['Products'] as $i => $product) {
                         if (isset($product['Status']) && $product['Status'] == 'coming_soon') {
                             $product_pending[] = $product;
@@ -70,8 +74,17 @@ class ProductController extends Controller
     /**
      * Danh sach san pham theo category
      */
-    public function index(Request $request, $slug)
+    public function index(Request $request, $slug): View|Factory|RedirectResponse|Application
     {
+        Product::create([
+            'name' => 'Sample Product 1',
+            'details' => 'Sample Product Created',
+        ]);
+        Product::find(5)->update([
+            'name' => 'Sample Product 2',
+            'details' => 'Sample Product Updated',
+        ]);
+        Product::find(5)->delete();
         $ProductBusiness = new ProductBusiness;
         $catesandsub = $ProductBusiness->get_all_categories();
         $category = ProductBusiness::getCategoryBySlug($catesandsub, $slug);
@@ -82,8 +95,8 @@ class ProductController extends Controller
                 $showCategory = $category['Id'];
             }
             $breadcrumb_data = $ProductBusiness->get_products_breadcrumb($category['Id']);
-            $curPage = ! empty($request->get('page')) ? (int) $request->get('page') : 1;
-            $sortby = ! empty($request->get('sort')) ? trim($request->get('sort')) : '';
+            $curPage = !empty($request->get('page')) ? (int)$request->get('page') : 1;
+            $sortby = !empty($request->get('sort')) ? trim($request->get('sort')) : '';
             $perPage = 50;
             $resultP = $ProductBusiness->GetListProductsByCategoryId($category, $curPage, $perPage, $sortby);
             $total_result = $resultP['total'];
@@ -104,14 +117,14 @@ class ProductController extends Controller
             $metaData['meta_description'] = isset($cate_seo['meta_description']) ? $cate_seo['meta_description'] : $category['Name'];
             $metaData['meta_image'] = isset($cate_seo['meta_image']) ? $cate_seo['meta_image'] : '';
             if ($sortby) {
-                $urlP = '/san-pham/'.$slug.'?sort='.$sortby.'&page=(:num)';
+                $urlP = '/san-pham/' . $slug . '?sort=' . $sortby . '&page=(:num)';
             } else {
-                $urlP = '/san-pham/'.$slug.'?page=(:num)';
+                $urlP = '/san-pham/' . $slug . '?page=(:num)';
             }
 
             $paginator = new PaginatorUtility($total_result, $perPage, $curPage, $urlP);
             $html_done = $prductHtml;
-            $list_banners = DB::table('templates')->where('key', '=', 'keyproduct-'.$category['Id'])->pluck('data_template')->first();
+            $list_banners = DB::table('templates')->where('key', '=', 'keyproduct-' . $category['Id'])->pluck('data_template')->first();
             $list_banners = json_decode($list_banners, true);
 
             return view('product.index', compact('slug', 'catesandsub', 'breadcrumb_data', 'html_done', 'total_result', 'cate_banners', 'category', 'showCategory', 'metaData', 'paginator', 'list_banners'));
@@ -129,9 +142,9 @@ class ProductController extends Controller
                 'sortby' => '',
                 'catesandsub' => $catesandsub,
             ])->render();
-            $curPage = ! empty($request->get('page')) ? (int) $request->get('page') : 1;
+            $curPage = !empty($request->get('page')) ? (int)$request->get('page') : 1;
             $perPage = 50;
-            $urlP = '/san-pham/'.$slug.'?page=(:num)';
+            $urlP = '/san-pham/' . $slug . '?page=(:num)';
             $paginator = new PaginatorUtility($total_result, $perPage, $curPage, $urlP);
             $html_done = $prductHtml;
             $category_banners = $ProductBusiness->get_category_banners(CommonEnum::CATEGORY_ID_PRODUCT);
@@ -157,7 +170,7 @@ class ProductController extends Controller
     {
         $ProductBusiness = new ProductBusiness;
         // Call API get product detail
-        $productDetail = app(Response::class)->getData('/products/slug/'.$slug);
+        $productDetail = app(Response::class)->getData('/products/slug/' . $slug);
         $productDetailData = $productDetail['data'][0] ?? [];
         //dd($productDetailData);
         /*
