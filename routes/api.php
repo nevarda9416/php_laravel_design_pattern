@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ContractController;
 use App\Http\Controllers\ViewPublicUserProfileController;
 use Illuminate\Http\Request;
@@ -16,6 +17,13 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+// Public routes
+Route::post('login', [AuthController::class, 'login']);
+Route::post('/register', [AuthController::class, 'register']);
+// Protected routes
+Route::group(['middleware' => 'auth:sanctum'], function () {
+    Route::post('/logout', [AuthController::class, 'logout']);
+});
 Route::group(['middleware' => 'auth:api'], function () {
     Route::prefix('/v2')->group(function () {
         Route::get('/user', function (Request $request) {
@@ -23,7 +31,6 @@ Route::group(['middleware' => 'auth:api'], function () {
         });
     });
 });
-Route::post('login', [UserController::class], 'login');
 Route::group(['middleware' => 'auth:sanctum'], function () {
     Route::get('/user', function (Request $request) {
         return $request->user();
