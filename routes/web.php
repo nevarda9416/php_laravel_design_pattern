@@ -5,6 +5,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BatchJobController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DateTimeController;
+use App\Http\Controllers\ItemController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ShoppingCartController;
@@ -214,3 +215,8 @@ Route::get('date-time', [DateTimeController::class, 'index']);
  * Giỏ hàng
  */
 Route::post('/cart-update', [ShoppingCartController::class, 'updateContent'])->name('cart.updateContent');
+/**
+ * Upload item csv
+ */
+Route::get('/import', [ItemController::class, 'index']);
+Route::post('/import', [ItemController::class, 'upload'])->name('import.upload');
