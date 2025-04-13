@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\NewNotification;
 use App\Events\ServerCreated;
 use App\Events\UserRegistered;
 use App\Facades\Process;
@@ -55,6 +56,14 @@ class UserController extends Controller
         event(new UserRegistered($user));
         $user = User::find(1);
         $user->notify(new AccountActivated());
+        $notification = $user->notifications()->create([
+            'channel' => 'email',
+            'data' => [
+                'subject' => 'New message',
+                'body' => 'You have a new message waiting!',
+            ],
+        ]);
+        event(new NewNotification($notification));
         // Old: Traditional
         $user->name = 'Admin';
         $user->save();
