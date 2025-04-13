@@ -12,6 +12,7 @@ use App\Services\Contracts\RunningStatus\RunningStatusService;
 use App\Services\Contracts\RunningStatus\RunningStatusServiceInterface;
 use App\Services\Contracts\StoppingStatus\StoppingStatusService;
 use App\Services\Contracts\StoppingStatus\StoppingStatusServiceInterface;
+use App\Services\Notifications\Drivers\Email\EmailNotificationDriver;
 use Illuminate\Queue\Events\JobFailed;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
@@ -36,7 +37,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('notification.driver.email', EmailNotificationDriver::class);
     }
 
     /**
