@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Notifications;
+namespace App\Services\Notifications\Drivers\Email;
 
 use App\Services\Notifications\Drivers\NotificationDriverInterface;
 use App\Models\Notification;
